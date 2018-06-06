@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C8AE4C720C81BF500E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4C620C81BF500E3D9D9 /* main.cpp */; };
 		8C8AE4D220C8232D00E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4D120C8232D00E3D9D9 /* main.cpp */; };
+		8C8AE4DD20C8257600E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4DC20C8257600E3D9D9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C8AE4D820C8257600E3D9D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +57,8 @@
 		8C8AE4C620C81BF500E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C8AE4CF20C8232D00E3D9D9 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8AE4D120C8232D00E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C8AE4DA20C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. Median Of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8AE4DC20C8257600E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8AE4D720C8257600E3D9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +98,7 @@
 			children = (
 				8C8AE4D020C8232D00E3D9D9 /* Template */,
 				8C8AE4C520C81BF500E3D9D9 /* 1. Two Sum */,
+				8C8AE4DB20C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +109,7 @@
 				8C8AE4B620C81B8D00E3D9D9 /* Array */,
 				8C8AE4C420C81BF500E3D9D9 /* 1. Two Sum */,
 				8C8AE4CF20C8232D00E3D9D9 /* Template */,
+				8C8AE4DA20C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +128,14 @@
 				8C8AE4D120C8232D00E3D9D9 /* main.cpp */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		8C8AE4DB20C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				8C8AE4DC20C8257600E3D9D9 /* main.cpp */,
+			);
+			path = "2. Median Of Two Sorted Arrays";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +192,23 @@
 			productReference = 8C8AE4CF20C8232D00E3D9D9 /* Template */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C8AE4D920C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8AE4DE20C8257600E3D9D9 /* Build configuration list for PBXNativeTarget "2. Median Of Two Sorted Arrays" */;
+			buildPhases = (
+				8C8AE4D620C8257600E3D9D9 /* Sources */,
+				8C8AE4D720C8257600E3D9D9 /* Frameworks */,
+				8C8AE4D820C8257600E3D9D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2. Median Of Two Sorted Arrays";
+			productName = "2. Median Of Two Sorted Arrays";
+			productReference = 8C8AE4DA20C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -179,6 +225,9 @@
 						CreatedOnToolsVersion = 9.4;
 					};
 					8C8AE4CE20C8232D00E3D9D9 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8C8AE4D920C8257600E3D9D9 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -198,6 +247,7 @@
 				8C8AE4B520C81B8D00E3D9D9 /* Array */,
 				8C8AE4C320C81BF500E3D9D9 /* 1. Two Sum */,
 				8C8AE4CE20C8232D00E3D9D9 /* Template */,
+				8C8AE4D920C8257600E3D9D9 /* 2. Median Of Two Sorted Arrays */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8AE4D220C8232D00E3D9D9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8AE4D620C8257600E3D9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8AE4DD20C8257600E3D9D9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +444,22 @@
 			};
 			name = Release;
 		};
+		8C8AE4DF20C8257600E3D9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C8AE4E020C8257600E3D9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,6 +495,15 @@
 			buildConfigurations = (
 				8C8AE4D420C8232D00E3D9D9 /* Debug */,
 				8C8AE4D520C8232D00E3D9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8AE4DE20C8257600E3D9D9 /* Build configuration list for PBXNativeTarget "2. Median Of Two Sorted Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8AE4DF20C8257600E3D9D9 /* Debug */,
+				8C8AE4E020C8257600E3D9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
