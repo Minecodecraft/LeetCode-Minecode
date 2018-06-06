@@ -5,6 +5,11 @@
 //  Created by 边俊林 on 2018/6/6.
 //  Copyright © 2018 minecode. All rights reserved.
 //
+
+/* ------------------------------------------------------ *\
+    https://leetcode-cn.com/problems/Sample/description/
+\* ------------------------------------------------------ */
+
 #include <map>
 #include <set>
 #include <vector>
