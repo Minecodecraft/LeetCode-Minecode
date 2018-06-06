@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  2. Median Of Two Sorted Arrays
+//  4. Median Of Two Sorted Arrays
 //
 //  Created by 边俊林 on 2018/6/6.
 //  Copyright © 2018 minecode. All rights reserved.
