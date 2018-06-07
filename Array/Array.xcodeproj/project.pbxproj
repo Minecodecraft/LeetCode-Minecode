@@ -11,6 +11,8 @@
 		8C8AE4D220C8232D00E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4D120C8232D00E3D9D9 /* main.cpp */; };
 		8C8AE4DD20C8257600E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4DC20C8257600E3D9D9 /* main.cpp */; };
 		8C8AE4E820C8320600E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4E720C8320600E3D9D9 /* main.cpp */; };
+		8C8AE4F320C8CB7300E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4F220C8CB7300E3D9D9 /* main.cpp */; };
+		8C8AE53720C9597E00E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE53620C9597E00E3D9D9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +52,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C8AE4EE20C8CB7300E3D9D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C8AE52D20C9593400E3D9D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +81,10 @@
 		8C8AE4DC20C8257600E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C8AE4E520C8320600E3D9D9 /* 11. Container With Most Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11. Container With Most Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8AE4E720C8320600E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C8AE4F020C8CB7300E3D9D9 /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8AE4F220C8CB7300E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C8AE52F20C9593400E3D9D9 /* 16. 3Sum Closest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16. 3Sum Closest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8AE53620C9597E00E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +116,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C8AE4ED20C8CB7300E3D9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8AE52C20C9593400E3D9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +140,8 @@
 				8C8AE4C520C81BF500E3D9D9 /* 1. Two Sum */,
 				8C8AE4DB20C8257600E3D9D9 /* 4. Median Of Two Sorted Arrays */,
 				8C8AE4E620C8320600E3D9D9 /* 11. Container With Most Water */,
+				8C8AE4F120C8CB7300E3D9D9 /* 15. 3Sum */,
+				8C8AE53020C9593400E3D9D9 /* 16. 3Sum Closest */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +153,8 @@
 				8C8AE4CF20C8232D00E3D9D9 /* Template */,
 				8C8AE4DA20C8257600E3D9D9 /* 4. Median Of Two Sorted Arrays */,
 				8C8AE4E520C8320600E3D9D9 /* 11. Container With Most Water */,
+				8C8AE4F020C8CB7300E3D9D9 /* 15. 3Sum */,
+				8C8AE52F20C9593400E3D9D9 /* 16. 3Sum Closest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +189,22 @@
 				8C8AE4E720C8320600E3D9D9 /* main.cpp */,
 			);
 			path = "11. Container With Most Water";
+			sourceTree = "<group>";
+		};
+		8C8AE4F120C8CB7300E3D9D9 /* 15. 3Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8C8AE4F220C8CB7300E3D9D9 /* main.cpp */,
+			);
+			path = "15. 3Sum";
+			sourceTree = "<group>";
+		};
+		8C8AE53020C9593400E3D9D9 /* 16. 3Sum Closest */ = {
+			isa = PBXGroup;
+			children = (
+				8C8AE53620C9597E00E3D9D9 /* main.cpp */,
+			);
+			path = "16. 3Sum Closest";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,12 +278,47 @@
 			productReference = 8C8AE4E520C8320600E3D9D9 /* 11. Container With Most Water */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C8AE4EF20C8CB7300E3D9D9 /* 15. 3Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8AE4F620C8CB7300E3D9D9 /* Build configuration list for PBXNativeTarget "15. 3Sum" */;
+			buildPhases = (
+				8C8AE4EC20C8CB7300E3D9D9 /* Sources */,
+				8C8AE4ED20C8CB7300E3D9D9 /* Frameworks */,
+				8C8AE4EE20C8CB7300E3D9D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15. 3Sum";
+			productName = "15. 3Sum";
+			productReference = 8C8AE4F020C8CB7300E3D9D9 /* 15. 3Sum */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C8AE52E20C9593400E3D9D9 /* 16. 3Sum Closest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8AE53320C9593400E3D9D9 /* Build configuration list for PBXNativeTarget "16. 3Sum Closest" */;
+			buildPhases = (
+				8C8AE52B20C9593400E3D9D9 /* Sources */,
+				8C8AE52C20C9593400E3D9D9 /* Frameworks */,
+				8C8AE52D20C9593400E3D9D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16. 3Sum Closest";
+			productName = "16. 3Sum Closest";
+			productReference = 8C8AE52F20C9593400E3D9D9 /* 16. 3Sum Closest */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8C8AE4AE20C81B8D00E3D9D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = minecode;
 				TargetAttributes = {
@@ -239,6 +332,12 @@
 						CreatedOnToolsVersion = 9.4;
 					};
 					8C8AE4E420C8320600E3D9D9 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8C8AE4EF20C8CB7300E3D9D9 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8C8AE52E20C9593400E3D9D9 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
@@ -259,6 +358,8 @@
 				8C8AE4CE20C8232D00E3D9D9 /* Template */,
 				8C8AE4D920C8257600E3D9D9 /* 4. Median Of Two Sorted Arrays */,
 				8C8AE4E420C8320600E3D9D9 /* 11. Container With Most Water */,
+				8C8AE4EF20C8CB7300E3D9D9 /* 15. 3Sum */,
+				8C8AE52E20C9593400E3D9D9 /* 16. 3Sum Closest */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +394,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8AE4E820C8320600E3D9D9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8AE4EC20C8CB7300E3D9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8AE4F320C8CB7300E3D9D9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8AE52B20C9593400E3D9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8AE53720C9597E00E3D9D9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +589,44 @@
 			};
 			name = Release;
 		};
+		8C8AE4F420C8CB7300E3D9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C8AE4F520C8CB7300E3D9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C8AE53420C9593400E3D9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8C8AE53520C9593400E3D9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +671,24 @@
 			buildConfigurations = (
 				8C8AE4E920C8320600E3D9D9 /* Debug */,
 				8C8AE4EA20C8320600E3D9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8AE4F620C8CB7300E3D9D9 /* Build configuration list for PBXNativeTarget "15. 3Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8AE4F420C8CB7300E3D9D9 /* Debug */,
+				8C8AE4F520C8CB7300E3D9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8AE53320C9593400E3D9D9 /* Build configuration list for PBXNativeTarget "16. 3Sum Closest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8AE53420C9593400E3D9D9 /* Debug */,
+				8C8AE53520C9593400E3D9D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
