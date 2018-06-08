@@ -36,6 +36,13 @@ void printVector(vector<int> v) {
     }
     printf("]\n");
 }
+void printVectors(vector<vector<int>> v) {
+    printf("\n[");
+    for (auto it = v.begin(); it != v.end(); ++it) {
+        printVector(*it);
+    }
+    printf("]\n");
+}
 
 int main() {
     
