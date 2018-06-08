@@ -26,8 +26,7 @@ using namespace std;
 // Use Two-Pointers algorithm to just the last 2 values. And traverse the first two value to make every pair of them.
 
 /// Tips:
-// Be care of push the same tuple, make sure you have checked it like "while (l < r && nums[l] == nums[l-1]) l++;"
-
+// Be care of push the same tuple, make sure you have checked it like "while (l < r && nums[l] == nums[l-1]) l++"
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
