@@ -14,6 +14,7 @@
 		8C8AE4F320C8CB7300E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4F220C8CB7300E3D9D9 /* main.cpp */; };
 		8C8AE53720C9597E00E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE53620C9597E00E3D9D9 /* main.cpp */; };
 		8C8AE55920CAAF4F00E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE55820CAAF4F00E3D9D9 /* main.cpp */; };
+		E73ECF1920F66F4C004B8FFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E73ECF1820F66F4C004B8FFE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +81,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E73ECF1420F66F4C004B8FFE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +107,8 @@
 		8C8AE53620C9597E00E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C8AE55120CAAF1300E3D9D9 /* 18. 4Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18. 4Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8AE55820CAAF4F00E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73ECF1820F66F4C004B8FFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E73ECF1320F66F4C004B8FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -162,6 +181,7 @@
 				8C8AE4F120C8CB7300E3D9D9 /* 15. 3Sum */,
 				8C8AE53020C9593400E3D9D9 /* 16. 3Sum Closest */,
 				8C8AE55220CAAF1300E3D9D9 /* 18. 4Sum */,
+				E73ECF1720F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 				8C8AE4F020C8CB7300E3D9D9 /* 15. 3Sum */,
 				8C8AE52F20C9593400E3D9D9 /* 16. 3Sum Closest */,
 				8C8AE55120CAAF1300E3D9D9 /* 18. 4Sum */,
+				E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +255,14 @@
 				8C8AE55820CAAF4F00E3D9D9 /* main.cpp */,
 			);
 			path = "18. 4Sum";
+			sourceTree = "<group>";
+		};
+		E73ECF1720F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				E73ECF1820F66F4C004B8FFE /* main.cpp */,
+			);
+			path = "26. Remove Duplicates from Sorted Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +387,23 @@
 			productReference = 8C8AE55120CAAF1300E3D9D9 /* 18. 4Sum */;
 			productType = "com.apple.product-type.tool";
 		};
+		E73ECF1520F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73ECF1C20F66F4C004B8FFE /* Build configuration list for PBXNativeTarget "26. Remove Duplicates from Sorted Array" */;
+			buildPhases = (
+				E73ECF1220F66F4C004B8FFE /* Sources */,
+				E73ECF1320F66F4C004B8FFE /* Frameworks */,
+				E73ECF1420F66F4C004B8FFE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26. Remove Duplicates from Sorted Array";
+			productName = "26. Remove Duplicates from Sorted Array";
+			productReference = E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -389,6 +435,9 @@
 					8C8AE55020CAAF1300E3D9D9 = {
 						CreatedOnToolsVersion = 9.4;
 					};
+					E73ECF1520F66F4C004B8FFE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C8AE4B120C81B8D00E3D9D9 /* Build configuration list for PBXProject "Array" */;
@@ -410,6 +459,7 @@
 				8C8AE4EF20C8CB7300E3D9D9 /* 15. 3Sum */,
 				8C8AE52E20C9593400E3D9D9 /* 16. 3Sum Closest */,
 				8C8AE55020CAAF1300E3D9D9 /* 18. 4Sum */,
+				E73ECF1520F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */,
 			);
 		};
 /* End PBXProject section */
@@ -468,6 +518,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8AE55920CAAF4F00E3D9D9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73ECF1220F66F4C004B8FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73ECF1920F66F4C004B8FFE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +769,28 @@
 			};
 			name = Release;
 		};
+		E73ECF1A20F66F4C004B8FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E73ECF1B20F66F4C004B8FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -782,6 +862,15 @@
 			buildConfigurations = (
 				8C8AE55620CAAF1300E3D9D9 /* Debug */,
 				8C8AE55720CAAF1300E3D9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73ECF1C20F66F4C004B8FFE /* Build configuration list for PBXNativeTarget "26. Remove Duplicates from Sorted Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73ECF1A20F66F4C004B8FFE /* Debug */,
+				E73ECF1B20F66F4C004B8FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
