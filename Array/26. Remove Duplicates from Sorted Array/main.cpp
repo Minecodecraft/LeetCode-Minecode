@@ -23,7 +23,7 @@
 using namespace std;
 
 /// Solution:
-//
+// Just record the last maximum number and the length of appropriate number.
 
 /// Tips:
 //
