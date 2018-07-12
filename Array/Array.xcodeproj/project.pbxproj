@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C6F9A7F20F712D0004BFE1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F9A7E20F712D0004BFE1B /* main.cpp */; };
+		8C6F9A8A20F714AC004BFE1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F9A8920F714AC004BFE1B /* main.cpp */; };
 		8C8AE4C720C81BF500E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4C620C81BF500E3D9D9 /* main.cpp */; };
 		8C8AE4D220C8232D00E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4D120C8232D00E3D9D9 /* main.cpp */; };
 		8C8AE4DD20C8257600E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4DC20C8257600E3D9D9 /* main.cpp */; };
@@ -20,6 +21,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C6F9A7A20F712D0004BFE1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C6F9A8520F714AC004BFE1B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -105,6 +115,8 @@
 /* Begin PBXFileReference section */
 		8C6F9A7C20F712D0004BFE1B /* 27. Remove Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27. Remove Element"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6F9A7E20F712D0004BFE1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C6F9A8720F714AC004BFE1B /* 31. Next Permutation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "31. Next Permutation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6F9A8920F714AC004BFE1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C8AE4C420C81BF500E3D9D9 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8AE4C620C81BF500E3D9D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C8AE4CF20C8232D00E3D9D9 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +137,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C6F9A7920F712D0004BFE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6F9A8420F714AC004BFE1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,6 +217,14 @@
 			path = "27. Remove Element";
 			sourceTree = "<group>";
 		};
+		8C6F9A8820F714AC004BFE1B /* 31. Next Permutation */ = {
+			isa = PBXGroup;
+			children = (
+				8C6F9A8920F714AC004BFE1B /* main.cpp */,
+			);
+			path = "31. Next Permutation";
+			sourceTree = "<group>";
+		};
 		8C8AE4AD20C81B8D00E3D9D9 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +237,7 @@
 				8C8AE55220CAAF1300E3D9D9 /* 18. 4Sum */,
 				E73ECF1720F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */,
 				8C6F9A7D20F712D0004BFE1B /* 27. Remove Element */,
+				8C6F9A8820F714AC004BFE1B /* 31. Next Permutation */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +254,7 @@
 				8C8AE55120CAAF1300E3D9D9 /* 18. 4Sum */,
 				E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */,
 				8C6F9A7C20F712D0004BFE1B /* 27. Remove Element */,
+				8C6F9A8720F714AC004BFE1B /* 31. Next Permutation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,6 +341,23 @@
 			name = "27. Remove Element";
 			productName = "27. Remove Element";
 			productReference = 8C6F9A7C20F712D0004BFE1B /* 27. Remove Element */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C6F9A8620F714AC004BFE1B /* 31. Next Permutation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6F9A8B20F714AC004BFE1B /* Build configuration list for PBXNativeTarget "31. Next Permutation" */;
+			buildPhases = (
+				8C6F9A8320F714AC004BFE1B /* Sources */,
+				8C6F9A8420F714AC004BFE1B /* Frameworks */,
+				8C6F9A8520F714AC004BFE1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "31. Next Permutation";
+			productName = "31. Next Permutation";
+			productReference = 8C6F9A8720F714AC004BFE1B /* 31. Next Permutation */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C8AE4C320C81BF500E3D9D9 /* 1. Two Sum */ = {
@@ -463,6 +509,9 @@
 					8C6F9A7B20F712D0004BFE1B = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					8C6F9A8620F714AC004BFE1B = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					8C8AE4C320C81BF500E3D9D9 = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -501,8 +550,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C8AE4C320C81BF500E3D9D9 /* 1. Two Sum */,
 				8C8AE4CE20C8232D00E3D9D9 /* Template */,
+				8C8AE4C320C81BF500E3D9D9 /* 1. Two Sum */,
 				8C8AE4D920C8257600E3D9D9 /* 4. Median Of Two Sorted Arrays */,
 				8C8AE4E420C8320600E3D9D9 /* 11. Container With Most Water */,
 				8C8AE4EF20C8CB7300E3D9D9 /* 15. 3Sum */,
@@ -510,6 +559,7 @@
 				8C8AE55020CAAF1300E3D9D9 /* 18. 4Sum */,
 				E73ECF1520F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */,
 				8C6F9A7B20F712D0004BFE1B /* 27. Remove Element */,
+				8C6F9A8620F714AC004BFE1B /* 31. Next Permutation */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +570,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C6F9A7F20F712D0004BFE1B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6F9A8320F714AC004BFE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6F9A8A20F714AC004BFE1B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +661,29 @@
 			name = Debug;
 		};
 		8C6F9A8120F712D0004BFE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C6F9A8C20F714AC004BFE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C6F9A8D20F714AC004BFE1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -880,6 +961,15 @@
 			buildConfigurations = (
 				8C6F9A8020F712D0004BFE1B /* Debug */,
 				8C6F9A8120F712D0004BFE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6F9A8B20F714AC004BFE1B /* Build configuration list for PBXNativeTarget "31. Next Permutation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6F9A8C20F714AC004BFE1B /* Debug */,
+				8C6F9A8D20F714AC004BFE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
