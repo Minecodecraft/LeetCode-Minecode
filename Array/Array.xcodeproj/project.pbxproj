@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8C468FAE20F8C4740091CB8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C468FAD20F8C4740091CB8D /* main.cpp */; };
+		8C468FB920F8D4E40091CB8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C468FB820F8D4E40091CB8D /* main.cpp */; };
+		8C468FC420F8DB080091CB8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C468FC320F8DB080091CB8D /* main.cpp */; };
 		8C6F9A7F20F712D0004BFE1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F9A7E20F712D0004BFE1B /* main.cpp */; };
 		8C6F9A8A20F714AC004BFE1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F9A8920F714AC004BFE1B /* main.cpp */; };
 		8C8AE4C720C81BF500E3D9D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AE4C620C81BF500E3D9D9 /* main.cpp */; };
@@ -22,6 +24,24 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C468FA920F8C4740091CB8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C468FB420F8D4E40091CB8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C468FBF20F8DB080091CB8D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -125,6 +145,10 @@
 /* Begin PBXFileReference section */
 		8C468FAB20F8C4740091CB8D /* 33. Search in Rotated Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "33. Search in Rotated Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C468FAD20F8C4740091CB8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C468FB620F8D4E40091CB8D /* 35. Search Insert Position */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Search Insert Position"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C468FB820F8D4E40091CB8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C468FC120F8DB080091CB8D /* 39. Combination Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "39. Combination Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C468FC320F8DB080091CB8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C6F9A7C20F712D0004BFE1B /* 27. Remove Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27. Remove Element"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6F9A7E20F712D0004BFE1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C6F9A8720F714AC004BFE1B /* 31. Next Permutation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "31. Next Permutation"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +173,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C468FA820F8C4740091CB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C468FB320F8D4E40091CB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C468FBE20F8DB080091CB8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,6 +274,22 @@
 			path = "33. Search in Rotated Sorted Array";
 			sourceTree = "<group>";
 		};
+		8C468FB720F8D4E40091CB8D /* 35. Search Insert Position */ = {
+			isa = PBXGroup;
+			children = (
+				8C468FB820F8D4E40091CB8D /* main.cpp */,
+			);
+			path = "35. Search Insert Position";
+			sourceTree = "<group>";
+		};
+		8C468FC220F8DB080091CB8D /* 39. Combination Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8C468FC320F8DB080091CB8D /* main.cpp */,
+			);
+			path = "39. Combination Sum";
+			sourceTree = "<group>";
+		};
 		8C6F9A7D20F712D0004BFE1B /* 27. Remove Element */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +320,8 @@
 				8C6F9A7D20F712D0004BFE1B /* 27. Remove Element */,
 				8C6F9A8820F714AC004BFE1B /* 31. Next Permutation */,
 				8C468FAC20F8C4740091CB8D /* 33. Search in Rotated Sorted Array */,
+				8C468FB720F8D4E40091CB8D /* 35. Search Insert Position */,
+				8C468FC220F8DB080091CB8D /* 39. Combination Sum */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -284,6 +340,8 @@
 				8C6F9A7C20F712D0004BFE1B /* 27. Remove Element */,
 				8C6F9A8720F714AC004BFE1B /* 31. Next Permutation */,
 				8C468FAB20F8C4740091CB8D /* 33. Search in Rotated Sorted Array */,
+				8C468FB620F8D4E40091CB8D /* 35. Search Insert Position */,
+				8C468FC120F8DB080091CB8D /* 39. Combination Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -370,6 +428,40 @@
 			name = "33. Search in Rotated Sorted Array";
 			productName = "33. Search in Rotated Sorted Array";
 			productReference = 8C468FAB20F8C4740091CB8D /* 33. Search in Rotated Sorted Array */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C468FB520F8D4E40091CB8D /* 35. Search Insert Position */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C468FBA20F8D4E40091CB8D /* Build configuration list for PBXNativeTarget "35. Search Insert Position" */;
+			buildPhases = (
+				8C468FB220F8D4E40091CB8D /* Sources */,
+				8C468FB320F8D4E40091CB8D /* Frameworks */,
+				8C468FB420F8D4E40091CB8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "35. Search Insert Position";
+			productName = "35. Search Insert Position";
+			productReference = 8C468FB620F8D4E40091CB8D /* 35. Search Insert Position */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C468FC020F8DB080091CB8D /* 39. Combination Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C468FC520F8DB080091CB8D /* Build configuration list for PBXNativeTarget "39. Combination Sum" */;
+			buildPhases = (
+				8C468FBD20F8DB080091CB8D /* Sources */,
+				8C468FBE20F8DB080091CB8D /* Frameworks */,
+				8C468FBF20F8DB080091CB8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "39. Combination Sum";
+			productName = "39. Combination Sum";
+			productReference = 8C468FC120F8DB080091CB8D /* 39. Combination Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C6F9A7B20F712D0004BFE1B /* 27. Remove Element */ = {
@@ -555,6 +647,12 @@
 					8C468FAA20F8C4740091CB8D = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					8C468FB520F8D4E40091CB8D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8C468FC020F8DB080091CB8D = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					8C6F9A7B20F712D0004BFE1B = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -610,6 +708,8 @@
 				8C6F9A7B20F712D0004BFE1B /* 27. Remove Element */,
 				8C6F9A8620F714AC004BFE1B /* 31. Next Permutation */,
 				8C468FAA20F8C4740091CB8D /* 33. Search in Rotated Sorted Array */,
+				8C468FB520F8D4E40091CB8D /* 35. Search Insert Position */,
+				8C468FC020F8DB080091CB8D /* 39. Combination Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -620,6 +720,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C468FAE20F8C4740091CB8D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C468FB220F8D4E40091CB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C468FB920F8D4E40091CB8D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C468FBD20F8DB080091CB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C468FC420F8DB080091CB8D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +835,52 @@
 			name = Debug;
 		};
 		8C468FB020F8C4740091CB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C468FBB20F8D4E40091CB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C468FBC20F8D4E40091CB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C468FC620F8DB080091CB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C468FC720F8DB080091CB8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
@@ -1042,6 +1204,24 @@
 			buildConfigurations = (
 				8C468FAF20F8C4740091CB8D /* Debug */,
 				8C468FB020F8C4740091CB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C468FBA20F8D4E40091CB8D /* Build configuration list for PBXNativeTarget "35. Search Insert Position" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C468FBB20F8D4E40091CB8D /* Debug */,
+				8C468FBC20F8D4E40091CB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C468FC520F8DB080091CB8D /* Build configuration list for PBXNativeTarget "39. Combination Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C468FC620F8DB080091CB8D /* Debug */,
+				8C468FC720F8DB080091CB8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

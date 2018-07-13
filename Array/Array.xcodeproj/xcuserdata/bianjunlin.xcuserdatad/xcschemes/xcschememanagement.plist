@@ -14,32 +14,32 @@
 		<key>11. Container With Most Water.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>15. 3Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>16. 3Sum Closest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>5</integer>
 		</dict>
 		<key>18. 4Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>6</integer>
 		</dict>
 		<key>26. Remove Duplicates from Sorted Array.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>7</integer>
 		</dict>
 		<key>27. Remove Element.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>8</integer>
 		</dict>
 		<key>31. Next Permutation.xcscheme</key>
 		<dict>
@@ -50,6 +50,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
+		</dict>
+		<key>35. Search Insert Position.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>39. Combination Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>4. Median Of Two Sorted Arrays.xcscheme</key>
 		<dict>
@@ -66,7 +76,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8C468FAA20F8C4740091CB8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C468FC020F8DB080091CB8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8C6F9A7B20F712D0004BFE1B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C6F9A8620F714AC004BFE1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
