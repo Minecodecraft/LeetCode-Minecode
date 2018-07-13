@@ -23,10 +23,13 @@
 using namespace std;
 
 /// Solution:
-//
+// Traverse and just if the previous number is smaller than afterwards number, if true, swap it and sort the last N digits.
 
 /// Tips:
-//
+// The key is how to find the value next to the current value.
+// So we can ensure that if the order of last N digits is the maximum number they can be through permutation and combination, then N+1th counted down digit of the next number is the minimum number of the last N digits.
+// To ensure we have give a correct number to N+1th in counted downl, we travers value j in inverted order.
+// And then we must give the last N digits a proper order to make tham minimum. So just sort it.
 
 class Solution {
 public:
@@ -59,7 +62,7 @@ void printVector(vector<int> v) {
 int main() {
     Solution sol = Solution();
     
-    int arr[] = {1, 2, 3, 5, 5};
+    int arr[] = {1, 2, 3, 4, 6, 5};
     size_t size = sizeof(arr) / sizeof(int);
     vector<int> v = vector<int>(arr, arr+size);
     
