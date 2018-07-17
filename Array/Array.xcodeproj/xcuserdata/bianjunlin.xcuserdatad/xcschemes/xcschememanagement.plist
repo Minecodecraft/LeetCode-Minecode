@@ -14,22 +14,22 @@
 		<key>11. Container With Most Water.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 		<key>15. 3Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>16. 3Sum Closest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>18. 4Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>26. Remove Duplicates from Sorted Array.xcscheme</key>
 		<dict>
@@ -54,12 +54,12 @@
 		<key>35. Search Insert Position.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>7</integer>
 		</dict>
 		<key>39. Combination Sum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>4. Median Of Two Sorted Arrays.xcscheme</key>
 		<dict>
@@ -78,6 +78,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>42. Trapping Rain Water.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>Template.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -87,6 +92,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>8C468FAA20F8C4740091CB8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C468FB520F8D4E40091CB8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
