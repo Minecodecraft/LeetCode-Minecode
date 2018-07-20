@@ -42,6 +42,23 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    bool canJump(vector<int>& nums) {
+        vector<int> index(nums.size());
+        for (int i = 0; i < nums.size(); ++i) {
+            index[i] = nums[i] + i;
+        }
+        int maxIndex = index[0];
+        int idx = 0;
+        while (idx < index.size() && idx <= maxIndex) {
+            if (maxIndex < index[idx]) { maxIndex = index[idx]; }
+            idx++;
+        }
+        return idx == index.size();
+    }
+};
+
 void printVector(vector<int> v) {
     printf("\n[");
     for (auto it = v.begin(); it != v.end(); ++it) {
@@ -51,7 +68,7 @@ void printVector(vector<int> v) {
 }
 
 int main() {
-    Solution sol = Solution();
+    Solution2 sol = Solution2();
     
     vector<int> v {2,3,1,1,4};
     
