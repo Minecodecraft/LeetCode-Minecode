@@ -108,6 +108,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>56. Merge Intervals.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>Template.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

@@ -27,6 +27,7 @@
 		8C9CBF2F210057E400A42EBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CBF2E210057E400A42EBD /* main.cpp */; };
 		8CA4CF6A20FDA636008EF178 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4CF6920FDA636008EF178 /* main.cpp */; };
 		8CA4CF7520FDC7D6008EF178 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4CF7420FDC7D6008EF178 /* main.cpp */; };
+		8CFF448A2101AA1400F2EE49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFF44892101AA1400F2EE49 /* main.cpp */; };
 		E73ECF1920F66F4C004B8FFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E73ECF1820F66F4C004B8FFE /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -211,6 +212,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CFF44852101AA1400F2EE49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E73ECF1420F66F4C004B8FFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +273,8 @@
 		8CA4CF6920FDA636008EF178 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA4CF7220FDC7D6008EF178 /* 45. Jump Game II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "45. Jump Game II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA4CF7420FDC7D6008EF178 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CFF44872101AA1400F2EE49 /* 56. Merge Intervals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "56. Merge Intervals"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFF44892101AA1400F2EE49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73ECF1820F66F4C004B8FFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -408,6 +420,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CFF44842101AA1400F2EE49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E73ECF1320F66F4C004B8FFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,6 +517,7 @@
 				8C732B2720FF045100818704 /* 53. Maximum Subarray */,
 				8C9CBF2221004F6F00A42EBD /* 54. Spiral Matrix */,
 				8C9CBF2D210057E400A42EBD /* 55. Jump Game */,
+				8CFF44882101AA1400F2EE49 /* 56. Merge Intervals */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -526,6 +546,7 @@
 				8C732B2620FF045100818704 /* 53. Maximum Subarray */,
 				8C9CBF2121004F6F00A42EBD /* 54. Spiral Matrix */,
 				8C9CBF2C210057E400A42EBD /* 55. Jump Game */,
+				8CFF44872101AA1400F2EE49 /* 56. Merge Intervals */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -632,6 +653,14 @@
 				8CA4CF7420FDC7D6008EF178 /* main.cpp */,
 			);
 			path = "45. Jump Game II";
+			sourceTree = "<group>";
+		};
+		8CFF44882101AA1400F2EE49 /* 56. Merge Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				8CFF44892101AA1400F2EE49 /* main.cpp */,
+			);
+			path = "56. Merge Intervals";
 			sourceTree = "<group>";
 		};
 		E73ECF1720F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {
@@ -985,6 +1014,23 @@
 			productReference = 8CA4CF7220FDC7D6008EF178 /* 45. Jump Game II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CFF44862101AA1400F2EE49 /* 56. Merge Intervals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFF448D2101AA1400F2EE49 /* Build configuration list for PBXNativeTarget "56. Merge Intervals" */;
+			buildPhases = (
+				8CFF44832101AA1400F2EE49 /* Sources */,
+				8CFF44842101AA1400F2EE49 /* Frameworks */,
+				8CFF44852101AA1400F2EE49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "56. Merge Intervals";
+			productName = "56. Merge Intervals";
+			productReference = 8CFF44872101AA1400F2EE49 /* 56. Merge Intervals */;
+			productType = "com.apple.product-type.tool";
+		};
 		E73ECF1520F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E73ECF1C20F66F4C004B8FFE /* Build configuration list for PBXNativeTarget "26. Remove Duplicates from Sorted Array" */;
@@ -1072,6 +1118,9 @@
 					8CA4CF7120FDC7D6008EF178 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					8CFF44862101AA1400F2EE49 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					E73ECF1520F66F4C004B8FFE = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1110,6 +1159,7 @@
 				8C732B2520FF045100818704 /* 53. Maximum Subarray */,
 				8C9CBF2021004F6F00A42EBD /* 54. Spiral Matrix */,
 				8C9CBF2B210057E400A42EBD /* 55. Jump Game */,
+				8CFF44862101AA1400F2EE49 /* 56. Merge Intervals */,
 			);
 		};
 /* End PBXProject section */
@@ -1272,6 +1322,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA4CF7520FDC7D6008EF178 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFF44832101AA1400F2EE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFF448A2101AA1400F2EE49 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1822,6 +1880,29 @@
 			};
 			name = Release;
 		};
+		8CFF448B2101AA1400F2EE49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CFF448C2101AA1400F2EE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E73ECF1A20F66F4C004B8FFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2032,6 +2113,15 @@
 			buildConfigurations = (
 				8CA4CF7720FDC7D6008EF178 /* Debug */,
 				8CA4CF7820FDC7D6008EF178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CFF448D2101AA1400F2EE49 /* Build configuration list for PBXNativeTarget "56. Merge Intervals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFF448B2101AA1400F2EE49 /* Debug */,
+				8CFF448C2101AA1400F2EE49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
