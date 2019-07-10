@@ -29,6 +29,7 @@
 		8CA4CF7520FDC7D6008EF178 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4CF7420FDC7D6008EF178 /* main.cpp */; };
 		8CFF448A2101AA1400F2EE49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFF44892101AA1400F2EE49 /* main.cpp */; };
 		E73ECF1920F66F4C004B8FFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E73ECF1820F66F4C004B8FFE /* main.cpp */; };
+		E77DD0B622D64A78009DC8DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77DD0B522D64A78009DC8DB /* main.cpp */; };
 		E79A578822D62B8F00673157 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79A578722D62B8F00673157 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -231,6 +232,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E77DD0B122D64A78009DC8DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E79A578322D62B8F00673157 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +297,8 @@
 		8CFF44892101AA1400F2EE49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73ECF1820F66F4C004B8FFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E77DD0B322D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "106. Construct Binary Tree from Inorder and Postorder Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DD0B522D64A78009DC8DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E79A578522D62B8F00673157 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "105. Construct Binary Tree from Preorder and Inorder Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79A578722D62B8F00673157 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -446,6 +458,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E77DD0B022D64A78009DC8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E79A578222D62B8F00673157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -538,6 +557,7 @@
 				8C9CBF2D210057E400A42EBD /* 55. Jump Game */,
 				8CFF44882101AA1400F2EE49 /* 56. Merge Intervals */,
 				E79A578622D62B8F00673157 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */,
+				E77DD0B422D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -568,6 +588,7 @@
 				8C9CBF2C210057E400A42EBD /* 55. Jump Game */,
 				8CFF44872101AA1400F2EE49 /* 56. Merge Intervals */,
 				E79A578522D62B8F00673157 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */,
+				E77DD0B322D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -690,6 +711,14 @@
 				E73ECF1820F66F4C004B8FFE /* main.cpp */,
 			);
 			path = "26. Remove Duplicates from Sorted Array";
+			sourceTree = "<group>";
+		};
+		E77DD0B422D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				E77DD0B522D64A78009DC8DB /* main.cpp */,
+			);
+			path = "106. Construct Binary Tree from Inorder and Postorder Traversal";
 			sourceTree = "<group>";
 		};
 		E79A578622D62B8F00673157 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */ = {
@@ -1077,6 +1106,23 @@
 			productReference = E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */;
 			productType = "com.apple.product-type.tool";
 		};
+		E77DD0B222D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77DD0B922D64A78009DC8DB /* Build configuration list for PBXNativeTarget "106. Construct Binary Tree from Inorder and Postorder Traversal" */;
+			buildPhases = (
+				E77DD0AF22D64A78009DC8DB /* Sources */,
+				E77DD0B022D64A78009DC8DB /* Frameworks */,
+				E77DD0B122D64A78009DC8DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "106. Construct Binary Tree from Inorder and Postorder Traversal";
+			productName = "106. Construct Binary Tree from Inorder and Postorder Traversal";
+			productReference = E77DD0B322D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */;
+			productType = "com.apple.product-type.tool";
+		};
 		E79A578422D62B8F00673157 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E79A578B22D62B8F00673157 /* Build configuration list for PBXNativeTarget "105. Construct Binary Tree from Preorder and Inorder Traversal" */;
@@ -1170,6 +1216,9 @@
 					E73ECF1520F66F4C004B8FFE = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					E77DD0B222D64A78009DC8DB = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					E79A578422D62B8F00673157 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -1210,6 +1259,7 @@
 				8C9CBF2B210057E400A42EBD /* 55. Jump Game */,
 				8CFF44862101AA1400F2EE49 /* 56. Merge Intervals */,
 				E79A578422D62B8F00673157 /* 105. Construct Binary Tree from Preorder and Inorder Traversal */,
+				E77DD0B222D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */,
 			);
 		};
 /* End PBXProject section */
@@ -1388,6 +1438,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73ECF1920F66F4C004B8FFE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77DD0AF22D64A78009DC8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77DD0B622D64A78009DC8DB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1983,6 +2041,27 @@
 			};
 			name = Release;
 		};
+		E77DD0B722D64A78009DC8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E77DD0B822D64A78009DC8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E79A578922D62B8F00673157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2210,6 +2289,15 @@
 			buildConfigurations = (
 				E73ECF1A20F66F4C004B8FFE /* Debug */,
 				E73ECF1B20F66F4C004B8FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77DD0B922D64A78009DC8DB /* Build configuration list for PBXNativeTarget "106. Construct Binary Tree from Inorder and Postorder Traversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77DD0B722D64A78009DC8DB /* Debug */,
+				E77DD0B822D64A78009DC8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
