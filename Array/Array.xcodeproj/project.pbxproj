@@ -29,6 +29,7 @@
 		8CA4CF7520FDC7D6008EF178 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4CF7420FDC7D6008EF178 /* main.cpp */; };
 		8CFF448A2101AA1400F2EE49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CFF44892101AA1400F2EE49 /* main.cpp */; };
 		E722326222D78F4D0039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722326122D78F4D0039F6AF /* main.cpp */; };
+		E722326D22D791D80039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722326C22D791D80039F6AF /* main.cpp */; };
 		E73ECF1920F66F4C004B8FFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E73ECF1820F66F4C004B8FFE /* main.cpp */; };
 		E77DD0B622D64A78009DC8DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77DD0B522D64A78009DC8DB /* main.cpp */; };
 		E79A578822D62B8F00673157 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E79A578722D62B8F00673157 /* main.cpp */; };
@@ -234,6 +235,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E722326822D791D80039F6AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E73ECF1420F66F4C004B8FFE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +327,8 @@
 		8CFF44892101AA1400F2EE49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722325F22D78F4D0039F6AF /* 119. Pascal's Triangle II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "119. Pascal's Triangle II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722326122D78F4D0039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E722326A22D791D80039F6AF /* 120. Triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "120. Triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722326C22D791D80039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E73ECF1620F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73ECF1820F66F4C004B8FFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E77DD0B322D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "106. Construct Binary Tree from Inorder and Postorder Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -482,6 +494,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E722326722D791D80039F6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E73ECF1320F66F4C004B8FFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,6 +617,7 @@
 				E77DD0B422D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */,
 				E7BB2D8022D7897E002E4C5F /* 118. Pascal's Triangle */,
 				E722326022D78F4D0039F6AF /* 119. Pascal's Triangle II */,
+				E722326B22D791D80039F6AF /* 120. Triangle */,
 				8C8AE4B720C81B8D00E3D9D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -631,6 +651,7 @@
 				E77DD0B322D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */,
 				E7BB2D7F22D7897E002E4C5F /* 118. Pascal's Triangle */,
 				E722325F22D78F4D0039F6AF /* 119. Pascal's Triangle II */,
+				E722326A22D791D80039F6AF /* 120. Triangle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -753,6 +774,14 @@
 				E722326122D78F4D0039F6AF /* main.cpp */,
 			);
 			path = "119. Pascal's Triangle II";
+			sourceTree = "<group>";
+		};
+		E722326B22D791D80039F6AF /* 120. Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				E722326C22D791D80039F6AF /* main.cpp */,
+			);
+			path = "120. Triangle";
 			sourceTree = "<group>";
 		};
 		E73ECF1720F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {
@@ -1164,6 +1193,23 @@
 			productReference = E722325F22D78F4D0039F6AF /* 119. Pascal's Triangle II */;
 			productType = "com.apple.product-type.tool";
 		};
+		E722326922D791D80039F6AF /* 120. Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E722326E22D791D80039F6AF /* Build configuration list for PBXNativeTarget "120. Triangle" */;
+			buildPhases = (
+				E722326622D791D80039F6AF /* Sources */,
+				E722326722D791D80039F6AF /* Frameworks */,
+				E722326822D791D80039F6AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "120. Triangle";
+			productName = "120. Triangle";
+			productReference = E722326A22D791D80039F6AF /* 120. Triangle */;
+			productType = "com.apple.product-type.tool";
+		};
 		E73ECF1520F66F4C004B8FFE /* 26. Remove Duplicates from Sorted Array */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E73ECF1C20F66F4C004B8FFE /* Build configuration list for PBXNativeTarget "26. Remove Duplicates from Sorted Array" */;
@@ -1308,6 +1354,9 @@
 					E722325E22D78F4D0039F6AF = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					E722326922D791D80039F6AF = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					E73ECF1520F66F4C004B8FFE = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1360,6 +1409,7 @@
 				E77DD0B222D64A78009DC8DB /* 106. Construct Binary Tree from Inorder and Postorder Traversal */,
 				E7BB2D7E22D7897E002E4C5F /* 118. Pascal's Triangle */,
 				E722325E22D78F4D0039F6AF /* 119. Pascal's Triangle II */,
+				E722326922D791D80039F6AF /* 120. Triangle */,
 			);
 		};
 /* End PBXProject section */
@@ -1538,6 +1588,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E722326222D78F4D0039F6AF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E722326622D791D80039F6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722326D22D791D80039F6AF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2156,6 +2214,27 @@
 			};
 			name = Release;
 		};
+		E722326F22D791D80039F6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E722327022D791D80039F6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E73ECF1A20F66F4C004B8FFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2447,6 +2526,15 @@
 			buildConfigurations = (
 				E722326322D78F4D0039F6AF /* Debug */,
 				E722326422D78F4D0039F6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E722326E22D791D80039F6AF /* Build configuration list for PBXNativeTarget "120. Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722326F22D791D80039F6AF /* Debug */,
+				E722327022D791D80039F6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

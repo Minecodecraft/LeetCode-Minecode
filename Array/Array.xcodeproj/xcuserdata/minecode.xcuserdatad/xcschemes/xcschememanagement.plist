@@ -22,7 +22,7 @@
 		<key>106. Construct Binary Tree from Inorder and Postorder Traversal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>24</integer>
 		</dict>
 		<key>11. Container With Most Water.xcscheme</key>
 		<dict>
@@ -37,12 +37,17 @@
 		<key>118. Pascal's Triangle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>25</integer>
 		</dict>
 		<key>119. Pascal's Triangle II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>23</integer>
+		</dict>
+		<key>120. Triangle.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
 		</dict>
 		<key>15. 3Sum.xcscheme</key>
 		<dict>
