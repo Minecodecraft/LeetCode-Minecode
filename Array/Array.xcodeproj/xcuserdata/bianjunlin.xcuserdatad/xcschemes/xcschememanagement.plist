@@ -16,7 +16,17 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>11. Container With Most Water.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>15. 3Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>15. 3Sum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
@@ -26,7 +36,17 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>16. 3Sum Closest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>18. 4Sum.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>18. 4Sum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>12</integer>
@@ -73,7 +93,17 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>40. Combination Sum II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>41. First Missing Positive.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>41. First Missing Positive.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>14</integer>
@@ -83,7 +113,17 @@
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
+		<key>42. Trapping Rain Water.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>45. Jump Game II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>45. Jump Game II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>16</integer>
@@ -93,7 +133,17 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>48. Rotate Image.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>53. Maximum Subarray.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>53. Maximum Subarray.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>18</integer>
@@ -103,12 +153,27 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>54. Spiral Matrix.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>55. Jump Game.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>55. Jump Game.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>56. Merge Intervals.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>56. Merge Intervals.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>

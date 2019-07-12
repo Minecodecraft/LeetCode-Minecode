@@ -1,14 +1,14 @@
 //
 //  main.cpp
-//  Template
+//  [Array]Remove Duplicates from Sorted Array
 //
-//  Created by 边俊林 on 2018/8/6.
-//  Copyright © 2018 minecode. All rights reserved.
+//  Created by 边俊林 on 2019/7/12.
+//  Copyright © 2019 Minecode.Link. All rights reserved.
 //
 
 /* ------------------------------------------------------ *\
- https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/1/array/21/
- \* ------------------------------------------------------ */
+ https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/
+\* ------------------------------------------------------ */
 
 #include <map>
 #include <set>
@@ -24,6 +24,8 @@
 
 using namespace std;
 
+/// Solution:
+//
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -39,17 +41,11 @@ public:
     }
 };
 
-// Tool Function List
-
 
 int main() {
-    
     Solution sol = Solution();
-    
-    vector<int> v{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-    int res = sol.removeDuplicates(v);
-    
+    vector<int> nums = {0,0,1,1,1,2,2,3,3,4};
+    auto res = sol.removeDuplicates(nums);
     cout << res << endl;
-    
     return 0;
 }
