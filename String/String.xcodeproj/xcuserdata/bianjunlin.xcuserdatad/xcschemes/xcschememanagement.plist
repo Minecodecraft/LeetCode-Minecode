@@ -7,7 +7,7 @@
 		<key>3. Longest Substring Without Repeating Characters.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>5. Longest Palindromic Substring.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +17,12 @@
 		<key>6. ZigZag Conversion.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<key>8. String to Integer (atoi).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
