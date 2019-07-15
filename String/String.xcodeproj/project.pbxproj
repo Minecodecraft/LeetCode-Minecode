@@ -11,6 +11,7 @@
 		8C12A4ED22DAC58D00EE24B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C12A4EC22DAC58D00EE24B8 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
+		8C4E0E6A22DC412300766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E6922DC412300766170 /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C4E0E6522DC412300766170 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E722327322DA22290039F6AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +81,8 @@
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A39422DAEB1500769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4E0E6722DC412300766170 /* 10. Regular Expression Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10. Regular Expression Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E0E6922DC412300766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722327522DA22290039F6AF /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722327722DA22290039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +116,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C4E0E6422DC412300766170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E722327222DA22290039F6AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,6 +141,7 @@
 				E722327622DA22290039F6AF /* 5. Longest Palindromic Substring */,
 				8C12A4EB22DAC58D00EE24B8 /* 6. ZigZag Conversion */,
 				8C46A39322DAEB1500769BB0 /* 8. String to Integer (atoi) */,
+				8C4E0E6822DC412300766170 /* 10. Regular Expression Matching */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				8C12A4EA22DAC58D00EE24B8 /* 6. ZigZag Conversion */,
 				8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */,
 				8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */,
+				8C4E0E6722DC412300766170 /* 10. Regular Expression Matching */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +189,14 @@
 				8C46A39422DAEB1500769BB0 /* main.cpp */,
 			);
 			path = "8. String to Integer (atoi)";
+			sourceTree = "<group>";
+		};
+		8C4E0E6822DC412300766170 /* 10. Regular Expression Matching */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E0E6922DC412300766170 /* main.cpp */,
+			);
+			path = "10. Regular Expression Matching";
 			sourceTree = "<group>";
 		};
 		E722327622DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
@@ -249,6 +278,23 @@
 			productReference = 8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C4E0E6622DC412300766170 /* 10. Regular Expression Matching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E0E6D22DC412300766170 /* Build configuration list for PBXNativeTarget "10. Regular Expression Matching" */;
+			buildPhases = (
+				8C4E0E6322DC412300766170 /* Sources */,
+				8C4E0E6422DC412300766170 /* Frameworks */,
+				8C4E0E6522DC412300766170 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10. Regular Expression Matching";
+			productName = "10. Regular Expression Matching";
+			productReference = 8C4E0E6722DC412300766170 /* 10. Regular Expression Matching */;
+			productType = "com.apple.product-type.tool";
+		};
 		E722327422DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E722327B22DA22290039F6AF /* Build configuration list for PBXNativeTarget "5. Longest Palindromic Substring" */;
@@ -287,6 +333,9 @@
 					8C46A39122DAEB1500769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8C4E0E6622DC412300766170 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					E722327422DA22290039F6AF = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -309,6 +358,7 @@
 				8C12A4E922DAC58D00EE24B8 /* 6. ZigZag Conversion */,
 				8C46A38622DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */,
 				8C46A39122DAEB1500769BB0 /* 8. String to Integer (atoi) */,
+				8C4E0E6622DC412300766170 /* 10. Regular Expression Matching */,
 			);
 		};
 /* End PBXProject section */
@@ -343,6 +393,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C46A39522DAEB1500769BB0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E0E6322DC412300766170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E0E6A22DC412300766170 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +590,22 @@
 			};
 			name = Release;
 		};
+		8C4E0E6B22DC412300766170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C4E0E6C22DC412300766170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E722327922DA22290039F6AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +668,15 @@
 			buildConfigurations = (
 				8C46A39722DAEB1500769BB0 /* Debug */,
 				8C46A39822DAEB1500769BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E0E6D22DC412300766170 /* Build configuration list for PBXNativeTarget "10. Regular Expression Matching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E0E6B22DC412300766170 /* Debug */,
+				8C4E0E6C22DC412300766170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
