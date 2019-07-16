@@ -13,6 +13,7 @@
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
 		8C4E0E6A22DC412300766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E6922DC412300766170 /* main.cpp */; };
 		8C4E0E8B22DD6B3200766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E8A22DD6B3200766170 /* main.cpp */; };
+		8C4E0E9622DD945C00766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E9522DD945C00766170 /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C4E0E9122DD945C00766170 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E722327322DA22290039F6AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +105,8 @@
 		8C4E0E6922DC412300766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4E0E8822DD6B3200766170 /* 12. Integer to Roman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12. Integer to Roman"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E0E8A22DD6B3200766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4E0E9322DD945C00766170 /* 13. Roman to Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13. Roman to Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E0E9522DD945C00766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722327522DA22290039F6AF /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722327722DA22290039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +154,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C4E0E9022DD945C00766170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E722327222DA22290039F6AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +181,7 @@
 				8C46A39322DAEB1500769BB0 /* 8. String to Integer (atoi) */,
 				8C4E0E6822DC412300766170 /* 10. Regular Expression Matching */,
 				8C4E0E8922DD6B3200766170 /* 12. Integer to Roman */,
+				8C4E0E9422DD945C00766170 /* 13. Roman to Integer */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 				8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */,
 				8C4E0E6722DC412300766170 /* 10. Regular Expression Matching */,
 				8C4E0E8822DD6B3200766170 /* 12. Integer to Roman */,
+				8C4E0E9322DD945C00766170 /* 13. Roman to Integer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +247,14 @@
 				8C4E0E8A22DD6B3200766170 /* main.cpp */,
 			);
 			path = "12. Integer to Roman";
+			sourceTree = "<group>";
+		};
+		8C4E0E9422DD945C00766170 /* 13. Roman to Integer */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E0E9522DD945C00766170 /* main.cpp */,
+			);
+			path = "13. Roman to Integer";
 			sourceTree = "<group>";
 		};
 		E722327622DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
@@ -341,6 +370,23 @@
 			productReference = 8C4E0E8822DD6B3200766170 /* 12. Integer to Roman */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C4E0E9222DD945C00766170 /* 13. Roman to Integer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E0E9922DD945C00766170 /* Build configuration list for PBXNativeTarget "13. Roman to Integer" */;
+			buildPhases = (
+				8C4E0E8F22DD945C00766170 /* Sources */,
+				8C4E0E9022DD945C00766170 /* Frameworks */,
+				8C4E0E9122DD945C00766170 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13. Roman to Integer";
+			productName = "13. Roman to Integer";
+			productReference = 8C4E0E9322DD945C00766170 /* 13. Roman to Integer */;
+			productType = "com.apple.product-type.tool";
+		};
 		E722327422DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E722327B22DA22290039F6AF /* Build configuration list for PBXNativeTarget "5. Longest Palindromic Substring" */;
@@ -385,6 +431,9 @@
 					8C4E0E8722DD6B3200766170 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8C4E0E9222DD945C00766170 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					E722327422DA22290039F6AF = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -409,6 +458,7 @@
 				8C46A39122DAEB1500769BB0 /* 8. String to Integer (atoi) */,
 				8C4E0E6622DC412300766170 /* 10. Regular Expression Matching */,
 				8C4E0E8722DD6B3200766170 /* 12. Integer to Roman */,
+				8C4E0E9222DD945C00766170 /* 13. Roman to Integer */,
 			);
 		};
 /* End PBXProject section */
@@ -459,6 +509,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4E0E8B22DD6B3200766170 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E0E8F22DD945C00766170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E0E9622DD945C00766170 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +738,22 @@
 			};
 			name = Release;
 		};
+		8C4E0E9722DD945C00766170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C4E0E9822DD945C00766170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E722327922DA22290039F6AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -760,6 +834,15 @@
 			buildConfigurations = (
 				8C4E0E8C22DD6B3200766170 /* Debug */,
 				8C4E0E8D22DD6B3200766170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E0E9922DD945C00766170 /* Build configuration list for PBXNativeTarget "13. Roman to Integer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E0E9722DD945C00766170 /* Debug */,
+				8C4E0E9822DD945C00766170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
