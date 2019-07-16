@@ -14,6 +14,8 @@
 		8C4E0E6A22DC412300766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E6922DC412300766170 /* main.cpp */; };
 		8C4E0E8B22DD6B3200766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E8A22DD6B3200766170 /* main.cpp */; };
 		8C4E0E9622DD945C00766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E9522DD945C00766170 /* main.cpp */; };
+		8C51226722DE022A0059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51226622DE022A0059DC4F /* main.cpp */; };
+		8C51227222DE04FA0059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227122DE04FA0059DC4F /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C51226222DE022A0059DC4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C51226D22DE04FA0059DC4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E722327322DA22290039F6AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +127,10 @@
 		8C4E0E8A22DD6B3200766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4E0E9322DD945C00766170 /* 13. Roman to Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13. Roman to Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E0E9522DD945C00766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C51226422DE022A0059DC4F /* 14. Longest Common Prefix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14. Longest Common Prefix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51226622DE022A0059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C51226F22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Letter Combinations of a Phone Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51227122DE04FA0059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722327522DA22290039F6AF /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722327722DA22290039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +185,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C51226122DE022A0059DC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51226C22DE04FA0059DC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E722327222DA22290039F6AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +220,8 @@
 				8C4E0E6822DC412300766170 /* 10. Regular Expression Matching */,
 				8C4E0E8922DD6B3200766170 /* 12. Integer to Roman */,
 				8C4E0E9422DD945C00766170 /* 13. Roman to Integer */,
+				8C51226522DE022A0059DC4F /* 14. Longest Common Prefix */,
+				8C51227022DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +237,8 @@
 				8C4E0E6722DC412300766170 /* 10. Regular Expression Matching */,
 				8C4E0E8822DD6B3200766170 /* 12. Integer to Roman */,
 				8C4E0E9322DD945C00766170 /* 13. Roman to Integer */,
+				8C51226422DE022A0059DC4F /* 14. Longest Common Prefix */,
+				8C51226F22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,6 +297,22 @@
 				8C4E0E9522DD945C00766170 /* main.cpp */,
 			);
 			path = "13. Roman to Integer";
+			sourceTree = "<group>";
+		};
+		8C51226522DE022A0059DC4F /* 14. Longest Common Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				8C51226622DE022A0059DC4F /* main.cpp */,
+			);
+			path = "14. Longest Common Prefix";
+			sourceTree = "<group>";
+		};
+		8C51227022DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */ = {
+			isa = PBXGroup;
+			children = (
+				8C51227122DE04FA0059DC4F /* main.cpp */,
+			);
+			path = "17. Letter Combinations of a Phone Number";
 			sourceTree = "<group>";
 		};
 		E722327622DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
@@ -387,6 +445,40 @@
 			productReference = 8C4E0E9322DD945C00766170 /* 13. Roman to Integer */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C51226322DE022A0059DC4F /* 14. Longest Common Prefix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51226A22DE022A0059DC4F /* Build configuration list for PBXNativeTarget "14. Longest Common Prefix" */;
+			buildPhases = (
+				8C51226022DE022A0059DC4F /* Sources */,
+				8C51226122DE022A0059DC4F /* Frameworks */,
+				8C51226222DE022A0059DC4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14. Longest Common Prefix";
+			productName = "14. Longest Common Prefix";
+			productReference = 8C51226422DE022A0059DC4F /* 14. Longest Common Prefix */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C51226E22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C51227322DE04FA0059DC4F /* Build configuration list for PBXNativeTarget "17. Letter Combinations of a Phone Number" */;
+			buildPhases = (
+				8C51226B22DE04FA0059DC4F /* Sources */,
+				8C51226C22DE04FA0059DC4F /* Frameworks */,
+				8C51226D22DE04FA0059DC4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17. Letter Combinations of a Phone Number";
+			productName = "17. Letter Combinations of a Phone Number";
+			productReference = 8C51226F22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */;
+			productType = "com.apple.product-type.tool";
+		};
 		E722327422DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E722327B22DA22290039F6AF /* Build configuration list for PBXNativeTarget "5. Longest Palindromic Substring" */;
@@ -434,6 +526,12 @@
 					8C4E0E9222DD945C00766170 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8C51226322DE022A0059DC4F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					8C51226E22DE04FA0059DC4F = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					E722327422DA22290039F6AF = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -459,6 +557,8 @@
 				8C4E0E6622DC412300766170 /* 10. Regular Expression Matching */,
 				8C4E0E8722DD6B3200766170 /* 12. Integer to Roman */,
 				8C4E0E9222DD945C00766170 /* 13. Roman to Integer */,
+				8C51226322DE022A0059DC4F /* 14. Longest Common Prefix */,
+				8C51226E22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */,
 			);
 		};
 /* End PBXProject section */
@@ -517,6 +617,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4E0E9622DD945C00766170 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51226022DE022A0059DC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51226722DE022A0059DC4F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C51226B22DE04FA0059DC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51227222DE04FA0059DC4F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,6 +870,38 @@
 			};
 			name = Release;
 		};
+		8C51226822DE022A0059DC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C51226922DE022A0059DC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C51227422DE04FA0059DC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C51227522DE04FA0059DC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E722327922DA22290039F6AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -843,6 +991,24 @@
 			buildConfigurations = (
 				8C4E0E9722DD945C00766170 /* Debug */,
 				8C4E0E9822DD945C00766170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51226A22DE022A0059DC4F /* Build configuration list for PBXNativeTarget "14. Longest Common Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51226822DE022A0059DC4F /* Debug */,
+				8C51226922DE022A0059DC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C51227322DE04FA0059DC4F /* Build configuration list for PBXNativeTarget "17. Letter Combinations of a Phone Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C51227422DE04FA0059DC4F /* Debug */,
+				8C51227522DE04FA0059DC4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
