@@ -19,6 +19,7 @@
 		8C51227D22DE0E620059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227C22DE0E620059DC4F /* main.cpp */; };
 		8C51228822DE0FA80059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51228722DE0FA80059DC4F /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
+		E722328322DF77B10039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722328222DF77B10039F6AF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,6 +131,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E722327E22DF77B10039F6AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +167,8 @@
 		8C51228722DE0FA80059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722327522DA22290039F6AF /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722327722DA22290039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E722328022DF77B10039F6AF /* 28. Implement strStr() */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "28. Implement strStr()"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E722328222DF77B10039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +256,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E722327D22DF77B10039F6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -262,6 +281,7 @@
 				8C51227022DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */,
 				8C51227B22DE0E620059DC4F /* 20. Valid Parentheses */,
 				8C51228622DE0FA80059DC4F /* 22. Generate Parentheses */,
+				E722328122DF77B10039F6AF /* 28. Implement strStr() */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -281,6 +301,7 @@
 				8C51226F22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */,
 				8C51227A22DE0E620059DC4F /* 20. Valid Parentheses */,
 				8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */,
+				E722328022DF77B10039F6AF /* 28. Implement strStr() */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -379,6 +400,14 @@
 				E722327722DA22290039F6AF /* main.cpp */,
 			);
 			path = "5. Longest Palindromic Substring";
+			sourceTree = "<group>";
+		};
+		E722328122DF77B10039F6AF /* 28. Implement strStr() */ = {
+			isa = PBXGroup;
+			children = (
+				E722328222DF77B10039F6AF /* main.cpp */,
+			);
+			path = "28. Implement strStr()";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,6 +617,23 @@
 			productReference = E722327522DA22290039F6AF /* 5. Longest Palindromic Substring */;
 			productType = "com.apple.product-type.tool";
 		};
+		E722327F22DF77B10039F6AF /* 28. Implement strStr() */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E722328622DF77B10039F6AF /* Build configuration list for PBXNativeTarget "28. Implement strStr()" */;
+			buildPhases = (
+				E722327C22DF77B10039F6AF /* Sources */,
+				E722327D22DF77B10039F6AF /* Frameworks */,
+				E722327E22DF77B10039F6AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "28. Implement strStr()";
+			productName = "28. Implement strStr()";
+			productReference = E722328022DF77B10039F6AF /* 28. Implement strStr() */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -633,6 +679,9 @@
 					E722327422DA22290039F6AF = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					E722327F22DF77B10039F6AF = {
+						CreatedOnToolsVersion = 11.0;
+					};
 				};
 			};
 			buildConfigurationList = 8C12A4C122D84A1200EE24B8 /* Build configuration list for PBXProject "String" */;
@@ -659,6 +708,7 @@
 				8C51226E22DE04FA0059DC4F /* 17. Letter Combinations of a Phone Number */,
 				8C51227922DE0E620059DC4F /* 20. Valid Parentheses */,
 				8C51228422DE0FA80059DC4F /* 22. Generate Parentheses */,
+				E722327F22DF77B10039F6AF /* 28. Implement strStr() */,
 			);
 		};
 /* End PBXProject section */
@@ -757,6 +807,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E722327822DA22290039F6AF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E722327C22DF77B10039F6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722328322DF77B10039F6AF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,6 +1126,24 @@
 			};
 			name = Release;
 		};
+		E722328422DF77B10039F6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E722328522DF77B10039F6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1184,6 +1260,15 @@
 			buildConfigurations = (
 				E722327922DA22290039F6AF /* Debug */,
 				E722327A22DA22290039F6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E722328622DF77B10039F6AF /* Build configuration list for PBXNativeTarget "28. Implement strStr()" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E722328422DF77B10039F6AF /* Debug */,
+				E722328522DF77B10039F6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
