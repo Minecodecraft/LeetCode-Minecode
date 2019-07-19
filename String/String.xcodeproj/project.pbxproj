@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C12A4D722D84A3000EE24B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C12A4D622D84A3000EE24B8 /* main.cpp */; };
 		8C12A4ED22DAC58D00EE24B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C12A4EC22DAC58D00EE24B8 /* main.cpp */; };
+		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
 		8C4E0E6A22DC412300766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E6922DC412300766170 /* main.cpp */; };
@@ -33,6 +34,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C12A4E822DAC58D00EE24B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C43FFAF22E0384300222D53 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -147,6 +157,8 @@
 		8C12A4D622D84A3000EE24B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C12A4EA22DAC58D00EE24B8 /* 6. ZigZag Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. ZigZag Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C12A4EC22DAC58D00EE24B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. Substring with Concatenation of All Words"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43FFB322E0384300222D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +192,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C12A4E722DAC58D00EE24B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43FFAE22E0384300222D53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,6 +301,7 @@
 				8C51227B22DE0E620059DC4F /* 20. Valid Parentheses */,
 				8C51228622DE0FA80059DC4F /* 22. Generate Parentheses */,
 				E722328122DF77B10039F6AF /* 28. Implement strStr() */,
+				8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -302,6 +322,7 @@
 				8C51227A22DE0E620059DC4F /* 20. Valid Parentheses */,
 				8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */,
 				E722328022DF77B10039F6AF /* 28. Implement strStr() */,
+				8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +341,14 @@
 				8C12A4EC22DAC58D00EE24B8 /* main.cpp */,
 			);
 			path = "6. ZigZag Conversion";
+			sourceTree = "<group>";
+		};
+		8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
+			isa = PBXGroup;
+			children = (
+				8C43FFB322E0384300222D53 /* main.cpp */,
+			);
+			path = "30. Substring with Concatenation of All Words";
 			sourceTree = "<group>";
 		};
 		8C46A38822DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -445,6 +474,23 @@
 			name = "6. ZigZag Conversion";
 			productName = "6. ZigZag Conversion";
 			productReference = 8C12A4EA22DAC58D00EE24B8 /* 6. ZigZag Conversion */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C43FFB722E0384300222D53 /* Build configuration list for PBXNativeTarget "30. Substring with Concatenation of All Words" */;
+			buildPhases = (
+				8C43FFAD22E0384300222D53 /* Sources */,
+				8C43FFAE22E0384300222D53 /* Frameworks */,
+				8C43FFAF22E0384300222D53 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "30. Substring with Concatenation of All Words";
+			productName = "30. Substring with Concatenation of All Words";
+			productReference = 8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C46A38622DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -649,6 +695,9 @@
 					8C12A4E922DAC58D00EE24B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C43FFB022E0384300222D53 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C46A38622DAE77C00769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -709,6 +758,7 @@
 				8C51227922DE0E620059DC4F /* 20. Valid Parentheses */,
 				8C51228422DE0FA80059DC4F /* 22. Generate Parentheses */,
 				E722327F22DF77B10039F6AF /* 28. Implement strStr() */,
+				8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */,
 			);
 		};
 /* End PBXProject section */
@@ -727,6 +777,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C12A4ED22DAC58D00EE24B8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43FFAD22E0384300222D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43FFB422E0384300222D53 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -964,6 +1022,22 @@
 			};
 			name = Release;
 		};
+		8C43FFB522E0384300222D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C43FFB622E0384300222D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C46A38B22DAE77C00769BB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1170,6 +1244,15 @@
 			buildConfigurations = (
 				8C12A4EE22DAC58D00EE24B8 /* Debug */,
 				8C12A4EF22DAC58D00EE24B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C43FFB722E0384300222D53 /* Build configuration list for PBXNativeTarget "30. Substring with Concatenation of All Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43FFB522E0384300222D53 /* Debug */,
+				8C43FFB622E0384300222D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
