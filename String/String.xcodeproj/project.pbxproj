@@ -19,6 +19,7 @@
 		8C51227222DE04FA0059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227122DE04FA0059DC4F /* main.cpp */; };
 		8C51227D22DE0E620059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227C22DE0E620059DC4F /* main.cpp */; };
 		8C51228822DE0FA80059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51228722DE0FA80059DC4F /* main.cpp */; };
+		8CE8258122E1FD1A00F088C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8258022E1FD1A00F088C3 /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
 		E722328322DF77B10039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722328222DF77B10039F6AF /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -132,6 +133,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CE8257C22E1FD1A00F088C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E722327322DA22290039F6AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,6 +187,8 @@
 		8C51227C22DE0E620059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "22. Generate Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C51228722DE0FA80059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE8257E22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32. Longest Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE8258022E1FD1A00F088C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722327522DA22290039F6AF /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E722327722DA22290039F6AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E722328022DF77B10039F6AF /* 28. Implement strStr() */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "28. Implement strStr()"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,6 +280,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE8257B22E1FD1A00F088C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E722327222DA22290039F6AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +321,7 @@
 				8C51228622DE0FA80059DC4F /* 22. Generate Parentheses */,
 				E722328122DF77B10039F6AF /* 28. Implement strStr() */,
 				8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */,
+				8CE8257F22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -323,6 +343,7 @@
 				8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */,
 				E722328022DF77B10039F6AF /* 28. Implement strStr() */,
 				8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */,
+				8CE8257E22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -421,6 +442,14 @@
 				8C51228722DE0FA80059DC4F /* main.cpp */,
 			);
 			path = "22. Generate Parentheses";
+			sourceTree = "<group>";
+		};
+		8CE8257F22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8258022E1FD1A00F088C3 /* main.cpp */,
+			);
+			path = "32. Longest Valid Parentheses";
 			sourceTree = "<group>";
 		};
 		E722327622DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
@@ -646,6 +675,23 @@
 			productReference = 8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CE8257D22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE8258422E1FD1A00F088C3 /* Build configuration list for PBXNativeTarget "32. Longest Valid Parentheses" */;
+			buildPhases = (
+				8CE8257A22E1FD1A00F088C3 /* Sources */,
+				8CE8257B22E1FD1A00F088C3 /* Frameworks */,
+				8CE8257C22E1FD1A00F088C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "32. Longest Valid Parentheses";
+			productName = "32. Longest Valid Parentheses";
+			productReference = 8CE8257E22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */;
+			productType = "com.apple.product-type.tool";
+		};
 		E722327422DA22290039F6AF /* 5. Longest Palindromic Substring */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E722327B22DA22290039F6AF /* Build configuration list for PBXNativeTarget "5. Longest Palindromic Substring" */;
@@ -725,6 +771,9 @@
 					8C51228422DE0FA80059DC4F = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8CE8257D22E1FD1A00F088C3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					E722327422DA22290039F6AF = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -759,6 +808,7 @@
 				8C51228422DE0FA80059DC4F /* 22. Generate Parentheses */,
 				E722327F22DF77B10039F6AF /* 28. Implement strStr() */,
 				8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */,
+				8CE8257D22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */,
 			);
 		};
 /* End PBXProject section */
@@ -857,6 +907,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C51228822DE0FA80059DC4F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE8257A22E1FD1A00F088C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE8258122E1FD1A00F088C3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1182,6 +1240,22 @@
 			};
 			name = Release;
 		};
+		8CE8258222E1FD1A00F088C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE8258322E1FD1A00F088C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E722327922DA22290039F6AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1334,6 +1408,15 @@
 			buildConfigurations = (
 				8C51228A22DE0FA80059DC4F /* Debug */,
 				8C51228B22DE0FA80059DC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE8258422E1FD1A00F088C3 /* Build configuration list for PBXNativeTarget "32. Longest Valid Parentheses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE8258222E1FD1A00F088C3 /* Debug */,
+				8CE8258322E1FD1A00F088C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
