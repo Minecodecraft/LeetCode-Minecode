@@ -7,7 +7,7 @@
 //
 
 /* ------------------------------------------------------ *\
- https://leetcode-cn.com/problems/Sample/description/
+ https://leetcode.com/problems/longest-valid-parentheses/
 \* ------------------------------------------------------ */
 
 #include <map>
