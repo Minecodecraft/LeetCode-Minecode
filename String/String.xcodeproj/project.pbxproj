@@ -20,6 +20,7 @@
 		8C51227D22DE0E620059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227C22DE0E620059DC4F /* main.cpp */; };
 		8C51228822DE0FA80059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51228722DE0FA80059DC4F /* main.cpp */; };
 		8C7846B722E5EA61004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846B622E5EA61004A186F /* main.cpp */; };
+		8C7846C222E6C4DE004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846C122E6C4DE004A186F /* main.cpp */; };
 		8CE8258122E1FD1A00F088C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8258022E1FD1A00F088C3 /* main.cpp */; };
 		8CE8258C22E2150A00F088C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8258B22E2150A00F088C3 /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
@@ -144,6 +145,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C7846BD22E6C4DE004A186F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CE8257C22E1FD1A00F088C3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +219,8 @@
 		8C51228722DE0FA80059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7846B422E5EA61004A186F /* 43. Multiply Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "43. Multiply Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7846B622E5EA61004A186F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7846BF22E6C4DE004A186F /* 44. Wildcard Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "44. Wildcard Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7846C122E6C4DE004A186F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE8257E22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32. Longest Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE8258022E1FD1A00F088C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE8258922E2150A00F088C3 /* 38. Count and Say */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "38. Count and Say"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,6 +323,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C7846BC22E6C4DE004A186F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CE8257B22E1FD1A00F088C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +381,7 @@
 				8CE8257F22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */,
 				8CE8258A22E2150A00F088C3 /* 38. Count and Say */,
 				8C7846B522E5EA61004A186F /* 43. Multiply Strings */,
+				8C7846C022E6C4DE004A186F /* 44. Wildcard Matching */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -386,6 +406,7 @@
 				8CE8257E22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */,
 				8CE8258922E2150A00F088C3 /* 38. Count and Say */,
 				8C7846B422E5EA61004A186F /* 43. Multiply Strings */,
+				8C7846BF22E6C4DE004A186F /* 44. Wildcard Matching */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -492,6 +513,14 @@
 				8C7846B622E5EA61004A186F /* main.cpp */,
 			);
 			path = "43. Multiply Strings";
+			sourceTree = "<group>";
+		};
+		8C7846C022E6C4DE004A186F /* 44. Wildcard Matching */ = {
+			isa = PBXGroup;
+			children = (
+				8C7846C122E6C4DE004A186F /* main.cpp */,
+			);
+			path = "44. Wildcard Matching";
 			sourceTree = "<group>";
 		};
 		8CE8257F22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {
@@ -750,6 +779,23 @@
 			productReference = 8C7846B422E5EA61004A186F /* 43. Multiply Strings */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7846BE22E6C4DE004A186F /* 44. Wildcard Matching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7846C522E6C4DE004A186F /* Build configuration list for PBXNativeTarget "44. Wildcard Matching" */;
+			buildPhases = (
+				8C7846BB22E6C4DE004A186F /* Sources */,
+				8C7846BC22E6C4DE004A186F /* Frameworks */,
+				8C7846BD22E6C4DE004A186F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "44. Wildcard Matching";
+			productName = "44. Wildcard Matching";
+			productReference = 8C7846BF22E6C4DE004A186F /* 44. Wildcard Matching */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CE8257D22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE8258422E1FD1A00F088C3 /* Build configuration list for PBXNativeTarget "32. Longest Valid Parentheses" */;
@@ -866,6 +912,9 @@
 					8C7846B322E5EA61004A186F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C7846BE22E6C4DE004A186F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CE8257D22E1FD1A00F088C3 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -909,6 +958,7 @@
 				8CE8257D22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */,
 				8CE8258822E2150A00F088C3 /* 38. Count and Say */,
 				8C7846B322E5EA61004A186F /* 43. Multiply Strings */,
+				8C7846BE22E6C4DE004A186F /* 44. Wildcard Matching */,
 			);
 		};
 /* End PBXProject section */
@@ -1015,6 +1065,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7846B722E5EA61004A186F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7846BB22E6C4DE004A186F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7846C222E6C4DE004A186F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1372,6 +1430,22 @@
 			};
 			name = Release;
 		};
+		8C7846C322E6C4DE004A186F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7846C422E6C4DE004A186F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CE8258222E1FD1A00F088C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1565,6 +1639,15 @@
 			buildConfigurations = (
 				8C7846B822E5EA61004A186F /* Debug */,
 				8C7846B922E5EA61004A186F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7846C522E6C4DE004A186F /* Build configuration list for PBXNativeTarget "44. Wildcard Matching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7846C322E6C4DE004A186F /* Debug */,
+				8C7846C422E6C4DE004A186F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
