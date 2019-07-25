@@ -19,6 +19,7 @@
 		8C51227222DE04FA0059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227122DE04FA0059DC4F /* main.cpp */; };
 		8C51227D22DE0E620059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51227C22DE0E620059DC4F /* main.cpp */; };
 		8C51228822DE0FA80059DC4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C51228722DE0FA80059DC4F /* main.cpp */; };
+		8C53D71A22E9FF0600D8375E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C53D71922E9FF0600D8375E /* main.cpp */; };
 		8C7846B722E5EA61004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846B622E5EA61004A186F /* main.cpp */; };
 		8C7846C222E6C4DE004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846C122E6C4DE004A186F /* main.cpp */; };
 		8CE8258122E1FD1A00F088C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8258022E1FD1A00F088C3 /* main.cpp */; };
@@ -136,6 +137,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C53D71522E9FF0600D8375E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C7846B222E5EA61004A186F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +227,8 @@
 		8C51227C22DE0E620059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "22. Generate Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C51228722DE0FA80059DC4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C53D71722E9FF0600D8375E /* 49. Group Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49. Group Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C53D71922E9FF0600D8375E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7846B422E5EA61004A186F /* 43. Multiply Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "43. Multiply Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7846B622E5EA61004A186F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7846BF22E6C4DE004A186F /* 44. Wildcard Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "44. Wildcard Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,6 +328,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C53D71422E9FF0600D8375E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7846B122E5EA61004A186F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +401,7 @@
 				8CE8258A22E2150A00F088C3 /* 38. Count and Say */,
 				8C7846B522E5EA61004A186F /* 43. Multiply Strings */,
 				8C7846C022E6C4DE004A186F /* 44. Wildcard Matching */,
+				8C53D71822E9FF0600D8375E /* 49. Group Anagrams */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -407,6 +427,7 @@
 				8CE8258922E2150A00F088C3 /* 38. Count and Say */,
 				8C7846B422E5EA61004A186F /* 43. Multiply Strings */,
 				8C7846BF22E6C4DE004A186F /* 44. Wildcard Matching */,
+				8C53D71722E9FF0600D8375E /* 49. Group Anagrams */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -505,6 +526,14 @@
 				8C51228722DE0FA80059DC4F /* main.cpp */,
 			);
 			path = "22. Generate Parentheses";
+			sourceTree = "<group>";
+		};
+		8C53D71822E9FF0600D8375E /* 49. Group Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+				8C53D71922E9FF0600D8375E /* main.cpp */,
+			);
+			path = "49. Group Anagrams";
 			sourceTree = "<group>";
 		};
 		8C7846B522E5EA61004A186F /* 43. Multiply Strings */ = {
@@ -762,6 +791,23 @@
 			productReference = 8C51228522DE0FA80059DC4F /* 22. Generate Parentheses */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C53D71622E9FF0600D8375E /* 49. Group Anagrams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C53D71D22E9FF0600D8375E /* Build configuration list for PBXNativeTarget "49. Group Anagrams" */;
+			buildPhases = (
+				8C53D71322E9FF0600D8375E /* Sources */,
+				8C53D71422E9FF0600D8375E /* Frameworks */,
+				8C53D71522E9FF0600D8375E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "49. Group Anagrams";
+			productName = "49. Group Anagrams";
+			productReference = 8C53D71722E9FF0600D8375E /* 49. Group Anagrams */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C7846B322E5EA61004A186F /* 43. Multiply Strings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7846BA22E5EA61004A186F /* Build configuration list for PBXNativeTarget "43. Multiply Strings" */;
@@ -909,6 +955,9 @@
 					8C51228422DE0FA80059DC4F = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8C53D71622E9FF0600D8375E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C7846B322E5EA61004A186F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -959,6 +1008,7 @@
 				8CE8258822E2150A00F088C3 /* 38. Count and Say */,
 				8C7846B322E5EA61004A186F /* 43. Multiply Strings */,
 				8C7846BE22E6C4DE004A186F /* 44. Wildcard Matching */,
+				8C53D71622E9FF0600D8375E /* 49. Group Anagrams */,
 			);
 		};
 /* End PBXProject section */
@@ -1057,6 +1107,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C51228822DE0FA80059DC4F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C53D71322E9FF0600D8375E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C53D71A22E9FF0600D8375E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1414,6 +1472,22 @@
 			};
 			name = Release;
 		};
+		8C53D71B22E9FF0600D8375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C53D71C22E9FF0600D8375E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C7846B822E5EA61004A186F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1630,6 +1704,15 @@
 			buildConfigurations = (
 				8C51228A22DE0FA80059DC4F /* Debug */,
 				8C51228B22DE0FA80059DC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C53D71D22E9FF0600D8375E /* Build configuration list for PBXNativeTarget "49. Group Anagrams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C53D71B22E9FF0600D8375E /* Debug */,
+				8C53D71C22E9FF0600D8375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
