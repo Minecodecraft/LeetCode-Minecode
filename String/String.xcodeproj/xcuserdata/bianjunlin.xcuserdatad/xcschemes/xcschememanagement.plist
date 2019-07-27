@@ -99,6 +99,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>67. Add Binary.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>8. String to Integer (atoi).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
