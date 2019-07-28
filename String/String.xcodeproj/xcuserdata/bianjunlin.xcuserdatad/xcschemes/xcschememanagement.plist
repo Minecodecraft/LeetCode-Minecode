@@ -7,7 +7,7 @@
 		<key>10. Regular Expression Matching.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>12. Integer to Roman.xcscheme_^#shared#^_</key>
 		<dict>
@@ -47,7 +47,7 @@
 		<key>3. Longest Substring Without Repeating Characters.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>30. Substring with Concatenation of All Words.xcscheme_^#shared#^_</key>
 		<dict>
@@ -82,7 +82,7 @@
 		<key>5. Longest Palindromic Substring.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>58. Length of Last Word.xcscheme_^#shared#^_</key>
 		<dict>
@@ -92,7 +92,7 @@
 		<key>6. ZigZag Conversion.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>65. Valid Number.xcscheme_^#shared#^_</key>
 		<dict>
@@ -122,12 +122,12 @@
 		<key>8. String to Integer (atoi).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
