@@ -27,6 +27,7 @@
 		8C7846B722E5EA61004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846B622E5EA61004A186F /* main.cpp */; };
 		8C7846C222E6C4DE004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846C122E6C4DE004A186F /* main.cpp */; };
 		8CC607AA22ED371C00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607A922ED371C00540D47 /* main.cpp */; };
+		8CC607B522ED642E00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607B422ED642E00540D47 /* main.cpp */; };
 		8CE8258122E1FD1A00F088C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8258022E1FD1A00F088C3 /* main.cpp */; };
 		8CE8258C22E2150A00F088C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8258B22E2150A00F088C3 /* main.cpp */; };
 		E722327822DA22290039F6AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E722327722DA22290039F6AF /* main.cpp */; };
@@ -214,6 +215,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC607B022ED642E00540D47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CE8257C22E1FD1A00F088C3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +303,8 @@
 		8C7846C122E6C4DE004A186F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC607A722ED371C00540D47 /* 71. Simplify Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "71. Simplify Path"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC607A922ED371C00540D47 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC607B222ED642E00540D47 /* 72. Edit Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "72. Edit Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC607B422ED642E00540D47 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE8257E22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32. Longest Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE8258022E1FD1A00F088C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE8258922E2150A00F088C3 /* 38. Count and Say */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "38. Count and Say"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -444,6 +456,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC607AF22ED642E00540D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CE8257B22E1FD1A00F088C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,6 +521,7 @@
 				8C53D74122EC934300D8375E /* 67. Add Binary */,
 				8C16AEB722EC9E5D00A069C8 /* 68. Text Justification */,
 				8CC607A822ED371C00540D47 /* 71. Simplify Path */,
+				8CC607B322ED642E00540D47 /* 72. Edit Distance */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -533,6 +553,7 @@
 				8C53D74022EC934300D8375E /* 67. Add Binary */,
 				8C16AEB622EC9E5D00A069C8 /* 68. Text Justification */,
 				8CC607A722ED371C00540D47 /* 71. Simplify Path */,
+				8CC607B222ED642E00540D47 /* 72. Edit Distance */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -695,6 +716,14 @@
 				8CC607A922ED371C00540D47 /* main.cpp */,
 			);
 			path = "71. Simplify Path";
+			sourceTree = "<group>";
+		};
+		8CC607B322ED642E00540D47 /* 72. Edit Distance */ = {
+			isa = PBXGroup;
+			children = (
+				8CC607B422ED642E00540D47 /* main.cpp */,
+			);
+			path = "72. Edit Distance";
 			sourceTree = "<group>";
 		};
 		8CE8257F22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {
@@ -1072,6 +1101,23 @@
 			productReference = 8CC607A722ED371C00540D47 /* 71. Simplify Path */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC607B122ED642E00540D47 /* 72. Edit Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC607B822ED642E00540D47 /* Build configuration list for PBXNativeTarget "72. Edit Distance" */;
+			buildPhases = (
+				8CC607AE22ED642E00540D47 /* Sources */,
+				8CC607AF22ED642E00540D47 /* Frameworks */,
+				8CC607B022ED642E00540D47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "72. Edit Distance";
+			productName = "72. Edit Distance";
+			productReference = 8CC607B222ED642E00540D47 /* 72. Edit Distance */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CE8257D22E1FD1A00F088C3 /* 32. Longest Valid Parentheses */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE8258422E1FD1A00F088C3 /* Build configuration list for PBXNativeTarget "32. Longest Valid Parentheses" */;
@@ -1209,6 +1255,9 @@
 					8CC607A622ED371C00540D47 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CC607B122ED642E00540D47 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CE8257D22E1FD1A00F088C3 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -1259,6 +1308,7 @@
 				8C53D73F22EC934300D8375E /* 67. Add Binary */,
 				8C16AEB522EC9E5D00A069C8 /* 68. Text Justification */,
 				8CC607A622ED371C00540D47 /* 71. Simplify Path */,
+				8CC607B122ED642E00540D47 /* 72. Edit Distance */,
 			);
 		};
 /* End PBXProject section */
@@ -1421,6 +1471,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC607AA22ED371C00540D47 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC607AE22ED642E00540D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC607B522ED642E00540D47 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1890,6 +1948,22 @@
 			};
 			name = Release;
 		};
+		8CC607B622ED642E00540D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC607B722ED642E00540D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CE8258222E1FD1A00F088C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2146,6 +2220,15 @@
 			buildConfigurations = (
 				8CC607AB22ED371C00540D47 /* Debug */,
 				8CC607AC22ED371C00540D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC607B822ED642E00540D47 /* Build configuration list for PBXNativeTarget "72. Edit Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC607B622ED642E00540D47 /* Debug */,
+				8CC607B722ED642E00540D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
