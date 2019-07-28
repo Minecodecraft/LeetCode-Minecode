@@ -119,6 +119,11 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
+		<key>76. Minimum Window Substring.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>8. String to Integer (atoi).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
