@@ -13,6 +13,7 @@
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
+		8C49554922EF38CA00D73448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C49554822EF38CA00D73448 /* main.cpp */; };
 		8C4E0E6A22DC412300766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E6922DC412300766170 /* main.cpp */; };
 		8C4E0E8B22DD6B3200766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E8A22DD6B3200766170 /* main.cpp */; };
 		8C4E0E9622DD945C00766170 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E0E9522DD945C00766170 /* main.cpp */; };
@@ -82,6 +83,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C46A39022DAEB1500769BB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C49554422EF38CA00D73448 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -285,6 +295,8 @@
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A39422DAEB1500769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C49554622EF38CA00D73448 /* 87. Scramble String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "87. Scramble String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C49554822EF38CA00D73448 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4E0E6722DC412300766170 /* 10. Regular Expression Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10. Regular Expression Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E0E6922DC412300766170 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4E0E8822DD6B3200766170 /* 12. Integer to Roman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12. Integer to Roman"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,6 +376,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C46A38F22DAEB1500769BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C49554322EF38CA00D73448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -542,6 +561,7 @@
 				8CC607A822ED371C00540D47 /* 71. Simplify Path */,
 				8CC607B322ED642E00540D47 /* 72. Edit Distance */,
 				8CC607BE22EDCBDF00540D47 /* 76. Minimum Window Substring */,
+				8C49554722EF38CA00D73448 /* 87. Scramble String */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -575,6 +595,7 @@
 				8CC607A722ED371C00540D47 /* 71. Simplify Path */,
 				8CC607B222ED642E00540D47 /* 72. Edit Distance */,
 				8CC607BD22EDCBDF00540D47 /* 76. Minimum Window Substring */,
+				8C49554622EF38CA00D73448 /* 87. Scramble String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -625,6 +646,14 @@
 				8C46A39422DAEB1500769BB0 /* main.cpp */,
 			);
 			path = "8. String to Integer (atoi)";
+			sourceTree = "<group>";
+		};
+		8C49554722EF38CA00D73448 /* 87. Scramble String */ = {
+			isa = PBXGroup;
+			children = (
+				8C49554822EF38CA00D73448 /* main.cpp */,
+			);
+			path = "87. Scramble String";
 			sourceTree = "<group>";
 		};
 		8C4E0E6822DC412300766170 /* 10. Regular Expression Matching */ = {
@@ -890,6 +919,23 @@
 			name = "8. String to Integer (atoi)";
 			productName = "8. String to Integer (atoi)";
 			productReference = 8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C49554522EF38CA00D73448 /* 87. Scramble String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C49554C22EF38CA00D73448 /* Build configuration list for PBXNativeTarget "87. Scramble String" */;
+			buildPhases = (
+				8C49554222EF38CA00D73448 /* Sources */,
+				8C49554322EF38CA00D73448 /* Frameworks */,
+				8C49554422EF38CA00D73448 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "87. Scramble String";
+			productName = "87. Scramble String";
+			productReference = 8C49554622EF38CA00D73448 /* 87. Scramble String */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C4E0E6622DC412300766170 /* 10. Regular Expression Matching */ = {
@@ -1259,6 +1305,9 @@
 					8C46A39122DAEB1500769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
+					8C49554522EF38CA00D73448 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C4E0E6622DC412300766170 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -1359,6 +1408,7 @@
 				8CC607A622ED371C00540D47 /* 71. Simplify Path */,
 				8CC607B122ED642E00540D47 /* 72. Edit Distance */,
 				8CC607BC22EDCBDF00540D47 /* 76. Minimum Window Substring */,
+				8C49554522EF38CA00D73448 /* 87. Scramble String */,
 			);
 		};
 /* End PBXProject section */
@@ -1409,6 +1459,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C46A39522DAEB1500769BB0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C49554222EF38CA00D73448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C49554922EF38CA00D73448 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1775,6 +1833,22 @@
 			name = Debug;
 		};
 		8C46A39822DAEB1500769BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C49554A22EF38CA00D73448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C49554B22EF38CA00D73448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2168,6 +2242,15 @@
 			buildConfigurations = (
 				8C46A39722DAEB1500769BB0 /* Debug */,
 				8C46A39822DAEB1500769BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C49554C22EF38CA00D73448 /* Build configuration list for PBXNativeTarget "87. Scramble String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C49554A22EF38CA00D73448 /* Debug */,
+				8C49554B22EF38CA00D73448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
