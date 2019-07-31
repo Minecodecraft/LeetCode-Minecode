@@ -27,6 +27,7 @@
 		8C53D72522EA06A100D8375E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C53D72422EA06A100D8375E /* main.cpp */; };
 		8C53D73022EAB90C00D8375E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C53D72F22EAB90C00D8375E /* main.cpp */; };
 		8C53D74322EC934300D8375E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C53D74222EC934300D8375E /* main.cpp */; };
+		8C609C1222F12BCE00FB1F06 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C609C1122F12BCE00FB1F06 /* main.cpp */; };
 		8C7846B722E5EA61004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846B622E5EA61004A186F /* main.cpp */; };
 		8C7846C222E6C4DE004A186F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7846C122E6C4DE004A186F /* main.cpp */; };
 		8CC607AA22ED371C00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607A922ED371C00540D47 /* main.cpp */; };
@@ -219,6 +220,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C609C0D22F12BCE00FB1F06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C7846B222E5EA61004A186F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +353,8 @@
 		8C53D72F22EAB90C00D8375E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C53D74022EC934300D8375E /* 67. Add Binary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "67. Add Binary"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C53D74222EC934300D8375E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C609C0F22F12BCE00FB1F06 /* 97. Interleaving String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "97. Interleaving String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C609C1122F12BCE00FB1F06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7846B422E5EA61004A186F /* 43. Multiply Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "43. Multiply Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7846B622E5EA61004A186F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7846BF22E6C4DE004A186F /* 44. Wildcard Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "44. Wildcard Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -504,6 +516,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C609C0C22F12BCE00FB1F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7846B122E5EA61004A186F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -602,6 +621,7 @@
 				8C49554722EF38CA00D73448 /* 87. Scramble String */,
 				8C49555222F0007D00D73448 /* 91. Decode Ways */,
 				8C49555D22F0050E00D73448 /* 93. Restore IP Addresses */,
+				8C609C1022F12BCE00FB1F06 /* 97. Interleaving String */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -638,6 +658,7 @@
 				8C49554622EF38CA00D73448 /* 87. Scramble String */,
 				8C49555122F0007D00D73448 /* 91. Decode Ways */,
 				8C49555C22F0050E00D73448 /* 93. Restore IP Addresses */,
+				8C609C0F22F12BCE00FB1F06 /* 97. Interleaving String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -800,6 +821,14 @@
 				8C53D74222EC934300D8375E /* main.cpp */,
 			);
 			path = "67. Add Binary";
+			sourceTree = "<group>";
+		};
+		8C609C1022F12BCE00FB1F06 /* 97. Interleaving String */ = {
+			isa = PBXGroup;
+			children = (
+				8C609C1122F12BCE00FB1F06 /* main.cpp */,
+			);
+			path = "97. Interleaving String";
 			sourceTree = "<group>";
 		};
 		8C7846B522E5EA61004A186F /* 43. Multiply Strings */ = {
@@ -1217,6 +1246,23 @@
 			productReference = 8C53D74022EC934300D8375E /* 67. Add Binary */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C609C0E22F12BCE00FB1F06 /* 97. Interleaving String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C609C1522F12BCE00FB1F06 /* Build configuration list for PBXNativeTarget "97. Interleaving String" */;
+			buildPhases = (
+				8C609C0B22F12BCE00FB1F06 /* Sources */,
+				8C609C0C22F12BCE00FB1F06 /* Frameworks */,
+				8C609C0D22F12BCE00FB1F06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "97. Interleaving String";
+			productName = "97. Interleaving String";
+			productReference = 8C609C0F22F12BCE00FB1F06 /* 97. Interleaving String */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C7846B322E5EA61004A186F /* 43. Multiply Strings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7846BA22E5EA61004A186F /* Build configuration list for PBXNativeTarget "43. Multiply Strings" */;
@@ -1439,6 +1485,9 @@
 					8C53D73F22EC934300D8375E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C609C0E22F12BCE00FB1F06 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C7846B322E5EA61004A186F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1509,6 +1558,7 @@
 				8C49554522EF38CA00D73448 /* 87. Scramble String */,
 				8C49555022F0007D00D73448 /* 91. Decode Ways */,
 				8C49555B22F0050E00D73448 /* 93. Restore IP Addresses */,
+				8C609C0E22F12BCE00FB1F06 /* 97. Interleaving String */,
 			);
 		};
 /* End PBXProject section */
@@ -1671,6 +1721,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C53D74322EC934300D8375E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C609C0B22F12BCE00FB1F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C609C1222F12BCE00FB1F06 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2180,6 +2238,22 @@
 			};
 			name = Release;
 		};
+		8C609C1322F12BCE00FB1F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C609C1422F12BCE00FB1F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C7846B822E5EA61004A186F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2516,6 +2590,15 @@
 			buildConfigurations = (
 				8C53D74422EC934300D8375E /* Debug */,
 				8C53D74522EC934300D8375E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C609C1522F12BCE00FB1F06 /* Build configuration list for PBXNativeTarget "97. Interleaving String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C609C1322F12BCE00FB1F06 /* Debug */,
+				8C609C1422F12BCE00FB1F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
