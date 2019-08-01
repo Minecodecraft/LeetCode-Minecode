@@ -41,7 +41,6 @@ public:
 
         for (int i = 1; i <= ls; ++i) {
             for (int j = 1; j <= lt; ++j) {
-                // get
                 dp[i][j] = dp[i-1][j];
                 if (s[i-1] == t[j-1])
                     dp[i][j] += dp[i-1][j-1];
@@ -66,7 +65,6 @@ public:
         for (int i = 1; i <= ls; ++i) {
             pre[0] = 1;
             for (int j = 1; j <= lt; ++j) {
-                // get
                 cur[j] = pre[j];
                 if (s[i-1] == t[j-1])
                     cur[j] += pre[j-1];
