@@ -22,17 +22,17 @@
 		<key>125. Valid Palindrome.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>32</integer>
 		</dict>
 		<key>126. Word Ladder II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>33</integer>
 		</dict>
 		<key>127. Word Ladder.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>31</integer>
 		</dict>
 		<key>13. Roman to Integer.xcscheme_^#shared#^_</key>
 		<dict>
@@ -43,6 +43,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+		<key>151. Reverse Words in a String.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
 		</dict>
 		<key>17. Letter Combinations of a Phone Number.xcscheme_^#shared#^_</key>
 		<dict>
