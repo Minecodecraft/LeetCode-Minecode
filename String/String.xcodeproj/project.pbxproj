@@ -37,6 +37,7 @@
 		8C7E0E3E22F7C17F007BB1A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E0E3D22F7C17F007BB1A6 /* main.cpp */; };
 		8C7E0E4922F7C427007BB1A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E0E4822F7C427007BB1A6 /* main.cpp */; };
 		8C7E0E5422F7E967007BB1A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E0E5322F7E967007BB1A6 /* main.cpp */; };
+		8CBE7A3E22F911D50026C9F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7A3D22F911D50026C9F0 /* main.cpp */; };
 		8CC607AA22ED371C00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607A922ED371C00540D47 /* main.cpp */; };
 		8CC607B522ED642E00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607B422ED642E00540D47 /* main.cpp */; };
 		8CC607C022EDCBDF00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607BF22EDCBDF00540D47 /* main.cpp */; };
@@ -317,6 +318,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CBE7A3922F911D50026C9F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CC607A522ED371C00540D47 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,6 +453,8 @@
 		8C7E0E4822F7C427007BB1A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7E0E5122F7E967007BB1A6 /* 214. Shortest Palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "214. Shortest Palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7E0E5322F7E967007BB1A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CBE7A3B22F911D50026C9F0 /* 227. Basic Calculator II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "227. Basic Calculator II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBE7A3D22F911D50026C9F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC607A722ED371C00540D47 /* 71. Simplify Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "71. Simplify Path"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC607A922ED371C00540D47 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC607B222ED642E00540D47 /* 72. Edit Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "72. Edit Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -670,6 +682,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CBE7A3822F911D50026C9F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CC607A422ED371C00540D47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -762,6 +781,7 @@
 				8C7E0E3C22F7C17F007BB1A6 /* 151. Reverse Words in a String */,
 				8C7E0E4722F7C427007BB1A6 /* 165. Compare Version Numbers */,
 				8C7E0E5222F7E967007BB1A6 /* 214. Shortest Palindrome */,
+				8CBE7A3C22F911D50026C9F0 /* 227. Basic Calculator II */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -806,6 +826,7 @@
 				8C7E0E3B22F7C17F007BB1A6 /* 151. Reverse Words in a String */,
 				8C7E0E4622F7C427007BB1A6 /* 165. Compare Version Numbers */,
 				8C7E0E5122F7E967007BB1A6 /* 214. Shortest Palindrome */,
+				8CBE7A3B22F911D50026C9F0 /* 227. Basic Calculator II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1048,6 +1069,14 @@
 				8C7E0E5322F7E967007BB1A6 /* main.cpp */,
 			);
 			path = "214. Shortest Palindrome";
+			sourceTree = "<group>";
+		};
+		8CBE7A3C22F911D50026C9F0 /* 227. Basic Calculator II */ = {
+			isa = PBXGroup;
+			children = (
+				8CBE7A3D22F911D50026C9F0 /* main.cpp */,
+			);
+			path = "227. Basic Calculator II";
 			sourceTree = "<group>";
 		};
 		8CC607A822ED371C00540D47 /* 71. Simplify Path */ = {
@@ -1619,6 +1648,23 @@
 			productReference = 8C7E0E5122F7E967007BB1A6 /* 214. Shortest Palindrome */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CBE7A3A22F911D50026C9F0 /* 227. Basic Calculator II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBE7A4122F911D50026C9F0 /* Build configuration list for PBXNativeTarget "227. Basic Calculator II" */;
+			buildPhases = (
+				8CBE7A3722F911D50026C9F0 /* Sources */,
+				8CBE7A3822F911D50026C9F0 /* Frameworks */,
+				8CBE7A3922F911D50026C9F0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "227. Basic Calculator II";
+			productName = "227. Basic Calculator II";
+			productReference = 8CBE7A3B22F911D50026C9F0 /* 227. Basic Calculator II */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC607A622ED371C00540D47 /* 71. Simplify Path */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC607AD22ED371C00540D47 /* Build configuration list for PBXNativeTarget "71. Simplify Path" */;
@@ -1837,6 +1883,9 @@
 					8C7E0E5022F7E967007BB1A6 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CBE7A3A22F911D50026C9F0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CC607A622ED371C00540D47 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1909,6 +1958,7 @@
 				8C7E0E3A22F7C17F007BB1A6 /* 151. Reverse Words in a String */,
 				8C7E0E4522F7C427007BB1A6 /* 165. Compare Version Numbers */,
 				8C7E0E5022F7E967007BB1A6 /* 214. Shortest Palindrome */,
+				8CBE7A3A22F911D50026C9F0 /* 227. Basic Calculator II */,
 			);
 		};
 /* End PBXProject section */
@@ -2151,6 +2201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7E0E5422F7E967007BB1A6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBE7A3722F911D50026C9F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBE7A3E22F911D50026C9F0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2804,6 +2862,22 @@
 			};
 			name = Release;
 		};
+		8CBE7A3F22F911D50026C9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBE7A4022F911D50026C9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CC607AB22ED371C00540D47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3198,6 +3272,15 @@
 			buildConfigurations = (
 				8C7E0E5522F7E967007BB1A6 /* Debug */,
 				8C7E0E5622F7E967007BB1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBE7A4122F911D50026C9F0 /* Build configuration list for PBXNativeTarget "227. Basic Calculator II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBE7A3F22F911D50026C9F0 /* Debug */,
+				8CBE7A4022F911D50026C9F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
