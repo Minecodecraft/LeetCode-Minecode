@@ -13,6 +13,7 @@
 		8C3B31BD22F1D427006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31BC22F1D427006101FC /* main.cpp */; };
 		8C3B31C822F27A5E006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31C722F27A5E006101FC /* main.cpp */; };
 		8C3B31D322F27CBE006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31D222F27CBE006101FC /* main.cpp */; };
+		8C41A4D622FC5FCF0045EA43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A4D522FC5FCF0045EA43 /* main.cpp */; };
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
@@ -94,6 +95,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C3B31CE22F27CBE006101FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C41A4D122FC5FCF0045EA43 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -405,6 +415,8 @@
 		8C3B31C722F27A5E006101FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C3B31D022F27CBE006101FC /* 126. Word Ladder II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "126. Word Ladder II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3B31D222F27CBE006101FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C41A4D322FC5FCF0045EA43 /* 273. Integer to English Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "273. Integer to English Words"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C41A4D522FC5FCF0045EA43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. Substring with Concatenation of All Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43FFB322E0384300222D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -508,6 +520,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C3B31CD22F27CBE006101FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A4D022FC5FCF0045EA43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -782,6 +801,7 @@
 				8C7E0E4722F7C427007BB1A6 /* 165. Compare Version Numbers */,
 				8C7E0E5222F7E967007BB1A6 /* 214. Shortest Palindrome */,
 				8CBE7A3C22F911D50026C9F0 /* 227. Basic Calculator II */,
+				8C41A4D422FC5FCF0045EA43 /* 273. Integer to English Words */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -827,6 +847,7 @@
 				8C7E0E4622F7C427007BB1A6 /* 165. Compare Version Numbers */,
 				8C7E0E5122F7E967007BB1A6 /* 214. Shortest Palindrome */,
 				8CBE7A3B22F911D50026C9F0 /* 227. Basic Calculator II */,
+				8C41A4D322FC5FCF0045EA43 /* 273. Integer to English Words */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -877,6 +898,14 @@
 				8C3B31D222F27CBE006101FC /* main.cpp */,
 			);
 			path = "126. Word Ladder II";
+			sourceTree = "<group>";
+		};
+		8C41A4D422FC5FCF0045EA43 /* 273. Integer to English Words */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A4D522FC5FCF0045EA43 /* main.cpp */,
+			);
+			path = "273. Integer to English Words";
 			sourceTree = "<group>";
 		};
 		8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -1238,6 +1267,23 @@
 			name = "126. Word Ladder II";
 			productName = "126. Word Ladder II";
 			productReference = 8C3B31D022F27CBE006101FC /* 126. Word Ladder II */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C41A4D222FC5FCF0045EA43 /* 273. Integer to English Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C41A4D922FC5FCF0045EA43 /* Build configuration list for PBXNativeTarget "273. Integer to English Words" */;
+			buildPhases = (
+				8C41A4CF22FC5FCF0045EA43 /* Sources */,
+				8C41A4D022FC5FCF0045EA43 /* Frameworks */,
+				8C41A4D122FC5FCF0045EA43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "273. Integer to English Words";
+			productName = "273. Integer to English Words";
+			productReference = 8C41A4D322FC5FCF0045EA43 /* 273. Integer to English Words */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -1811,6 +1857,9 @@
 					8C3B31CF22F27CBE006101FC = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C41A4D222FC5FCF0045EA43 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C43FFB022E0384300222D53 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1959,6 +2008,7 @@
 				8C7E0E4522F7C427007BB1A6 /* 165. Compare Version Numbers */,
 				8C7E0E5022F7E967007BB1A6 /* 214. Shortest Palindrome */,
 				8CBE7A3A22F911D50026C9F0 /* 227. Basic Calculator II */,
+				8C41A4D222FC5FCF0045EA43 /* 273. Integer to English Words */,
 			);
 		};
 /* End PBXProject section */
@@ -2009,6 +2059,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3B31D322F27CBE006101FC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A4CF22FC5FCF0045EA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A4D622FC5FCF0045EA43 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2471,6 +2529,22 @@
 			name = Debug;
 		};
 		8C3B31D622F27CBE006101FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C41A4D722FC5FCF0045EA43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C41A4D822FC5FCF0045EA43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3056,6 +3130,15 @@
 			buildConfigurations = (
 				8C3B31D522F27CBE006101FC /* Debug */,
 				8C3B31D622F27CBE006101FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C41A4D922FC5FCF0045EA43 /* Build configuration list for PBXNativeTarget "273. Integer to English Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C41A4D722FC5FCF0045EA43 /* Debug */,
+				8C41A4D822FC5FCF0045EA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
