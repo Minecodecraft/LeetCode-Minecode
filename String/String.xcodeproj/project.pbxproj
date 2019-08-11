@@ -41,6 +41,7 @@
 		8C7F2ECC22FD90E40025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2ECB22FD90E40025B45B /* main.cpp */; };
 		8C7F2ED72300528D0025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2ED62300528D0025B45B /* main.cpp */; };
 		8C7F2EE2230053B90025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2EE1230053B90025B45B /* main.cpp */; };
+		8C7F2EED2300552D0025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2EEC2300552D0025B45B /* main.cpp */; };
 		8CBE7A3E22F911D50026C9F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7A3D22F911D50026C9F0 /* main.cpp */; };
 		8CC607AA22ED371C00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607A922ED371C00540D47 /* main.cpp */; };
 		8CC607B522ED642E00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607B422ED642E00540D47 /* main.cpp */; };
@@ -358,6 +359,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C7F2EE82300552D0025B45B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CBE7A3922F911D50026C9F0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,6 +511,8 @@
 		8C7F2ED62300528D0025B45B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7F2EDF230053B90025B45B /* 345. Reverse Vowels of a String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "345. Reverse Vowels of a String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7F2EE1230053B90025B45B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7F2EEA2300552D0025B45B /* 383. Ransom Note */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "383. Ransom Note"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F2EEC2300552D0025B45B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CBE7A3B22F911D50026C9F0 /* 227. Basic Calculator II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "227. Basic Calculator II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBE7A3D22F911D50026C9F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC607A722ED371C00540D47 /* 71. Simplify Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "71. Simplify Path"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -758,6 +770,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C7F2EE72300552D0025B45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CBE7A3822F911D50026C9F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -862,6 +881,7 @@
 				8C7F2ECA22FD90E40025B45B /* 336. Palindrome Pairs */,
 				8C7F2ED52300528D0025B45B /* 344. Reverse String */,
 				8C7F2EE0230053B90025B45B /* 345. Reverse Vowels of a String */,
+				8C7F2EEB2300552D0025B45B /* 383. Ransom Note */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -911,6 +931,7 @@
 				8C7F2EC922FD90E40025B45B /* 336. Palindrome Pairs */,
 				8C7F2ED42300528D0025B45B /* 344. Reverse String */,
 				8C7F2EDF230053B90025B45B /* 345. Reverse Vowels of a String */,
+				8C7F2EEA2300552D0025B45B /* 383. Ransom Note */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1185,6 +1206,14 @@
 				8C7F2EE1230053B90025B45B /* main.cpp */,
 			);
 			path = "345. Reverse Vowels of a String";
+			sourceTree = "<group>";
+		};
+		8C7F2EEB2300552D0025B45B /* 383. Ransom Note */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F2EEC2300552D0025B45B /* main.cpp */,
+			);
+			path = "383. Ransom Note";
 			sourceTree = "<group>";
 		};
 		8CBE7A3C22F911D50026C9F0 /* 227. Basic Calculator II */ = {
@@ -1832,6 +1861,23 @@
 			productReference = 8C7F2EDF230053B90025B45B /* 345. Reverse Vowels of a String */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7F2EE92300552D0025B45B /* 383. Ransom Note */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F2EEE2300552D0025B45B /* Build configuration list for PBXNativeTarget "383. Ransom Note" */;
+			buildPhases = (
+				8C7F2EE62300552D0025B45B /* Sources */,
+				8C7F2EE72300552D0025B45B /* Frameworks */,
+				8C7F2EE82300552D0025B45B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "383. Ransom Note";
+			productName = "383. Ransom Note";
+			productReference = 8C7F2EEA2300552D0025B45B /* 383. Ransom Note */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CBE7A3A22F911D50026C9F0 /* 227. Basic Calculator II */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CBE7A4122F911D50026C9F0 /* Build configuration list for PBXNativeTarget "227. Basic Calculator II" */;
@@ -2079,6 +2125,9 @@
 					8C7F2EDE230053B90025B45B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C7F2EE92300552D0025B45B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CBE7A3A22F911D50026C9F0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2159,6 +2208,7 @@
 				8C7F2EC822FD90E40025B45B /* 336. Palindrome Pairs */,
 				8C7F2ED32300528D0025B45B /* 344. Reverse String */,
 				8C7F2EDE230053B90025B45B /* 345. Reverse Vowels of a String */,
+				8C7F2EE92300552D0025B45B /* 383. Ransom Note */,
 			);
 		};
 /* End PBXProject section */
@@ -2433,6 +2483,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7F2EE2230053B90025B45B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F2EE62300552D0025B45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F2EED2300552D0025B45B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3158,6 +3216,22 @@
 			};
 			name = Release;
 		};
+		8C7F2EEF2300552D0025B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7F2EF02300552D0025B45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CBE7A3F22F911D50026C9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3604,6 +3678,15 @@
 			buildConfigurations = (
 				8C7F2EE4230053B90025B45B /* Debug */,
 				8C7F2EE5230053B90025B45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F2EEE2300552D0025B45B /* Build configuration list for PBXNativeTarget "383. Ransom Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F2EEF2300552D0025B45B /* Debug */,
+				8C7F2EF02300552D0025B45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
