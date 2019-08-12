@@ -46,6 +46,7 @@
 		8C7F2F03230079CF0025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2F02230079CF0025B45B /* main.cpp */; };
 		8C7F2F0E23007AE50025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2F0D23007AE50025B45B /* main.cpp */; };
 		8C7F2F192300FE270025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2F182300FE270025B45B /* main.cpp */; };
+		8C7F2F242300FF860025B45B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F2F232300FF860025B45B /* main.cpp */; };
 		8CBE7A3E22F911D50026C9F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE7A3D22F911D50026C9F0 /* main.cpp */; };
 		8CC607AA22ED371C00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607A922ED371C00540D47 /* main.cpp */; };
 		8CC607B522ED642E00540D47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC607B422ED642E00540D47 /* main.cpp */; };
@@ -408,6 +409,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C7F2F1F2300FF860025B45B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CBE7A3922F911D50026C9F0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,6 +571,8 @@
 		8C7F2F0D23007AE50025B45B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7F2F162300FE270025B45B /* 434. Number of Segments in a String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "434. Number of Segments in a String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7F2F182300FE270025B45B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7F2F212300FF860025B45B /* 443. String Compression */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "443. String Compression"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F2F232300FF860025B45B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CBE7A3B22F911D50026C9F0 /* 227. Basic Calculator II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "227. Basic Calculator II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBE7A3D22F911D50026C9F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC607A722ED371C00540D47 /* 71. Simplify Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "71. Simplify Path"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -853,6 +865,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C7F2F1E2300FF860025B45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CBE7A3822F911D50026C9F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -962,6 +981,7 @@
 				8C7F2F01230079CF0025B45B /* 387. First Unique Character in a String */,
 				8C7F2F0C23007AE50025B45B /* 415. Add Strings */,
 				8C7F2F172300FE270025B45B /* 434. Number of Segments in a String */,
+				8C7F2F222300FF860025B45B /* 443. String Compression */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1016,6 +1036,7 @@
 				8C7F2F00230079CF0025B45B /* 387. First Unique Character in a String */,
 				8C7F2F0B23007AE50025B45B /* 415. Add Strings */,
 				8C7F2F162300FE270025B45B /* 434. Number of Segments in a String */,
+				8C7F2F212300FF860025B45B /* 443. String Compression */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1330,6 +1351,14 @@
 				8C7F2F182300FE270025B45B /* main.cpp */,
 			);
 			path = "434. Number of Segments in a String";
+			sourceTree = "<group>";
+		};
+		8C7F2F222300FF860025B45B /* 443. String Compression */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F2F232300FF860025B45B /* main.cpp */,
+			);
+			path = "443. String Compression";
 			sourceTree = "<group>";
 		};
 		8CBE7A3C22F911D50026C9F0 /* 227. Basic Calculator II */ = {
@@ -2062,6 +2091,23 @@
 			productReference = 8C7F2F162300FE270025B45B /* 434. Number of Segments in a String */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7F2F202300FF860025B45B /* 443. String Compression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F2F252300FF860025B45B /* Build configuration list for PBXNativeTarget "443. String Compression" */;
+			buildPhases = (
+				8C7F2F1D2300FF860025B45B /* Sources */,
+				8C7F2F1E2300FF860025B45B /* Frameworks */,
+				8C7F2F1F2300FF860025B45B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "443. String Compression";
+			productName = "443. String Compression";
+			productReference = 8C7F2F212300FF860025B45B /* 443. String Compression */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CBE7A3A22F911D50026C9F0 /* 227. Basic Calculator II */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CBE7A4122F911D50026C9F0 /* Build configuration list for PBXNativeTarget "227. Basic Calculator II" */;
@@ -2324,6 +2370,9 @@
 					8C7F2F152300FE270025B45B = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C7F2F202300FF860025B45B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CBE7A3A22F911D50026C9F0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2409,6 +2458,7 @@
 				8C7F2EFF230079CF0025B45B /* 387. First Unique Character in a String */,
 				8C7F2F0A23007AE50025B45B /* 415. Add Strings */,
 				8C7F2F152300FE270025B45B /* 434. Number of Segments in a String */,
+				8C7F2F202300FF860025B45B /* 443. String Compression */,
 			);
 		};
 /* End PBXProject section */
@@ -2723,6 +2773,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7F2F192300FE270025B45B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F2F1D2300FF860025B45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F2F242300FF860025B45B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3528,6 +3586,22 @@
 			};
 			name = Release;
 		};
+		8C7F2F262300FF860025B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7F2F272300FF860025B45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CBE7A3F22F911D50026C9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4019,6 +4093,15 @@
 			buildConfigurations = (
 				8C7F2F1B2300FE270025B45B /* Debug */,
 				8C7F2F1C2300FE270025B45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F2F252300FF860025B45B /* Build configuration list for PBXNativeTarget "443. String Compression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F2F262300FF860025B45B /* Debug */,
+				8C7F2F272300FF860025B45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
