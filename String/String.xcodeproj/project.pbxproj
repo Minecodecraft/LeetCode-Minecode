@@ -14,6 +14,7 @@
 		8C3B31C822F27A5E006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31C722F27A5E006101FC /* main.cpp */; };
 		8C3B31D322F27CBE006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31D222F27CBE006101FC /* main.cpp */; };
 		8C41A4D622FC5FCF0045EA43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A4D522FC5FCF0045EA43 /* main.cpp */; };
+		8C43A1BF2301975000ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1BE2301975000ECDCF7 /* main.cpp */; };
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
@@ -114,6 +115,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C41A4D122FC5FCF0045EA43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C43A1BA2301974F00ECDCF7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -517,6 +527,8 @@
 		8C3B31D222F27CBE006101FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C41A4D322FC5FCF0045EA43 /* 273. Integer to English Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "273. Integer to English Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C41A4D522FC5FCF0045EA43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C43A1BC2301974F00ECDCF7 /* 468. Validate IP Address */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "468. Validate IP Address"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43A1BE2301975000ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. Substring with Concatenation of All Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43FFB322E0384300222D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -647,6 +659,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C41A4D022FC5FCF0045EA43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43A1B92301974F00ECDCF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1002,6 +1021,7 @@
 				8C7F2F172300FE270025B45B /* 434. Number of Segments in a String */,
 				8C7F2F222300FF860025B45B /* 443. String Compression */,
 				8C7F2F2D230103220025B45B /* 459. Repeated Substring Pattern */,
+				8C43A1BD2301975000ECDCF7 /* 468. Validate IP Address */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1058,6 +1078,7 @@
 				8C7F2F162300FE270025B45B /* 434. Number of Segments in a String */,
 				8C7F2F212300FF860025B45B /* 443. String Compression */,
 				8C7F2F2C230103220025B45B /* 459. Repeated Substring Pattern */,
+				8C43A1BC2301974F00ECDCF7 /* 468. Validate IP Address */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1116,6 +1137,14 @@
 				8C41A4D522FC5FCF0045EA43 /* main.cpp */,
 			);
 			path = "273. Integer to English Words";
+			sourceTree = "<group>";
+		};
+		8C43A1BD2301975000ECDCF7 /* 468. Validate IP Address */ = {
+			isa = PBXGroup;
+			children = (
+				8C43A1BE2301975000ECDCF7 /* main.cpp */,
+			);
+			path = "468. Validate IP Address";
 			sourceTree = "<group>";
 		};
 		8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -1574,6 +1603,23 @@
 			name = "273. Integer to English Words";
 			productName = "273. Integer to English Words";
 			productReference = 8C41A4D322FC5FCF0045EA43 /* 273. Integer to English Words */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C43A1BB2301974F00ECDCF7 /* 468. Validate IP Address */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C43A1C22301975000ECDCF7 /* Build configuration list for PBXNativeTarget "468. Validate IP Address" */;
+			buildPhases = (
+				8C43A1B82301974F00ECDCF7 /* Sources */,
+				8C43A1B92301974F00ECDCF7 /* Frameworks */,
+				8C43A1BA2301974F00ECDCF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "468. Validate IP Address";
+			productName = "468. Validate IP Address";
+			productReference = 8C43A1BC2301974F00ECDCF7 /* 468. Validate IP Address */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -2320,6 +2366,9 @@
 					8C41A4D222FC5FCF0045EA43 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C43A1BB2301974F00ECDCF7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C43FFB022E0384300222D53 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2509,6 +2558,7 @@
 				8C7F2F152300FE270025B45B /* 434. Number of Segments in a String */,
 				8C7F2F202300FF860025B45B /* 443. String Compression */,
 				8C7F2F2B230103220025B45B /* 459. Repeated Substring Pattern */,
+				8C43A1BB2301974F00ECDCF7 /* 468. Validate IP Address */,
 			);
 		};
 /* End PBXProject section */
@@ -2567,6 +2617,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C41A4D622FC5FCF0045EA43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43A1B82301974F00ECDCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43A1BF2301975000ECDCF7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3125,6 +3183,22 @@
 			name = Debug;
 		};
 		8C41A4D822FC5FCF0045EA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C43A1C02301975000ECDCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C43A1C12301975000ECDCF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3879,6 +3953,15 @@
 			buildConfigurations = (
 				8C41A4D722FC5FCF0045EA43 /* Debug */,
 				8C41A4D822FC5FCF0045EA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C43A1C22301975000ECDCF7 /* Build configuration list for PBXNativeTarget "468. Validate IP Address" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43A1C02301975000ECDCF7 /* Debug */,
+				8C43A1C12301975000ECDCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
