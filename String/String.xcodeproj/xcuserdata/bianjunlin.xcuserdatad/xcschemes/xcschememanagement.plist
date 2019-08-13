@@ -117,7 +117,7 @@
 		<key>345. Reverse Vowels of a String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>41</integer>
 		</dict>
 		<key>38. Count and Say.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,22 +127,22 @@
 		<key>383. Ransom Note.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>42</integer>
 		</dict>
 		<key>385. Mini Parser.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>43</integer>
 		</dict>
 		<key>387. First Unique Character in a String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>44</integer>
 		</dict>
 		<key>415. Add Strings.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>45</integer>
 		</dict>
 		<key>43. Multiply Strings.xcscheme_^#shared#^_</key>
 		<dict>
@@ -152,7 +152,7 @@
 		<key>434. Number of Segments in a String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>46</integer>
 		</dict>
 		<key>44. Wildcard Matching.xcscheme_^#shared#^_</key>
 		<dict>
@@ -162,17 +162,17 @@
 		<key>443. String Compression.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>47</integer>
 		</dict>
 		<key>459. Repeated Substring Pattern.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>48</integer>
 		</dict>
 		<key>468. Validate IP Address.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>49</integer>
 		</dict>
 		<key>49. Group Anagrams.xcscheme_^#shared#^_</key>
 		<dict>
@@ -188,6 +188,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>50</integer>
+		</dict>
+		<key>521. Longest Uncommon Subsequence I.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>51</integer>
 		</dict>
 		<key>58. Length of Last Word.xcscheme_^#shared#^_</key>
 		<dict>

@@ -16,6 +16,7 @@
 		8C41A4D622FC5FCF0045EA43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A4D522FC5FCF0045EA43 /* main.cpp */; };
 		8C43A1BF2301975000ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1BE2301975000ECDCF7 /* main.cpp */; };
 		8C43A1CA2301A09F00ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1C92301A09F00ECDCF7 /* main.cpp */; };
+		8C43A1D5230251B700ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1D4230251B700ECDCF7 /* main.cpp */; };
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
@@ -134,6 +135,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C43A1C52301A09E00ECDCF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C43A1D0230251B700ECDCF7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -541,6 +551,8 @@
 		8C43A1BE2301975000ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43A1C72301A09E00ECDCF7 /* 520. Detect Capital */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "520. Detect Capital"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43A1C92301A09F00ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C43A1D2230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "521. Longest Uncommon Subsequence I"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43A1D4230251B700ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. Substring with Concatenation of All Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43FFB322E0384300222D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -685,6 +697,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C43A1C42301A09E00ECDCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43A1CF230251B700ECDCF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1042,6 +1061,7 @@
 				8C7F2F2D230103220025B45B /* 459. Repeated Substring Pattern */,
 				8C43A1BD2301975000ECDCF7 /* 468. Validate IP Address */,
 				8C43A1C82301A09E00ECDCF7 /* 520. Detect Capital */,
+				8C43A1D3230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1100,6 +1120,7 @@
 				8C7F2F2C230103220025B45B /* 459. Repeated Substring Pattern */,
 				8C43A1BC2301974F00ECDCF7 /* 468. Validate IP Address */,
 				8C43A1C72301A09E00ECDCF7 /* 520. Detect Capital */,
+				8C43A1D2230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1174,6 +1195,14 @@
 				8C43A1C92301A09F00ECDCF7 /* main.cpp */,
 			);
 			path = "520. Detect Capital";
+			sourceTree = "<group>";
+		};
+		8C43A1D3230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */ = {
+			isa = PBXGroup;
+			children = (
+				8C43A1D4230251B700ECDCF7 /* main.cpp */,
+			);
+			path = "521. Longest Uncommon Subsequence I";
 			sourceTree = "<group>";
 		};
 		8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -1666,6 +1695,23 @@
 			name = "520. Detect Capital";
 			productName = "520. Detect Capital";
 			productReference = 8C43A1C72301A09E00ECDCF7 /* 520. Detect Capital */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C43A1D1230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C43A1D8230251B700ECDCF7 /* Build configuration list for PBXNativeTarget "521. Longest Uncommon Subsequence I" */;
+			buildPhases = (
+				8C43A1CE230251B700ECDCF7 /* Sources */,
+				8C43A1CF230251B700ECDCF7 /* Frameworks */,
+				8C43A1D0230251B700ECDCF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "521. Longest Uncommon Subsequence I";
+			productName = "521. Longest Uncommon Subsequence I";
+			productReference = 8C43A1D2230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -2418,6 +2464,9 @@
 					8C43A1C62301A09E00ECDCF7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C43A1D1230251B700ECDCF7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C43FFB022E0384300222D53 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2609,6 +2658,7 @@
 				8C7F2F2B230103220025B45B /* 459. Repeated Substring Pattern */,
 				8C43A1BB2301974F00ECDCF7 /* 468. Validate IP Address */,
 				8C43A1C62301A09E00ECDCF7 /* 520. Detect Capital */,
+				8C43A1D1230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */,
 			);
 		};
 /* End PBXProject section */
@@ -2683,6 +2733,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C43A1CA2301A09F00ECDCF7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43A1CE230251B700ECDCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43A1D5230251B700ECDCF7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3273,6 +3331,22 @@
 			name = Debug;
 		};
 		8C43A1CD2301A09F00ECDCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C43A1D6230251B700ECDCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C43A1D7230251B700ECDCF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4045,6 +4119,15 @@
 			buildConfigurations = (
 				8C43A1CC2301A09F00ECDCF7 /* Debug */,
 				8C43A1CD2301A09F00ECDCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C43A1D8230251B700ECDCF7 /* Build configuration list for PBXNativeTarget "521. Longest Uncommon Subsequence I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43A1D6230251B700ECDCF7 /* Debug */,
+				8C43A1D7230251B700ECDCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
