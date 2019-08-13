@@ -7,17 +7,17 @@
 		<key>10. Regular Expression Matching.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>115. Distinct Subsequences.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>6</integer>
 		</dict>
 		<key>12. Integer to Roman.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>125. Valid Palindrome.xcscheme_^#shared#^_</key>
 		<dict>
@@ -37,12 +37,12 @@
 		<key>13. Roman to Integer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>14. Longest Common Prefix.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>9</integer>
 		</dict>
 		<key>151. Reverse Words in a String.xcscheme_^#shared#^_</key>
 		<dict>
@@ -57,12 +57,12 @@
 		<key>17. Letter Combinations of a Phone Number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>10</integer>
 		</dict>
 		<key>20. Valid Parentheses.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>214. Shortest Palindrome.xcscheme_^#shared#^_</key>
 		<dict>
@@ -72,7 +72,7 @@
 		<key>22. Generate Parentheses.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>227. Basic Calculator II.xcscheme_^#shared#^_</key>
 		<dict>
@@ -87,22 +87,22 @@
 		<key>28. Implement strStr().xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>13</integer>
 		</dict>
 		<key>3. Longest Substring Without Repeating Characters.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>30. Substring with Concatenation of All Words.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>14</integer>
 		</dict>
 		<key>32. Longest Valid Parentheses.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>15</integer>
 		</dict>
 		<key>336. Palindrome Pairs.xcscheme_^#shared#^_</key>
 		<dict>
@@ -122,7 +122,7 @@
 		<key>38. Count and Say.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>16</integer>
 		</dict>
 		<key>383. Ransom Note.xcscheme_^#shared#^_</key>
 		<dict>
@@ -147,7 +147,7 @@
 		<key>43. Multiply Strings.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>17</integer>
 		</dict>
 		<key>434. Number of Segments in a String.xcscheme_^#shared#^_</key>
 		<dict>
@@ -157,7 +157,7 @@
 		<key>44. Wildcard Matching.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>18</integer>
 		</dict>
 		<key>443. String Compression.xcscheme_^#shared#^_</key>
 		<dict>
@@ -177,12 +177,12 @@
 		<key>49. Group Anagrams.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>5. Longest Palindromic Substring.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>520. Detect Capital.xcscheme_^#shared#^_</key>
 		<dict>
@@ -194,75 +194,80 @@
 			<key>orderHint</key>
 			<integer>51</integer>
 		</dict>
+		<key>522. Longest Uncommon Subsequence II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>52</integer>
+		</dict>
 		<key>58. Length of Last Word.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>19</integer>
-		</dict>
-		<key>6. ZigZag Conversion.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>65. Valid Number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
-		<key>67. Add Binary.xcscheme_^#shared#^_</key>
+		<key>6. ZigZag Conversion.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>65. Valid Number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
-		<key>68. Text Justification.xcscheme_^#shared#^_</key>
+		<key>67. Add Binary.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
-		<key>71. Simplify Path.xcscheme_^#shared#^_</key>
+		<key>68. Text Justification.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
-		<key>72. Edit Distance.xcscheme_^#shared#^_</key>
+		<key>71. Simplify Path.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>76. Minimum Window Substring.xcscheme_^#shared#^_</key>
+		<key>72. Edit Distance.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
-		<key>8. String to Integer (atoi).xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>87. Scramble String.xcscheme_^#shared#^_</key>
+		<key>76. Minimum Window Substring.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>26</integer>
 		</dict>
-		<key>91. Decode Ways.xcscheme_^#shared#^_</key>
+		<key>8. String to Integer (atoi).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>87. Scramble String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
-		<key>93. Restore IP Addresses.xcscheme_^#shared#^_</key>
+		<key>91. Decode Ways.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
 		</dict>
-		<key>97. Interleaving String.xcscheme_^#shared#^_</key>
+		<key>93. Restore IP Addresses.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
+		<key>97. Interleaving String.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
