@@ -12,6 +12,7 @@
 		8C15933623051B1B00825E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15933523051B1B00825E1D /* main.cpp */; };
 		8C15934123051F8500825E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15934023051F8500825E1D /* main.cpp */; };
 		8C15934C2305217E00825E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15934B2305217E00825E1D /* main.cpp */; };
+		8C1593572305A32900825E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1593562305A32900825E1D /* main.cpp */; };
 		8C16AEB922EC9E5D00A069C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C16AEB822EC9E5D00A069C8 /* main.cpp */; };
 		8C36256F2304F345008D5D6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C36256E2304F345008D5D6E /* main.cpp */; };
 		8C3B31BD22F1D427006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31BC22F1D427006101FC /* main.cpp */; };
@@ -105,6 +106,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C1593472305217E00825E1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C1593522305A32900825E1D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -603,6 +613,8 @@
 		8C15934023051F8500825E1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1593492305217E00825E1D /* 553. Optimal Division */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "553. Optimal Division"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C15934B2305217E00825E1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C1593542305A32900825E1D /* 556. Next Greater Element III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "556. Next Greater Element III"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1593562305A32900825E1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C16AEB622EC9E5D00A069C8 /* 68. Text Justification */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "68. Text Justification"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C16AEB822EC9E5D00A069C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C36256C2304F345008D5D6E /* 539. Minimum Time Difference */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "539. Minimum Time Difference"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -741,6 +753,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C1593462305217E00825E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1593512305A32900825E1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1182,6 +1201,7 @@
 				8C15933423051B1B00825E1D /* 541. Reverse String II */,
 				8C15933F23051F8500825E1D /* 551. Student Attendance Record I */,
 				8C15934A2305217E00825E1D /* 553. Optimal Division */,
+				8C1593552305A32900825E1D /* 556. Next Greater Element III */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1247,6 +1267,7 @@
 				8C15933323051B1B00825E1D /* 541. Reverse String II */,
 				8C15933E23051F8500825E1D /* 551. Student Attendance Record I */,
 				8C1593492305217E00825E1D /* 553. Optimal Division */,
+				8C1593542305A32900825E1D /* 556. Next Greater Element III */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1289,6 +1310,14 @@
 				8C15934B2305217E00825E1D /* main.cpp */,
 			);
 			path = "553. Optimal Division";
+			sourceTree = "<group>";
+		};
+		8C1593552305A32900825E1D /* 556. Next Greater Element III */ = {
+			isa = PBXGroup;
+			children = (
+				8C1593562305A32900825E1D /* main.cpp */,
+			);
+			path = "556. Next Greater Element III";
 			sourceTree = "<group>";
 		};
 		8C16AEB722EC9E5D00A069C8 /* 68. Text Justification */ = {
@@ -1801,6 +1830,23 @@
 			name = "553. Optimal Division";
 			productName = "553. Optimal Division";
 			productReference = 8C1593492305217E00825E1D /* 553. Optimal Division */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C1593532305A32900825E1D /* 556. Next Greater Element III */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1593582305A32900825E1D /* Build configuration list for PBXNativeTarget "556. Next Greater Element III" */;
+			buildPhases = (
+				8C1593502305A32900825E1D /* Sources */,
+				8C1593512305A32900825E1D /* Frameworks */,
+				8C1593522305A32900825E1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "556. Next Greater Element III";
+			productName = "556. Next Greater Element III";
+			productReference = 8C1593542305A32900825E1D /* 556. Next Greater Element III */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C16AEB522EC9E5D00A069C8 /* 68. Text Justification */ = {
@@ -2728,6 +2774,9 @@
 					8C1593482305217E00825E1D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C1593532305A32900825E1D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C16AEB522EC9E5D00A069C8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2959,6 +3008,7 @@
 				8C15933223051B1B00825E1D /* 541. Reverse String II */,
 				8C15933D23051F8500825E1D /* 551. Student Attendance Record I */,
 				8C1593482305217E00825E1D /* 553. Optimal Division */,
+				8C1593532305A32900825E1D /* 556. Next Greater Element III */,
 			);
 		};
 /* End PBXProject section */
@@ -3001,6 +3051,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C15934C2305217E00825E1D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1593502305A32900825E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1593572305A32900825E1D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3615,6 +3673,22 @@
 			name = Debug;
 		};
 		8C15934F2305217E00825E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C1593592305A32900825E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C15935A2305A32900825E1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4527,6 +4601,15 @@
 			buildConfigurations = (
 				8C15934E2305217E00825E1D /* Debug */,
 				8C15934F2305217E00825E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1593582305A32900825E1D /* Build configuration list for PBXNativeTarget "556. Next Greater Element III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1593592305A32900825E1D /* Debug */,
+				8C15935A2305A32900825E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
