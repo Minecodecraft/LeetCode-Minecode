@@ -10,6 +10,7 @@
 		8C12A4D722D84A3000EE24B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C12A4D622D84A3000EE24B8 /* main.cpp */; };
 		8C12A4ED22DAC58D00EE24B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C12A4EC22DAC58D00EE24B8 /* main.cpp */; };
 		8C15933623051B1B00825E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15933523051B1B00825E1D /* main.cpp */; };
+		8C15934123051F8500825E1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C15934023051F8500825E1D /* main.cpp */; };
 		8C16AEB922EC9E5D00A069C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C16AEB822EC9E5D00A069C8 /* main.cpp */; };
 		8C36256F2304F345008D5D6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C36256E2304F345008D5D6E /* main.cpp */; };
 		8C3B31BD22F1D427006101FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3B31BC22F1D427006101FC /* main.cpp */; };
@@ -85,6 +86,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C15933123051B1B00825E1D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C15933C23051F8500825E1D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -579,6 +589,8 @@
 		8C12A4EC22DAC58D00EE24B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C15933323051B1B00825E1D /* 541. Reverse String II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "541. Reverse String II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C15933523051B1B00825E1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C15933E23051F8500825E1D /* 551. Student Attendance Record I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "551. Student Attendance Record I"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C15934023051F8500825E1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C16AEB622EC9E5D00A069C8 /* 68. Text Justification */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "68. Text Justification"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C16AEB822EC9E5D00A069C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C36256C2304F345008D5D6E /* 539. Minimum Time Difference */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "539. Minimum Time Difference"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -703,6 +715,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C15933023051B1B00825E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C15933B23051F8500825E1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1142,6 +1161,7 @@
 				8C43A1E92303A5A600ECDCF7 /* 537. Complex Number Multiplication */,
 				8C36256D2304F345008D5D6E /* 539. Minimum Time Difference */,
 				8C15933423051B1B00825E1D /* 541. Reverse String II */,
+				8C15933F23051F8500825E1D /* 551. Student Attendance Record I */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1205,6 +1225,7 @@
 				8C43A1E82303A5A600ECDCF7 /* 537. Complex Number Multiplication */,
 				8C36256C2304F345008D5D6E /* 539. Minimum Time Difference */,
 				8C15933323051B1B00825E1D /* 541. Reverse String II */,
+				8C15933E23051F8500825E1D /* 551. Student Attendance Record I */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1231,6 +1252,14 @@
 				8C15933523051B1B00825E1D /* main.cpp */,
 			);
 			path = "541. Reverse String II";
+			sourceTree = "<group>";
+		};
+		8C15933F23051F8500825E1D /* 551. Student Attendance Record I */ = {
+			isa = PBXGroup;
+			children = (
+				8C15934023051F8500825E1D /* main.cpp */,
+			);
+			path = "551. Student Attendance Record I";
 			sourceTree = "<group>";
 		};
 		8C16AEB722EC9E5D00A069C8 /* 68. Text Justification */ = {
@@ -1709,6 +1738,23 @@
 			name = "541. Reverse String II";
 			productName = "541. Reverse String II";
 			productReference = 8C15933323051B1B00825E1D /* 541. Reverse String II */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C15933D23051F8500825E1D /* 551. Student Attendance Record I */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C15934223051F8500825E1D /* Build configuration list for PBXNativeTarget "551. Student Attendance Record I" */;
+			buildPhases = (
+				8C15933A23051F8500825E1D /* Sources */,
+				8C15933B23051F8500825E1D /* Frameworks */,
+				8C15933C23051F8500825E1D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "551. Student Attendance Record I";
+			productName = "551. Student Attendance Record I";
+			productReference = 8C15933E23051F8500825E1D /* 551. Student Attendance Record I */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C16AEB522EC9E5D00A069C8 /* 68. Text Justification */ = {
@@ -2630,6 +2676,9 @@
 					8C15933223051B1B00825E1D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C15933D23051F8500825E1D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C16AEB522EC9E5D00A069C8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2859,6 +2908,7 @@
 				8C43A1E72303A5A600ECDCF7 /* 537. Complex Number Multiplication */,
 				8C36256B2304F345008D5D6E /* 539. Minimum Time Difference */,
 				8C15933223051B1B00825E1D /* 541. Reverse String II */,
+				8C15933D23051F8500825E1D /* 551. Student Attendance Record I */,
 			);
 		};
 /* End PBXProject section */
@@ -2885,6 +2935,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C15933623051B1B00825E1D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C15933A23051F8500825E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C15934123051F8500825E1D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3467,6 +3525,22 @@
 			name = Debug;
 		};
 		8C15933823051B1B00825E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C15934323051F8500825E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C15934423051F8500825E1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4361,6 +4435,15 @@
 			buildConfigurations = (
 				8C15933723051B1B00825E1D /* Debug */,
 				8C15933823051B1B00825E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C15934223051F8500825E1D /* Build configuration list for PBXNativeTarget "551. Student Attendance Record I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C15934323051F8500825E1D /* Debug */,
+				8C15934423051F8500825E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
