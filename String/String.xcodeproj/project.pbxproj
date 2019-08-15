@@ -18,6 +18,7 @@
 		8C43A1CA2301A09F00ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1C92301A09F00ECDCF7 /* main.cpp */; };
 		8C43A1D5230251B700ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1D4230251B700ECDCF7 /* main.cpp */; };
 		8C43A1E023027FED00ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1DF23027FED00ECDCF7 /* main.cpp */; };
+		8C43A1EB2303A5A600ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1EA2303A5A600ECDCF7 /* main.cpp */; };
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
@@ -154,6 +155,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C43A1DB23027FED00ECDCF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C43A1E62303A5A600ECDCF7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -565,6 +575,8 @@
 		8C43A1D4230251B700ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43A1DD23027FED00ECDCF7 /* 522. Longest Uncommon Subsequence II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "522. Longest Uncommon Subsequence II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43A1DF23027FED00ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C43A1E82303A5A600ECDCF7 /* 537. Complex Number Multiplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "537. Complex Number Multiplication"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43A1EA2303A5A600ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. Substring with Concatenation of All Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43FFB322E0384300222D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -723,6 +735,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C43A1DA23027FED00ECDCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43A1E52303A5A600ECDCF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1082,6 +1101,7 @@
 				8C43A1C82301A09E00ECDCF7 /* 520. Detect Capital */,
 				8C43A1D3230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */,
 				8C43A1DE23027FED00ECDCF7 /* 522. Longest Uncommon Subsequence II */,
+				8C43A1E92303A5A600ECDCF7 /* 537. Complex Number Multiplication */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1142,6 +1162,7 @@
 				8C43A1C72301A09E00ECDCF7 /* 520. Detect Capital */,
 				8C43A1D2230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */,
 				8C43A1DD23027FED00ECDCF7 /* 522. Longest Uncommon Subsequence II */,
+				8C43A1E82303A5A600ECDCF7 /* 537. Complex Number Multiplication */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1232,6 +1253,14 @@
 				8C43A1DF23027FED00ECDCF7 /* main.cpp */,
 			);
 			path = "522. Longest Uncommon Subsequence II";
+			sourceTree = "<group>";
+		};
+		8C43A1E92303A5A600ECDCF7 /* 537. Complex Number Multiplication */ = {
+			isa = PBXGroup;
+			children = (
+				8C43A1EA2303A5A600ECDCF7 /* main.cpp */,
+			);
+			path = "537. Complex Number Multiplication";
 			sourceTree = "<group>";
 		};
 		8C43FFB222E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -1758,6 +1787,23 @@
 			name = "522. Longest Uncommon Subsequence II";
 			productName = "522. Longest Uncommon Subsequence II";
 			productReference = 8C43A1DD23027FED00ECDCF7 /* 522. Longest Uncommon Subsequence II */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C43A1E72303A5A600ECDCF7 /* 537. Complex Number Multiplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C43A1EE2303A5A600ECDCF7 /* Build configuration list for PBXNativeTarget "537. Complex Number Multiplication" */;
+			buildPhases = (
+				8C43A1E42303A5A600ECDCF7 /* Sources */,
+				8C43A1E52303A5A600ECDCF7 /* Frameworks */,
+				8C43A1E62303A5A600ECDCF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "537. Complex Number Multiplication";
+			productName = "537. Complex Number Multiplication";
+			productReference = 8C43A1E82303A5A600ECDCF7 /* 537. Complex Number Multiplication */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C43FFB022E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {
@@ -2516,6 +2562,9 @@
 					8C43A1DC23027FED00ECDCF7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C43A1E72303A5A600ECDCF7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C43FFB022E0384300222D53 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2709,6 +2758,7 @@
 				8C43A1C62301A09E00ECDCF7 /* 520. Detect Capital */,
 				8C43A1D1230251B700ECDCF7 /* 521. Longest Uncommon Subsequence I */,
 				8C43A1DC23027FED00ECDCF7 /* 522. Longest Uncommon Subsequence II */,
+				8C43A1E72303A5A600ECDCF7 /* 537. Complex Number Multiplication */,
 			);
 		};
 /* End PBXProject section */
@@ -2799,6 +2849,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C43A1E023027FED00ECDCF7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43A1E42303A5A600ECDCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43A1EB2303A5A600ECDCF7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3421,6 +3479,22 @@
 			name = Debug;
 		};
 		8C43A1E223027FED00ECDCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C43A1EC2303A5A600ECDCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C43A1ED2303A5A600ECDCF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4211,6 +4285,15 @@
 			buildConfigurations = (
 				8C43A1E123027FED00ECDCF7 /* Debug */,
 				8C43A1E223027FED00ECDCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C43A1EE2303A5A600ECDCF7 /* Build configuration list for PBXNativeTarget "537. Complex Number Multiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43A1EC2303A5A600ECDCF7 /* Debug */,
+				8C43A1ED2303A5A600ECDCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
