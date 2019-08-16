@@ -26,6 +26,7 @@
 		8C43A1E023027FED00ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1DF23027FED00ECDCF7 /* main.cpp */; };
 		8C43A1EB2303A5A600ECDCF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43A1EA2303A5A600ECDCF7 /* main.cpp */; };
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
+		8C4487562306683100745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487552306683100745A60 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
 		8C49554922EF38CA00D73448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C49554822EF38CA00D73448 /* main.cpp */; };
@@ -233,6 +234,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C43FFAF22E0384300222D53 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C4487512306683100745A60 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -651,6 +661,8 @@
 		8C43A1EA2303A5A600ECDCF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. Substring with Concatenation of All Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43FFB322E0384300222D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4487532306683100745A60 /* 564. Find the Closest Palindrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "564. Find the Closest Palindrome"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4487552306683100745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -863,6 +875,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C43FFAE22E0384300222D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487502306683100745A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1222,6 +1241,7 @@
 				8C15934A2305217E00825E1D /* 553. Optimal Division */,
 				8C1593552305A32900825E1D /* 556. Next Greater Element III */,
 				8C159360230648F300825E1D /* 557. Reverse Words in a String III */,
+				8C4487542306683100745A60 /* 564. Find the Closest Palindrome */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1289,6 +1309,7 @@
 				8C1593492305217E00825E1D /* 553. Optimal Division */,
 				8C1593542305A32900825E1D /* 556. Next Greater Element III */,
 				8C15935F230648F300825E1D /* 557. Reverse Words in a String III */,
+				8C4487532306683100745A60 /* 564. Find the Closest Palindrome */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1443,6 +1464,14 @@
 				8C43FFB322E0384300222D53 /* main.cpp */,
 			);
 			path = "30. Substring with Concatenation of All Words";
+			sourceTree = "<group>";
+		};
+		8C4487542306683100745A60 /* 564. Find the Closest Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				8C4487552306683100745A60 /* main.cpp */,
+			);
+			path = "564. Find the Closest Palindrome";
 			sourceTree = "<group>";
 		};
 		8C46A38822DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -2097,6 +2126,23 @@
 			name = "30. Substring with Concatenation of All Words";
 			productName = "30. Substring with Concatenation of All Words";
 			productReference = 8C43FFB122E0384300222D53 /* 30. Substring with Concatenation of All Words */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C4487522306683100745A60 /* 564. Find the Closest Palindrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4487592306683100745A60 /* Build configuration list for PBXNativeTarget "564. Find the Closest Palindrome" */;
+			buildPhases = (
+				8C44874F2306683100745A60 /* Sources */,
+				8C4487502306683100745A60 /* Frameworks */,
+				8C4487512306683100745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "564. Find the Closest Palindrome";
+			productName = "564. Find the Closest Palindrome";
+			productReference = 8C4487532306683100745A60 /* 564. Find the Closest Palindrome */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C46A38622DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -2862,6 +2908,9 @@
 					8C43FFB022E0384300222D53 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C4487522306683100745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C46A38622DAE77C00769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -3059,6 +3108,7 @@
 				8C1593482305217E00825E1D /* 553. Optimal Division */,
 				8C1593532305A32900825E1D /* 556. Next Greater Element III */,
 				8C15935E230648F300825E1D /* 557. Reverse Words in a String III */,
+				8C4487522306683100745A60 /* 564. Find the Closest Palindrome */,
 			);
 		};
 /* End PBXProject section */
@@ -3213,6 +3263,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C43FFB422E0384300222D53 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C44874F2306683100745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4487562306683100745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3955,6 +4013,22 @@
 			name = Debug;
 		};
 		8C43FFB622E0384300222D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C4487572306683100745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C4487582306683100745A60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4801,6 +4875,15 @@
 			buildConfigurations = (
 				8C43FFB522E0384300222D53 /* Debug */,
 				8C43FFB622E0384300222D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4487592306683100745A60 /* Build configuration list for PBXNativeTarget "564. Find the Closest Palindrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4487572306683100745A60 /* Debug */,
+				8C4487582306683100745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
