@@ -31,6 +31,7 @@
 		8C4487772307FED900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487762307FED900745A60 /* main.cpp */; };
 		8C44878223082E4A00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44878123082E4A00745A60 /* main.cpp */; };
 		8C44878D230832BA00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44878C230832BA00745A60 /* main.cpp */; };
+		8C4487982308371C00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487972308371C00745A60 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
 		8C49554922EF38CA00D73448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C49554822EF38CA00D73448 /* main.cpp */; };
@@ -283,6 +284,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C448788230832BA00745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C4487932308371C00745A60 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -711,6 +721,8 @@
 		8C44878123082E4A00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C44878A230832BA00745A60 /* 609. Find Duplicate File in System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "609. Find Duplicate File in System"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C44878C230832BA00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4487952308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "632. Smallest Range Covering Elements from K Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4487972308371C00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -958,6 +970,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C448787230832BA00745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487922308371C00745A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1322,6 +1341,7 @@
 				8C4487752307FED900745A60 /* 591. Tag Validator */,
 				8C44878023082E4A00745A60 /* 606. Construct String from Binary Tree */,
 				8C44878B230832BA00745A60 /* 609. Find Duplicate File in System */,
+				8C4487962308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1394,6 +1414,7 @@
 				8C4487742307FED900745A60 /* 591. Tag Validator */,
 				8C44877F23082E4A00745A60 /* 606. Construct String from Binary Tree */,
 				8C44878A230832BA00745A60 /* 609. Find Duplicate File in System */,
+				8C4487952308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1588,6 +1609,14 @@
 				8C44878C230832BA00745A60 /* main.cpp */,
 			);
 			path = "609. Find Duplicate File in System";
+			sourceTree = "<group>";
+		};
+		8C4487962308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */ = {
+			isa = PBXGroup;
+			children = (
+				8C4487972308371C00745A60 /* main.cpp */,
+			);
+			path = "632. Smallest Range Covering Elements from K Lists";
 			sourceTree = "<group>";
 		};
 		8C46A38822DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -2327,6 +2356,23 @@
 			name = "609. Find Duplicate File in System";
 			productName = "609. Find Duplicate File in System";
 			productReference = 8C44878A230832BA00745A60 /* 609. Find Duplicate File in System */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C4487942308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4487992308371C00745A60 /* Build configuration list for PBXNativeTarget "632. Smallest Range Covering Elements from K Lists" */;
+			buildPhases = (
+				8C4487912308371C00745A60 /* Sources */,
+				8C4487922308371C00745A60 /* Frameworks */,
+				8C4487932308371C00745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "632. Smallest Range Covering Elements from K Lists";
+			productName = "632. Smallest Range Covering Elements from K Lists";
+			productReference = 8C4487952308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C46A38622DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -3107,6 +3153,9 @@
 					8C448789230832BA00745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C4487942308371C00745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C46A38622DAE77C00769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -3309,6 +3358,7 @@
 				8C4487732307FED900745A60 /* 591. Tag Validator */,
 				8C44877E23082E4A00745A60 /* 606. Construct String from Binary Tree */,
 				8C448789230832BA00745A60 /* 609. Find Duplicate File in System */,
+				8C4487942308371C00745A60 /* 632. Smallest Range Covering Elements from K Lists */,
 			);
 		};
 /* End PBXProject section */
@@ -3503,6 +3553,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C44878D230832BA00745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487912308371C00745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4487982308371C00745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4325,6 +4383,22 @@
 			name = Debug;
 		};
 		8C448790230832BA00745A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C44879A2308371C00745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C44879B2308371C00745A60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -5216,6 +5290,15 @@
 			buildConfigurations = (
 				8C44878F230832BA00745A60 /* Debug */,
 				8C448790230832BA00745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4487992308371C00745A60 /* Build configuration list for PBXNativeTarget "632. Smallest Range Covering Elements from K Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C44879A2308371C00745A60 /* Debug */,
+				8C44879B2308371C00745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
