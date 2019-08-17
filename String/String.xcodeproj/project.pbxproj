@@ -30,6 +30,7 @@
 		8C44876C2307FE5D00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44876B2307FE5D00745A60 /* main.cpp */; };
 		8C4487772307FED900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487762307FED900745A60 /* main.cpp */; };
 		8C44878223082E4A00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44878123082E4A00745A60 /* main.cpp */; };
+		8C44878D230832BA00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44878C230832BA00745A60 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
 		8C49554922EF38CA00D73448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C49554822EF38CA00D73448 /* main.cpp */; };
@@ -273,6 +274,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C44877D23082E4A00745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C448788230832BA00745A60 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -699,6 +709,8 @@
 		8C4487762307FED900745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C44877F23082E4A00745A60 /* 606. Construct String from Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "606. Construct String from Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C44878123082E4A00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C44878A230832BA00745A60 /* 609. Find Duplicate File in System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "609. Find Duplicate File in System"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C44878C230832BA00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -939,6 +951,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C44877C23082E4A00745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C448787230832BA00745A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1302,6 +1321,7 @@
 				8C44876A2307FE5D00745A60 /* 583. Delete Operation for Two Strings */,
 				8C4487752307FED900745A60 /* 591. Tag Validator */,
 				8C44878023082E4A00745A60 /* 606. Construct String from Binary Tree */,
+				8C44878B230832BA00745A60 /* 609. Find Duplicate File in System */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1373,6 +1393,7 @@
 				8C4487692307FE5D00745A60 /* 583. Delete Operation for Two Strings */,
 				8C4487742307FED900745A60 /* 591. Tag Validator */,
 				8C44877F23082E4A00745A60 /* 606. Construct String from Binary Tree */,
+				8C44878A230832BA00745A60 /* 609. Find Duplicate File in System */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1559,6 +1580,14 @@
 				8C44878123082E4A00745A60 /* main.cpp */,
 			);
 			path = "606. Construct String from Binary Tree";
+			sourceTree = "<group>";
+		};
+		8C44878B230832BA00745A60 /* 609. Find Duplicate File in System */ = {
+			isa = PBXGroup;
+			children = (
+				8C44878C230832BA00745A60 /* main.cpp */,
+			);
+			path = "609. Find Duplicate File in System";
 			sourceTree = "<group>";
 		};
 		8C46A38822DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -2281,6 +2310,23 @@
 			name = "606. Construct String from Binary Tree";
 			productName = "606. Construct String from Binary Tree";
 			productReference = 8C44877F23082E4A00745A60 /* 606. Construct String from Binary Tree */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C448789230832BA00745A60 /* 609. Find Duplicate File in System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C44878E230832BA00745A60 /* Build configuration list for PBXNativeTarget "609. Find Duplicate File in System" */;
+			buildPhases = (
+				8C448786230832BA00745A60 /* Sources */,
+				8C448787230832BA00745A60 /* Frameworks */,
+				8C448788230832BA00745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "609. Find Duplicate File in System";
+			productName = "609. Find Duplicate File in System";
+			productReference = 8C44878A230832BA00745A60 /* 609. Find Duplicate File in System */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C46A38622DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -3058,6 +3104,9 @@
 					8C44877E23082E4A00745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C448789230832BA00745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C46A38622DAE77C00769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -3259,6 +3308,7 @@
 				8C4487682307FE5D00745A60 /* 583. Delete Operation for Two Strings */,
 				8C4487732307FED900745A60 /* 591. Tag Validator */,
 				8C44877E23082E4A00745A60 /* 606. Construct String from Binary Tree */,
+				8C448789230832BA00745A60 /* 609. Find Duplicate File in System */,
 			);
 		};
 /* End PBXProject section */
@@ -3445,6 +3495,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C44878223082E4A00745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C448786230832BA00745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C44878D230832BA00745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4251,6 +4309,22 @@
 			name = Debug;
 		};
 		8C44878523082E4A00745A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C44878F230832BA00745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C448790230832BA00745A60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -5133,6 +5207,15 @@
 			buildConfigurations = (
 				8C44878423082E4A00745A60 /* Debug */,
 				8C44878523082E4A00745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C44878E230832BA00745A60 /* Build configuration list for PBXNativeTarget "609. Find Duplicate File in System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C44878F230832BA00745A60 /* Debug */,
+				8C448790230832BA00745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

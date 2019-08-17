@@ -33,14 +33,15 @@ using namespace std;
 //
 
 // Tool Function List
-void printVector(vector<int> v) {
+void printVector(vector<string> v) {
     printf("\n[");
     for (auto it = v.begin(); it != v.end(); ++it) {
-        printf("%c%d", it==v.begin() ? '\0' : ' ', *it);
+        printf("%c", it==v.begin() ? '\0' : ' ');
+        cout << *it << endl;
     }
     printf("]\n");
 }
-void printVectors(vector<vector<int>> v) {
+void printVectors(vector<vector<string>> v) {
     printf("\n[");
     for (auto it = v.begin(); it != v.end(); ++it) {
         printVector(*it);
