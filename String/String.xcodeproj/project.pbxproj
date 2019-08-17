@@ -28,6 +28,7 @@
 		8C43FFB422E0384300222D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C43FFB322E0384300222D53 /* main.cpp */; };
 		8C4487562306683100745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487552306683100745A60 /* main.cpp */; };
 		8C44876C2307FE5D00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44876B2307FE5D00745A60 /* main.cpp */; };
+		8C4487772307FED900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487762307FED900745A60 /* main.cpp */; };
 		8C46A38A22DAE77C00769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A38922DAE77C00769BB0 /* main.cpp */; };
 		8C46A39522DAEB1500769BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C46A39422DAEB1500769BB0 /* main.cpp */; };
 		8C49554922EF38CA00D73448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C49554822EF38CA00D73448 /* main.cpp */; };
@@ -253,6 +254,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C4487672307FE5D00745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C4487722307FED900745A60 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -675,6 +685,8 @@
 		8C4487552306683100745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487692307FE5D00745A60 /* 583. Delete Operation for Two Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "583. Delete Operation for Two Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C44876B2307FE5D00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4487742307FED900745A60 /* 591. Tag Validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "591. Tag Validator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4487762307FED900745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A38722DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C46A38922DAE77C00769BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C46A39222DAEB1500769BB0 /* 8. String to Integer (atoi) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer (atoi)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -901,6 +913,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C4487662307FE5D00745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487712307FED900745A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1262,6 +1281,7 @@
 				8C159360230648F300825E1D /* 557. Reverse Words in a String III */,
 				8C4487542306683100745A60 /* 564. Find the Closest Palindrome */,
 				8C44876A2307FE5D00745A60 /* 583. Delete Operation for Two Strings */,
+				8C4487752307FED900745A60 /* 591. Tag Validator */,
 				8C12A4C722D84A1200EE24B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1331,6 +1351,7 @@
 				8C15935F230648F300825E1D /* 557. Reverse Words in a String III */,
 				8C4487532306683100745A60 /* 564. Find the Closest Palindrome */,
 				8C4487692307FE5D00745A60 /* 583. Delete Operation for Two Strings */,
+				8C4487742307FED900745A60 /* 591. Tag Validator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1501,6 +1522,14 @@
 				8C44876B2307FE5D00745A60 /* main.cpp */,
 			);
 			path = "583. Delete Operation for Two Strings";
+			sourceTree = "<group>";
+		};
+		8C4487752307FED900745A60 /* 591. Tag Validator */ = {
+			isa = PBXGroup;
+			children = (
+				8C4487762307FED900745A60 /* main.cpp */,
+			);
+			path = "591. Tag Validator";
 			sourceTree = "<group>";
 		};
 		8C46A38822DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -2189,6 +2218,23 @@
 			name = "583. Delete Operation for Two Strings";
 			productName = "583. Delete Operation for Two Strings";
 			productReference = 8C4487692307FE5D00745A60 /* 583. Delete Operation for Two Strings */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C4487732307FED900745A60 /* 591. Tag Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4487782307FED900745A60 /* Build configuration list for PBXNativeTarget "591. Tag Validator" */;
+			buildPhases = (
+				8C4487702307FED900745A60 /* Sources */,
+				8C4487712307FED900745A60 /* Frameworks */,
+				8C4487722307FED900745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "591. Tag Validator";
+			productName = "591. Tag Validator";
+			productReference = 8C4487742307FED900745A60 /* 591. Tag Validator */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C46A38622DAE77C00769BB0 /* 3. Longest Substring Without Repeating Characters */ = {
@@ -2960,6 +3006,9 @@
 					8C4487682307FE5D00745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C4487732307FED900745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C46A38622DAE77C00769BB0 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -3159,6 +3208,7 @@
 				8C15935E230648F300825E1D /* 557. Reverse Words in a String III */,
 				8C4487522306683100745A60 /* 564. Find the Closest Palindrome */,
 				8C4487682307FE5D00745A60 /* 583. Delete Operation for Two Strings */,
+				8C4487732307FED900745A60 /* 591. Tag Validator */,
 			);
 		};
 /* End PBXProject section */
@@ -3329,6 +3379,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C44876C2307FE5D00745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487702307FED900745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4487772307FED900745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4103,6 +4161,22 @@
 			name = Debug;
 		};
 		8C44876E2307FE5D00745A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C4487792307FED900745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C44877A2307FED900745A60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4967,6 +5041,15 @@
 			buildConfigurations = (
 				8C44876D2307FE5D00745A60 /* Debug */,
 				8C44876E2307FE5D00745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4487782307FED900745A60 /* Build configuration list for PBXNativeTarget "591. Tag Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4487792307FED900745A60 /* Debug */,
+				8C44877A2307FED900745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
