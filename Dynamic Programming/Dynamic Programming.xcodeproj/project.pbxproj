@@ -10,6 +10,7 @@
 		8C4487C1230A5E5700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487C0230A5E5700745A60 /* main.cpp */; };
 		8C4487CC230A5EAB00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487CB230A5EAB00745A60 /* main.cpp */; };
 		8C4487D7230A5FC700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487D6230A5FC700745A60 /* main.cpp */; };
+		8C4487E2230A679500745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487E1230A679500745A60 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C4487DD230A679500745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		8C4487CB230A5EAB00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487D4230A5FC700745A60 /* 95. Unique Binary Search Trees II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "95. Unique Binary Search Trees II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4487D6230A5FC700745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4487DF230A679500745A60 /* 96. Unique Binary Search Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "96. Unique Binary Search Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4487E1230A679500745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C4487DC230A679500745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +101,7 @@
 				8C4487BF230A5E5700745A60 /* Template */,
 				8C4487CA230A5EAB00745A60 /* 70. Climbing Stairs */,
 				8C4487D5230A5FC700745A60 /* 95. Unique Binary Search Trees II */,
+				8C4487E0230A679500745A60 /* 96. Unique Binary Search Trees */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				8C4487BE230A5E5700745A60 /* Template */,
 				8C4487C9230A5EAB00745A60 /* 70. Climbing Stairs */,
 				8C4487D4230A5FC700745A60 /* 95. Unique Binary Search Trees II */,
+				8C4487DF230A679500745A60 /* 96. Unique Binary Search Trees */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				8C4487D6230A5FC700745A60 /* main.cpp */,
 			);
 			path = "95. Unique Binary Search Trees II";
+			sourceTree = "<group>";
+		};
+		8C4487E0230A679500745A60 /* 96. Unique Binary Search Trees */ = {
+			isa = PBXGroup;
+			children = (
+				8C4487E1230A679500745A60 /* main.cpp */,
+			);
+			path = "96. Unique Binary Search Trees";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = 8C4487D4230A5FC700745A60 /* 95. Unique Binary Search Trees II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C4487DE230A679500745A60 /* 96. Unique Binary Search Trees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4487E3230A679500745A60 /* Build configuration list for PBXNativeTarget "96. Unique Binary Search Trees" */;
+			buildPhases = (
+				8C4487DB230A679500745A60 /* Sources */,
+				8C4487DC230A679500745A60 /* Frameworks */,
+				8C4487DD230A679500745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "96. Unique Binary Search Trees";
+			productName = "96. Unique Binary Search Trees";
+			productReference = 8C4487DF230A679500745A60 /* 96. Unique Binary Search Trees */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +236,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					8C4487D3230A5FC700745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8C4487DE230A679500745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -209,6 +258,7 @@
 				8C4487BD230A5E5700745A60 /* Template */,
 				8C4487C8230A5EAB00745A60 /* 70. Climbing Stairs */,
 				8C4487D3230A5FC700745A60 /* 95. Unique Binary Search Trees II */,
+				8C4487DE230A679500745A60 /* 96. Unique Binary Search Trees */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4487D7230A5FC700745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487DB230A679500745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4487E2230A679500745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +458,22 @@
 			};
 			name = Release;
 		};
+		8C4487E4230A679500745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C4487E5230A679500745A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +509,15 @@
 			buildConfigurations = (
 				8C4487D9230A5FC700745A60 /* Debug */,
 				8C4487DA230A5FC700745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4487E3230A679500745A60 /* Build configuration list for PBXNativeTarget "96. Unique Binary Search Trees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4487E4230A679500745A60 /* Debug */,
+				8C4487E5230A679500745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
