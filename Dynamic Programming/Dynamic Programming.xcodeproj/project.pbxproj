@@ -13,6 +13,7 @@
 		8C4487E2230A679500745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487E1230A679500745A60 /* main.cpp */; };
 		8C4487ED230B8A5E00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487EC230B8A5E00745A60 /* main.cpp */; };
 		8C4487F8230B8CDA00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487F7230B8CDA00745A60 /* main.cpp */; };
+		8C448803230D050F00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448802230D050F00745A60 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C4487FE230D050F00745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +95,8 @@
 		8C4487EC230B8A5E00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487F5230B8CDA00745A60 /* 123. Best Time to Buy and Sell Stock III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "123. Best Time to Buy and Sell Stock III"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4487F7230B8CDA00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C448800230D050F00745A60 /* 132. Palindrome Partitioning II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "132. Palindrome Partitioning II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C448802230D050F00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C4487FD230D050F00745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +161,7 @@
 				8C4487E0230A679500745A60 /* 96. Unique Binary Search Trees */,
 				8C4487EB230B8A5E00745A60 /* 121. Best Time to Buy and Sell Stock */,
 				8C4487F6230B8CDA00745A60 /* 123. Best Time to Buy and Sell Stock III */,
+				8C448801230D050F00745A60 /* 132. Palindrome Partitioning II */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 				8C4487DF230A679500745A60 /* 96. Unique Binary Search Trees */,
 				8C4487EA230B8A5E00745A60 /* 121. Best Time to Buy and Sell Stock */,
 				8C4487F5230B8CDA00745A60 /* 123. Best Time to Buy and Sell Stock III */,
+				8C448800230D050F00745A60 /* 132. Palindrome Partitioning II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +226,14 @@
 				8C4487F7230B8CDA00745A60 /* main.cpp */,
 			);
 			path = "123. Best Time to Buy and Sell Stock III";
+			sourceTree = "<group>";
+		};
+		8C448801230D050F00745A60 /* 132. Palindrome Partitioning II */ = {
+			isa = PBXGroup;
+			children = (
+				8C448802230D050F00745A60 /* main.cpp */,
+			);
+			path = "132. Palindrome Partitioning II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +341,23 @@
 			productReference = 8C4487F5230B8CDA00745A60 /* 123. Best Time to Buy and Sell Stock III */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C4487FF230D050F00745A60 /* 132. Palindrome Partitioning II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C448806230D050F00745A60 /* Build configuration list for PBXNativeTarget "132. Palindrome Partitioning II" */;
+			buildPhases = (
+				8C4487FC230D050F00745A60 /* Sources */,
+				8C4487FD230D050F00745A60 /* Frameworks */,
+				8C4487FE230D050F00745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "132. Palindrome Partitioning II";
+			productName = "132. Palindrome Partitioning II";
+			productReference = 8C448800230D050F00745A60 /* 132. Palindrome Partitioning II */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,6 +385,9 @@
 					8C4487F4230B8CDA00745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C4487FF230D050F00745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -359,6 +408,7 @@
 				8C4487DE230A679500745A60 /* 96. Unique Binary Search Trees */,
 				8C4487E9230B8A5E00745A60 /* 121. Best Time to Buy and Sell Stock */,
 				8C4487F4230B8CDA00745A60 /* 123. Best Time to Buy and Sell Stock III */,
+				8C4487FF230D050F00745A60 /* 132. Palindrome Partitioning II */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +459,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4487F8230B8CDA00745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4487FC230D050F00745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C448803230D050F00745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +680,22 @@
 			};
 			name = Release;
 		};
+		8C448804230D050F00745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C448805230D050F00745A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,6 +758,15 @@
 			buildConfigurations = (
 				8C4487FA230B8CDA00745A60 /* Debug */,
 				8C4487FB230B8CDA00745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C448806230D050F00745A60 /* Build configuration list for PBXNativeTarget "132. Palindrome Partitioning II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C448804230D050F00745A60 /* Debug */,
+				8C448805230D050F00745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
