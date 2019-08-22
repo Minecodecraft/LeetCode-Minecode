@@ -16,6 +16,7 @@
 		8C448803230D050F00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448802230D050F00745A60 /* main.cpp */; };
 		8C44880E230E1FA200745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44880D230E1FA200745A60 /* main.cpp */; };
 		8C448819230E217C00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448818230E217C00745A60 /* main.cpp */; };
+		8C448824230E5E4900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448823230E5E4900745A60 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C44881F230E5E4800745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +131,8 @@
 		8C44880D230E1FA200745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C448816230E217C00745A60 /* 140. Word Break II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "140. Word Break II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C448818230E217C00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "152. Maximum Product Subarray"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C448823230E5E4900745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +199,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C44881E230E5E4800745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -202,6 +221,7 @@
 				8C448801230D050F00745A60 /* 132. Palindrome Partitioning II */,
 				8C44880C230E1FA200745A60 /* 139. Word Break */,
 				8C448817230E217C00745A60 /* 140. Word Break II */,
+				8C448822230E5E4900745A60 /* 152. Maximum Product Subarray */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -218,6 +238,7 @@
 				8C448800230D050F00745A60 /* 132. Palindrome Partitioning II */,
 				8C44880B230E1FA200745A60 /* 139. Word Break */,
 				8C448816230E217C00745A60 /* 140. Word Break II */,
+				8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,6 +313,14 @@
 				8C448818230E217C00745A60 /* main.cpp */,
 			);
 			path = "140. Word Break II";
+			sourceTree = "<group>";
+		};
+		8C448822230E5E4900745A60 /* 152. Maximum Product Subarray */ = {
+			isa = PBXGroup;
+			children = (
+				8C448823230E5E4900745A60 /* main.cpp */,
+			);
+			path = "152. Maximum Product Subarray";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +479,23 @@
 			productReference = 8C448816230E217C00745A60 /* 140. Word Break II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C448820230E5E4800745A60 /* 152. Maximum Product Subarray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C448827230E5E4900745A60 /* Build configuration list for PBXNativeTarget "152. Maximum Product Subarray" */;
+			buildPhases = (
+				8C44881D230E5E4800745A60 /* Sources */,
+				8C44881E230E5E4800745A60 /* Frameworks */,
+				8C44881F230E5E4800745A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "152. Maximum Product Subarray";
+			productName = "152. Maximum Product Subarray";
+			productReference = 8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -486,6 +532,9 @@
 					8C448815230E217C00745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C448820230E5E4800745A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -509,6 +558,7 @@
 				8C4487FF230D050F00745A60 /* 132. Palindrome Partitioning II */,
 				8C44880A230E1FA200745A60 /* 139. Word Break */,
 				8C448815230E217C00745A60 /* 140. Word Break II */,
+				8C448820230E5E4800745A60 /* 152. Maximum Product Subarray */,
 			);
 		};
 /* End PBXProject section */
@@ -583,6 +633,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C448819230E217C00745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C44881D230E5E4800745A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C448824230E5E4900745A60 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -844,6 +902,22 @@
 			};
 			name = Release;
 		};
+		8C448825230E5E4900745A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C448826230E5E4900745A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -933,6 +1007,15 @@
 			buildConfigurations = (
 				8C44881B230E217C00745A60 /* Debug */,
 				8C44881C230E217C00745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C448827230E5E4900745A60 /* Build configuration list for PBXNativeTarget "152. Maximum Product Subarray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C448825230E5E4900745A60 /* Debug */,
+				8C448826230E5E4900745A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
