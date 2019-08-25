@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C26279523121B830073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C26279423121B830073D4A8 /* main.cpp */; };
 		8C4487C1230A5E5700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487C0230A5E5700745A60 /* main.cpp */; };
 		8C4487CC230A5EAB00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487CB230A5EAB00745A60 /* main.cpp */; };
 		8C4487D7230A5FC700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487D6230A5FC700745A60 /* main.cpp */; };
@@ -20,6 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C26279023121B830073D4A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C4487BC230A5E5700745A60 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +123,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C26279223121B830073D4A8 /* 174. Dungeon Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "174. Dungeon Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C26279423121B830073D4A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487BE230A5E5700745A60 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4487C0230A5E5700745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487C9230A5EAB00745A60 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +148,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C26278F23121B830073D4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C4487BB230A5E5700745A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +228,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C26279323121B830073D4A8 /* 174. Dungeon Game */ = {
+			isa = PBXGroup;
+			children = (
+				8C26279423121B830073D4A8 /* main.cpp */,
+			);
+			path = "174. Dungeon Game";
+			sourceTree = "<group>";
+		};
 		8C4487A7230A5E4000745A60 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +249,7 @@
 				8C44880C230E1FA200745A60 /* 139. Word Break */,
 				8C448817230E217C00745A60 /* 140. Word Break II */,
 				8C448822230E5E4900745A60 /* 152. Maximum Product Subarray */,
+				8C26279323121B830073D4A8 /* 174. Dungeon Game */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -239,6 +267,7 @@
 				8C44880B230E1FA200745A60 /* 139. Word Break */,
 				8C448816230E217C00745A60 /* 140. Word Break II */,
 				8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */,
+				8C26279223121B830073D4A8 /* 174. Dungeon Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,6 +355,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C26279123121B830073D4A8 /* 174. Dungeon Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C26279823121B830073D4A8 /* Build configuration list for PBXNativeTarget "174. Dungeon Game" */;
+			buildPhases = (
+				8C26278E23121B830073D4A8 /* Sources */,
+				8C26278F23121B830073D4A8 /* Frameworks */,
+				8C26279023121B830073D4A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "174. Dungeon Game";
+			productName = "174. Dungeon Game";
+			productReference = 8C26279223121B830073D4A8 /* 174. Dungeon Game */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C4487BD230A5E5700745A60 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C4487C2230A5E5700745A60 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -505,6 +551,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C26279123121B830073D4A8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C4487BD230A5E5700745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -559,11 +608,20 @@
 				8C44880A230E1FA200745A60 /* 139. Word Break */,
 				8C448815230E217C00745A60 /* 140. Word Break II */,
 				8C448820230E5E4800745A60 /* 152. Maximum Product Subarray */,
+				8C26279123121B830073D4A8 /* 174. Dungeon Game */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C26278E23121B830073D4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C26279523121B830073D4A8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C4487BA230A5E5700745A60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,6 +705,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C26279623121B830073D4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C26279723121B830073D4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C4487B5230A5E4000745A60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -921,6 +995,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C26279823121B830073D4A8 /* Build configuration list for PBXNativeTarget "174. Dungeon Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C26279623121B830073D4A8 /* Debug */,
+				8C26279723121B830073D4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
