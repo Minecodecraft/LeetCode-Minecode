@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C26279523121B830073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C26279423121B830073D4A8 /* main.cpp */; };
 		8C2627A02312520E0073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C26279F2312520E0073D4A8 /* main.cpp */; };
+		8C2627AB2313A5BA0073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2627AA2313A5BA0073D4A8 /* main.cpp */; };
 		8C4487C1230A5E5700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487C0230A5E5700745A60 /* main.cpp */; };
 		8C4487CC230A5EAB00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487CB230A5EAB00745A60 /* main.cpp */; };
 		8C4487D7230A5FC700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487D6230A5FC700745A60 /* main.cpp */; };
@@ -32,6 +33,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C26279B2312520E0073D4A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C2627A62313A5BA0073D4A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -137,6 +147,8 @@
 		8C26279423121B830073D4A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C26279D2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "188. Best Time to Buy and Sell Stock IV"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C26279F2312520E0073D4A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C2627A82313A5BA0073D4A8 /* 198. House Robber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "198. House Robber"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2627AA2313A5BA0073D4A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487BE230A5E5700745A60 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4487C0230A5E5700745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487C9230A5EAB00745A60 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +180,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C26279A2312520E0073D4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2627A52313A5BA0073D4A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,6 +282,14 @@
 			path = "188. Best Time to Buy and Sell Stock IV";
 			sourceTree = "<group>";
 		};
+		8C2627A92313A5BA0073D4A8 /* 198. House Robber */ = {
+			isa = PBXGroup;
+			children = (
+				8C2627AA2313A5BA0073D4A8 /* main.cpp */,
+			);
+			path = "198. House Robber";
+			sourceTree = "<group>";
+		};
 		8C4487A7230A5E4000745A60 = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +305,7 @@
 				8C448822230E5E4900745A60 /* 152. Maximum Product Subarray */,
 				8C26279323121B830073D4A8 /* 174. Dungeon Game */,
 				8C26279E2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */,
+				8C2627A92313A5BA0073D4A8 /* 198. House Robber */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -297,6 +325,7 @@
 				8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */,
 				8C26279223121B830073D4A8 /* 174. Dungeon Game */,
 				8C26279D2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */,
+				8C2627A82313A5BA0073D4A8 /* 198. House Robber */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -416,6 +445,23 @@
 			name = "188. Best Time to Buy and Sell Stock IV";
 			productName = "188. Best Time to Buy and Sell Stock IV";
 			productReference = 8C26279D2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C2627A72313A5BA0073D4A8 /* 198. House Robber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2627AE2313A5BA0073D4A8 /* Build configuration list for PBXNativeTarget "198. House Robber" */;
+			buildPhases = (
+				8C2627A42313A5BA0073D4A8 /* Sources */,
+				8C2627A52313A5BA0073D4A8 /* Frameworks */,
+				8C2627A62313A5BA0073D4A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "198. House Robber";
+			productName = "198. House Robber";
+			productReference = 8C2627A82313A5BA0073D4A8 /* 198. House Robber */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C4487BD230A5E5700745A60 /* Template */ = {
@@ -603,6 +649,9 @@
 					8C26279C2312520E0073D4A8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C2627A72313A5BA0073D4A8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C4487BD230A5E5700745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -659,6 +708,7 @@
 				8C448820230E5E4800745A60 /* 152. Maximum Product Subarray */,
 				8C26279123121B830073D4A8 /* 174. Dungeon Game */,
 				8C26279C2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */,
+				8C2627A72313A5BA0073D4A8 /* 198. House Robber */,
 			);
 		};
 /* End PBXProject section */
@@ -677,6 +727,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2627A02312520E0073D4A8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2627A42313A5BA0073D4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2627AB2313A5BA0073D4A8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,6 +846,22 @@
 			name = Debug;
 		};
 		8C2627A22312520E0073D4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2627AC2313A5BA0073D4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2627AD2313A5BA0073D4A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1083,6 +1157,15 @@
 			buildConfigurations = (
 				8C2627A12312520E0073D4A8 /* Debug */,
 				8C2627A22312520E0073D4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2627AE2313A5BA0073D4A8 /* Build configuration list for PBXNativeTarget "198. House Robber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2627AC2313A5BA0073D4A8 /* Debug */,
+				8C2627AD2313A5BA0073D4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
