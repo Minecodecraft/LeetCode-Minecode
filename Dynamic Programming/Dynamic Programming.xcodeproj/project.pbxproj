@@ -21,6 +21,7 @@
 		8C44880E230E1FA200745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44880D230E1FA200745A60 /* main.cpp */; };
 		8C448819230E217C00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448818230E217C00745A60 /* main.cpp */; };
 		8C448824230E5E4900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448823230E5E4900745A60 /* main.cpp */; };
+		8C7F76F82313FEBC002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F76F72313FEBC002EDD17 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -150,6 +151,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C7F76F32313FEBC002EDD17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +191,8 @@
 		8C448818230E217C00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "152. Maximum Product Subarray"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C448823230E5E4900745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7F76F52313FEBC002EDD17 /* 221. Maximal Square */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "221. Maximal Square"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F76F72313FEBC002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +294,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C7F76F22313FEBC002EDD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -334,6 +353,7 @@
 				8C26279E2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */,
 				8C2627A92313A5BA0073D4A8 /* 198. House Robber */,
 				8C2627B42313A6E60073D4A8 /* 213. House Robber II */,
+				8C7F76F62313FEBC002EDD17 /* 221. Maximal Square */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -355,6 +375,7 @@
 				8C26279D2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */,
 				8C2627A82313A5BA0073D4A8 /* 198. House Robber */,
 				8C2627B32313A6E60073D4A8 /* 213. House Robber II */,
+				8C7F76F52313FEBC002EDD17 /* 221. Maximal Square */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,6 +458,14 @@
 				8C448823230E5E4900745A60 /* main.cpp */,
 			);
 			path = "152. Maximum Product Subarray";
+			sourceTree = "<group>";
+		};
+		8C7F76F62313FEBC002EDD17 /* 221. Maximal Square */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F76F72313FEBC002EDD17 /* main.cpp */,
+			);
+			path = "221. Maximal Square";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -680,6 +709,23 @@
 			productReference = 8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7F76F42313FEBC002EDD17 /* 221. Maximal Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F76FB2313FEBC002EDD17 /* Build configuration list for PBXNativeTarget "221. Maximal Square" */;
+			buildPhases = (
+				8C7F76F12313FEBC002EDD17 /* Sources */,
+				8C7F76F22313FEBC002EDD17 /* Frameworks */,
+				8C7F76F32313FEBC002EDD17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "221. Maximal Square";
+			productName = "221. Maximal Square";
+			productReference = 8C7F76F52313FEBC002EDD17 /* 221. Maximal Square */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -731,6 +777,9 @@
 					8C448820230E5E4800745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C7F76F42313FEBC002EDD17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -759,6 +808,7 @@
 				8C26279C2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */,
 				8C2627A72313A5BA0073D4A8 /* 198. House Robber */,
 				8C2627B22313A6E60073D4A8 /* 213. House Robber II */,
+				8C7F76F42313FEBC002EDD17 /* 221. Maximal Square */,
 			);
 		};
 /* End PBXProject section */
@@ -873,6 +923,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C448824230E5E4900745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F76F12313FEBC002EDD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F76F82313FEBC002EDD17 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,6 +1272,22 @@
 			};
 			name = Release;
 		};
+		8C7F76F92313FEBC002EDD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7F76FA2313FEBC002EDD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1348,6 +1422,15 @@
 			buildConfigurations = (
 				8C448825230E5E4900745A60 /* Debug */,
 				8C448826230E5E4900745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F76FB2313FEBC002EDD17 /* Build configuration list for PBXNativeTarget "221. Maximal Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F76F92313FEBC002EDD17 /* Debug */,
+				8C7F76FA2313FEBC002EDD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
