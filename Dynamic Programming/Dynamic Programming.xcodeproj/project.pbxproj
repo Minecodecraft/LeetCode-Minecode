@@ -23,6 +23,7 @@
 		8C448824230E5E4900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448823230E5E4900745A60 /* main.cpp */; };
 		8C7F76F82313FEBC002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F76F72313FEBC002EDD17 /* main.cpp */; };
 		8C7F77032314BAA9002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F77022314BAA9002EDD17 /* main.cpp */; };
+		8C7F770E2314C073002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F770D2314C073002EDD17 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -170,6 +171,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C7F77092314C073002EDD17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -205,6 +215,8 @@
 		8C7F76F72313FEBC002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7F77002314BAA9002EDD17 /* 264. Ugly Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "264. Ugly Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7F77022314BAA9002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7F770B2314C073002EDD17 /* 279. Perfect Squares */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "279. Perfect Squares"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7F770D2314C073002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +332,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C7F77082314C073002EDD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -374,6 +393,7 @@
 				8C2627B42313A6E60073D4A8 /* 213. House Robber II */,
 				8C7F76F62313FEBC002EDD17 /* 221. Maximal Square */,
 				8C7F77012314BAA9002EDD17 /* 264. Ugly Number II */,
+				8C7F770C2314C073002EDD17 /* 279. Perfect Squares */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -397,6 +417,7 @@
 				8C2627B32313A6E60073D4A8 /* 213. House Robber II */,
 				8C7F76F52313FEBC002EDD17 /* 221. Maximal Square */,
 				8C7F77002314BAA9002EDD17 /* 264. Ugly Number II */,
+				8C7F770B2314C073002EDD17 /* 279. Perfect Squares */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -495,6 +516,14 @@
 				8C7F77022314BAA9002EDD17 /* main.cpp */,
 			);
 			path = "264. Ugly Number II";
+			sourceTree = "<group>";
+		};
+		8C7F770C2314C073002EDD17 /* 279. Perfect Squares */ = {
+			isa = PBXGroup;
+			children = (
+				8C7F770D2314C073002EDD17 /* main.cpp */,
+			);
+			path = "279. Perfect Squares";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -772,6 +801,23 @@
 			productReference = 8C7F77002314BAA9002EDD17 /* 264. Ugly Number II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7F770A2314C073002EDD17 /* 279. Perfect Squares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7F770F2314C073002EDD17 /* Build configuration list for PBXNativeTarget "279. Perfect Squares" */;
+			buildPhases = (
+				8C7F77072314C073002EDD17 /* Sources */,
+				8C7F77082314C073002EDD17 /* Frameworks */,
+				8C7F77092314C073002EDD17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "279. Perfect Squares";
+			productName = "279. Perfect Squares";
+			productReference = 8C7F770B2314C073002EDD17 /* 279. Perfect Squares */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -829,6 +875,9 @@
 					8C7F76FF2314BAA9002EDD17 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C7F770A2314C073002EDD17 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -859,6 +908,7 @@
 				8C2627B22313A6E60073D4A8 /* 213. House Robber II */,
 				8C7F76F42313FEBC002EDD17 /* 221. Maximal Square */,
 				8C7F76FF2314BAA9002EDD17 /* 264. Ugly Number II */,
+				8C7F770A2314C073002EDD17 /* 279. Perfect Squares */,
 			);
 		};
 /* End PBXProject section */
@@ -989,6 +1039,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7F77032314BAA9002EDD17 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7F77072314C073002EDD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F770E2314C073002EDD17 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,6 +1420,22 @@
 			};
 			name = Release;
 		};
+		8C7F77102314C073002EDD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7F77112314C073002EDD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1514,6 +1588,15 @@
 			buildConfigurations = (
 				8C7F77042314BAA9002EDD17 /* Debug */,
 				8C7F77052314BAA9002EDD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7F770F2314C073002EDD17 /* Build configuration list for PBXNativeTarget "279. Perfect Squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7F77102314C073002EDD17 /* Debug */,
+				8C7F77112314C073002EDD17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
