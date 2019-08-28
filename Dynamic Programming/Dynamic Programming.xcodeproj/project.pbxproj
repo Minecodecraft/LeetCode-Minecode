@@ -26,6 +26,7 @@
 		8C7F770E2314C073002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F770D2314C073002EDD17 /* main.cpp */; };
 		8C7F77192314E923002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F77182314E923002EDD17 /* main.cpp */; };
 		8CAF58CF231626E50023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF58CE231626E50023D56E /* main.cpp */; };
+		8CAF6285231628F70023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF6284231628F70023D56E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -200,6 +201,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CAF6280231628F70023D56E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -241,6 +251,8 @@
 		8C7F77182314E923002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF58CC231626E50023D56E /* 303. Range Sum Query - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "303. Range Sum Query - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF58CE231626E50023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "304. Range Sum Query 2D - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF6284231628F70023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +389,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CAF627F231628F70023D56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -434,6 +453,7 @@
 				8C7F770C2314C073002EDD17 /* 279. Perfect Squares */,
 				8C7F77172314E923002EDD17 /* 300. Longest Increasing Subsequence */,
 				8CAF58CD231626E50023D56E /* 303. Range Sum Query - Immutable */,
+				8CAF6283231628F70023D56E /* 304. Range Sum Query 2D - Immutable */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -460,6 +480,7 @@
 				8C7F770B2314C073002EDD17 /* 279. Perfect Squares */,
 				8C7F77162314E923002EDD17 /* 300. Longest Increasing Subsequence */,
 				8CAF58CC231626E50023D56E /* 303. Range Sum Query - Immutable */,
+				8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -582,6 +603,14 @@
 				8CAF58CE231626E50023D56E /* main.cpp */,
 			);
 			path = "303. Range Sum Query - Immutable";
+			sourceTree = "<group>";
+		};
+		8CAF6283231628F70023D56E /* 304. Range Sum Query 2D - Immutable */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF6284231628F70023D56E /* main.cpp */,
+			);
+			path = "304. Range Sum Query 2D - Immutable";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -910,6 +939,23 @@
 			productReference = 8CAF58CC231626E50023D56E /* 303. Range Sum Query - Immutable */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CAF6281231628F70023D56E /* 304. Range Sum Query 2D - Immutable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF6286231628F70023D56E /* Build configuration list for PBXNativeTarget "304. Range Sum Query 2D - Immutable" */;
+			buildPhases = (
+				8CAF627E231628F70023D56E /* Sources */,
+				8CAF627F231628F70023D56E /* Frameworks */,
+				8CAF6280231628F70023D56E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "304. Range Sum Query 2D - Immutable";
+			productName = "304. Range Sum Query 2D - Immutable";
+			productReference = 8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -976,6 +1022,9 @@
 					8CAF58CB231626E50023D56E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CAF6281231628F70023D56E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -1009,6 +1058,7 @@
 				8C7F770A2314C073002EDD17 /* 279. Perfect Squares */,
 				8C7F77152314E923002EDD17 /* 300. Longest Increasing Subsequence */,
 				8CAF58CB231626E50023D56E /* 303. Range Sum Query - Immutable */,
+				8CAF6281231628F70023D56E /* 304. Range Sum Query 2D - Immutable */,
 			);
 		};
 /* End PBXProject section */
@@ -1163,6 +1213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF58CF231626E50023D56E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF627E231628F70023D56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF6285231628F70023D56E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1584,6 +1642,22 @@
 			};
 			name = Release;
 		};
+		8CAF6287231628F70023D56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF6288231628F70023D56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1763,6 +1837,15 @@
 			buildConfigurations = (
 				8CAF58D0231626E50023D56E /* Debug */,
 				8CAF58D1231626E50023D56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF6286231628F70023D56E /* Build configuration list for PBXNativeTarget "304. Range Sum Query 2D - Immutable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF6287231628F70023D56E /* Debug */,
+				8CAF6288231628F70023D56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
