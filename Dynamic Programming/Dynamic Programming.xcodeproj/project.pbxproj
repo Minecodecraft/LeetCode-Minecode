@@ -21,6 +21,7 @@
 		8C44880E230E1FA200745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44880D230E1FA200745A60 /* main.cpp */; };
 		8C448819230E217C00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448818230E217C00745A60 /* main.cpp */; };
 		8C448824230E5E4900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448823230E5E4900745A60 /* main.cpp */; };
+		8C5D4B612317F43C004CBF4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D4B602317F43C004CBF4C /* main.cpp */; };
 		8C710B8123179207006E4CA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C710B8023179207006E4CA2 /* main.cpp */; };
 		8C7F76F82313FEBC002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F76F72313FEBC002EDD17 /* main.cpp */; };
 		8C7F77032314BAA9002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F77022314BAA9002EDD17 /* main.cpp */; };
@@ -158,6 +159,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C5D4B5C2317F43C004CBF4C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C710B7C23179207006E4CA2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +271,8 @@
 		8C448818230E217C00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "152. Maximum Product Subarray"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C448823230E5E4900745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C5D4B5E2317F43C004CBF4C /* 321. Create Maximum Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "321. Create Maximum Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5D4B602317F43C004CBF4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C710B7E23179207006E4CA2 /* 312. Burst Balloons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "312. Burst Balloons"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C710B8023179207006E4CA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7F76F52313FEBC002EDD17 /* 221. Maximal Square */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "221. Maximal Square"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -372,6 +384,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C44881E230E5E4800745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5D4B5B2317F43C004CBF4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,6 +513,7 @@
 				8CAF6283231628F70023D56E /* 304. Range Sum Query 2D - Immutable */,
 				8CAF62DE231631ED0023D56E /* 309. Best Time to Buy and Sell Stock with Cooldown */,
 				8C710B7F23179207006E4CA2 /* 312. Burst Balloons */,
+				8C5D4B5F2317F43C004CBF4C /* 321. Create Maximum Number */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -523,6 +543,7 @@
 				8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */,
 				8CAF62DD231631ED0023D56E /* 309. Best Time to Buy and Sell Stock with Cooldown */,
 				8C710B7E23179207006E4CA2 /* 312. Burst Balloons */,
+				8C5D4B5E2317F43C004CBF4C /* 321. Create Maximum Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -605,6 +626,14 @@
 				8C448823230E5E4900745A60 /* main.cpp */,
 			);
 			path = "152. Maximum Product Subarray";
+			sourceTree = "<group>";
+		};
+		8C5D4B5F2317F43C004CBF4C /* 321. Create Maximum Number */ = {
+			isa = PBXGroup;
+			children = (
+				8C5D4B602317F43C004CBF4C /* main.cpp */,
+			);
+			path = "321. Create Maximum Number";
 			sourceTree = "<group>";
 		};
 		8C710B7F23179207006E4CA2 /* 312. Burst Balloons */ = {
@@ -912,6 +941,23 @@
 			productReference = 8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C5D4B5D2317F43C004CBF4C /* 321. Create Maximum Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5D4B642317F43C004CBF4C /* Build configuration list for PBXNativeTarget "321. Create Maximum Number" */;
+			buildPhases = (
+				8C5D4B5A2317F43C004CBF4C /* Sources */,
+				8C5D4B5B2317F43C004CBF4C /* Frameworks */,
+				8C5D4B5C2317F43C004CBF4C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "321. Create Maximum Number";
+			productName = "321. Create Maximum Number";
+			productReference = 8C5D4B5E2317F43C004CBF4C /* 321. Create Maximum Number */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C710B7D23179207006E4CA2 /* 312. Burst Balloons */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C710B8423179207006E4CA2 /* Build configuration list for PBXNativeTarget "312. Burst Balloons" */;
@@ -1099,6 +1145,9 @@
 					8C448820230E5E4800745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C5D4B5D2317F43C004CBF4C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C710B7D23179207006E4CA2 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1159,6 +1208,7 @@
 				8CAF6281231628F70023D56E /* 304. Range Sum Query 2D - Immutable */,
 				8CAF62DC231631ED0023D56E /* 309. Best Time to Buy and Sell Stock with Cooldown */,
 				8C710B7D23179207006E4CA2 /* 312. Burst Balloons */,
+				8C5D4B5D2317F43C004CBF4C /* 321. Create Maximum Number */,
 			);
 		};
 /* End PBXProject section */
@@ -1273,6 +1323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C448824230E5E4900745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5D4B5A2317F43C004CBF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5D4B612317F43C004CBF4C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1678,6 +1736,22 @@
 			};
 			name = Release;
 		};
+		8C5D4B622317F43C004CBF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C5D4B632317F43C004CBF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C710B8223179207006E4CA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1940,6 +2014,15 @@
 			buildConfigurations = (
 				8C448825230E5E4900745A60 /* Debug */,
 				8C448826230E5E4900745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5D4B642317F43C004CBF4C /* Build configuration list for PBXNativeTarget "321. Create Maximum Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5D4B622317F43C004CBF4C /* Debug */,
+				8C5D4B632317F43C004CBF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
