@@ -12,6 +12,7 @@
 		8C2627AB2313A5BA0073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2627AA2313A5BA0073D4A8 /* main.cpp */; };
 		8C2627B62313A6E60073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2627B52313A6E60073D4A8 /* main.cpp */; };
 		8C2DE34C231D4AE500B511CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DE34B231D4AE500B511CE /* main.cpp */; };
+		8C2DE357231D4D0E00B511CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DE356231D4D0E00B511CE /* main.cpp */; };
 		8C4487C1230A5E5700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487C0230A5E5700745A60 /* main.cpp */; };
 		8C4487CC230A5EAB00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487CB230A5EAB00745A60 /* main.cpp */; };
 		8C4487D7230A5FC700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487D6230A5FC700745A60 /* main.cpp */; };
@@ -71,6 +72,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C2DE347231D4AE500B511CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C2DE352231D4D0E00B511CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -263,6 +273,8 @@
 		8C2627B52313A6E60073D4A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2DE349231D4AE500B511CE /* 322. Coin Change */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "322. Coin Change"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2DE34B231D4AE500B511CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C2DE354231D4D0E00B511CE /* 338. Counting Bits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "338. Counting Bits"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DE356231D4D0E00B511CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487BE230A5E5700745A60 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4487C0230A5E5700745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487C9230A5EAB00745A60 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,6 +345,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C2DE346231D4AE500B511CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DE351231D4D0E00B511CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -515,6 +534,14 @@
 			path = "322. Coin Change";
 			sourceTree = "<group>";
 		};
+		8C2DE355231D4D0E00B511CE /* 338. Counting Bits */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DE356231D4D0E00B511CE /* main.cpp */,
+			);
+			path = "338. Counting Bits";
+			sourceTree = "<group>";
+		};
 		8C4487A7230A5E4000745A60 = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +569,7 @@
 				8C710B7F23179207006E4CA2 /* 312. Burst Balloons */,
 				8C5D4B5F2317F43C004CBF4C /* 321. Create Maximum Number */,
 				8C2DE34A231D4AE500B511CE /* 322. Coin Change */,
+				8C2DE355231D4D0E00B511CE /* 338. Counting Bits */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -573,6 +601,7 @@
 				8C710B7E23179207006E4CA2 /* 312. Burst Balloons */,
 				8C5D4B5E2317F43C004CBF4C /* 321. Create Maximum Number */,
 				8C2DE349231D4AE500B511CE /* 322. Coin Change */,
+				8C2DE354231D4D0E00B511CE /* 338. Counting Bits */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -815,6 +844,23 @@
 			name = "322. Coin Change";
 			productName = "322. Coin Change";
 			productReference = 8C2DE349231D4AE500B511CE /* 322. Coin Change */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C2DE353231D4D0E00B511CE /* 338. Counting Bits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2DE358231D4D0E00B511CE /* Build configuration list for PBXNativeTarget "338. Counting Bits" */;
+			buildPhases = (
+				8C2DE350231D4D0E00B511CE /* Sources */,
+				8C2DE351231D4D0E00B511CE /* Frameworks */,
+				8C2DE352231D4D0E00B511CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "338. Counting Bits";
+			productName = "338. Counting Bits";
+			productReference = 8C2DE354231D4D0E00B511CE /* 338. Counting Bits */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C4487BD230A5E5700745A60 /* Template */ = {
@@ -1164,6 +1210,9 @@
 					8C2DE348231D4AE500B511CE = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C2DE353231D4D0E00B511CE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C4487BD230A5E5700745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1259,6 +1308,7 @@
 				8C710B7D23179207006E4CA2 /* 312. Burst Balloons */,
 				8C5D4B5D2317F43C004CBF4C /* 321. Create Maximum Number */,
 				8C2DE348231D4AE500B511CE /* 322. Coin Change */,
+				8C2DE353231D4D0E00B511CE /* 338. Counting Bits */,
 			);
 		};
 /* End PBXProject section */
@@ -1301,6 +1351,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2DE34C231D4AE500B511CE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DE350231D4D0E00B511CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2DE357231D4D0E00B511CE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1532,6 +1590,22 @@
 			name = Debug;
 		};
 		8C2DE34E231D4AE500B511CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2DE359231D4D0E00B511CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2DE35A231D4D0E00B511CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1998,6 +2072,15 @@
 			buildConfigurations = (
 				8C2DE34D231D4AE500B511CE /* Debug */,
 				8C2DE34E231D4AE500B511CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2DE358231D4D0E00B511CE /* Build configuration list for PBXNativeTarget "338. Counting Bits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2DE359231D4D0E00B511CE /* Debug */,
+				8C2DE35A231D4D0E00B511CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
