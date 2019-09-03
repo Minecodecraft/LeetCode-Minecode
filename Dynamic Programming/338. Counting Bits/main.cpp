@@ -26,21 +26,7 @@ using namespace std;
 
 /// Solution:
 //
-class Solution {
-public:
-    vector<int> countBits(int num) {
-        vector<int> res = {0};
-        int level = 0, idx = 1;
-        while (idx <= num) {
-            int end = min(num, idx + (1 << level) - 1);
-            for (; idx <= end; ++idx) {
-                res.push_back(res[idx - (1 << level)] + 1);
-            }
-            ++level;
-        }
-        return res;
-    }
-};
+
 
 // Tool Function List
 void printVector(vector<int> v) {
