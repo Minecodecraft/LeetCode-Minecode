@@ -14,6 +14,7 @@
 		8C2DE34C231D4AE500B511CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DE34B231D4AE500B511CE /* main.cpp */; };
 		8C2DE357231D4D0E00B511CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DE356231D4D0E00B511CE /* main.cpp */; };
 		8C2DF6B8231E111300B511CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DF6B7231E111300B511CE /* main.cpp */; };
+		8C2DF6C3231E15C700B511CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DF6C2231E15C700B511CE /* main.cpp */; };
 		8C4487C1230A5E5700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487C0230A5E5700745A60 /* main.cpp */; };
 		8C4487CC230A5EAB00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487CB230A5EAB00745A60 /* main.cpp */; };
 		8C4487D7230A5FC700745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4487D6230A5FC700745A60 /* main.cpp */; };
@@ -91,6 +92,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C2DF6B3231E111300B511CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C2DF6BE231E15C700B511CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -287,6 +297,8 @@
 		8C2DE356231D4D0E00B511CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2DF6B5231E111300B511CE /* 343. Integer Break */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "343. Integer Break"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2DF6B7231E111300B511CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C2DF6C0231E15C700B511CE /* 354. Russian Doll Envelopes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "354. Russian Doll Envelopes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DF6C2231E15C700B511CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487BE230A5E5700745A60 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4487C0230A5E5700745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C4487C9230A5EAB00745A60 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,6 +383,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C2DF6B2231E111300B511CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DF6BD231E15C700B511CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -569,6 +588,14 @@
 			path = "343. Integer Break";
 			sourceTree = "<group>";
 		};
+		8C2DF6C1231E15C700B511CE /* 354. Russian Doll Envelopes */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DF6C2231E15C700B511CE /* main.cpp */,
+			);
+			path = "354. Russian Doll Envelopes";
+			sourceTree = "<group>";
+		};
 		8C4487A7230A5E4000745A60 = {
 			isa = PBXGroup;
 			children = (
@@ -598,6 +625,7 @@
 				8C2DE34A231D4AE500B511CE /* 322. Coin Change */,
 				8C2DE355231D4D0E00B511CE /* 338. Counting Bits */,
 				8C2DF6B6231E111300B511CE /* 343. Integer Break */,
+				8C2DF6C1231E15C700B511CE /* 354. Russian Doll Envelopes */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -631,6 +659,7 @@
 				8C2DE349231D4AE500B511CE /* 322. Coin Change */,
 				8C2DE354231D4D0E00B511CE /* 338. Counting Bits */,
 				8C2DF6B5231E111300B511CE /* 343. Integer Break */,
+				8C2DF6C0231E15C700B511CE /* 354. Russian Doll Envelopes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -907,6 +936,23 @@
 			name = "343. Integer Break";
 			productName = "343. Integer Break";
 			productReference = 8C2DF6B5231E111300B511CE /* 343. Integer Break */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C2DF6BF231E15C700B511CE /* 354. Russian Doll Envelopes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2DF6C4231E15C700B511CE /* Build configuration list for PBXNativeTarget "354. Russian Doll Envelopes" */;
+			buildPhases = (
+				8C2DF6BC231E15C700B511CE /* Sources */,
+				8C2DF6BD231E15C700B511CE /* Frameworks */,
+				8C2DF6BE231E15C700B511CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "354. Russian Doll Envelopes";
+			productName = "354. Russian Doll Envelopes";
+			productReference = 8C2DF6C0231E15C700B511CE /* 354. Russian Doll Envelopes */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C4487BD230A5E5700745A60 /* Template */ = {
@@ -1262,6 +1308,9 @@
 					8C2DF6B4231E111300B511CE = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C2DF6BF231E15C700B511CE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C4487BD230A5E5700745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1359,6 +1408,7 @@
 				8C2DE348231D4AE500B511CE /* 322. Coin Change */,
 				8C2DE353231D4D0E00B511CE /* 338. Counting Bits */,
 				8C2DF6B4231E111300B511CE /* 343. Integer Break */,
+				8C2DF6BF231E15C700B511CE /* 354. Russian Doll Envelopes */,
 			);
 		};
 /* End PBXProject section */
@@ -1417,6 +1467,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2DF6B8231E111300B511CE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DF6BC231E15C700B511CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2DF6C3231E15C700B511CE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1680,6 +1738,22 @@
 			name = Debug;
 		};
 		8C2DF6BA231E111300B511CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2DF6C5231E15C700B511CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2DF6C6231E15C700B511CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2164,6 +2238,15 @@
 			buildConfigurations = (
 				8C2DF6B9231E111300B511CE /* Debug */,
 				8C2DF6BA231E111300B511CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2DF6C4231E15C700B511CE /* Build configuration list for PBXNativeTarget "354. Russian Doll Envelopes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2DF6C5231E15C700B511CE /* Debug */,
+				8C2DF6C6231E15C700B511CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
