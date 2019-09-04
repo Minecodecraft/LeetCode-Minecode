@@ -27,6 +27,34 @@ using namespace std;
 
 /// Solution:
 //
+
+// Solution 1
+class Solution {
+public:
+    int maxEnvelopes(vector<vector<int>>& envelopes) {
+        if (envelopes.size() <= 0) return 0;
+        sort(envelopes.begin(), envelopes.end(), cmp);
+        vector<int> dp;
+        for (int i = 0; i < envelopes.size(); ++i) {
+            auto it = lower_bound(dp.begin(), dp.end(), envelopes[i][1]);
+            if (it != dp.end())
+                *it = envelopes[i][1];
+            else
+                dp.push_back(envelopes[i][1]);
+        }
+        return dp.size();
+    }
+
+private:
+    struct {
+        bool operator() (const vector<int>& a, const vector<int>& b) const {
+            return a[0] < b[0] || (a[0] == b[0] && a[1] >= b[1]);
+        }
+    } cmp;
+};
+
+// Solution 2
+/*
 class Solution {
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
@@ -49,6 +77,7 @@ private:
         }
     } cmp;
 };
+ */
 
 int main() {
     Solution sol = Solution();
@@ -56,7 +85,7 @@ int main() {
 
 //        {5,4}, {6,4}, {6,7}, {2,3}
 //        {5,4}, {6,4}, {6,7}, {2,3}, {7 ,8}
-//        {1,1}
+        {1,1}
     };
     int res = sol.maxEnvelopes(nums);
     cout << res << endl;
