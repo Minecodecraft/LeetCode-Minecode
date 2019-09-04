@@ -27,6 +27,7 @@
 		8C448824230E5E4900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448823230E5E4900745A60 /* main.cpp */; };
 		8C5D4B612317F43C004CBF4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D4B602317F43C004CBF4C /* main.cpp */; };
 		8C710B8123179207006E4CA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C710B8023179207006E4CA2 /* main.cpp */; };
+		8C74A3C0231F6E3B009EAFE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C74A3BF231F6E3B009EAFE3 /* main.cpp */; };
 		8C7F76F82313FEBC002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F76F72313FEBC002EDD17 /* main.cpp */; };
 		8C7F77032314BAA9002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F77022314BAA9002EDD17 /* main.cpp */; };
 		8C7F770E2314C073002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F770D2314C073002EDD17 /* main.cpp */; };
@@ -217,6 +218,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C74A3BB231F6E3B009EAFE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C7F76F32313FEBC002EDD17 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +333,8 @@
 		8C5D4B602317F43C004CBF4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C710B7E23179207006E4CA2 /* 312. Burst Balloons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "312. Burst Balloons"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C710B8023179207006E4CA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C74A3BD231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "357. Count Numbers with Unique Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C74A3BF231F6E3B009EAFE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7F76F52313FEBC002EDD17 /* 221. Maximal Square */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "221. Maximal Square"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7F76F72313FEBC002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7F77002314BAA9002EDD17 /* 264. Ugly Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "264. Ugly Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -480,6 +492,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C74A3BA231F6E3B009EAFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7F76F22313FEBC002EDD17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -626,6 +645,7 @@
 				8C2DE355231D4D0E00B511CE /* 338. Counting Bits */,
 				8C2DF6B6231E111300B511CE /* 343. Integer Break */,
 				8C2DF6C1231E15C700B511CE /* 354. Russian Doll Envelopes */,
+				8C74A3BE231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -660,6 +680,7 @@
 				8C2DE354231D4D0E00B511CE /* 338. Counting Bits */,
 				8C2DF6B5231E111300B511CE /* 343. Integer Break */,
 				8C2DF6C0231E15C700B511CE /* 354. Russian Doll Envelopes */,
+				8C74A3BD231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -758,6 +779,14 @@
 				8C710B8023179207006E4CA2 /* main.cpp */,
 			);
 			path = "312. Burst Balloons";
+			sourceTree = "<group>";
+		};
+		8C74A3BE231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */ = {
+			isa = PBXGroup;
+			children = (
+				8C74A3BF231F6E3B009EAFE3 /* main.cpp */,
+			);
+			path = "357. Count Numbers with Unique Digits";
 			sourceTree = "<group>";
 		};
 		8C7F76F62313FEBC002EDD17 /* 221. Maximal Square */ = {
@@ -1159,6 +1188,23 @@
 			productReference = 8C710B7E23179207006E4CA2 /* 312. Burst Balloons */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C74A3BC231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C74A3C3231F6E3B009EAFE3 /* Build configuration list for PBXNativeTarget "357. Count Numbers with Unique Digits" */;
+			buildPhases = (
+				8C74A3B9231F6E3B009EAFE3 /* Sources */,
+				8C74A3BA231F6E3B009EAFE3 /* Frameworks */,
+				8C74A3BB231F6E3B009EAFE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "357. Count Numbers with Unique Digits";
+			productName = "357. Count Numbers with Unique Digits";
+			productReference = 8C74A3BD231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C7F76F42313FEBC002EDD17 /* 221. Maximal Square */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7F76FB2313FEBC002EDD17 /* Build configuration list for PBXNativeTarget "221. Maximal Square" */;
@@ -1347,6 +1393,9 @@
 					8C710B7D23179207006E4CA2 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C74A3BC231F6E3B009EAFE3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C7F76F42313FEBC002EDD17 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1409,6 +1458,7 @@
 				8C2DE353231D4D0E00B511CE /* 338. Counting Bits */,
 				8C2DF6B4231E111300B511CE /* 343. Integer Break */,
 				8C2DF6BF231E15C700B511CE /* 354. Russian Doll Envelopes */,
+				8C74A3BC231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */,
 			);
 		};
 /* End PBXProject section */
@@ -1571,6 +1621,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C710B8123179207006E4CA2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C74A3B9231F6E3B009EAFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C74A3C0231F6E3B009EAFE3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2064,6 +2122,22 @@
 			};
 			name = Release;
 		};
+		8C74A3C1231F6E3B009EAFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C74A3C2231F6E3B009EAFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C7F76F92313FEBC002EDD17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2364,6 +2438,15 @@
 			buildConfigurations = (
 				8C710B8223179207006E4CA2 /* Debug */,
 				8C710B8323179207006E4CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C74A3C3231F6E3B009EAFE3 /* Build configuration list for PBXNativeTarget "357. Count Numbers with Unique Digits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C74A3C1231F6E3B009EAFE3 /* Debug */,
+				8C74A3C2231F6E3B009EAFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
