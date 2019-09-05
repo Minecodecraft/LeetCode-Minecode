@@ -35,6 +35,7 @@
 		8CAF58CF231626E50023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF58CE231626E50023D56E /* main.cpp */; };
 		8CAF6285231628F70023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF6284231628F70023D56E /* main.cpp */; };
 		8CAF62E0231631ED0023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF62DF231631ED0023D56E /* main.cpp */; };
+		8CD49308231FF6EF00B55449 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD49307231FF6EF00B55449 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -290,6 +291,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CD49303231FF6EF00B55449 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -349,6 +359,8 @@
 		8CAF6284231628F70023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF62DD231631ED0023D56E /* 309. Best Time to Buy and Sell Stock with Cooldown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "309. Best Time to Buy and Sell Stock with Cooldown"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF62DF231631ED0023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CD49305231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "363. Max Sum of Rectangle No Larger Than K"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD49307231FF6EF00B55449 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +560,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CD49302231FF6EF00B55449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -646,6 +665,7 @@
 				8C2DF6B6231E111300B511CE /* 343. Integer Break */,
 				8C2DF6C1231E15C700B511CE /* 354. Russian Doll Envelopes */,
 				8C74A3BE231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */,
+				8CD49306231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -681,6 +701,7 @@
 				8C2DF6B5231E111300B511CE /* 343. Integer Break */,
 				8C2DF6C0231E15C700B511CE /* 354. Russian Doll Envelopes */,
 				8C74A3BD231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */,
+				8CD49305231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -843,6 +864,14 @@
 				8CAF62DF231631ED0023D56E /* main.cpp */,
 			);
 			path = "309. Best Time to Buy and Sell Stock with Cooldown";
+			sourceTree = "<group>";
+		};
+		8CD49306231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */ = {
+			isa = PBXGroup;
+			children = (
+				8CD49307231FF6EF00B55449 /* main.cpp */,
+			);
+			path = "363. Max Sum of Rectangle No Larger Than K";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1324,6 +1353,23 @@
 			productReference = 8CAF62DD231631ED0023D56E /* 309. Best Time to Buy and Sell Stock with Cooldown */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD49304231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD4930B231FF6EF00B55449 /* Build configuration list for PBXNativeTarget "363. Max Sum of Rectangle No Larger Than K" */;
+			buildPhases = (
+				8CD49301231FF6EF00B55449 /* Sources */,
+				8CD49302231FF6EF00B55449 /* Frameworks */,
+				8CD49303231FF6EF00B55449 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "363. Max Sum of Rectangle No Larger Than K";
+			productName = "363. Max Sum of Rectangle No Larger Than K";
+			productReference = 8CD49305231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1417,6 +1463,9 @@
 					8CAF62DC231631ED0023D56E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CD49304231FF6EF00B55449 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -1459,6 +1508,7 @@
 				8C2DF6B4231E111300B511CE /* 343. Integer Break */,
 				8C2DF6BF231E15C700B511CE /* 354. Russian Doll Envelopes */,
 				8C74A3BC231F6E3B009EAFE3 /* 357. Count Numbers with Unique Digits */,
+				8CD49304231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */,
 			);
 		};
 /* End PBXProject section */
@@ -1685,6 +1735,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF62E0231631ED0023D56E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD49301231FF6EF00B55449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD49308231FF6EF00B55449 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2250,6 +2308,22 @@
 			};
 			name = Release;
 		};
+		8CD49309231FF6EF00B55449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD4930A231FF6EF00B55449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2510,6 +2584,15 @@
 			buildConfigurations = (
 				8CAF62E1231631ED0023D56E /* Debug */,
 				8CAF62E2231631ED0023D56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD4930B231FF6EF00B55449 /* Build configuration list for PBXNativeTarget "363. Max Sum of Rectangle No Larger Than K" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD49309231FF6EF00B55449 /* Debug */,
+				8CD4930A231FF6EF00B55449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
