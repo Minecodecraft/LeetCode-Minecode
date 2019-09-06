@@ -38,6 +38,7 @@
 		8CD49308231FF6EF00B55449 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD49307231FF6EF00B55449 /* main.cpp */; };
 		8CD4A7AE2320E9E100B55449 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD4A7AD2320E9E100B55449 /* main.cpp */; };
 		8CF6DD33232113D300946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6DD32232113D300946B54 /* main.cpp */; };
+		8CF6E14623221FFC00946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E14523221FFC00946B54 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -320,6 +321,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF6E14123221FFC00946B54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -385,6 +395,8 @@
 		8CD4A7AD2320E9E100B55449 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF6DD30232113D300946B54 /* 375. Guess Number Higher or Lower II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "375. Guess Number Higher or Lower II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF6DD32232113D300946B54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF6E14323221FFC00946B54 /* 376. Wiggle Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "376. Wiggle Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF6E14523221FFC00946B54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -605,6 +617,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF6E14023221FFC00946B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -706,6 +725,7 @@
 				8CD49306231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */,
 				8CD4A7AC2320E9E100B55449 /* 368. Largest Divisible Subset */,
 				8CF6DD31232113D300946B54 /* 375. Guess Number Higher or Lower II */,
+				8CF6E14423221FFC00946B54 /* 376. Wiggle Subsequence */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -744,6 +764,7 @@
 				8CD49305231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */,
 				8CD4A7AB2320E9E000B55449 /* 368. Largest Divisible Subset */,
 				8CF6DD30232113D300946B54 /* 375. Guess Number Higher or Lower II */,
+				8CF6E14323221FFC00946B54 /* 376. Wiggle Subsequence */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -930,6 +951,14 @@
 				8CF6DD32232113D300946B54 /* main.cpp */,
 			);
 			path = "375. Guess Number Higher or Lower II";
+			sourceTree = "<group>";
+		};
+		8CF6E14423221FFC00946B54 /* 376. Wiggle Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+				8CF6E14523221FFC00946B54 /* main.cpp */,
+			);
+			path = "376. Wiggle Subsequence";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1462,6 +1491,23 @@
 			productReference = 8CF6DD30232113D300946B54 /* 375. Guess Number Higher or Lower II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF6E14223221FFC00946B54 /* 376. Wiggle Subsequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF6E14723221FFC00946B54 /* Build configuration list for PBXNativeTarget "376. Wiggle Subsequence" */;
+			buildPhases = (
+				8CF6E13F23221FFC00946B54 /* Sources */,
+				8CF6E14023221FFC00946B54 /* Frameworks */,
+				8CF6E14123221FFC00946B54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "376. Wiggle Subsequence";
+			productName = "376. Wiggle Subsequence";
+			productReference = 8CF6E14323221FFC00946B54 /* 376. Wiggle Subsequence */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1564,6 +1610,9 @@
 					8CF6DD2F232113D300946B54 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF6E14223221FFC00946B54 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -1609,6 +1658,7 @@
 				8CD49304231FF6EF00B55449 /* 363. Max Sum of Rectangle No Larger Than K */,
 				8CD4A7AA2320E9E000B55449 /* 368. Largest Divisible Subset */,
 				8CF6DD2F232113D300946B54 /* 375. Guess Number Higher or Lower II */,
+				8CF6E14223221FFC00946B54 /* 376. Wiggle Subsequence */,
 			);
 		};
 /* End PBXProject section */
@@ -1859,6 +1909,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF6DD33232113D300946B54 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF6E13F23221FFC00946B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF6E14623221FFC00946B54 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2472,6 +2530,22 @@
 			};
 			name = Release;
 		};
+		8CF6E14823221FFC00946B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF6E14923221FFC00946B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2759,6 +2833,15 @@
 			buildConfigurations = (
 				8CF6DD34232113D300946B54 /* Debug */,
 				8CF6DD35232113D300946B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF6E14723221FFC00946B54 /* Build configuration list for PBXNativeTarget "376. Wiggle Subsequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF6E14823221FFC00946B54 /* Debug */,
+				8CF6E14923221FFC00946B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
