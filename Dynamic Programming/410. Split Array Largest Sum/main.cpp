@@ -26,6 +26,42 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: O(nlogn)
+class Solution {
+public:
+    int splitArray(vector<int>& nums, int m) {
+        long long l = 0, r = 0;
+        for (int i = 0; i < nums.size(); ++i) {
+            l = max(l, (long long)nums[i]);
+            r += nums[i];
+        }
+        while (l < r) {
+            long long mid = l + (r - l) / 2;
+            if (splitWorkable(nums, m-1, mid)) r = mid;
+            else l = mid + 1;
+        }
+        return (int) l;
+    }
+
+private:
+    bool splitWorkable(vector<int>& nums, int m, long long maxval) {
+        long long sum = 0;
+        for (int i = 0; i < nums.size(); ++i) {
+            if (nums[i] > maxval)
+                return false;
+            if (sum + nums[i] <= maxval)
+                sum += nums[i];
+            else {
+                sum = nums[i];
+                if (--m < 0) return false;
+            }
+        }
+        return true;
+    }
+};
+
+// Solution 2: O(n^3)  🤢Too bad
+/*
 class Solution {
 public:
     int splitArray(vector<int>& nums, int m) {
@@ -47,12 +83,13 @@ public:
         return dp[n][m];
     }
 };
+ */
 
 int main() {
     Solution sol = Solution();
     vector<int> nums = {
-//        7,2,5,10,8
-        1, 2147483647
+        7,2,5,10,8
+//        1, 2147483647
     };
     int m = 2;
     int res = sol.splitArray(nums, m);
