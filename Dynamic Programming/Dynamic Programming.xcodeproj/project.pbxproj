@@ -41,6 +41,7 @@
 		8CF6E14623221FFC00946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E14523221FFC00946B54 /* main.cpp */; };
 		8CF6E3552322442700946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E3542322442700946B54 /* main.cpp */; };
 		8CF6E36023224B5400946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E35F23224B5400946B54 /* main.cpp */; };
+		8CF6E36B23224F4C00946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E36A23224F4C00946B54 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -350,6 +351,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF6E36623224F4C00946B54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -421,6 +431,8 @@
 		8CF6E3542322442700946B54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF6E35D23224B5400946B54 /* 392. Is Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "392. Is Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF6E35F23224B5400946B54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF6E36823224F4C00946B54 /* 403. Frog Jump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "403. Frog Jump"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF6E36A23224F4C00946B54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -662,6 +674,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF6E36523224F4C00946B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -766,6 +785,7 @@
 				8CF6E14423221FFC00946B54 /* 376. Wiggle Subsequence */,
 				8CF6E3532322442700946B54 /* 377. Combination Sum IV */,
 				8CF6E35E23224B5400946B54 /* 392. Is Subsequence */,
+				8CF6E36923224F4C00946B54 /* 403. Frog Jump */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -807,6 +827,7 @@
 				8CF6E14323221FFC00946B54 /* 376. Wiggle Subsequence */,
 				8CF6E3522322442700946B54 /* 377. Combination Sum IV */,
 				8CF6E35D23224B5400946B54 /* 392. Is Subsequence */,
+				8CF6E36823224F4C00946B54 /* 403. Frog Jump */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1017,6 +1038,14 @@
 				8CF6E35F23224B5400946B54 /* main.cpp */,
 			);
 			path = "392. Is Subsequence";
+			sourceTree = "<group>";
+		};
+		8CF6E36923224F4C00946B54 /* 403. Frog Jump */ = {
+			isa = PBXGroup;
+			children = (
+				8CF6E36A23224F4C00946B54 /* main.cpp */,
+			);
+			path = "403. Frog Jump";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1600,6 +1629,23 @@
 			productReference = 8CF6E35D23224B5400946B54 /* 392. Is Subsequence */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF6E36723224F4C00946B54 /* 403. Frog Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF6E36C23224F4C00946B54 /* Build configuration list for PBXNativeTarget "403. Frog Jump" */;
+			buildPhases = (
+				8CF6E36423224F4C00946B54 /* Sources */,
+				8CF6E36523224F4C00946B54 /* Frameworks */,
+				8CF6E36623224F4C00946B54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "403. Frog Jump";
+			productName = "403. Frog Jump";
+			productReference = 8CF6E36823224F4C00946B54 /* 403. Frog Jump */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1711,6 +1757,9 @@
 					8CF6E35C23224B5400946B54 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF6E36723224F4C00946B54 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C4487AB230A5E4000745A60 /* Build configuration list for PBXProject "Dynamic Programming" */;
@@ -1759,6 +1808,7 @@
 				8CF6E14223221FFC00946B54 /* 376. Wiggle Subsequence */,
 				8CF6E3512322442700946B54 /* 377. Combination Sum IV */,
 				8CF6E35C23224B5400946B54 /* 392. Is Subsequence */,
+				8CF6E36723224F4C00946B54 /* 403. Frog Jump */,
 			);
 		};
 /* End PBXProject section */
@@ -2033,6 +2083,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF6E36023224B5400946B54 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF6E36423224F4C00946B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF6E36B23224F4C00946B54 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2694,6 +2752,22 @@
 			};
 			name = Release;
 		};
+		8CF6E36D23224F4C00946B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF6E36E23224F4C00946B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3008,6 +3082,15 @@
 			buildConfigurations = (
 				8CF6E36223224B5400946B54 /* Debug */,
 				8CF6E36323224B5400946B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF6E36C23224F4C00946B54 /* Build configuration list for PBXNativeTarget "403. Frog Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF6E36D23224F4C00946B54 /* Debug */,
+				8CF6E36E23224F4C00946B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
