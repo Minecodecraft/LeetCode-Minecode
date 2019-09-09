@@ -51,6 +51,7 @@ private:
  */
 
 // Solution 2: DP
+/*
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -64,6 +65,20 @@ public:
                 dp[j] = dp[j] | dp[j-nums[i]];
         }
         return dp[sum];
+    }
+};
+ */
+
+// Solution 3: Bitset
+class Solution {
+public:
+    bool canPartition(vector<int>& nums) {
+        bitset<10010> bt(1);
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        if (sum & 1) return false;
+        for (int i = 0; i < nums.size(); ++i)
+            bt |= bt << nums[i];
+        return bt[sum >> 1];
     }
 };
 
