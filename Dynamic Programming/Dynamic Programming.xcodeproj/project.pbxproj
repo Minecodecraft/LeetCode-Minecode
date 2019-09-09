@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C0838762326033900F797EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0838752326033900F797EA /* main.cpp */; };
+		8C0838812326135A00F797EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0838802326135A00F797EA /* main.cpp */; };
 		8C26279523121B830073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C26279423121B830073D4A8 /* main.cpp */; };
 		8C2627A02312520E0073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C26279F2312520E0073D4A8 /* main.cpp */; };
 		8C2627AB2313A5BA0073D4A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2627AA2313A5BA0073D4A8 /* main.cpp */; };
@@ -48,6 +49,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C0838712326033900F797EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C08387C2326135A00F797EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -385,6 +395,8 @@
 /* Begin PBXFileReference section */
 		8C0838732326033900F797EA /* 413. Arithmetic Slices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "413. Arithmetic Slices"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0838752326033900F797EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C08387E2326135A00F797EA /* 416. Partition Equal Subset Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "416. Partition Equal Subset Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0838802326135A00F797EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C26279223121B830073D4A8 /* 174. Dungeon Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "174. Dungeon Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C26279423121B830073D4A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C26279D2312520E0073D4A8 /* 188. Best Time to Buy and Sell Stock IV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "188. Best Time to Buy and Sell Stock IV"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -461,6 +473,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C0838702326033900F797EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C08387B2326135A00F797EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -730,6 +749,14 @@
 			path = "413. Arithmetic Slices";
 			sourceTree = "<group>";
 		};
+		8C08387F2326135A00F797EA /* 416. Partition Equal Subset Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8C0838802326135A00F797EA /* main.cpp */,
+			);
+			path = "416. Partition Equal Subset Sum";
+			sourceTree = "<group>";
+		};
 		8C26279323121B830073D4A8 /* 174. Dungeon Game */ = {
 			isa = PBXGroup;
 			children = (
@@ -834,6 +861,7 @@
 				8CF6E36923224F4C00946B54 /* 403. Frog Jump */,
 				8CF6E3742323836800946B54 /* 410. Split Array Largest Sum */,
 				8C0838742326033900F797EA /* 413. Arithmetic Slices */,
+				8C08387F2326135A00F797EA /* 416. Partition Equal Subset Sum */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -878,6 +906,7 @@
 				8CF6E36823224F4C00946B54 /* 403. Frog Jump */,
 				8CF6E3732323836800946B54 /* 410. Split Array Largest Sum */,
 				8C0838732326033900F797EA /* 413. Arithmetic Slices */,
+				8C08387E2326135A00F797EA /* 416. Partition Equal Subset Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1124,6 +1153,23 @@
 			name = "413. Arithmetic Slices";
 			productName = "413. Arithmetic Slices";
 			productReference = 8C0838732326033900F797EA /* 413. Arithmetic Slices */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C08387D2326135A00F797EA /* 416. Partition Equal Subset Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0838822326135A00F797EA /* Build configuration list for PBXNativeTarget "416. Partition Equal Subset Sum" */;
+			buildPhases = (
+				8C08387A2326135A00F797EA /* Sources */,
+				8C08387B2326135A00F797EA /* Frameworks */,
+				8C08387C2326135A00F797EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "416. Partition Equal Subset Sum";
+			productName = "416. Partition Equal Subset Sum";
+			productReference = 8C08387E2326135A00F797EA /* 416. Partition Equal Subset Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C26279123121B830073D4A8 /* 174. Dungeon Game */ = {
@@ -1750,6 +1796,9 @@
 					8C0838722326033900F797EA = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C08387D2326135A00F797EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C26279123121B830073D4A8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1909,6 +1958,7 @@
 				8CF6E36723224F4C00946B54 /* 403. Frog Jump */,
 				8CF6E3722323836800946B54 /* 410. Split Array Largest Sum */,
 				8C0838722326033900F797EA /* 413. Arithmetic Slices */,
+				8C08387D2326135A00F797EA /* 416. Partition Equal Subset Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -1919,6 +1969,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0838762326033900F797EA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C08387A2326135A00F797EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0838812326135A00F797EA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2222,6 +2280,22 @@
 			name = Debug;
 		};
 		8C0838782326033900F797EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0838832326135A00F797EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0838842326135A00F797EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2924,6 +2998,15 @@
 			buildConfigurations = (
 				8C0838772326033900F797EA /* Debug */,
 				8C0838782326033900F797EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0838822326135A00F797EA /* Build configuration list for PBXNativeTarget "416. Partition Equal Subset Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0838832326135A00F797EA /* Debug */,
+				8C0838842326135A00F797EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

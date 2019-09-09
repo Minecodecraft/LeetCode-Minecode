@@ -16,6 +16,7 @@
 #include <stack>
 #include <vector>
 #include <cstdio>
+#include <numeric>
 #include <cstdlib>
 #include <iostream>
 #include <algorithm>
