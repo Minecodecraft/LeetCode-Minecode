@@ -7,7 +7,7 @@
 		<key>121. Best Time to Buy and Sell Stock.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 		<key>123. Best Time to Buy and Sell Stock III.xcscheme_^#shared#^_</key>
 		<dict>
@@ -179,6 +179,11 @@
 			<key>orderHint</key>
 			<integer>39</integer>
 		</dict>
+		<key>464. Can I Win.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>698. Partition to K Equal Sum Subsets.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -187,22 +192,22 @@
 		<key>70. Climbing Stairs.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>95. Unique Binary Search Trees II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>96. Unique Binary Search Trees.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
