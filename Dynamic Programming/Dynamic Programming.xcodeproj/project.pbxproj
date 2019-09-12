@@ -43,6 +43,7 @@
 		8CE3B5432327643500F6EA2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3B5422327643500F6EA2C /* main.cpp */; };
 		8CE3B7522327AEDD00F6EA2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3B7512327AEDD00F6EA2C /* main.cpp */; };
 		8CE3B75D2327E5ED00F6EA2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3B75C2327E5ED00F6EA2C /* main.cpp */; };
+		8CE3EDB22329EF8700F6EA2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3EDB12329EF8700F6EA2C /* main.cpp */; };
 		8CF6DD33232113D300946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6DD32232113D300946B54 /* main.cpp */; };
 		8CF6E14623221FFC00946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E14523221FFC00946B54 /* main.cpp */; };
 		8CF6E3552322442700946B54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6E3542322442700946B54 /* main.cpp */; };
@@ -376,6 +377,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CE3EDAD2329EF8700F6EA2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CF6DD2E232113D300946B54 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,6 +515,8 @@
 		8CE3B7512327AEDD00F6EA2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE3B75A2327E5ED00F6EA2C /* 466. Count The Repetitions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "466. Count The Repetitions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE3B75C2327E5ED00F6EA2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE3EDAF2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "467. Unique Substrings in Wraparound String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE3EDB12329EF8700F6EA2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF6DD30232113D300946B54 /* 375. Guess Number Higher or Lower II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "375. Guess Number Higher or Lower II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF6DD32232113D300946B54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF6E14323221FFC00946B54 /* 376. Wiggle Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "376. Wiggle Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -772,6 +784,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE3EDAC2329EF8700F6EA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CF6DD2D232113D300946B54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -942,6 +961,7 @@
 				8CE3B5412327643500F6EA2C /* 446. Arithmetic Slices II - Subsequence */,
 				8CE3B7502327AEDD00F6EA2C /* 464. Can I Win */,
 				8CE3B75B2327E5ED00F6EA2C /* 466. Count The Repetitions */,
+				8CE3EDB02329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -991,6 +1011,7 @@
 				8CE3B5402327643500F6EA2C /* 446. Arithmetic Slices II - Subsequence */,
 				8CE3B74F2327AEDD00F6EA2C /* 464. Can I Win */,
 				8CE3B75A2327E5ED00F6EA2C /* 466. Count The Repetitions */,
+				8CE3EDAF2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1201,6 +1222,14 @@
 				8CE3B75C2327E5ED00F6EA2C /* main.cpp */,
 			);
 			path = "466. Count The Repetitions";
+			sourceTree = "<group>";
+		};
+		8CE3EDB02329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */ = {
+			isa = PBXGroup;
+			children = (
+				8CE3EDB12329EF8700F6EA2C /* main.cpp */,
+			);
+			path = "467. Unique Substrings in Wraparound String";
 			sourceTree = "<group>";
 		};
 		8CF6DD31232113D300946B54 /* 375. Guess Number Higher or Lower II */ = {
@@ -1866,6 +1895,23 @@
 			productReference = 8CE3B75A2327E5ED00F6EA2C /* 466. Count The Repetitions */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CE3EDAE2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE3EDB52329EF8700F6EA2C /* Build configuration list for PBXNativeTarget "467. Unique Substrings in Wraparound String" */;
+			buildPhases = (
+				8CE3EDAB2329EF8700F6EA2C /* Sources */,
+				8CE3EDAC2329EF8700F6EA2C /* Frameworks */,
+				8CE3EDAD2329EF8700F6EA2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "467. Unique Substrings in Wraparound String";
+			productName = "467. Unique Substrings in Wraparound String";
+			productReference = 8CE3EDAF2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CF6DD2F232113D300946B54 /* 375. Guess Number Higher or Lower II */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CF6DD36232113D300946B54 /* Build configuration list for PBXNativeTarget "375. Guess Number Higher or Lower II" */;
@@ -2085,6 +2131,9 @@
 					8CE3B7592327E5ED00F6EA2C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CE3EDAE2329EF8700F6EA2C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CF6DD2F232113D300946B54 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2159,6 +2208,7 @@
 				8CE3B53F2327643500F6EA2C /* 446. Arithmetic Slices II - Subsequence */,
 				8CE3B74E2327AEDD00F6EA2C /* 464. Can I Win */,
 				8CE3B7592327E5ED00F6EA2C /* 466. Count The Repetitions */,
+				8CE3EDAE2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
 			);
 		};
 /* End PBXProject section */
@@ -2449,6 +2499,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE3B75D2327E5ED00F6EA2C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE3EDAB2329EF8700F6EA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE3EDB22329EF8700F6EA2C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3190,6 +3248,22 @@
 			};
 			name = Release;
 		};
+		8CE3EDB32329EF8700F6EA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE3EDB42329EF8700F6EA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CF6DD34232113D300946B54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3618,6 +3692,15 @@
 			buildConfigurations = (
 				8CE3B75E2327E5ED00F6EA2C /* Debug */,
 				8CE3B75F2327E5ED00F6EA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE3EDB52329EF8700F6EA2C /* Build configuration list for PBXNativeTarget "467. Unique Substrings in Wraparound String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE3EDB32329EF8700F6EA2C /* Debug */,
+				8CE3EDB42329EF8700F6EA2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
