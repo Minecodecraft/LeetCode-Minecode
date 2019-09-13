@@ -27,6 +27,7 @@
 		8C44880E230E1FA200745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44880D230E1FA200745A60 /* main.cpp */; };
 		8C448819230E217C00745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448818230E217C00745A60 /* main.cpp */; };
 		8C448824230E5E4900745A60 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C448823230E5E4900745A60 /* main.cpp */; };
+		8C55DF04232A9D7A00024E8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C55DF03232A9D7A00024E8D /* main.cpp */; };
 		8C5D4B612317F43C004CBF4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D4B602317F43C004CBF4C /* main.cpp */; };
 		8C710B8123179207006E4CA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C710B8023179207006E4CA2 /* main.cpp */; };
 		8C74A3C0231F6E3B009EAFE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C74A3BF231F6E3B009EAFE3 /* main.cpp */; };
@@ -225,6 +226,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C44881F230E5E4800745A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C55DEFF232A9D7A00024E8D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -483,6 +493,8 @@
 		8C448818230E217C00745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "152. Maximum Product Subarray"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C448823230E5E4900745A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C55DF01232A9D7A00024E8D /* 472. Concatenated Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "472. Concatenated Words"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C55DF03232A9D7A00024E8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5D4B5E2317F43C004CBF4C /* 321. Create Maximum Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "321. Create Maximum Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5D4B602317F43C004CBF4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C710B7E23179207006E4CA2 /* 312. Burst Balloons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "312. Burst Balloons"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -666,6 +678,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C44881E230E5E4800745A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C55DEFE232A9D7A00024E8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -962,6 +981,7 @@
 				8CE3B7502327AEDD00F6EA2C /* 464. Can I Win */,
 				8CE3B75B2327E5ED00F6EA2C /* 466. Count The Repetitions */,
 				8CE3EDB02329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
+				8C55DF02232A9D7A00024E8D /* 472. Concatenated Words */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1012,6 +1032,7 @@
 				8CE3B74F2327AEDD00F6EA2C /* 464. Can I Win */,
 				8CE3B75A2327E5ED00F6EA2C /* 466. Count The Repetitions */,
 				8CE3EDAF2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
+				8C55DF01232A9D7A00024E8D /* 472. Concatenated Words */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1094,6 +1115,14 @@
 				8C448823230E5E4900745A60 /* main.cpp */,
 			);
 			path = "152. Maximum Product Subarray";
+			sourceTree = "<group>";
+		};
+		8C55DF02232A9D7A00024E8D /* 472. Concatenated Words */ = {
+			isa = PBXGroup;
+			children = (
+				8C55DF03232A9D7A00024E8D /* main.cpp */,
+			);
+			path = "472. Concatenated Words";
 			sourceTree = "<group>";
 		};
 		8C5D4B5F2317F43C004CBF4C /* 321. Create Maximum Number */ = {
@@ -1623,6 +1652,23 @@
 			productReference = 8C448821230E5E4800745A60 /* 152. Maximum Product Subarray */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C55DF00232A9D7A00024E8D /* 472. Concatenated Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C55DF07232A9D7A00024E8D /* Build configuration list for PBXNativeTarget "472. Concatenated Words" */;
+			buildPhases = (
+				8C55DEFD232A9D7A00024E8D /* Sources */,
+				8C55DEFE232A9D7A00024E8D /* Frameworks */,
+				8C55DEFF232A9D7A00024E8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "472. Concatenated Words";
+			productName = "472. Concatenated Words";
+			productReference = 8C55DF01232A9D7A00024E8D /* 472. Concatenated Words */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C5D4B5D2317F43C004CBF4C /* 321. Create Maximum Number */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C5D4B642317F43C004CBF4C /* Build configuration list for PBXNativeTarget "321. Create Maximum Number" */;
@@ -2083,6 +2129,9 @@
 					8C448820230E5E4800745A60 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C55DF00232A9D7A00024E8D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C5D4B5D2317F43C004CBF4C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2209,6 +2258,7 @@
 				8CE3B74E2327AEDD00F6EA2C /* 464. Can I Win */,
 				8CE3B7592327E5ED00F6EA2C /* 466. Count The Repetitions */,
 				8CE3EDAE2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
+				8C55DF00232A9D7A00024E8D /* 472. Concatenated Words */,
 			);
 		};
 /* End PBXProject section */
@@ -2371,6 +2421,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C448824230E5E4900745A60 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C55DEFD232A9D7A00024E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C55DF04232A9D7A00024E8D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2992,6 +3050,22 @@
 			};
 			name = Release;
 		};
+		8C55DF05232A9D7A00024E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C55DF06232A9D7A00024E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C5D4B622317F43C004CBF4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3548,6 +3622,15 @@
 			buildConfigurations = (
 				8C448825230E5E4900745A60 /* Debug */,
 				8C448826230E5E4900745A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C55DF07232A9D7A00024E8D /* Build configuration list for PBXNativeTarget "472. Concatenated Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C55DF05232A9D7A00024E8D /* Debug */,
+				8C55DF06232A9D7A00024E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
