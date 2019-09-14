@@ -182,27 +182,32 @@
 		<key>464. Can I Win.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>41</integer>
 		</dict>
 		<key>466. Count The Repetitions.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>42</integer>
 		</dict>
 		<key>467. Unique Substrings in Wraparound String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>43</integer>
 		</dict>
 		<key>472. Concatenated Words.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>44</integer>
 		</dict>
 		<key>474. Ones and Zeroes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>40</integer>
+		</dict>
+		<key>486. Predict the Winner.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
 		</dict>
 		<key>698. Partition to K Equal Sum Subsets.xcscheme_^#shared#^_</key>
 		<dict>

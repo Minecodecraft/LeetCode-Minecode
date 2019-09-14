@@ -36,6 +36,7 @@
 		8C7F770E2314C073002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F770D2314C073002EDD17 /* main.cpp */; };
 		8C7F77192314E923002EDD17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F77182314E923002EDD17 /* main.cpp */; };
 		8C9214F4232CECAD009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9214F3232CECAD009FD512 /* main.cpp */; };
+		8C9214FF232CF16C009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9214FE232CF16C009FD512 /* main.cpp */; };
 		8CAF58CF231626E50023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF58CE231626E50023D56E /* main.cpp */; };
 		8CAF6285231628F70023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF6284231628F70023D56E /* main.cpp */; };
 		8CAF62E0231631ED0023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF62DF231631ED0023D56E /* main.cpp */; };
@@ -316,6 +317,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C9214FA232CF16C009FD512 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CAF58CA231626E50023D56E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +531,8 @@
 		8C7F77182314E923002EDD17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9214F1232CECAD009FD512 /* 474. Ones and Zeroes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "474. Ones and Zeroes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9214F3232CECAD009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C9214FC232CF16C009FD512 /* 486. Predict the Winner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "486. Predict the Winner"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9214FE232CF16C009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF58CC231626E50023D56E /* 303. Range Sum Query - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "303. Range Sum Query - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF58CE231626E50023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "304. Range Sum Query 2D - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -753,6 +765,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C9214EE232CECAD009FD512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9214F9232CF16C009FD512 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1002,6 +1021,7 @@
 				8CE3EDB02329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
 				8C55DF02232A9D7A00024E8D /* 472. Concatenated Words */,
 				8C9214F2232CECAD009FD512 /* 474. Ones and Zeroes */,
+				8C9214FD232CF16C009FD512 /* 486. Predict the Winner */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1054,6 +1074,7 @@
 				8CE3EDAF2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
 				8C55DF01232A9D7A00024E8D /* 472. Concatenated Words */,
 				8C9214F1232CECAD009FD512 /* 474. Ones and Zeroes */,
+				8C9214FC232CF16C009FD512 /* 486. Predict the Winner */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1208,6 +1229,14 @@
 				8C9214F3232CECAD009FD512 /* main.cpp */,
 			);
 			path = "474. Ones and Zeroes";
+			sourceTree = "<group>";
+		};
+		8C9214FD232CF16C009FD512 /* 486. Predict the Winner */ = {
+			isa = PBXGroup;
+			children = (
+				8C9214FE232CF16C009FD512 /* main.cpp */,
+			);
+			path = "486. Predict the Winner";
 			sourceTree = "<group>";
 		};
 		8CAF58CD231626E50023D56E /* 303. Range Sum Query - Immutable */ = {
@@ -1834,6 +1863,23 @@
 			productReference = 8C9214F1232CECAD009FD512 /* 474. Ones and Zeroes */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C9214FB232CF16C009FD512 /* 486. Predict the Winner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C921500232CF16C009FD512 /* Build configuration list for PBXNativeTarget "486. Predict the Winner" */;
+			buildPhases = (
+				8C9214F8232CF16C009FD512 /* Sources */,
+				8C9214F9232CF16C009FD512 /* Frameworks */,
+				8C9214FA232CF16C009FD512 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "486. Predict the Winner";
+			productName = "486. Predict the Winner";
+			productReference = 8C9214FC232CF16C009FD512 /* 486. Predict the Winner */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF58CB231626E50023D56E /* 303. Range Sum Query - Immutable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF58D2231626E50023D56E /* Build configuration list for PBXNativeTarget "303. Range Sum Query - Immutable" */;
@@ -2202,6 +2248,9 @@
 					8C9214F0232CECAD009FD512 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C9214FB232CF16C009FD512 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CAF58CB231626E50023D56E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2309,6 +2358,7 @@
 				8CE3EDAE2329EF8700F6EA2C /* 467. Unique Substrings in Wraparound String */,
 				8C55DF00232A9D7A00024E8D /* 472. Concatenated Words */,
 				8C9214F0232CECAD009FD512 /* 474. Ones and Zeroes */,
+				8C9214FB232CF16C009FD512 /* 486. Predict the Winner */,
 			);
 		};
 /* End PBXProject section */
@@ -2543,6 +2593,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9214F4232CECAD009FD512 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9214F8232CF16C009FD512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9214FF232CF16C009FD512 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3252,6 +3310,22 @@
 			};
 			name = Release;
 		};
+		8C921501232CF16C009FD512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C921502232CF16C009FD512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CAF58D0231626E50023D56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3777,6 +3851,15 @@
 			buildConfigurations = (
 				8C9214F5232CECAD009FD512 /* Debug */,
 				8C9214F6232CECAD009FD512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C921500232CF16C009FD512 /* Build configuration list for PBXNativeTarget "486. Predict the Winner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C921501232CF16C009FD512 /* Debug */,
+				8C921502232CF16C009FD512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
