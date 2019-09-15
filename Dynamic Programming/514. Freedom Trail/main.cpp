@@ -27,6 +27,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: DFS with memorization, 148ms
+/*
 class Solution {
 public:
     int findRotateSteps(string ring, string key) {
@@ -66,6 +68,39 @@ private:
 
     int mod(int a, int b) {
         return (a % b + b) % b;
+    }
+};
+ */
+
+// Solution 2: DP with dimensionality reduction, 20ms
+class Solution {
+public:
+    int findRotateSteps(string ring, string key) {
+        int lenk = key.length(), lenr = ring.length();
+        vector<int> cur (lenr, INT_MAX);
+        vector<int> pre (lenr, INT_MAX);
+        vector<vector<int>> mp (26);
+        for (int i = 0; i < lenr; ++i)
+            mp[ring[i] - 'a'].push_back(i);
+
+        vector<int> startidx = {0};
+        pre[0] = 0;
+        for (int i = 0; i < lenk; ++i) {
+            auto desArr = mp[key[i] - 'a'];
+            fill(cur.begin(), cur.end(), INT_MAX);
+            for (int j = 0; j < desArr.size(); ++j) {
+                for (int k = 0; k < startidx.size(); ++k) {
+                    int minDist = min(
+                                      (startidx[k] - desArr[j] + lenr) % lenr,
+                                      (desArr[j] - startidx[k] + lenr) % lenr
+                                      ) + pre[startidx[k]];
+                    cur[desArr[j]] = min(cur[desArr[j]], minDist);
+                }
+            }
+            startidx = desArr;
+            swap(cur, pre);
+        }
+        return *min_element(pre.begin(), pre.end()) + lenk;
     }
 };
 
