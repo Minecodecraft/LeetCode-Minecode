@@ -207,17 +207,22 @@
 		<key>486. Predict the Winner.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>46</integer>
 		</dict>
 		<key>494. Target Sum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>47</integer>
 		</dict>
 		<key>514. Freedom Trail.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>45</integer>
+		</dict>
+		<key>516. Longest Palindromic Subsequence.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>48</integer>
 		</dict>
 		<key>698. Partition to K Equal Sum Subsets.xcscheme_^#shared#^_</key>
 		<dict>
