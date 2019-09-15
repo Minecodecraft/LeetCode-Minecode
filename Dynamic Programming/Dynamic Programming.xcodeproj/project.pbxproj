@@ -41,6 +41,7 @@
 		8C921554232E1354009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C921553232E1354009FD512 /* main.cpp */; };
 		8C92155F232E27F4009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C92155E232E27F4009FD512 /* main.cpp */; };
 		8C92156A232E30EC009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C921569232E30EC009FD512 /* main.cpp */; };
+		8C921575232E5406009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C921574232E5406009FD512 /* main.cpp */; };
 		8CAF58CF231626E50023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF58CE231626E50023D56E /* main.cpp */; };
 		8CAF6285231628F70023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF6284231628F70023D56E /* main.cpp */; };
 		8CAF62E0231631ED0023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF62DF231631ED0023D56E /* main.cpp */; };
@@ -366,6 +367,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C921570232E5406009FD512 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CAF58CA231626E50023D56E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -581,6 +591,8 @@
 		8C92155E232E27F4009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C921567232E30EC009FD512 /* 517. Super Washing Machines */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "517. Super Washing Machines"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C921569232E30EC009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C921572232E5406009FD512 /* 523. Continuous Subarray Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "523. Continuous Subarray Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C921574232E5406009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF58CC231626E50023D56E /* 303. Range Sum Query - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "303. Range Sum Query - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF58CE231626E50023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "304. Range Sum Query 2D - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -854,6 +866,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C92156F232E5406009FD512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CAF58C9231626E50023D56E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1102,6 +1121,7 @@
 				8C921552232E1354009FD512 /* 514. Freedom Trail */,
 				8C92155D232E27F4009FD512 /* 516. Longest Palindromic Subsequence */,
 				8C921568232E30EC009FD512 /* 517. Super Washing Machines */,
+				8C921573232E5406009FD512 /* 523. Continuous Subarray Sum */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1159,6 +1179,7 @@
 				8C921551232E1354009FD512 /* 514. Freedom Trail */,
 				8C92155C232E27F4009FD512 /* 516. Longest Palindromic Subsequence */,
 				8C921567232E30EC009FD512 /* 517. Super Washing Machines */,
+				8C921572232E5406009FD512 /* 523. Continuous Subarray Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1353,6 +1374,14 @@
 				8C921569232E30EC009FD512 /* main.cpp */,
 			);
 			path = "517. Super Washing Machines";
+			sourceTree = "<group>";
+		};
+		8C921573232E5406009FD512 /* 523. Continuous Subarray Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8C921574232E5406009FD512 /* main.cpp */,
+			);
+			path = "523. Continuous Subarray Sum";
 			sourceTree = "<group>";
 		};
 		8CAF58CD231626E50023D56E /* 303. Range Sum Query - Immutable */ = {
@@ -2064,6 +2093,23 @@
 			productReference = 8C921567232E30EC009FD512 /* 517. Super Washing Machines */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C921571232E5406009FD512 /* 523. Continuous Subarray Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C921576232E5406009FD512 /* Build configuration list for PBXNativeTarget "523. Continuous Subarray Sum" */;
+			buildPhases = (
+				8C92156E232E5406009FD512 /* Sources */,
+				8C92156F232E5406009FD512 /* Frameworks */,
+				8C921570232E5406009FD512 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "523. Continuous Subarray Sum";
+			productName = "523. Continuous Subarray Sum";
+			productReference = 8C921572232E5406009FD512 /* 523. Continuous Subarray Sum */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF58CB231626E50023D56E /* 303. Range Sum Query - Immutable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF58D2231626E50023D56E /* Build configuration list for PBXNativeTarget "303. Range Sum Query - Immutable" */;
@@ -2447,6 +2493,9 @@
 					8C921566232E30EC009FD512 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C921571232E5406009FD512 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CAF58CB231626E50023D56E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2559,6 +2608,7 @@
 				8C921550232E1354009FD512 /* 514. Freedom Trail */,
 				8C92155B232E27F4009FD512 /* 516. Longest Palindromic Subsequence */,
 				8C921566232E30EC009FD512 /* 517. Super Washing Machines */,
+				8C921571232E5406009FD512 /* 523. Continuous Subarray Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -2833,6 +2883,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C92156A232E30EC009FD512 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C92156E232E5406009FD512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C921575232E5406009FD512 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3622,6 +3680,22 @@
 			};
 			name = Release;
 		};
+		8C921577232E5406009FD512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C921578232E5406009FD512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CAF58D0231626E50023D56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4192,6 +4266,15 @@
 			buildConfigurations = (
 				8C92156C232E30EC009FD512 /* Debug */,
 				8C92156D232E30EC009FD512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C921576232E5406009FD512 /* Build configuration list for PBXNativeTarget "523. Continuous Subarray Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C921577232E5406009FD512 /* Debug */,
+				8C921578232E5406009FD512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
