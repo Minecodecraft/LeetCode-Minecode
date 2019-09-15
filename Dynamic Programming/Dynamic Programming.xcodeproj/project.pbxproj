@@ -38,6 +38,7 @@
 		8C9214F4232CECAD009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9214F3232CECAD009FD512 /* main.cpp */; };
 		8C9214FF232CF16C009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9214FE232CF16C009FD512 /* main.cpp */; };
 		8C92150A232D3871009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C921509232D3871009FD512 /* main.cpp */; };
+		8C921554232E1354009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C921553232E1354009FD512 /* main.cpp */; };
 		8CAF58CF231626E50023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF58CE231626E50023D56E /* main.cpp */; };
 		8CAF6285231628F70023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF6284231628F70023D56E /* main.cpp */; };
 		8CAF62E0231631ED0023D56E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF62DF231631ED0023D56E /* main.cpp */; };
@@ -336,6 +337,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C92154F232E1354009FD512 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CAF58CA231626E50023D56E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -545,6 +555,8 @@
 		8C9214FE232CF16C009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C921507232D3871009FD512 /* 494. Target Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "494. Target Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C921509232D3871009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C921551232E1354009FD512 /* 514. Freedom Trail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "514. Freedom Trail"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C921553232E1354009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF58CC231626E50023D56E /* 303. Range Sum Query - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "303. Range Sum Query - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF58CE231626E50023D56E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF6282231628F70023D56E /* 304. Range Sum Query 2D - Immutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "304. Range Sum Query 2D - Immutable"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -797,6 +809,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C92154E232E1354009FD512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CAF58C9231626E50023D56E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1042,6 +1061,7 @@
 				8C9214F2232CECAD009FD512 /* 474. Ones and Zeroes */,
 				8C9214FD232CF16C009FD512 /* 486. Predict the Winner */,
 				8C921508232D3871009FD512 /* 494. Target Sum */,
+				8C921552232E1354009FD512 /* 514. Freedom Trail */,
 				8C4487B1230A5E4000745A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1096,6 +1116,7 @@
 				8C9214F1232CECAD009FD512 /* 474. Ones and Zeroes */,
 				8C9214FC232CF16C009FD512 /* 486. Predict the Winner */,
 				8C921507232D3871009FD512 /* 494. Target Sum */,
+				8C921551232E1354009FD512 /* 514. Freedom Trail */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1266,6 +1287,14 @@
 				8C921509232D3871009FD512 /* main.cpp */,
 			);
 			path = "494. Target Sum";
+			sourceTree = "<group>";
+		};
+		8C921552232E1354009FD512 /* 514. Freedom Trail */ = {
+			isa = PBXGroup;
+			children = (
+				8C921553232E1354009FD512 /* main.cpp */,
+			);
+			path = "514. Freedom Trail";
 			sourceTree = "<group>";
 		};
 		8CAF58CD231626E50023D56E /* 303. Range Sum Query - Immutable */ = {
@@ -1926,6 +1955,23 @@
 			productReference = 8C921507232D3871009FD512 /* 494. Target Sum */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C921550232E1354009FD512 /* 514. Freedom Trail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C921557232E1354009FD512 /* Build configuration list for PBXNativeTarget "514. Freedom Trail" */;
+			buildPhases = (
+				8C92154D232E1354009FD512 /* Sources */,
+				8C92154E232E1354009FD512 /* Frameworks */,
+				8C92154F232E1354009FD512 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "514. Freedom Trail";
+			productName = "514. Freedom Trail";
+			productReference = 8C921551232E1354009FD512 /* 514. Freedom Trail */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF58CB231626E50023D56E /* 303. Range Sum Query - Immutable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF58D2231626E50023D56E /* Build configuration list for PBXNativeTarget "303. Range Sum Query - Immutable" */;
@@ -2300,6 +2346,9 @@
 					8C921506232D3871009FD512 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C921550232E1354009FD512 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CAF58CB231626E50023D56E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2409,6 +2458,7 @@
 				8C9214F0232CECAD009FD512 /* 474. Ones and Zeroes */,
 				8C9214FB232CF16C009FD512 /* 486. Predict the Winner */,
 				8C921506232D3871009FD512 /* 494. Target Sum */,
+				8C921550232E1354009FD512 /* 514. Freedom Trail */,
 			);
 		};
 /* End PBXProject section */
@@ -2659,6 +2709,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C92150A232D3871009FD512 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C92154D232E1354009FD512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C921554232E1354009FD512 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3400,6 +3458,22 @@
 			};
 			name = Release;
 		};
+		8C921555232E1354009FD512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C921556232E1354009FD512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CAF58D0231626E50023D56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3943,6 +4017,15 @@
 			buildConfigurations = (
 				8C92150C232D3871009FD512 /* Debug */,
 				8C92150D232D3871009FD512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C921557232E1354009FD512 /* Build configuration list for PBXNativeTarget "514. Freedom Trail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C921555232E1354009FD512 /* Debug */,
+				8C921556232E1354009FD512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
