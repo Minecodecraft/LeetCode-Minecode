@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8C922DE3232F4737009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DE2232F4737009FD512 /* main.cpp */; };
+		8C922DEE232F47E8009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DED232F47E8009FD512 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C922DDE232F4737009FD512 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C922DE9232F47E8009FD512 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		8C922DE0232F4737009FD512 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C922DE2232F4737009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C922DEB232F47E8009FD512 /* 239. Sliding Window Maximum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "239. Sliding Window Maximum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C922DED232F47E8009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C922DDD232F4737009FD512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C922DE8232F47E8009FD512 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8C922DE1232F4737009FD512 /* Template */,
+				8C922DEC232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				8C922DE0232F4737009FD512 /* Template */,
+				8C922DEB232F47E8009FD512 /* 239. Sliding Window Maximum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				8C922DE2232F4737009FD512 /* main.cpp */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		8C922DEC232F47E8009FD512 /* 239. Sliding Window Maximum */ = {
+			isa = PBXGroup;
+			children = (
+				8C922DED232F47E8009FD512 /* main.cpp */,
+			);
+			path = "239. Sliding Window Maximum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 8C922DE0232F4737009FD512 /* Template */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C922DEA232F47E8009FD512 /* 239. Sliding Window Maximum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C922DEF232F47E8009FD512 /* Build configuration list for PBXNativeTarget "239. Sliding Window Maximum" */;
+			buildPhases = (
+				8C922DE7232F47E8009FD512 /* Sources */,
+				8C922DE8232F47E8009FD512 /* Frameworks */,
+				8C922DE9232F47E8009FD512 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "239. Sliding Window Maximum";
+			productName = "239. Sliding Window Maximum";
+			productReference = 8C922DEB232F47E8009FD512 /* 239. Sliding Window Maximum */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
 					8C922DDF232F4737009FD512 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8C922DEA232F47E8009FD512 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				8C922DDF232F4737009FD512 /* Template */,
+				8C922DEA232F47E8009FD512 /* 239. Sliding Window Maximum */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C922DE3232F4737009FD512 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C922DE7232F47E8009FD512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C922DEE232F47E8009FD512 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +310,22 @@
 			};
 			name = Release;
 		};
+		8C922DF0232F47E8009FD512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C922DF1232F47E8009FD512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +343,15 @@
 			buildConfigurations = (
 				8C922DE5232F4737009FD512 /* Debug */,
 				8C922DE6232F4737009FD512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C922DEF232F47E8009FD512 /* Build configuration list for PBXNativeTarget "239. Sliding Window Maximum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C922DF0232F47E8009FD512 /* Debug */,
+				8C922DF1232F47E8009FD512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
