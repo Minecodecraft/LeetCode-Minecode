@@ -27,6 +27,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Priority_queue (Heap), 64ms, not so good
+/*
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -53,6 +55,30 @@ private:
         }
     };
 };
+ */
+
+// Solution 2: Use deque, 56ms
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        deque<pair<int, int>> dq;
+        int len = nums.size();
+        if (len < k || k == 0) return {};
+        vector<int> res;
+        for (int i = 0; i < len; ++i) {
+            // clear prefix that not in window
+            while (!dq.empty() && i - dq.front().first >= k)
+                dq.pop_front();
+            // insert & refresh suffix
+            while (!dq.empty() && dq.back().second < nums[i])
+                dq.pop_back();
+            dq.push_back(make_pair(i, nums[i]));
+            if (i >= k-1)
+                res.push_back(dq.front().second);   // insert here
+        }
+        return res;
+    }
+};
 
 int main() {
     Solution sol = Solution();
@@ -60,7 +86,7 @@ int main() {
 //        1,3,-1,-3,5,3,6,7
     };
 //    int k = 3;
-    int k = 1;
+    int k = 0;
     auto res = sol.maxSlidingWindow(nums, k);
 
     return 0;
