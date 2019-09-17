@@ -10,6 +10,7 @@
 		8C922DE3232F4737009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DE2232F4737009FD512 /* main.cpp */; };
 		8C922DEE232F47E8009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DED232F47E8009FD512 /* main.cpp */; };
 		8C922DF9232F53DC009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DF8232F53DB009FD512 /* main.cpp */; };
+		8CBD4C1A2330B885007BB8ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD4C192330B885007BB8ED /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CBD4C152330B885007BB8ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		8C922DED232F47E8009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C922DF6232F53DB009FD512 /* 424. Longest Repeating Character Replacement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "424. Longest Repeating Character Replacement"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C922DF8232F53DB009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CBD4C172330B885007BB8ED /* 480. Sliding Window Median */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "480. Sliding Window Median"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBD4C192330B885007BB8ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CBD4C142330B885007BB8ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +101,7 @@
 				8C922DE1232F4737009FD512 /* Template */,
 				8C922DEC232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DF7232F53DB009FD512 /* 424. Longest Repeating Character Replacement */,
+				8CBD4C182330B885007BB8ED /* 480. Sliding Window Median */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				8C922DE0232F4737009FD512 /* Template */,
 				8C922DEB232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DF6232F53DB009FD512 /* 424. Longest Repeating Character Replacement */,
+				8CBD4C172330B885007BB8ED /* 480. Sliding Window Median */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				8C922DF8232F53DB009FD512 /* main.cpp */,
 			);
 			path = "424. Longest Repeating Character Replacement";
+			sourceTree = "<group>";
+		};
+		8CBD4C182330B885007BB8ED /* 480. Sliding Window Median */ = {
+			isa = PBXGroup;
+			children = (
+				8CBD4C192330B885007BB8ED /* main.cpp */,
+			);
+			path = "480. Sliding Window Median";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = 8C922DF6232F53DB009FD512 /* 424. Longest Repeating Character Replacement */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CBD4C162330B885007BB8ED /* 480. Sliding Window Median */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBD4C1D2330B885007BB8ED /* Build configuration list for PBXNativeTarget "480. Sliding Window Median" */;
+			buildPhases = (
+				8CBD4C132330B885007BB8ED /* Sources */,
+				8CBD4C142330B885007BB8ED /* Frameworks */,
+				8CBD4C152330B885007BB8ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "480. Sliding Window Median";
+			productName = "480. Sliding Window Median";
+			productReference = 8CBD4C172330B885007BB8ED /* 480. Sliding Window Median */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +236,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					8C922DF5232F53DB009FD512 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8CBD4C162330B885007BB8ED = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -209,6 +258,7 @@
 				8C922DDF232F4737009FD512 /* Template */,
 				8C922DEA232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DF5232F53DB009FD512 /* 424. Longest Repeating Character Replacement */,
+				8CBD4C162330B885007BB8ED /* 480. Sliding Window Median */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C922DF9232F53DC009FD512 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBD4C132330B885007BB8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBD4C1A2330B885007BB8ED /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +458,22 @@
 			};
 			name = Release;
 		};
+		8CBD4C1B2330B885007BB8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBD4C1C2330B885007BB8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +509,15 @@
 			buildConfigurations = (
 				8C922DFB232F53DC009FD512 /* Debug */,
 				8C922DFC232F53DC009FD512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBD4C1D2330B885007BB8ED /* Build configuration list for PBXNativeTarget "480. Sliding Window Median" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBD4C1B2330B885007BB8ED /* Debug */,
+				8CBD4C1C2330B885007BB8ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
