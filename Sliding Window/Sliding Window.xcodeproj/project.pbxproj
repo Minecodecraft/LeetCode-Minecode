@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C54C3CE233362CF00FB4631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C54C3CD233362CF00FB4631 /* main.cpp */; };
 		8C922DE3232F4737009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DE2232F4737009FD512 /* main.cpp */; };
 		8C922DEE232F47E8009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DED232F47E8009FD512 /* main.cpp */; };
 		8C922DF9232F53DC009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DF8232F53DB009FD512 /* main.cpp */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C54C3C9233362CF00FB4631 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C922DDE232F4737009FD512 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C54C3CB233362CF00FB4631 /* 567. Permutation in String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "567. Permutation in String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54C3CD233362CF00FB4631 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C922DE0232F4737009FD512 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C922DE2232F4737009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C922DEB232F47E8009FD512 /* 239. Sliding Window Maximum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "239. Sliding Window Maximum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +76,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C54C3C8233362CF00FB4631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C922DDD232F4737009FD512 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C54C3CC233362CF00FB4631 /* 567. Permutation in String */ = {
+			isa = PBXGroup;
+			children = (
+				8C54C3CD233362CF00FB4631 /* main.cpp */,
+			);
+			path = "567. Permutation in String";
+			sourceTree = "<group>";
+		};
 		8C922DC9232F4719009FD512 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +129,7 @@
 				8C922DEC232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DF7232F53DB009FD512 /* 424. Longest Repeating Character Replacement */,
 				8CBD4C182330B885007BB8ED /* 480. Sliding Window Median */,
+				8C54C3CC233362CF00FB4631 /* 567. Permutation in String */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +141,7 @@
 				8C922DEB232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DF6232F53DB009FD512 /* 424. Longest Repeating Character Replacement */,
 				8CBD4C172330B885007BB8ED /* 480. Sliding Window Median */,
+				8C54C3CB233362CF00FB4631 /* 567. Permutation in String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +181,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C54C3CA233362CF00FB4631 /* 567. Permutation in String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C54C3D1233362CF00FB4631 /* Build configuration list for PBXNativeTarget "567. Permutation in String" */;
+			buildPhases = (
+				8C54C3C7233362CF00FB4631 /* Sources */,
+				8C54C3C8233362CF00FB4631 /* Frameworks */,
+				8C54C3C9233362CF00FB4631 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "567. Permutation in String";
+			productName = "567. Permutation in String";
+			productReference = 8C54C3CB233362CF00FB4631 /* 567. Permutation in String */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C922DDF232F4737009FD512 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C922DE4232F4737009FD512 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -229,6 +275,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C54C3CA233362CF00FB4631 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C922DDF232F4737009FD512 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -259,11 +308,20 @@
 				8C922DEA232F47E8009FD512 /* 239. Sliding Window Maximum */,
 				8C922DF5232F53DB009FD512 /* 424. Longest Repeating Character Replacement */,
 				8CBD4C162330B885007BB8ED /* 480. Sliding Window Median */,
+				8C54C3CA233362CF00FB4631 /* 567. Permutation in String */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C54C3C7233362CF00FB4631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54C3CE233362CF00FB4631 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C922DDC232F4737009FD512 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +357,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C54C3CF233362CF00FB4631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C54C3D0233362CF00FB4631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C922DD7232F4719009FD512 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,6 +551,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C54C3D1233362CF00FB4631 /* Build configuration list for PBXNativeTarget "567. Permutation in String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C54C3CF233362CF00FB4631 /* Debug */,
+				8C54C3D0233362CF00FB4631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C922DCD232F4719009FD512 /* Build configuration list for PBXProject "Sliding Window" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
