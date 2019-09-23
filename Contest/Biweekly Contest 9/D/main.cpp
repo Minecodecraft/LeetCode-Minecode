@@ -30,13 +30,14 @@ using namespace std;
 class Solution {
 public:
     int minBuildTime(vector<int>& blocks, int split) {
+        // Huffman Tree
         priority_queue<int, vector<int>, greater<int>> pq;
-        for (int &elem: blocks) pq.push(elem);
-        while (pq.size() >= 2) {
+        for (auto &elem: blocks) pq.push(elem);
+        while (pq.size() > 1) {
             pq.pop();
-            int tmp = pq.top();
+            int largest = pq.top();
             pq.pop();
-            pq.push(tmp + split);
+            pq.push(largest + split);
         }
         return pq.top();
     }
