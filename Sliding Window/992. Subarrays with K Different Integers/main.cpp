@@ -41,15 +41,22 @@ private:
             if (cnt[A[r] - 'a']++ == 0)
                 K--;
             while (K < 0) {
-                if (++cnt[A[l++] - 'a'] > 0)
+                if (--cnt[A[l++] - 'a'] == 0)
                     ++K;
             }
+            res += r - l + 1;
         }
         return res;
     }
 };
 
 int main() {
-
+    Solution sol = Solution();
+    vector<int> nums = {
+        1,2,1,2,3
+    };
+    int K = 2;
+    int res = sol.subarraysWithKDistinct(nums, K);
+    cout << res << endl;
     return 0;
 }
