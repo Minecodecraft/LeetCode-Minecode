@@ -13,6 +13,7 @@
 		8C922DE3232F4737009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DE2232F4737009FD512 /* main.cpp */; };
 		8C922DEE232F47E8009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DED232F47E8009FD512 /* main.cpp */; };
 		8C922DF9232F53DC009FD512 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C922DF8232F53DB009FD512 /* main.cpp */; };
+		8CA1C7B42339C36F0030867B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1C7B32339C36F0030867B /* main.cpp */; };
 		8CBD4C1A2330B885007BB8ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBD4C192330B885007BB8ED /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CA1C7AF2339C36F0030867B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CBD4C152330B885007BB8ED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +105,8 @@
 		8C922DED232F47E8009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C922DF6232F53DB009FD512 /* 424. Longest Repeating Character Replacement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "424. Longest Repeating Character Replacement"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C922DF8232F53DB009FD512 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CA1C7B12339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "995. Minimum Number of K Consecutive Bit Flips"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA1C7B32339C36F0030867B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CBD4C172330B885007BB8ED /* 480. Sliding Window Median */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "480. Sliding Window Median"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBD4C192330B885007BB8ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +148,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C922DF3232F53DB009FD512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA1C7AE2339C36F0030867B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,6 +205,7 @@
 				8C54C3CC233362CF00FB4631 /* 567. Permutation in String */,
 				8C54C5DB2333821D00FB4631 /* 978. Longest Turbulent Subarray */,
 				8C787D2A2334949000D2FE5A /* 992. Subarrays with K Different Integers */,
+				8CA1C7B22339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -200,6 +220,7 @@
 				8C54C3CB233362CF00FB4631 /* 567. Permutation in String */,
 				8C54C5DA2333821D00FB4631 /* 978. Longest Turbulent Subarray */,
 				8C787D292334949000D2FE5A /* 992. Subarrays with K Different Integers */,
+				8CA1C7B12339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,6 +247,14 @@
 				8C922DF8232F53DB009FD512 /* main.cpp */,
 			);
 			path = "424. Longest Repeating Character Replacement";
+			sourceTree = "<group>";
+		};
+		8CA1C7B22339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */ = {
+			isa = PBXGroup;
+			children = (
+				8CA1C7B32339C36F0030867B /* main.cpp */,
+			);
+			path = "995. Minimum Number of K Consecutive Bit Flips";
 			sourceTree = "<group>";
 		};
 		8CBD4C182330B885007BB8ED /* 480. Sliding Window Median */ = {
@@ -341,6 +370,23 @@
 			productReference = 8C922DF6232F53DB009FD512 /* 424. Longest Repeating Character Replacement */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CA1C7B02339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA1C7B72339C36F0030867B /* Build configuration list for PBXNativeTarget "995. Minimum Number of K Consecutive Bit Flips" */;
+			buildPhases = (
+				8CA1C7AD2339C36F0030867B /* Sources */,
+				8CA1C7AE2339C36F0030867B /* Frameworks */,
+				8CA1C7AF2339C36F0030867B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "995. Minimum Number of K Consecutive Bit Flips";
+			productName = "995. Minimum Number of K Consecutive Bit Flips";
+			productReference = 8CA1C7B12339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CBD4C162330B885007BB8ED /* 480. Sliding Window Median */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CBD4C1D2330B885007BB8ED /* Build configuration list for PBXNativeTarget "480. Sliding Window Median" */;
@@ -385,6 +431,9 @@
 					8C922DF5232F53DB009FD512 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CA1C7B02339C36F0030867B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CBD4C162330B885007BB8ED = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -409,6 +458,7 @@
 				8C54C3CA233362CF00FB4631 /* 567. Permutation in String */,
 				8C54C5D92333821D00FB4631 /* 978. Longest Turbulent Subarray */,
 				8C787D282334949000D2FE5A /* 992. Subarrays with K Different Integers */,
+				8CA1C7B02339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
 			);
 		};
 /* End PBXProject section */
@@ -459,6 +509,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C922DF9232F53DC009FD512 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA1C7AD2339C36F0030867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA1C7B42339C36F0030867B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +738,22 @@
 			};
 			name = Release;
 		};
+		8CA1C7B52339C36F0030867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA1C7B62339C36F0030867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CBD4C1B2330B885007BB8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -758,6 +832,15 @@
 			buildConfigurations = (
 				8C922DFB232F53DC009FD512 /* Debug */,
 				8C922DFC232F53DC009FD512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA1C7B72339C36F0030867B /* Build configuration list for PBXNativeTarget "995. Minimum Number of K Consecutive Bit Flips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA1C7B52339C36F0030867B /* Debug */,
+				8CA1C7B62339C36F0030867B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
