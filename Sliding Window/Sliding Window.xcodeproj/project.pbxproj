@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C485F27233A49BD00E11530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C485F26233A49BD00E11530 /* main.cpp */; };
 		8C54C3CE233362CF00FB4631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C54C3CD233362CF00FB4631 /* main.cpp */; };
 		8C54C5DD2333821D00FB4631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C54C5DC2333821D00FB4631 /* main.cpp */; };
 		8C787D2C2334949000D2FE5A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C787D2B2334949000D2FE5A /* main.cpp */; };
@@ -18,6 +19,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C485F22233A49BD00E11530 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C54C3C9233362CF00FB4631 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +103,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1004. Max Consecutive Ones III"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C485F26233A49BD00E11530 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C54C3CB233362CF00FB4631 /* 567. Permutation in String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "567. Permutation in String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C54C3CD233362CF00FB4631 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C54C5DA2333821D00FB4631 /* 978. Longest Turbulent Subarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "978. Longest Turbulent Subarray"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +124,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C485F21233A49BD00E11530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C54C3C8233362CF00FB4631 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +190,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C485F25233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {
+			isa = PBXGroup;
+			children = (
+				8C485F26233A49BD00E11530 /* main.cpp */,
+			);
+			path = "1004. Max Consecutive Ones III";
+			sourceTree = "<group>";
+		};
 		8C54C3CC233362CF00FB4631 /* 567. Permutation in String */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +233,7 @@
 				8C54C5DB2333821D00FB4631 /* 978. Longest Turbulent Subarray */,
 				8C787D2A2334949000D2FE5A /* 992. Subarrays with K Different Integers */,
 				8CA1C7B22339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
+				8C485F25233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +249,7 @@
 				8C54C5DA2333821D00FB4631 /* 978. Longest Turbulent Subarray */,
 				8C787D292334949000D2FE5A /* 992. Subarrays with K Different Integers */,
 				8CA1C7B12339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
+				8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +297,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C485F23233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C485F2A233A49BD00E11530 /* Build configuration list for PBXNativeTarget "1004. Max Consecutive Ones III" */;
+			buildPhases = (
+				8C485F20233A49BD00E11530 /* Sources */,
+				8C485F21233A49BD00E11530 /* Frameworks */,
+				8C485F22233A49BD00E11530 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1004. Max Consecutive Ones III";
+			productName = "1004. Max Consecutive Ones III";
+			productReference = 8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C54C3CA233362CF00FB4631 /* 567. Permutation in String */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C54C3D1233362CF00FB4631 /* Build configuration list for PBXNativeTarget "567. Permutation in String" */;
@@ -413,6 +459,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C485F23233A49BD00E11530 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C54C3CA233362CF00FB4631 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -459,11 +508,20 @@
 				8C54C5D92333821D00FB4631 /* 978. Longest Turbulent Subarray */,
 				8C787D282334949000D2FE5A /* 992. Subarrays with K Different Integers */,
 				8CA1C7B02339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
+				8C485F23233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C485F20233A49BD00E11530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C485F27233A49BD00E11530 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C54C3C7233362CF00FB4631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +589,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C485F28233A49BD00E11530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C485F29233A49BD00E11530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C54C3CF233362CF00FB4631 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -773,6 +847,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C485F2A233A49BD00E11530 /* Build configuration list for PBXNativeTarget "1004. Max Consecutive Ones III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C485F28233A49BD00E11530 /* Debug */,
+				8C485F29233A49BD00E11530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C54C3D1233362CF00FB4631 /* Build configuration list for PBXNativeTarget "567. Permutation in String" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
