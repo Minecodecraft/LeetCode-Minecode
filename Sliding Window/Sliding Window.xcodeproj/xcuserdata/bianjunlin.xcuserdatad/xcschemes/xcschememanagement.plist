@@ -7,7 +7,12 @@
 		<key>1004. Max Consecutive Ones III.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>2</integer>
+		</dict>
+		<key>1040. Moving Stones Until Consecutive II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>239. Sliding Window Maximum.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,32 +22,32 @@
 		<key>424. Longest Repeating Character Replacement.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>480. Sliding Window Median.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>567. Permutation in String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>978. Longest Turbulent Subarray.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>992. Subarrays with K Different Integers.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>995. Minimum Number of K Consecutive Bit Flips.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
