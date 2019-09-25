@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3D9A76233B62700017B47E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D9A75233B62700017B47E /* main.cpp */; };
 		8C485F27233A49BD00E11530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C485F26233A49BD00E11530 /* main.cpp */; };
 		8C485F32233A4C3600E11530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C485F31233A4C3600E11530 /* main.cpp */; };
 		8C54C3CE233362CF00FB4631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C54C3CD233362CF00FB4631 /* main.cpp */; };
@@ -20,6 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C3D9A71233B62700017B47E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C485F22233A49BD00E11530 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +123,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C3D9A73233B62700017B47E /* 1052. Grumpy Bookstore Owner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1052. Grumpy Bookstore Owner"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3D9A75233B62700017B47E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1004. Max Consecutive Ones III"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C485F26233A49BD00E11530 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C485F2F233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1040. Moving Stones Until Consecutive II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +148,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C3D9A70233B62700017B47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C485F21233A49BD00E11530 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +228,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C3D9A74233B62700017B47E /* 1052. Grumpy Bookstore Owner */ = {
+			isa = PBXGroup;
+			children = (
+				8C3D9A75233B62700017B47E /* main.cpp */,
+			);
+			path = "1052. Grumpy Bookstore Owner";
+			sourceTree = "<group>";
+		};
 		8C485F25233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +289,7 @@
 				8CA1C7B22339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
 				8C485F25233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C485F30233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */,
+				8C3D9A74233B62700017B47E /* 1052. Grumpy Bookstore Owner */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -279,6 +307,7 @@
 				8CA1C7B12339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
 				8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C485F2F233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */,
+				8C3D9A73233B62700017B47E /* 1052. Grumpy Bookstore Owner */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,6 +355,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C3D9A72233B62700017B47E /* 1052. Grumpy Bookstore Owner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3D9A79233B62700017B47E /* Build configuration list for PBXNativeTarget "1052. Grumpy Bookstore Owner" */;
+			buildPhases = (
+				8C3D9A6F233B62700017B47E /* Sources */,
+				8C3D9A70233B62700017B47E /* Frameworks */,
+				8C3D9A71233B62700017B47E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1052. Grumpy Bookstore Owner";
+			productName = "1052. Grumpy Bookstore Owner";
+			productReference = 8C3D9A73233B62700017B47E /* 1052. Grumpy Bookstore Owner */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C485F23233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C485F2A233A49BD00E11530 /* Build configuration list for PBXNativeTarget "1004. Max Consecutive Ones III" */;
@@ -505,6 +551,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C3D9A72233B62700017B47E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C485F23233A49BD00E11530 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -559,11 +608,20 @@
 				8CA1C7B02339C36F0030867B /* 995. Minimum Number of K Consecutive Bit Flips */,
 				8C485F23233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C485F2E233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */,
+				8C3D9A72233B62700017B47E /* 1052. Grumpy Bookstore Owner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C3D9A6F233B62700017B47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3D9A76233B62700017B47E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C485F20233A49BD00E11530 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,6 +705,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C3D9A77233B62700017B47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3D9A78233B62700017B47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C485F28233A49BD00E11530 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -921,6 +995,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C3D9A79233B62700017B47E /* Build configuration list for PBXNativeTarget "1052. Grumpy Bookstore Owner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D9A77233B62700017B47E /* Debug */,
+				8C3D9A78233B62700017B47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C485F2A233A49BD00E11530 /* Build configuration list for PBXNativeTarget "1004. Max Consecutive Ones III" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
