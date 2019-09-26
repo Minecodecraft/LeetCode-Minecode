@@ -11,6 +11,7 @@
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
 		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
 		8CB42C74233C7E28009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C73233C7E28009C79B8 /* main.cpp */; };
+		8CF7070A233CC26A00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF70709233CC26A00A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF70705233CC26A00A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,8 @@
 		8CB42C68233C7BC9009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C71233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "103. Binary Tree Zigzag Level Order Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C73233C7E28009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF70707233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "144. Binary Tree Preorder Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF70709233CC26A00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF70704233CC26A00A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				8CB42C5C233C77E1009C79B8 /* 23. Merge k Sorted Lists */,
 				8CB42C67233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */,
 				8CB42C72233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */,
+				8CF70708233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */,
 				8CB42C66233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */,
 				8CB42C71233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */,
+				8CF70707233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +168,14 @@
 				8CB42C73233C7E28009C79B8 /* main.cpp */,
 			);
 			path = "103. Binary Tree Zigzag Level Order Traversal";
+			sourceTree = "<group>";
+		};
+		8CF70708233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				8CF70709233CC26A00A4BF7C /* main.cpp */,
+			);
+			path = "144. Binary Tree Preorder Traversal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +249,23 @@
 			productReference = 8CB42C71233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF70706233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF7070D233CC26A00A4BF7C /* Build configuration list for PBXNativeTarget "144. Binary Tree Preorder Traversal" */;
+			buildPhases = (
+				8CF70703233CC26A00A4BF7C /* Sources */,
+				8CF70704233CC26A00A4BF7C /* Frameworks */,
+				8CF70705233CC26A00A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "144. Binary Tree Preorder Traversal";
+			productName = "144. Binary Tree Preorder Traversal";
+			productReference = 8CF70707233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +287,9 @@
 					8CB42C70233C7E28009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF70706233CC26A00A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -259,6 +308,7 @@
 				8CB42C5A233C77E1009C79B8 /* 23. Merge k Sorted Lists */,
 				8CB42C65233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */,
 				8CB42C70233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */,
+				8CF70706233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB42C74233C7E28009C79B8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF70703233CC26A00A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7070A233CC26A00A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +532,22 @@
 			};
 			name = Release;
 		};
+		8CF7070B233CC26A00A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7070C233CC26A00A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +592,15 @@
 			buildConfigurations = (
 				8CB42C76233C7E28009C79B8 /* Debug */,
 				8CB42C77233C7E28009C79B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF7070D233CC26A00A4BF7C /* Build configuration list for PBXNativeTarget "144. Binary Tree Preorder Traversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF7070B233CC26A00A4BF7C /* Debug */,
+				8CF7070C233CC26A00A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
