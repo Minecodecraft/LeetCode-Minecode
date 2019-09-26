@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8CB42C53233C7787009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C52233C7787009C79B8 /* main.cpp */; };
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
+		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CB42C64233C7BC9009C79B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		8CB42C52233C7787009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C5D233C77E1009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CB42C66233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "94. Binary Tree Inorder Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB42C68233C7BC9009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CB42C63233C7BC9009C79B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				8CB42C51233C7787009C79B8 /* Template */,
 				8CB42C5C233C77E1009C79B8 /* 23. Merge k Sorted Lists */,
+				8CB42C67233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				8CB42C50233C7787009C79B8 /* Template */,
 				8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */,
+				8CB42C66233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				8CB42C5D233C77E1009C79B8 /* main.cpp */,
 			);
 			path = "23. Merge k Sorted Lists";
+			sourceTree = "<group>";
+		};
+		8CB42C67233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				8CB42C68233C7BC9009C79B8 /* main.cpp */,
+			);
+			path = "94. Binary Tree Inorder Traversal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CB42C65233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB42C6A233C7BC9009C79B8 /* Build configuration list for PBXNativeTarget "94. Binary Tree Inorder Traversal" */;
+			buildPhases = (
+				8CB42C62233C7BC9009C79B8 /* Sources */,
+				8CB42C63233C7BC9009C79B8 /* Frameworks */,
+				8CB42C64233C7BC9009C79B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "94. Binary Tree Inorder Traversal";
+			productName = "94. Binary Tree Inorder Traversal";
+			productReference = 8CB42C66233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					8CB42C5A233C77E1009C79B8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8CB42C65233C7BC9009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				8CB42C4F233C7787009C79B8 /* Template */,
 				8CB42C5A233C77E1009C79B8 /* 23. Merge k Sorted Lists */,
+				8CB42C65233C7BC9009C79B8 /* 94. Binary Tree Inorder Traversal */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB42C62233C7BC9009C79B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +384,22 @@
 			};
 			name = Release;
 		};
+		8CB42C6B233C7BC9009C79B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CB42C6C233C7BC9009C79B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -352,6 +426,15 @@
 			buildConfigurations = (
 				8CB42C60233C77E1009C79B8 /* Debug */,
 				8CB42C61233C77E1009C79B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB42C6A233C7BC9009C79B8 /* Build configuration list for PBXNativeTarget "94. Binary Tree Inorder Traversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB42C6B233C7BC9009C79B8 /* Debug */,
+				8CB42C6C233C7BC9009C79B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
