@@ -34,6 +34,8 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+// Solution 1: Traversal, 8ms, Beats only 10%
+/*
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -55,6 +57,34 @@ private:
             zigzagCore(pRoot->right, level+1, path);
     }
 };
+ */
+
+// Solution 2: Queue, only 4ms, Beats 86%
+class Solution {
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        if (root == NULL) return {};
+        vector<vector<int>> res;
+        queue<TreeNode *> Q;
+        Q.push(root);
+        while (!Q.empty()) {
+            int len = Q.size();
+            vector<int> tmp (len);
+            bool ltr = !(res.size() & 1);
+            for (int i = 0; i < len; ++i) {
+                TreeNode* pNode = Q.front();
+                Q.pop();
+                int idx = ltr ? i : (len-i-1);
+                tmp[idx] = pNode->val;
+                if (pNode->left != NULL) Q.push(pNode->left);
+                if (pNode->right != NULL) Q.push(pNode->right);
+            }
+            res.push_back(tmp);
+        }
+        return res;
+    }
+};
+
 
 int main() {
     Solution sol = Solution();
