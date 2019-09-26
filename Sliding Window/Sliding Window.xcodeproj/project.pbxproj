@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C3D9A76233B62700017B47E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D9A75233B62700017B47E /* main.cpp */; };
+		8C3D9A81233BAC000017B47E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D9A80233BAC000017B47E /* main.cpp */; };
 		8C485F27233A49BD00E11530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C485F26233A49BD00E11530 /* main.cpp */; };
 		8C485F32233A4C3600E11530 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C485F31233A4C3600E11530 /* main.cpp */; };
 		8C54C3CE233362CF00FB4631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C54C3CD233362CF00FB4631 /* main.cpp */; };
@@ -22,6 +23,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C3D9A71233B62700017B47E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C3D9A7C233BAC000017B47E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -125,6 +135,8 @@
 /* Begin PBXFileReference section */
 		8C3D9A73233B62700017B47E /* 1052. Grumpy Bookstore Owner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1052. Grumpy Bookstore Owner"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3D9A75233B62700017B47E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C3D9A7E233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1074. Number of Submatrices That Sum to Target"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3D9A80233BAC000017B47E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1004. Max Consecutive Ones III"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C485F26233A49BD00E11530 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C485F2F233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1040. Moving Stones Until Consecutive II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +161,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C3D9A70233B62700017B47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3D9A7B233BAC000017B47E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,6 +255,14 @@
 			path = "1052. Grumpy Bookstore Owner";
 			sourceTree = "<group>";
 		};
+		8C3D9A7F233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */ = {
+			isa = PBXGroup;
+			children = (
+				8C3D9A80233BAC000017B47E /* main.cpp */,
+			);
+			path = "1074. Number of Submatrices That Sum to Target";
+			sourceTree = "<group>";
+		};
 		8C485F25233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +317,7 @@
 				8C485F25233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C485F30233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */,
 				8C3D9A74233B62700017B47E /* 1052. Grumpy Bookstore Owner */,
+				8C3D9A7F233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */,
 				8C922DD3232F4719009FD512 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -308,6 +336,7 @@
 				8C485F24233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C485F2F233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */,
 				8C3D9A73233B62700017B47E /* 1052. Grumpy Bookstore Owner */,
+				8C3D9A7E233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -370,6 +399,23 @@
 			name = "1052. Grumpy Bookstore Owner";
 			productName = "1052. Grumpy Bookstore Owner";
 			productReference = 8C3D9A73233B62700017B47E /* 1052. Grumpy Bookstore Owner */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C3D9A7D233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3D9A82233BAC000017B47E /* Build configuration list for PBXNativeTarget "1074. Number of Submatrices That Sum to Target" */;
+			buildPhases = (
+				8C3D9A7A233BAC000017B47E /* Sources */,
+				8C3D9A7B233BAC000017B47E /* Frameworks */,
+				8C3D9A7C233BAC000017B47E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1074. Number of Submatrices That Sum to Target";
+			productName = "1074. Number of Submatrices That Sum to Target";
+			productReference = 8C3D9A7E233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C485F23233A49BD00E11530 /* 1004. Max Consecutive Ones III */ = {
@@ -554,6 +600,9 @@
 					8C3D9A72233B62700017B47E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C3D9A7D233BAC000017B47E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8C485F23233A49BD00E11530 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -609,6 +658,7 @@
 				8C485F23233A49BD00E11530 /* 1004. Max Consecutive Ones III */,
 				8C485F2E233A4C3600E11530 /* 1040. Moving Stones Until Consecutive II */,
 				8C3D9A72233B62700017B47E /* 1052. Grumpy Bookstore Owner */,
+				8C3D9A7D233BAC000017B47E /* 1074. Number of Submatrices That Sum to Target */,
 			);
 		};
 /* End PBXProject section */
@@ -619,6 +669,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3D9A76233B62700017B47E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3D9A7A233BAC000017B47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3D9A81233BAC000017B47E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +772,22 @@
 			name = Debug;
 		};
 		8C3D9A78233B62700017B47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C3D9A83233BAC000017B47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3D9A84233BAC000017B47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1000,6 +1074,15 @@
 			buildConfigurations = (
 				8C3D9A77233B62700017B47E /* Debug */,
 				8C3D9A78233B62700017B47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3D9A82233BAC000017B47E /* Build configuration list for PBXNativeTarget "1074. Number of Submatrices That Sum to Target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D9A83233BAC000017B47E /* Debug */,
+				8C3D9A84233BAC000017B47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
