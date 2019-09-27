@@ -16,6 +16,7 @@
 		8CF71F72233D9B2F00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF71F71233D9B2F00A4BF7C /* main.cpp */; };
 		8CF72181233DB45800A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF72180233DB45800A4BF7C /* main.cpp */; };
 		8CF7218C233DB7AF00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7218B233DB7AF00A4BF7C /* main.cpp */; };
+		8CF72197233DBC5000A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF72196233DBC5000A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF72192233DBC5000A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +131,8 @@
 		8CF72180233DB45800A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF72189233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "173. Binary Search Tree Iterator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7218B233DB7AF00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF72194233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "215. Kth Largest Element in an Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF72196233DBC5000A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +199,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF72191233DBC5000A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -202,6 +221,7 @@
 				8CF71F70233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */,
 				8CF7217F233DB45800A4BF7C /* 155. Min Stack */,
 				8CF7218A233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */,
+				8CF72195233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -218,6 +238,7 @@
 				8CF71F6F233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */,
 				8CF7217E233DB45800A4BF7C /* 155. Min Stack */,
 				8CF72189233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */,
+				8CF72194233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,6 +313,14 @@
 				8CF7218B233DB7AF00A4BF7C /* main.cpp */,
 			);
 			path = "173. Binary Search Tree Iterator";
+			sourceTree = "<group>";
+		};
+		8CF72195233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */ = {
+			isa = PBXGroup;
+			children = (
+				8CF72196233DBC5000A4BF7C /* main.cpp */,
+			);
+			path = "215. Kth Largest Element in an Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +479,23 @@
 			productReference = 8CF72189233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF72193233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF72198233DBC5000A4BF7C /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */;
+			buildPhases = (
+				8CF72190233DBC5000A4BF7C /* Sources */,
+				8CF72191233DBC5000A4BF7C /* Frameworks */,
+				8CF72192233DBC5000A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "215. Kth Largest Element in an Array";
+			productName = "215. Kth Largest Element in an Array";
+			productReference = 8CF72194233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -486,6 +532,9 @@
 					8CF72188233DB7AF00A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF72193233DBC5000A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -509,6 +558,7 @@
 				8CF71F6E233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */,
 				8CF7217D233DB45800A4BF7C /* 155. Min Stack */,
 				8CF72188233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */,
+				8CF72193233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */,
 			);
 		};
 /* End PBXProject section */
@@ -583,6 +633,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF7218C233DB7AF00A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF72190233DBC5000A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF72197233DBC5000A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -844,6 +902,22 @@
 			};
 			name = Release;
 		};
+		8CF72199233DBC5000A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7219A233DBC5000A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -933,6 +1007,15 @@
 			buildConfigurations = (
 				8CF7218E233DB7AF00A4BF7C /* Debug */,
 				8CF7218F233DB7AF00A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF72198233DBC5000A4BF7C /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF72199233DBC5000A4BF7C /* Debug */,
+				8CF7219A233DBC5000A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
