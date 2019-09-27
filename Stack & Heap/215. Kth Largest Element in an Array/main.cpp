@@ -27,6 +27,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Use heap to sort all the elemants, and remove the last n-k, not so good
+/*
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -35,6 +37,16 @@ public:
         for (int i = 1; i < k; ++i)
             pq.pop();
         return pq.top();
+    }
+};
+ */
+
+// Solution 2: Use STL, it's better to read the source code
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        partial_sort(nums.begin(), nums.begin()+k, nums.end(), greater<>());
+        return nums[k-1];
     }
 };
 
