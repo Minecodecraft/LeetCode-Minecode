@@ -27,6 +27,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Stack with recursive solution, 20ms
+/*
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -65,6 +67,33 @@ private:
     bool isOperator(const string &str) {
         return str == "+" || str == "-" || str == "*" || str == "/";
     }
+};
+ */
+
+// Solution 2: Use lambda map, 12ms 👍
+class Solution {
+public:
+    int evalRPN(vector<string>& tokens) {
+        stack<int> st;
+        for (string &str: tokens) {
+            if (op.count(str) > 0) {
+                int n2 = st.top(); st.pop();
+                int n1 = st.top(); st.pop();
+                st.push(op[str](n1, n2));
+            } else {
+                st.push(stoi(str));
+            }
+        }
+        return st.top();
+    }
+
+private:
+    unordered_map<string, function<int (int, int)>> op = {
+        {"+", [] (int a, int b) { return a + b; } },
+        {"-", [] (int a, int b) { return a - b; } },
+        {"*", [] (int a, int b) { return a * b; } },
+        {"/", [] (int a, int b) { return a / b; } },
+    };
 };
 
 int main() {
