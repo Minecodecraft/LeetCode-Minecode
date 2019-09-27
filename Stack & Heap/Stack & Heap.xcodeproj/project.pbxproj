@@ -13,6 +13,7 @@
 		8CB42C74233C7E28009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C73233C7E28009C79B8 /* main.cpp */; };
 		8CF7070A233CC26A00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF70709233CC26A00A4BF7C /* main.cpp */; };
 		8CF70919233CC3CE00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF70918233CC3CE00A4BF7C /* main.cpp */; };
+		8CF71F72233D9B2F00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF71F71233D9B2F00A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF71F6D233D9B2F00A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +95,8 @@
 		8CF70709233CC26A00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF70916233CC3CE00A4BF7C /* 145. Binary Tree Postorder Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "145. Binary Tree Postorder Traversal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF70918233CC3CE00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF71F6F233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "150. Evaluate Reverse Polish Notation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF71F71233D9B2F00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF71F6C233D9B2F00A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +161,7 @@
 				8CB42C72233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */,
 				8CF70708233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */,
 				8CF70917233CC3CE00A4BF7C /* 145. Binary Tree Postorder Traversal */,
+				8CF71F70233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 				8CB42C71233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */,
 				8CF70707233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */,
 				8CF70916233CC3CE00A4BF7C /* 145. Binary Tree Postorder Traversal */,
+				8CF71F6F233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +226,14 @@
 				8CF70918233CC3CE00A4BF7C /* main.cpp */,
 			);
 			path = "145. Binary Tree Postorder Traversal";
+			sourceTree = "<group>";
+		};
+		8CF71F70233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */ = {
+			isa = PBXGroup;
+			children = (
+				8CF71F71233D9B2F00A4BF7C /* main.cpp */,
+			);
+			path = "150. Evaluate Reverse Polish Notation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +341,23 @@
 			productReference = 8CF70916233CC3CE00A4BF7C /* 145. Binary Tree Postorder Traversal */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF71F6E233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF71F75233D9B2F00A4BF7C /* Build configuration list for PBXNativeTarget "150. Evaluate Reverse Polish Notation" */;
+			buildPhases = (
+				8CF71F6B233D9B2F00A4BF7C /* Sources */,
+				8CF71F6C233D9B2F00A4BF7C /* Frameworks */,
+				8CF71F6D233D9B2F00A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "150. Evaluate Reverse Polish Notation";
+			productName = "150. Evaluate Reverse Polish Notation";
+			productReference = 8CF71F6F233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,6 +385,9 @@
 					8CF70915233CC3CE00A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF71F6E233D9B2F00A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -359,6 +408,7 @@
 				8CB42C70233C7E28009C79B8 /* 103. Binary Tree Zigzag Level Order Traversal */,
 				8CF70706233CC26A00A4BF7C /* 144. Binary Tree Preorder Traversal */,
 				8CF70915233CC3CE00A4BF7C /* 145. Binary Tree Postorder Traversal */,
+				8CF71F6E233D9B2F00A4BF7C /* 150. Evaluate Reverse Polish Notation */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +459,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF70919233CC3CE00A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF71F6B233D9B2F00A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF71F72233D9B2F00A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +680,22 @@
 			};
 			name = Release;
 		};
+		8CF71F73233D9B2F00A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF71F74233D9B2F00A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,6 +758,15 @@
 			buildConfigurations = (
 				8CF7091A233CC3CE00A4BF7C /* Debug */,
 				8CF7091B233CC3CE00A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF71F75233D9B2F00A4BF7C /* Build configuration list for PBXNativeTarget "150. Evaluate Reverse Polish Notation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF71F73233D9B2F00A4BF7C /* Debug */,
+				8CF71F74233D9B2F00A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
