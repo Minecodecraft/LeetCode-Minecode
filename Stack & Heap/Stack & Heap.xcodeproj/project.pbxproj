@@ -18,6 +18,7 @@
 		8CF7218C233DB7AF00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7218B233DB7AF00A4BF7C /* main.cpp */; };
 		8CF72197233DBC5000A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF72196233DBC5000A4BF7C /* main.cpp */; };
 		8CF721A2233DCBA500A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF721A1233DCBA500A4BF7C /* main.cpp */; };
+		8CF7850F2344F31B00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7850E2344F31B00A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +121,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF7850A2344F31B00A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +155,8 @@
 		8CF72196233DBC5000A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF7219F233DCBA500A4BF7C /* 218. The Skyline Problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "218. The Skyline Problem"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF721A1233DCBA500A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF7850C2344F31B00A4BF7C /* 224. Basic Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "224. Basic Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF7850E2344F31B00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +237,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF785092344F31B00A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -242,6 +261,7 @@
 				8CF7218A233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */,
 				8CF72195233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */,
 				8CF721A0233DCBA500A4BF7C /* 218. The Skyline Problem */,
+				8CF7850D2344F31B00A4BF7C /* 224. Basic Calculator */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -260,6 +280,7 @@
 				8CF72189233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */,
 				8CF72194233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */,
 				8CF7219F233DCBA500A4BF7C /* 218. The Skyline Problem */,
+				8CF7850C2344F31B00A4BF7C /* 224. Basic Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -350,6 +371,14 @@
 				8CF721A1233DCBA500A4BF7C /* main.cpp */,
 			);
 			path = "218. The Skyline Problem";
+			sourceTree = "<group>";
+		};
+		8CF7850D2344F31B00A4BF7C /* 224. Basic Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8CF7850E2344F31B00A4BF7C /* main.cpp */,
+			);
+			path = "224. Basic Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,6 +571,23 @@
 			productReference = 8CF7219F233DCBA500A4BF7C /* 218. The Skyline Problem */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF7850B2344F31B00A4BF7C /* 224. Basic Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF785122344F31B00A4BF7C /* Build configuration list for PBXNativeTarget "224. Basic Calculator" */;
+			buildPhases = (
+				8CF785082344F31B00A4BF7C /* Sources */,
+				8CF785092344F31B00A4BF7C /* Frameworks */,
+				8CF7850A2344F31B00A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "224. Basic Calculator";
+			productName = "224. Basic Calculator";
+			productReference = 8CF7850C2344F31B00A4BF7C /* 224. Basic Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -584,6 +630,9 @@
 					8CF7219E233DCBA500A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF7850B2344F31B00A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -609,6 +658,7 @@
 				8CF72188233DB7AF00A4BF7C /* 173. Binary Search Tree Iterator */,
 				8CF72193233DBC5000A4BF7C /* 215. Kth Largest Element in an Array */,
 				8CF7219E233DCBA500A4BF7C /* 218. The Skyline Problem */,
+				8CF7850B2344F31B00A4BF7C /* 224. Basic Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -699,6 +749,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF721A2233DCBA500A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF785082344F31B00A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7850F2344F31B00A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -992,6 +1050,22 @@
 			};
 			name = Release;
 		};
+		8CF785102344F31B00A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF785112344F31B00A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1099,6 +1173,15 @@
 			buildConfigurations = (
 				8CF721A4233DCBA500A4BF7C /* Debug */,
 				8CF721A5233DCBA500A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF785122344F31B00A4BF7C /* Build configuration list for PBXNativeTarget "224. Basic Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF785102344F31B00A4BF7C /* Debug */,
+				8CF785112344F31B00A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
