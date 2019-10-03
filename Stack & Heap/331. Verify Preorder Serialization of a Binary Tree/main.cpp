@@ -29,6 +29,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Recursivce, 563ms, beats 5% 🤢
+/*
 class Solution {
 public:
     bool isValidSerialization(string preorder) {
@@ -65,12 +67,32 @@ private:
         return false;
     }
 };
+ */
+
+// Solution 2: O(n) Time Complexity, O(1) Space Complexity
+// When adding a node, capacity -1, when adding a non-leaf node, capacity +2
+// Initially the capacity will be 1 for the root.
+class Solution {
+public:
+    bool isValidSerialization(string preorder) {
+        if (preorder.empty()) return false;
+        preorder += ",";
+        int capacity = 1, len = preorder.length();
+        for (int i = 0; i < len; ++i) {
+            if (preorder[i] != ',') continue;
+            capacity--;
+            if (capacity < 0) return false;
+            if (preorder[i-1] != '#') capacity += 2;
+        }
+        return capacity == 0;
+    }
+};
 
 int main() {
     Solution sol = Solution();
 //    string s = "9,3,4,#,#,1,#,#,2,#,6,#,#";
-//    string s = "1,#";
-    string s = "9,#,#,1";
+    string s = "1,#";
+//    string s = "9,#,#,1";
     bool res = sol.isValidSerialization(s);
     cout << (res ? "true" : "false") << endl;
     return 0;
