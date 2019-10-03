@@ -21,6 +21,7 @@
 		8CF7850F2344F31B00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7850E2344F31B00A4BF7C /* main.cpp */; };
 		8CF7851A2345132400A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785192345132400A4BF7C /* main.cpp */; };
 		8CF785252345219C00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785242345219C00A4BF7C /* main.cpp */; };
+		8CF7853023457AF100A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7852F23457AF100A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -150,6 +151,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF7852B23457AF100A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +191,8 @@
 		8CF785192345132400A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF785222345219C00A4BF7C /* 232. Implement Queue using Stacks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "232. Implement Queue using Stacks"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF785242345219C00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF7852D23457AF100A4BF7C /* 295. Find Median from Data Stream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "295. Find Median from Data Stream"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF7852F23457AF100A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +294,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF7852A23457AF100A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -302,6 +321,7 @@
 				8CF7850D2344F31B00A4BF7C /* 224. Basic Calculator */,
 				8CF785182345132400A4BF7C /* 225. Implement Stack using Queues */,
 				8CF785232345219C00A4BF7C /* 232. Implement Queue using Stacks */,
+				8CF7852E23457AF100A4BF7C /* 295. Find Median from Data Stream */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -323,6 +343,7 @@
 				8CF7850C2344F31B00A4BF7C /* 224. Basic Calculator */,
 				8CF785172345132400A4BF7C /* 225. Implement Stack using Queues */,
 				8CF785222345219C00A4BF7C /* 232. Implement Queue using Stacks */,
+				8CF7852D23457AF100A4BF7C /* 295. Find Median from Data Stream */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,6 +458,14 @@
 				8CF785242345219C00A4BF7C /* main.cpp */,
 			);
 			path = "232. Implement Queue using Stacks";
+			sourceTree = "<group>";
+		};
+		8CF7852E23457AF100A4BF7C /* 295. Find Median from Data Stream */ = {
+			isa = PBXGroup;
+			children = (
+				8CF7852F23457AF100A4BF7C /* main.cpp */,
+			);
+			path = "295. Find Median from Data Stream";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -680,6 +709,23 @@
 			productReference = 8CF785222345219C00A4BF7C /* 232. Implement Queue using Stacks */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF7852C23457AF100A4BF7C /* 295. Find Median from Data Stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF7853123457AF100A4BF7C /* Build configuration list for PBXNativeTarget "295. Find Median from Data Stream" */;
+			buildPhases = (
+				8CF7852923457AF100A4BF7C /* Sources */,
+				8CF7852A23457AF100A4BF7C /* Frameworks */,
+				8CF7852B23457AF100A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "295. Find Median from Data Stream";
+			productName = "295. Find Median from Data Stream";
+			productReference = 8CF7852D23457AF100A4BF7C /* 295. Find Median from Data Stream */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -731,6 +777,9 @@
 					8CF785212345219C00A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF7852C23457AF100A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -759,6 +808,7 @@
 				8CF7850B2344F31B00A4BF7C /* 224. Basic Calculator */,
 				8CF785162345132400A4BF7C /* 225. Implement Stack using Queues */,
 				8CF785212345219C00A4BF7C /* 232. Implement Queue using Stacks */,
+				8CF7852C23457AF100A4BF7C /* 295. Find Median from Data Stream */,
 			);
 		};
 /* End PBXProject section */
@@ -873,6 +923,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF785252345219C00A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF7852923457AF100A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7853023457AF100A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1214,6 +1272,22 @@
 			};
 			name = Release;
 		};
+		8CF7853223457AF100A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7853323457AF100A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1348,6 +1422,15 @@
 			buildConfigurations = (
 				8CF785272345219C00A4BF7C /* Debug */,
 				8CF785282345219C00A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF7853123457AF100A4BF7C /* Build configuration list for PBXNativeTarget "295. Find Median from Data Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF7853223457AF100A4BF7C /* Debug */,
+				8CF7853323457AF100A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
