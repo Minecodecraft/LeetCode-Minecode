@@ -22,6 +22,7 @@
 		8CF7851A2345132400A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785192345132400A4BF7C /* main.cpp */; };
 		8CF785252345219C00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785242345219C00A4BF7C /* main.cpp */; };
 		8CF7853023457AF100A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7852F23457AF100A4BF7C /* main.cpp */; };
+		8CF7853B23457D7F00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7853A23457D7F00A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,6 +161,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF7853623457D7F00A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -193,6 +203,8 @@
 		8CF785242345219C00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF7852D23457AF100A4BF7C /* 295. Find Median from Data Stream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "295. Find Median from Data Stream"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7852F23457AF100A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF7853823457D7F00A4BF7C /* 313. Super Ugly Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "313. Super Ugly Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF7853A23457D7F00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +313,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF7853523457D7F00A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -322,6 +341,7 @@
 				8CF785182345132400A4BF7C /* 225. Implement Stack using Queues */,
 				8CF785232345219C00A4BF7C /* 232. Implement Queue using Stacks */,
 				8CF7852E23457AF100A4BF7C /* 295. Find Median from Data Stream */,
+				8CF7853923457D7F00A4BF7C /* 313. Super Ugly Number */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -344,6 +364,7 @@
 				8CF785172345132400A4BF7C /* 225. Implement Stack using Queues */,
 				8CF785222345219C00A4BF7C /* 232. Implement Queue using Stacks */,
 				8CF7852D23457AF100A4BF7C /* 295. Find Median from Data Stream */,
+				8CF7853823457D7F00A4BF7C /* 313. Super Ugly Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -466,6 +487,14 @@
 				8CF7852F23457AF100A4BF7C /* main.cpp */,
 			);
 			path = "295. Find Median from Data Stream";
+			sourceTree = "<group>";
+		};
+		8CF7853923457D7F00A4BF7C /* 313. Super Ugly Number */ = {
+			isa = PBXGroup;
+			children = (
+				8CF7853A23457D7F00A4BF7C /* main.cpp */,
+			);
+			path = "313. Super Ugly Number";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -726,6 +755,23 @@
 			productReference = 8CF7852D23457AF100A4BF7C /* 295. Find Median from Data Stream */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF7853723457D7F00A4BF7C /* 313. Super Ugly Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF7853C23457D7F00A4BF7C /* Build configuration list for PBXNativeTarget "313. Super Ugly Number" */;
+			buildPhases = (
+				8CF7853423457D7F00A4BF7C /* Sources */,
+				8CF7853523457D7F00A4BF7C /* Frameworks */,
+				8CF7853623457D7F00A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "313. Super Ugly Number";
+			productName = "313. Super Ugly Number";
+			productReference = 8CF7853823457D7F00A4BF7C /* 313. Super Ugly Number */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -780,6 +826,9 @@
 					8CF7852C23457AF100A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF7853723457D7F00A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -809,6 +858,7 @@
 				8CF785162345132400A4BF7C /* 225. Implement Stack using Queues */,
 				8CF785212345219C00A4BF7C /* 232. Implement Queue using Stacks */,
 				8CF7852C23457AF100A4BF7C /* 295. Find Median from Data Stream */,
+				8CF7853723457D7F00A4BF7C /* 313. Super Ugly Number */,
 			);
 		};
 /* End PBXProject section */
@@ -931,6 +981,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF7853023457AF100A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF7853423457D7F00A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7853B23457D7F00A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1288,6 +1346,22 @@
 			};
 			name = Release;
 		};
+		8CF7853D23457D7F00A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7853E23457D7F00A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1431,6 +1505,15 @@
 			buildConfigurations = (
 				8CF7853223457AF100A4BF7C /* Debug */,
 				8CF7853323457AF100A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF7853C23457D7F00A4BF7C /* Build configuration list for PBXNativeTarget "313. Super Ugly Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF7853D23457D7F00A4BF7C /* Debug */,
+				8CF7853E23457D7F00A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
