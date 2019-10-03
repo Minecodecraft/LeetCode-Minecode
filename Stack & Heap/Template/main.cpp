@@ -13,11 +13,13 @@
 #include <map>
 #include <set>
 #include <queue>
+#include <string>
 #include <stack>
 #include <vector>
 #include <cstdio>
 #include <numeric>
 #include <cstdlib>
+#include <utility>
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
