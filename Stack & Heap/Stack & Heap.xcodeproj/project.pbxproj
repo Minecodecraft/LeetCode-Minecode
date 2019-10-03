@@ -25,6 +25,7 @@
 		8CF7853B23457D7F00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7853A23457D7F00A4BF7C /* main.cpp */; };
 		8CF78546234584EC00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF78545234584EC00A4BF7C /* main.cpp */; };
 		8CF785512345CE8E00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785502345CE8E00A4BF7C /* main.cpp */; };
+		8CF7855C2346531200A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7855B2346531200A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,6 +191,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF785572346531200A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -229,6 +239,8 @@
 		8CF78545234584EC00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF7854E2345CE8E00A4BF7C /* 331. Verify Preorder Serialization of a Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "331. Verify Preorder Serialization of a Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF785502345CE8E00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF785592346531200A4BF7C /* 341. Flatten Nested List Iterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "341. Flatten Nested List Iterator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF7855B2346531200A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +370,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF785562346531200A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -382,6 +401,7 @@
 				8CF7853923457D7F00A4BF7C /* 313. Super Ugly Number */,
 				8CF78544234584EC00A4BF7C /* 316. Remove Duplicate Letters */,
 				8CF7854F2345CE8E00A4BF7C /* 331. Verify Preorder Serialization of a Binary Tree */,
+				8CF7855A2346531200A4BF7C /* 341. Flatten Nested List Iterator */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -407,6 +427,7 @@
 				8CF7853823457D7F00A4BF7C /* 313. Super Ugly Number */,
 				8CF78543234584EC00A4BF7C /* 316. Remove Duplicate Letters */,
 				8CF7854E2345CE8E00A4BF7C /* 331. Verify Preorder Serialization of a Binary Tree */,
+				8CF785592346531200A4BF7C /* 341. Flatten Nested List Iterator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -553,6 +574,14 @@
 				8CF785502345CE8E00A4BF7C /* main.cpp */,
 			);
 			path = "331. Verify Preorder Serialization of a Binary Tree";
+			sourceTree = "<group>";
+		};
+		8CF7855A2346531200A4BF7C /* 341. Flatten Nested List Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				8CF7855B2346531200A4BF7C /* main.cpp */,
+			);
+			path = "341. Flatten Nested List Iterator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -864,6 +893,23 @@
 			productReference = 8CF7854E2345CE8E00A4BF7C /* 331. Verify Preorder Serialization of a Binary Tree */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF785582346531200A4BF7C /* 341. Flatten Nested List Iterator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF7855D2346531200A4BF7C /* Build configuration list for PBXNativeTarget "341. Flatten Nested List Iterator" */;
+			buildPhases = (
+				8CF785552346531200A4BF7C /* Sources */,
+				8CF785562346531200A4BF7C /* Frameworks */,
+				8CF785572346531200A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "341. Flatten Nested List Iterator";
+			productName = "341. Flatten Nested List Iterator";
+			productReference = 8CF785592346531200A4BF7C /* 341. Flatten Nested List Iterator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -927,6 +973,9 @@
 					8CF7854D2345CE8E00A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF785582346531200A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -959,6 +1008,7 @@
 				8CF7853723457D7F00A4BF7C /* 313. Super Ugly Number */,
 				8CF78542234584EC00A4BF7C /* 316. Remove Duplicate Letters */,
 				8CF7854D2345CE8E00A4BF7C /* 331. Verify Preorder Serialization of a Binary Tree */,
+				8CF785582346531200A4BF7C /* 341. Flatten Nested List Iterator */,
 			);
 		};
 /* End PBXProject section */
@@ -1105,6 +1155,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF785512345CE8E00A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF785552346531200A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7855C2346531200A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1510,6 +1568,22 @@
 			};
 			name = Release;
 		};
+		8CF7855E2346531200A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7855F2346531200A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1680,6 +1754,15 @@
 			buildConfigurations = (
 				8CF785532345CE8E00A4BF7C /* Debug */,
 				8CF785542345CE8E00A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF7855D2346531200A4BF7C /* Build configuration list for PBXNativeTarget "341. Flatten Nested List Iterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF7855E2346531200A4BF7C /* Debug */,
+				8CF7855F2346531200A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
