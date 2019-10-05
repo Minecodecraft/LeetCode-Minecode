@@ -29,6 +29,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Use heap(priority_queue), beat 16%
+/*
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
@@ -48,6 +50,28 @@ public:
                 pq.push(make_pair(pir.first, pir.second+1)), vis[pir.first][pir.second+1] = true;
         }
         return matrix[pq.top().first][pq.top().second];
+    }
+};
+ */
+
+// Solution 2: Use binary Search, beats 100% o(￣▽￣)ｄ
+class Solution {
+public:
+    int kthSmallest(vector<vector<int>>& matrix, int k) {
+        int n = matrix.size(), m = matrix[0].size();
+        if (n <= 0 || m <= 0 || n*m < k) return 0;
+        int l = matrix[0][0], r = matrix[n-1][m-1];
+        while (l < r) {
+            int mid = l + (r-l) / 2;
+            int sum = 0;
+            for (int i = 0; i < m; ++i) {
+                int cnt = upper_bound(matrix[i].begin(), matrix[i].end(), mid) - matrix[i].begin();
+                sum += cnt;
+            }
+            if (sum < k) l = mid + 1;
+            else r = mid;
+        }
+        return l;
     }
 };
 
