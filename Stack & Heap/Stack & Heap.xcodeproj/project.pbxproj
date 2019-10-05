@@ -29,6 +29,7 @@
 		8CF785672346579D00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785662346579D00A4BF7C /* main.cpp */; };
 		8CF7857223465D3700A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7857123465D3700A4BF7C /* main.cpp */; };
 		8CF7857D2348A13400A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7857C2348A13400A4BF7C /* main.cpp */; };
+		8CF785882348BF4700A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785872348BF4700A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -230,6 +231,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF785832348BF4700A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -277,6 +287,8 @@
 		8CF7857123465D3700A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF7857A2348A13400A4BF7C /* 373. Find K Pairs with Smallest Sums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "373. Find K Pairs with Smallest Sums"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7857C2348A13400A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF785852348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "378. Kth Smallest Element in a Sorted Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF785872348BF4700A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,6 +446,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF785822348BF4700A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -462,6 +481,7 @@
 				8CF785652346579D00A4BF7C /* 347. Top K Frequent Elements */,
 				8CF7857023465D3700A4BF7C /* 355. Design Twitter */,
 				8CF7857B2348A13400A4BF7C /* 373. Find K Pairs with Smallest Sums */,
+				8CF785862348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -491,6 +511,7 @@
 				8CF785642346579D00A4BF7C /* 347. Top K Frequent Elements */,
 				8CF7856F23465D3700A4BF7C /* 355. Design Twitter */,
 				8CF7857A2348A13400A4BF7C /* 373. Find K Pairs with Smallest Sums */,
+				8CF785852348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -669,6 +690,14 @@
 				8CF7857C2348A13400A4BF7C /* main.cpp */,
 			);
 			path = "373. Find K Pairs with Smallest Sums";
+			sourceTree = "<group>";
+		};
+		8CF785862348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				8CF785872348BF4700A4BF7C /* main.cpp */,
+			);
+			path = "378. Kth Smallest Element in a Sorted Matrix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1048,6 +1077,23 @@
 			productReference = 8CF7857A2348A13400A4BF7C /* 373. Find K Pairs with Smallest Sums */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF785842348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF785892348BF4700A4BF7C /* Build configuration list for PBXNativeTarget "378. Kth Smallest Element in a Sorted Matrix" */;
+			buildPhases = (
+				8CF785812348BF4700A4BF7C /* Sources */,
+				8CF785822348BF4700A4BF7C /* Frameworks */,
+				8CF785832348BF4700A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "378. Kth Smallest Element in a Sorted Matrix";
+			productName = "378. Kth Smallest Element in a Sorted Matrix";
+			productReference = 8CF785852348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1123,6 +1169,9 @@
 					8CF785792348A13400A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF785842348BF4700A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -1159,6 +1208,7 @@
 				8CF785632346579D00A4BF7C /* 347. Top K Frequent Elements */,
 				8CF7856E23465D3700A4BF7C /* 355. Design Twitter */,
 				8CF785792348A13400A4BF7C /* 373. Find K Pairs with Smallest Sums */,
+				8CF785842348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */,
 			);
 		};
 /* End PBXProject section */
@@ -1337,6 +1387,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF7857D2348A13400A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF785812348BF4700A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF785882348BF4700A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1806,6 +1864,22 @@
 			};
 			name = Release;
 		};
+		8CF7858A2348BF4700A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7858B2348BF4700A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2012,6 +2086,15 @@
 			buildConfigurations = (
 				8CF7857F2348A13400A4BF7C /* Debug */,
 				8CF785802348A13400A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF785892348BF4700A4BF7C /* Build configuration list for PBXNativeTarget "378. Kth Smallest Element in a Sorted Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF7858A2348BF4700A4BF7C /* Debug */,
+				8CF7858B2348BF4700A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
