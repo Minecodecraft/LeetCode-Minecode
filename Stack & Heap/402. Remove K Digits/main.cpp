@@ -29,6 +29,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: The solution is best, but use too many temporary variables. Beats only 7%
+/*
 class Solution {
 public:
     string removeKdigits(string num, int k) {
@@ -50,6 +52,24 @@ public:
         idx = 0;
         while (idx < res.length() && res[idx] == '0') ++idx;
         res = string(res.begin()+idx, res.end());
+        return res.empty() ? "0" : res;
+    }
+};
+ */
+
+// Solution 2: Use only one string, beat nearly 100%, only 4ms😆
+class Solution {
+public:
+    string removeKdigits(string num, int k) {
+        string res = "";
+        for (char& ch: num) {
+            while (!res.empty() && res.back() > ch && k)
+                res.pop_back(), --k;
+            if (!res.empty() || ch != '0')
+                res.push_back(ch);
+        }
+        while (!res.empty() && k)
+            res.pop_back(), --k;
         return res.empty() ? "0" : res;
     }
 };
