@@ -35,6 +35,7 @@
 		8CF785A9234A189200A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785A8234A189200A4BF7C /* main.cpp */; };
 		8CF785B4234AD1AB00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785B3234AD1AB00A4BF7C /* main.cpp */; };
 		8CF785BF234AFCE000A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785BE234AFCE000A4BF7C /* main.cpp */; };
+		8CF785CA234B23CC00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785C9234B23CC00A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -290,6 +291,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF785C5234B23CC00A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -349,6 +359,8 @@
 		8CF785B3234AD1AB00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF785BC234AFCE000A4BF7C /* 456. 132 Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "456. 132 Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF785BE234AFCE000A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF785C7234B23CC00A4BF7C /* 496. Next Greater Element I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "496. Next Greater Element I"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF785C9234B23CC00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -548,6 +560,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF785C4234B23CC00A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -582,6 +601,7 @@
 				8CF785A7234A189200A4BF7C /* 407. Trapping Rain Water II */,
 				8CF785B2234AD1AB00A4BF7C /* 451. Sort Characters By Frequency */,
 				8CF785BD234AFCE000A4BF7C /* 456. 132 Pattern */,
+				8CF785C8234B23CC00A4BF7C /* 496. Next Greater Element I */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -617,6 +637,7 @@
 				8CF785A6234A189200A4BF7C /* 407. Trapping Rain Water II */,
 				8CF785B1234AD1AB00A4BF7C /* 451. Sort Characters By Frequency */,
 				8CF785BC234AFCE000A4BF7C /* 456. 132 Pattern */,
+				8CF785C7234B23CC00A4BF7C /* 496. Next Greater Element I */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -843,6 +864,14 @@
 				8CF785BE234AFCE000A4BF7C /* main.cpp */,
 			);
 			path = "456. 132 Pattern";
+			sourceTree = "<group>";
+		};
+		8CF785C8234B23CC00A4BF7C /* 496. Next Greater Element I */ = {
+			isa = PBXGroup;
+			children = (
+				8CF785C9234B23CC00A4BF7C /* main.cpp */,
+			);
+			path = "496. Next Greater Element I";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1324,6 +1353,23 @@
 			productReference = 8CF785BC234AFCE000A4BF7C /* 456. 132 Pattern */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF785C6234B23CC00A4BF7C /* 496. Next Greater Element I */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF785CB234B23CC00A4BF7C /* Build configuration list for PBXNativeTarget "496. Next Greater Element I" */;
+			buildPhases = (
+				8CF785C3234B23CC00A4BF7C /* Sources */,
+				8CF785C4234B23CC00A4BF7C /* Frameworks */,
+				8CF785C5234B23CC00A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "496. Next Greater Element I";
+			productName = "496. Next Greater Element I";
+			productReference = 8CF785C7234B23CC00A4BF7C /* 496. Next Greater Element I */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1417,6 +1463,9 @@
 					8CF785BB234AFCE000A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF785C6234B23CC00A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -1459,6 +1508,7 @@
 				8CF785A5234A189200A4BF7C /* 407. Trapping Rain Water II */,
 				8CF785B0234AD1AB00A4BF7C /* 451. Sort Characters By Frequency */,
 				8CF785BB234AFCE000A4BF7C /* 456. 132 Pattern */,
+				8CF785C6234B23CC00A4BF7C /* 496. Next Greater Element I */,
 			);
 		};
 /* End PBXProject section */
@@ -1685,6 +1735,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF785BF234AFCE000A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF785C3234B23CC00A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF785CA234B23CC00A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2250,6 +2308,22 @@
 			};
 			name = Release;
 		};
+		8CF785CC234B23CC00A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF785CD234B23CC00A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2510,6 +2584,15 @@
 			buildConfigurations = (
 				8CF785C1234AFCE000A4BF7C /* Debug */,
 				8CF785C2234AFCE000A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF785CB234B23CC00A4BF7C /* Build configuration list for PBXNativeTarget "496. Next Greater Element I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF785CC234B23CC00A4BF7C /* Debug */,
+				8CF785CD234B23CC00A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
