@@ -32,6 +32,7 @@
 		8CF785882348BF4700A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785872348BF4700A4BF7C /* main.cpp */; };
 		8CF785932348C80B00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785922348C80B00A4BF7C /* main.cpp */; };
 		8CF7859E234A012A00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7859D234A012A00A4BF7C /* main.cpp */; };
+		8CF785A9234A189200A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785A8234A189200A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -260,6 +261,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF785A4234A189200A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -313,6 +323,8 @@
 		8CF785922348C80B00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF7859B234A012A00A4BF7C /* 402. Remove K Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "402. Remove K Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7859D234A012A00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF785A6234A189200A4BF7C /* 407. Trapping Rain Water II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "407. Trapping Rain Water II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF785A8234A189200A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +503,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF785A3234A189200A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -522,6 +541,7 @@
 				8CF785862348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */,
 				8CF785912348C80B00A4BF7C /* 394. Decode String */,
 				8CF7859C234A012A00A4BF7C /* 402. Remove K Digits */,
+				8CF785A7234A189200A4BF7C /* 407. Trapping Rain Water II */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -554,6 +574,7 @@
 				8CF785852348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */,
 				8CF785902348C80B00A4BF7C /* 394. Decode String */,
 				8CF7859B234A012A00A4BF7C /* 402. Remove K Digits */,
+				8CF785A6234A189200A4BF7C /* 407. Trapping Rain Water II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -756,6 +777,14 @@
 				8CF7859D234A012A00A4BF7C /* main.cpp */,
 			);
 			path = "402. Remove K Digits";
+			sourceTree = "<group>";
+		};
+		8CF785A7234A189200A4BF7C /* 407. Trapping Rain Water II */ = {
+			isa = PBXGroup;
+			children = (
+				8CF785A8234A189200A4BF7C /* main.cpp */,
+			);
+			path = "407. Trapping Rain Water II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1186,6 +1215,23 @@
 			productReference = 8CF7859B234A012A00A4BF7C /* 402. Remove K Digits */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF785A5234A189200A4BF7C /* 407. Trapping Rain Water II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF785AC234A189200A4BF7C /* Build configuration list for PBXNativeTarget "407. Trapping Rain Water II" */;
+			buildPhases = (
+				8CF785A2234A189200A4BF7C /* Sources */,
+				8CF785A3234A189200A4BF7C /* Frameworks */,
+				8CF785A4234A189200A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "407. Trapping Rain Water II";
+			productName = "407. Trapping Rain Water II";
+			productReference = 8CF785A6234A189200A4BF7C /* 407. Trapping Rain Water II */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1270,6 +1316,9 @@
 					8CF7859A234A012A00A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF785A5234A189200A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -1309,6 +1358,7 @@
 				8CF785842348BF4700A4BF7C /* 378. Kth Smallest Element in a Sorted Matrix */,
 				8CF7858F2348C80B00A4BF7C /* 394. Decode String */,
 				8CF7859A234A012A00A4BF7C /* 402. Remove K Digits */,
+				8CF785A5234A189200A4BF7C /* 407. Trapping Rain Water II */,
 			);
 		};
 /* End PBXProject section */
@@ -1511,6 +1561,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF7859E234A012A00A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF785A2234A189200A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF785A9234A189200A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2028,6 +2086,22 @@
 			};
 			name = Release;
 		};
+		8CF785AA234A189200A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF785AB234A189200A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2261,6 +2335,15 @@
 			buildConfigurations = (
 				8CF785A0234A012A00A4BF7C /* Debug */,
 				8CF785A1234A012A00A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF785AC234A189200A4BF7C /* Build configuration list for PBXNativeTarget "407. Trapping Rain Water II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF785AA234A189200A4BF7C /* Debug */,
+				8CF785AB234A189200A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
