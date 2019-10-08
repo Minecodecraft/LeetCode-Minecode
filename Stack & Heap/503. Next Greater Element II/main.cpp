@@ -29,6 +29,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Not so good, use too many temp variables, beat 10%
+/*
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
@@ -46,6 +48,24 @@ public:
         for (int i = 0; i < nums.size(); ++i)
             res.push_back(pos.count(i) > 0 ? pos[i] : -1);
         return res;
+    }
+};
+ */
+
+// Solution 2: Great and conciselly, beat 50%
+class Solution {
+public:
+    vector<int> nextGreaterElements(vector<int>& nums) {
+        stack<int> st;
+        vector<int> nxt (nums.size(), -1);
+        for (int i = 0; i < nums.size() * 2; ++i) {
+            while (st.size() && nums[st.top()] < nums[i % nums.size()]) {
+                nxt[st.top()] = nums[i % nums.size()];
+                st.pop();
+            }
+            if (i < nums.size()) st.push(i);
+        }
+        return nxt;
     }
 };
 
