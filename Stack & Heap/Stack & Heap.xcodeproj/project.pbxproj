@@ -37,6 +37,7 @@
 		8CF785BF234AFCE000A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785BE234AFCE000A4BF7C /* main.cpp */; };
 		8CF785CA234B23CC00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785C9234B23CC00A4BF7C /* main.cpp */; };
 		8CF785D5234B51FC00A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF785D4234B51FC00A4BF7C /* main.cpp */; };
+		8CF78BEC234C52E800A4BF7C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF78BEB234C52E800A4BF7C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -310,6 +311,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF78BE7234C52E800A4BF7C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -373,6 +383,8 @@
 		8CF785C9234B23CC00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CF785D2234B51FC00A4BF7C /* 502. IPO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "502. IPO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF785D4234B51FC00A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF78BE9234C52E800A4BF7C /* 503. Next Greater Element II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "503. Next Greater Element II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF78BEB234C52E800A4BF7C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,6 +598,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF78BE6234C52E800A4BF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -622,6 +641,7 @@
 				8CF785BD234AFCE000A4BF7C /* 456. 132 Pattern */,
 				8CF785C8234B23CC00A4BF7C /* 496. Next Greater Element I */,
 				8CF785D3234B51FC00A4BF7C /* 502. IPO */,
+				8CF78BEA234C52E800A4BF7C /* 503. Next Greater Element II */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -659,6 +679,7 @@
 				8CF785BC234AFCE000A4BF7C /* 456. 132 Pattern */,
 				8CF785C7234B23CC00A4BF7C /* 496. Next Greater Element I */,
 				8CF785D2234B51FC00A4BF7C /* 502. IPO */,
+				8CF78BE9234C52E800A4BF7C /* 503. Next Greater Element II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -901,6 +922,14 @@
 				8CF785D4234B51FC00A4BF7C /* main.cpp */,
 			);
 			path = "502. IPO";
+			sourceTree = "<group>";
+		};
+		8CF78BEA234C52E800A4BF7C /* 503. Next Greater Element II */ = {
+			isa = PBXGroup;
+			children = (
+				8CF78BEB234C52E800A4BF7C /* main.cpp */,
+			);
+			path = "503. Next Greater Element II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1416,6 +1445,23 @@
 			productReference = 8CF785D2234B51FC00A4BF7C /* 502. IPO */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF78BE8234C52E800A4BF7C /* 503. Next Greater Element II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF78BEF234C52E800A4BF7C /* Build configuration list for PBXNativeTarget "503. Next Greater Element II" */;
+			buildPhases = (
+				8CF78BE5234C52E800A4BF7C /* Sources */,
+				8CF78BE6234C52E800A4BF7C /* Frameworks */,
+				8CF78BE7234C52E800A4BF7C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "503. Next Greater Element II";
+			productName = "503. Next Greater Element II";
+			productReference = 8CF78BE9234C52E800A4BF7C /* 503. Next Greater Element II */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1515,6 +1561,9 @@
 					8CF785D1234B51FC00A4BF7C = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CF78BE8234C52E800A4BF7C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CB42C34233C774C009C79B8 /* Build configuration list for PBXProject "Stack & Heap" */;
@@ -1559,6 +1608,7 @@
 				8CF785BB234AFCE000A4BF7C /* 456. 132 Pattern */,
 				8CF785C6234B23CC00A4BF7C /* 496. Next Greater Element I */,
 				8CF785D1234B51FC00A4BF7C /* 502. IPO */,
+				8CF78BE8234C52E800A4BF7C /* 503. Next Greater Element II */,
 			);
 		};
 /* End PBXProject section */
@@ -1801,6 +1851,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF785D5234B51FC00A4BF7C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF78BE5234C52E800A4BF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF78BEC234C52E800A4BF7C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2398,6 +2456,22 @@
 			};
 			name = Release;
 		};
+		8CF78BED234C52E800A4BF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF78BEE234C52E800A4BF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2676,6 +2750,15 @@
 			buildConfigurations = (
 				8CF785D7234B51FC00A4BF7C /* Debug */,
 				8CF785D8234B51FC00A4BF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF78BEF234C52E800A4BF7C /* Build configuration list for PBXNativeTarget "503. Next Greater Element II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF78BED234C52E800A4BF7C /* Debug */,
+				8CF78BEE234C52E800A4BF7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
