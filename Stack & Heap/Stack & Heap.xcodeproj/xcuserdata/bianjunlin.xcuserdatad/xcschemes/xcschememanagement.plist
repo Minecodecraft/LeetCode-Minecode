@@ -12,47 +12,47 @@
 		<key>144. Binary Tree Preorder Traversal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>145. Binary Tree Postorder Traversal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>150. Evaluate Reverse Polish Notation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 		<key>155. Min Stack.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
 		<key>173. Binary Search Tree Iterator.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>8</integer>
 		</dict>
 		<key>215. Kth Largest Element in an Array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>218. The Skyline Problem.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>224. Basic Calculator.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
 		</dict>
 		<key>225. Implement Stack using Queues.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>12</integer>
 		</dict>
 		<key>23. Merge k Sorted Lists.xcscheme_^#shared#^_</key>
 		<dict>
@@ -148,6 +148,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>30</integer>
+		</dict>
+		<key>636. Exclusive Time of Functions.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
 		</dict>
 		<key>94. Binary Tree Inorder Traversal.xcscheme_^#shared#^_</key>
 		<dict>
