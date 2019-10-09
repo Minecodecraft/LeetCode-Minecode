@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C44BF6C234D80D000F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44BF6B234D80D000F0447E /* main.cpp */; };
 		8C44BF77234D8D8700F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44BF76234D8D8700F0447E /* main.cpp */; };
+		8C44BF82234D9CD900F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44BF81234D9CD900F0447E /* main.cpp */; };
 		8CB42C53233C7787009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C52233C7787009C79B8 /* main.cpp */; };
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
 		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
@@ -53,6 +54,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C44BF72234D8D8700F0447E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C44BF7D234D9CD900F0447E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -347,6 +357,8 @@
 		8C44BF6B234D80D000F0447E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C44BF74234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "659. Split Array into Consecutive Subsequences"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C44BF76234D8D8700F0447E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C44BF7F234D9CD900F0447E /* 682. Baseball Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "682. Baseball Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C44BF81234D9CD900F0447E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C50233C7787009C79B8 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C52233C7787009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -420,6 +432,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C44BF71234D8D8700F0447E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C44BF7C234D9CD900F0447E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -662,6 +681,14 @@
 			path = "659. Split Array into Consecutive Subsequences";
 			sourceTree = "<group>";
 		};
+		8C44BF80234D9CD900F0447E /* 682. Baseball Game */ = {
+			isa = PBXGroup;
+			children = (
+				8C44BF81234D9CD900F0447E /* main.cpp */,
+			);
+			path = "682. Baseball Game";
+			sourceTree = "<group>";
+		};
 		8CB42C30233C774C009C79B8 = {
 			isa = PBXGroup;
 			children = (
@@ -698,6 +725,7 @@
 				8CF78BEA234C52E800A4BF7C /* 503. Next Greater Element II */,
 				8C44BF6A234D80D000F0447E /* 636. Exclusive Time of Functions */,
 				8C44BF75234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */,
+				8C44BF80234D9CD900F0447E /* 682. Baseball Game */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -738,6 +766,7 @@
 				8CF78BE9234C52E800A4BF7C /* 503. Next Greater Element II */,
 				8C44BF69234D80D000F0447E /* 636. Exclusive Time of Functions */,
 				8C44BF74234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */,
+				8C44BF7F234D9CD900F0447E /* 682. Baseball Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1025,6 +1054,23 @@
 			name = "659. Split Array into Consecutive Subsequences";
 			productName = "659. Split Array into Consecutive Subsequences";
 			productReference = 8C44BF74234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C44BF7E234D9CD900F0447E /* 682. Baseball Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C44BF83234D9CD900F0447E /* Build configuration list for PBXNativeTarget "682. Baseball Game" */;
+			buildPhases = (
+				8C44BF7B234D9CD900F0447E /* Sources */,
+				8C44BF7C234D9CD900F0447E /* Frameworks */,
+				8C44BF7D234D9CD900F0447E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "682. Baseball Game";
+			productName = "682. Baseball Game";
+			productReference = 8C44BF7F234D9CD900F0447E /* 682. Baseball Game */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CB42C4F233C7787009C79B8 /* Template */ = {
@@ -1569,6 +1615,9 @@
 					8C44BF73234D8D8700F0447E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8C44BF7E234D9CD900F0447E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CB42C4F233C7787009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1709,6 +1758,7 @@
 				8CF78BE8234C52E800A4BF7C /* 503. Next Greater Element II */,
 				8C44BF68234D80D000F0447E /* 636. Exclusive Time of Functions */,
 				8C44BF73234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */,
+				8C44BF7E234D9CD900F0447E /* 682. Baseball Game */,
 			);
 		};
 /* End PBXProject section */
@@ -1727,6 +1777,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C44BF77234D8D8700F0447E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C44BF7B234D9CD900F0447E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C44BF82234D9CD900F0447E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2006,6 +2064,22 @@
 			name = Debug;
 		};
 		8C44BF79234D8D8700F0447E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C44BF84234D9CD900F0447E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C44BF85234D9CD900F0447E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2637,6 +2711,15 @@
 			buildConfigurations = (
 				8C44BF78234D8D8700F0447E /* Debug */,
 				8C44BF79234D8D8700F0447E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C44BF83234D9CD900F0447E /* Build configuration list for PBXNativeTarget "682. Baseball Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C44BF84234D9CD900F0447E /* Debug */,
+				8C44BF85234D9CD900F0447E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
