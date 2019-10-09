@@ -13,6 +13,7 @@
 		8C44C214234DC48B00F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C213234DC48B00F0447E /* main.cpp */; };
 		8CAF1186234DD4B800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1185234DD4B800C88B74 /* main.cpp */; };
 		8CAF1191234DE13700C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1190234DE13700C88B74 /* main.cpp */; };
+		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
 		8CB42C53233C7787009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C52233C7787009C79B8 /* main.cpp */; };
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
 		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
@@ -93,6 +94,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CAF118C234DE13700C88B74 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CAF34AA234E15B600C88B74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -395,6 +405,8 @@
 		8CAF1185234DD4B800C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF118E234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "719. Find K-th Smallest Pair Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF1190234DE13700C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "726. Number of Atoms"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF34AE234E15B600C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C50233C7787009C79B8 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C52233C7787009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -496,6 +508,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CAF118B234DE13700C88B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF34A9234E15B600C88B74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -770,6 +789,14 @@
 			path = "719. Find K-th Smallest Pair Distance";
 			sourceTree = "<group>";
 		};
+		8CAF34AD234E15B600C88B74 /* 726. Number of Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF34AE234E15B600C88B74 /* main.cpp */,
+			);
+			path = "726. Number of Atoms";
+			sourceTree = "<group>";
+		};
 		8CB42C30233C774C009C79B8 = {
 			isa = PBXGroup;
 			children = (
@@ -810,6 +837,7 @@
 				8C44C212234DC48B00F0447E /* 692. Top K Frequent Words */,
 				8CAF1184234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CAF118F234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */,
+				8CAF34AD234E15B600C88B74 /* 726. Number of Atoms */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -854,6 +882,7 @@
 				8C44C211234DC48B00F0447E /* 692. Top K Frequent Words */,
 				8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CAF118E234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */,
+				8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1209,6 +1238,23 @@
 			name = "719. Find K-th Smallest Pair Distance";
 			productName = "719. Find K-th Smallest Pair Distance";
 			productReference = 8CAF118E234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */;
+			productType = "com.apple.product-type.tool";
+		};
+		8CAF34AB234E15B600C88B74 /* 726. Number of Atoms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF34B2234E15B600C88B74 /* Build configuration list for PBXNativeTarget "726. Number of Atoms" */;
+			buildPhases = (
+				8CAF34A8234E15B600C88B74 /* Sources */,
+				8CAF34A9234E15B600C88B74 /* Frameworks */,
+				8CAF34AA234E15B600C88B74 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "726. Number of Atoms";
+			productName = "726. Number of Atoms";
+			productReference = 8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CB42C4F233C7787009C79B8 /* Template */ = {
@@ -1765,6 +1811,9 @@
 					8CAF118D234DE13700C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CAF34AB234E15B600C88B74 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CB42C4F233C7787009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1909,6 +1958,7 @@
 				8C44C210234DC48B00F0447E /* 692. Top K Frequent Words */,
 				8CAF1182234DD4B700C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CAF118D234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */,
+				8CAF34AB234E15B600C88B74 /* 726. Number of Atoms */,
 			);
 		};
 /* End PBXProject section */
@@ -1959,6 +2009,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF1191234DE13700C88B74 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF34A8234E15B600C88B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF34AF234E15B600C88B74 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2302,6 +2360,22 @@
 			name = Debug;
 		};
 		8CAF1194234DE13700C88B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CAF34B0234E15B600C88B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF34B1234E15B600C88B74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2969,6 +3043,15 @@
 			buildConfigurations = (
 				8CAF1193234DE13700C88B74 /* Debug */,
 				8CAF1194234DE13700C88B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF34B2234E15B600C88B74 /* Build configuration list for PBXNativeTarget "726. Number of Atoms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF34B0234E15B600C88B74 /* Debug */,
+				8CAF34B1234E15B600C88B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
