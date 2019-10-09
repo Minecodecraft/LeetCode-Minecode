@@ -11,6 +11,7 @@
 		8C44BF77234D8D8700F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44BF76234D8D8700F0447E /* main.cpp */; };
 		8C44BF82234D9CD900F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44BF81234D9CD900F0447E /* main.cpp */; };
 		8C44C214234DC48B00F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C213234DC48B00F0447E /* main.cpp */; };
+		8CAF1186234DD4B800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1185234DD4B800C88B74 /* main.cpp */; };
 		8CB42C53233C7787009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C52233C7787009C79B8 /* main.cpp */; };
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
 		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
@@ -73,6 +74,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C44C20F234DC48B00F0447E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CAF1181234DD4B700C88B74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -371,6 +381,8 @@
 		8C44BF81234D9CD900F0447E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C44C211234DC48B00F0447E /* 692. Top K Frequent Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "692. Top K Frequent Words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C44C213234DC48B00F0447E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "703. Kth Largest Element in a Stream"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF1185234DD4B800C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C50233C7787009C79B8 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C52233C7787009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -458,6 +470,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C44C20E234DC48B00F0447E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF1180234DD4B700C88B74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -716,6 +735,14 @@
 			path = "692. Top K Frequent Words";
 			sourceTree = "<group>";
 		};
+		8CAF1184234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF1185234DD4B800C88B74 /* main.cpp */,
+			);
+			path = "703. Kth Largest Element in a Stream";
+			sourceTree = "<group>";
+		};
 		8CB42C30233C774C009C79B8 = {
 			isa = PBXGroup;
 			children = (
@@ -754,6 +781,7 @@
 				8C44BF75234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */,
 				8C44BF80234D9CD900F0447E /* 682. Baseball Game */,
 				8C44C212234DC48B00F0447E /* 692. Top K Frequent Words */,
+				8CAF1184234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -796,6 +824,7 @@
 				8C44BF74234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */,
 				8C44BF7F234D9CD900F0447E /* 682. Baseball Game */,
 				8C44C211234DC48B00F0447E /* 692. Top K Frequent Words */,
+				8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1117,6 +1146,23 @@
 			name = "692. Top K Frequent Words";
 			productName = "692. Top K Frequent Words";
 			productReference = 8C44C211234DC48B00F0447E /* 692. Top K Frequent Words */;
+			productType = "com.apple.product-type.tool";
+		};
+		8CAF1182234DD4B700C88B74 /* 703. Kth Largest Element in a Stream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF1189234DD4B800C88B74 /* Build configuration list for PBXNativeTarget "703. Kth Largest Element in a Stream" */;
+			buildPhases = (
+				8CAF117F234DD4B700C88B74 /* Sources */,
+				8CAF1180234DD4B700C88B74 /* Frameworks */,
+				8CAF1181234DD4B700C88B74 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "703. Kth Largest Element in a Stream";
+			productName = "703. Kth Largest Element in a Stream";
+			productReference = 8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CB42C4F233C7787009C79B8 /* Template */ = {
@@ -1667,6 +1713,9 @@
 					8C44C210234DC48B00F0447E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CAF1182234DD4B700C88B74 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CB42C4F233C7787009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1809,6 +1858,7 @@
 				8C44BF73234D8D8700F0447E /* 659. Split Array into Consecutive Subsequences */,
 				8C44BF7E234D9CD900F0447E /* 682. Baseball Game */,
 				8C44C210234DC48B00F0447E /* 692. Top K Frequent Words */,
+				8CAF1182234DD4B700C88B74 /* 703. Kth Largest Element in a Stream */,
 			);
 		};
 /* End PBXProject section */
@@ -1843,6 +1893,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C44C214234DC48B00F0447E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF117F234DD4B700C88B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF1186234DD4B800C88B74 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2154,6 +2212,22 @@
 			name = Debug;
 		};
 		8C44C217234DC48B00F0447E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CAF1187234DD4B800C88B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF1188234DD4B800C88B74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2803,6 +2877,15 @@
 			buildConfigurations = (
 				8C44C216234DC48B00F0447E /* Debug */,
 				8C44C217234DC48B00F0447E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF1189234DD4B800C88B74 /* Build configuration list for PBXNativeTarget "703. Kth Largest Element in a Stream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF1187234DD4B800C88B74 /* Debug */,
+				8CAF1188234DD4B800C88B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
