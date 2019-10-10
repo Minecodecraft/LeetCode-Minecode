@@ -60,10 +60,10 @@ public:
                 while (r < formula.length() && isdigit(formula[r])) ++r;
                 int multiplier = stoi(formula.substr(l, r-l));
                 Node pNode = st.top(); st.pop();
-                t_ump curmp = pNode.mp;
+                t_ump& curmp = pNode.mp;
                 for (auto it = curmp.begin(); it != curmp.end(); ++it)
                     it->second *= multiplier;
-                st.push(Node(curmp, false));
+                st.push(pNode);
             }
             l = r;
         }

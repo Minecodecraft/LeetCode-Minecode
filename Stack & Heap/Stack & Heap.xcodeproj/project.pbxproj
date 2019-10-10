@@ -14,6 +14,7 @@
 		8CAF1186234DD4B800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1185234DD4B800C88B74 /* main.cpp */; };
 		8CAF1191234DE13700C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1190234DE13700C88B74 /* main.cpp */; };
 		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
+		8CAF3712234EE07500C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3711234EE07500C88B74 /* main.cpp */; };
 		8CB42C53233C7787009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C52233C7787009C79B8 /* main.cpp */; };
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
 		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
@@ -103,6 +104,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CAF34AA234E15B600C88B74 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CAF370D234EE07500C88B74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -407,6 +417,8 @@
 		8CAF1190234DE13700C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "726. Number of Atoms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF34AE234E15B600C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF370F234EE07500C88B74 /* 735. Asteroid Collision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "735. Asteroid Collision"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF3711234EE07500C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C50233C7787009C79B8 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C52233C7787009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -515,6 +527,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CAF34A9234E15B600C88B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF370C234EE07500C88B74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -797,6 +816,14 @@
 			path = "726. Number of Atoms";
 			sourceTree = "<group>";
 		};
+		8CAF3710234EE07500C88B74 /* 735. Asteroid Collision */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF3711234EE07500C88B74 /* main.cpp */,
+			);
+			path = "735. Asteroid Collision";
+			sourceTree = "<group>";
+		};
 		8CB42C30233C774C009C79B8 = {
 			isa = PBXGroup;
 			children = (
@@ -838,6 +865,7 @@
 				8CAF1184234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CAF118F234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */,
 				8CAF34AD234E15B600C88B74 /* 726. Number of Atoms */,
+				8CAF3710234EE07500C88B74 /* 735. Asteroid Collision */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -883,6 +911,7 @@
 				8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CAF118E234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */,
 				8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */,
+				8CAF370F234EE07500C88B74 /* 735. Asteroid Collision */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1255,6 +1284,23 @@
 			name = "726. Number of Atoms";
 			productName = "726. Number of Atoms";
 			productReference = 8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */;
+			productType = "com.apple.product-type.tool";
+		};
+		8CAF370E234EE07500C88B74 /* 735. Asteroid Collision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF3715234EE07500C88B74 /* Build configuration list for PBXNativeTarget "735. Asteroid Collision" */;
+			buildPhases = (
+				8CAF370B234EE07500C88B74 /* Sources */,
+				8CAF370C234EE07500C88B74 /* Frameworks */,
+				8CAF370D234EE07500C88B74 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "735. Asteroid Collision";
+			productName = "735. Asteroid Collision";
+			productReference = 8CAF370F234EE07500C88B74 /* 735. Asteroid Collision */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CB42C4F233C7787009C79B8 /* Template */ = {
@@ -1814,6 +1860,9 @@
 					8CAF34AB234E15B600C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CAF370E234EE07500C88B74 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CB42C4F233C7787009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1959,6 +2008,7 @@
 				8CAF1182234DD4B700C88B74 /* 703. Kth Largest Element in a Stream */,
 				8CAF118D234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */,
 				8CAF34AB234E15B600C88B74 /* 726. Number of Atoms */,
+				8CAF370E234EE07500C88B74 /* 735. Asteroid Collision */,
 			);
 		};
 /* End PBXProject section */
@@ -2017,6 +2067,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF34AF234E15B600C88B74 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF370B234EE07500C88B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF3712234EE07500C88B74 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2376,6 +2434,22 @@
 			name = Debug;
 		};
 		8CAF34B1234E15B600C88B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CAF3713234EE07500C88B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF3714234EE07500C88B74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3052,6 +3126,15 @@
 			buildConfigurations = (
 				8CAF34B0234E15B600C88B74 /* Debug */,
 				8CAF34B1234E15B600C88B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF3715234EE07500C88B74 /* Build configuration list for PBXNativeTarget "735. Asteroid Collision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF3713234EE07500C88B74 /* Debug */,
+				8CAF3714234EE07500C88B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
