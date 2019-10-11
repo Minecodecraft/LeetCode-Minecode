@@ -16,6 +16,7 @@
 		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
 		8CAF3712234EE07500C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3711234EE07500C88B74 /* main.cpp */; };
 		8CAF371D234EEC0800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF371C234EEC0800C88B74 /* main.cpp */; };
+		8CAF3728234EF84E00C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3727234EF84E00C88B74 /* main.cpp */; };
 		8CB42C53233C7787009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C52233C7787009C79B8 /* main.cpp */; };
 		8CB42C5E233C77E1009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C5D233C77E1009C79B8 /* main.cpp */; };
 		8CB42C69233C7BC9009C79B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42C68233C7BC9009C79B8 /* main.cpp */; };
@@ -123,6 +124,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CAF3718234EEC0700C88B74 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CAF3723234EF84E00C88B74 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -431,6 +441,8 @@
 		8CAF3711234EE07500C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF371A234EEC0700C88B74 /* 739. Daily Temperatures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "739. Daily Temperatures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF371C234EEC0800C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF3725234EF84E00C88B74 /* 743. Network Delay Time */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "743. Network Delay Time"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF3727234EF84E00C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C50233C7787009C79B8 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42C52233C7787009C79B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB42C5B233C77E1009C79B8 /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -553,6 +565,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CAF3717234EEC0700C88B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF3722234EF84E00C88B74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -851,6 +870,14 @@
 			path = "739. Daily Temperatures";
 			sourceTree = "<group>";
 		};
+		8CAF3726234EF84E00C88B74 /* 743. Network Delay Time */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF3727234EF84E00C88B74 /* main.cpp */,
+			);
+			path = "743. Network Delay Time";
+			sourceTree = "<group>";
+		};
 		8CB42C30233C774C009C79B8 = {
 			isa = PBXGroup;
 			children = (
@@ -894,6 +921,7 @@
 				8CAF34AD234E15B600C88B74 /* 726. Number of Atoms */,
 				8CAF3710234EE07500C88B74 /* 735. Asteroid Collision */,
 				8CAF371B234EEC0800C88B74 /* 739. Daily Temperatures */,
+				8CAF3726234EF84E00C88B74 /* 743. Network Delay Time */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -941,6 +969,7 @@
 				8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */,
 				8CAF370F234EE07500C88B74 /* 735. Asteroid Collision */,
 				8CAF371A234EEC0700C88B74 /* 739. Daily Temperatures */,
+				8CAF3725234EF84E00C88B74 /* 743. Network Delay Time */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1347,6 +1376,23 @@
 			name = "739. Daily Temperatures";
 			productName = "739. Daily Temperatures";
 			productReference = 8CAF371A234EEC0700C88B74 /* 739. Daily Temperatures */;
+			productType = "com.apple.product-type.tool";
+		};
+		8CAF3724234EF84E00C88B74 /* 743. Network Delay Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF3729234EF84E00C88B74 /* Build configuration list for PBXNativeTarget "743. Network Delay Time" */;
+			buildPhases = (
+				8CAF3721234EF84E00C88B74 /* Sources */,
+				8CAF3722234EF84E00C88B74 /* Frameworks */,
+				8CAF3723234EF84E00C88B74 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "743. Network Delay Time";
+			productName = "743. Network Delay Time";
+			productReference = 8CAF3725234EF84E00C88B74 /* 743. Network Delay Time */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CB42C4F233C7787009C79B8 /* Template */ = {
@@ -1912,6 +1958,9 @@
 					8CAF3719234EEC0700C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8CAF3724234EF84E00C88B74 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8CB42C4F233C7787009C79B8 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2059,6 +2108,7 @@
 				8CAF34AB234E15B600C88B74 /* 726. Number of Atoms */,
 				8CAF370E234EE07500C88B74 /* 735. Asteroid Collision */,
 				8CAF3719234EEC0700C88B74 /* 739. Daily Temperatures */,
+				8CAF3724234EF84E00C88B74 /* 743. Network Delay Time */,
 			);
 		};
 /* End PBXProject section */
@@ -2133,6 +2183,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF371D234EEC0800C88B74 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF3721234EF84E00C88B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF3728234EF84E00C88B74 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2524,6 +2582,22 @@
 			name = Debug;
 		};
 		8CAF3720234EEC0800C88B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CAF372A234EF84E00C88B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF372B234EF84E00C88B74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3218,6 +3292,15 @@
 			buildConfigurations = (
 				8CAF371F234EEC0800C88B74 /* Debug */,
 				8CAF3720234EEC0800C88B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF3729234EF84E00C88B74 /* Build configuration list for PBXNativeTarget "743. Network Delay Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF372A234EF84E00C88B74 /* Debug */,
+				8CAF372B234EF84E00C88B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

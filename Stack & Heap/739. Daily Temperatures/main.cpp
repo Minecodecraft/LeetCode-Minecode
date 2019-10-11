@@ -44,7 +44,7 @@ public:
                 pir pre = pq.top(); pq.pop();
                 res[pre.second] = i - pre.second;
             }
-            pq.push({cur, i});
+            pq.emplace(cur, i);
         }
         return res;
     }
