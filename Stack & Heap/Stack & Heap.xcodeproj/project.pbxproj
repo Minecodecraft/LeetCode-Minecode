@@ -12,6 +12,7 @@
 		8C44BF82234D9CD900F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44BF81234D9CD900F0447E /* main.cpp */; };
 		8C44C214234DC48B00F0447E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C44C213234DC48B00F0447E /* main.cpp */; };
 		8C5C843E2350B34E00ED3F87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C843D2350B34E00ED3F87 /* main.cpp */; };
+		8C5C864F2351656A00ED3F87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C864E2351656A00ED3F87 /* main.cpp */; };
 		8CAF1186234DD4B800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1185234DD4B800C88B74 /* main.cpp */; };
 		8CAF1191234DE13700C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1190234DE13700C88B74 /* main.cpp */; };
 		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
@@ -89,6 +90,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C5C84392350B34E00ED3F87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C5C864A2351656A00ED3F87 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -443,6 +453,8 @@
 		8C44C213234DC48B00F0447E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5C843B2350B34E00ED3F87 /* 767. Reorganize String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "767. Reorganize String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5C843D2350B34E00ED3F87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C5C864C2351656A00ED3F87 /* 770. Basic Calculator IV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "770. Basic Calculator IV"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5C864E2351656A00ED3F87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "703. Kth Largest Element in a Stream"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF1185234DD4B800C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF118E234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "719. Find K-th Smallest Pair Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -549,6 +561,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C5C84382350B34E00ED3F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5C86492351656A00ED3F87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -857,6 +876,14 @@
 			path = "767. Reorganize String";
 			sourceTree = "<group>";
 		};
+		8C5C864D2351656A00ED3F87 /* 770. Basic Calculator IV */ = {
+			isa = PBXGroup;
+			children = (
+				8C5C864E2351656A00ED3F87 /* main.cpp */,
+			);
+			path = "770. Basic Calculator IV";
+			sourceTree = "<group>";
+		};
 		8CAF1184234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */ = {
 			isa = PBXGroup;
 			children = (
@@ -950,6 +977,7 @@
 				8CAF371B234EEC0800C88B74 /* 739. Daily Temperatures */,
 				8CAF3726234EF84E00C88B74 /* 743. Network Delay Time */,
 				8C5C843C2350B34E00ED3F87 /* 767. Reorganize String */,
+				8C5C864D2351656A00ED3F87 /* 770. Basic Calculator IV */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -999,6 +1027,7 @@
 				8CAF371A234EEC0700C88B74 /* 739. Daily Temperatures */,
 				8CAF3725234EF84E00C88B74 /* 743. Network Delay Time */,
 				8C5C843B2350B34E00ED3F87 /* 767. Reorganize String */,
+				8C5C864C2351656A00ED3F87 /* 770. Basic Calculator IV */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1337,6 +1366,23 @@
 			name = "767. Reorganize String";
 			productName = "767. Reorganize String";
 			productReference = 8C5C843B2350B34E00ED3F87 /* 767. Reorganize String */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C5C864B2351656A00ED3F87 /* 770. Basic Calculator IV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5C86522351656A00ED3F87 /* Build configuration list for PBXNativeTarget "770. Basic Calculator IV" */;
+			buildPhases = (
+				8C5C86482351656A00ED3F87 /* Sources */,
+				8C5C86492351656A00ED3F87 /* Frameworks */,
+				8C5C864A2351656A00ED3F87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "770. Basic Calculator IV";
+			productName = "770. Basic Calculator IV";
+			productReference = 8C5C864C2351656A00ED3F87 /* 770. Basic Calculator IV */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CAF1182234DD4B700C88B74 /* 703. Kth Largest Element in a Stream */ = {
@@ -1992,6 +2038,9 @@
 					8C5C843A2350B34E00ED3F87 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C5C864B2351656A00ED3F87 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF1182234DD4B700C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2159,6 +2208,7 @@
 				8CAF3719234EEC0700C88B74 /* 739. Daily Temperatures */,
 				8CAF3724234EF84E00C88B74 /* 743. Network Delay Time */,
 				8C5C843A2350B34E00ED3F87 /* 767. Reorganize String */,
+				8C5C864B2351656A00ED3F87 /* 770. Basic Calculator IV */,
 			);
 		};
 /* End PBXProject section */
@@ -2201,6 +2251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5C843E2350B34E00ED3F87 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5C86482351656A00ED3F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5C864F2351656A00ED3F87 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2577,6 +2635,24 @@
 			name = Debug;
 		};
 		8C5C84402350B34E00ED3F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C5C86502351656A00ED3F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C5C86512351656A00ED3F87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3332,6 +3408,15 @@
 			buildConfigurations = (
 				8C5C843F2350B34E00ED3F87 /* Debug */,
 				8C5C84402350B34E00ED3F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5C86522351656A00ED3F87 /* Build configuration list for PBXNativeTarget "770. Basic Calculator IV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5C86502351656A00ED3F87 /* Debug */,
+				8C5C86512351656A00ED3F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
