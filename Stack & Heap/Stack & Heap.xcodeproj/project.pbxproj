@@ -18,6 +18,7 @@
 		8CAF1186234DD4B800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1185234DD4B800C88B74 /* main.cpp */; };
 		8CAF1191234DE13700C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1190234DE13700C88B74 /* main.cpp */; };
 		8CAF2C0023541EE70037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF2BFF23541EE70037A5A6 /* main.cpp */; };
+		8CAF2C0B235425010037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF2C0A235425010037A5A6 /* main.cpp */; };
 		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
 		8CAF3712234EE07500C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3711234EE07500C88B74 /* main.cpp */; };
 		8CAF371D234EEC0800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF371C234EEC0800C88B74 /* main.cpp */; };
@@ -147,6 +148,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CAF2BFB23541EE70037A5A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CAF2C06235425010037A5A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -495,6 +505,8 @@
 		8CAF1190234DE13700C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF2BFD23541EE70037A5A6 /* 787. Cheapest Flights Within K Stops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "787. Cheapest Flights Within K Stops"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF2BFF23541EE70037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF2C08235425010037A5A6 /* 818. Race Car */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "818. Race Car"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF2C0A235425010037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "726. Number of Atoms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF34AE234E15B600C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF370F234EE07500C88B74 /* 735. Asteroid Collision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "735. Asteroid Collision"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -639,6 +651,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CAF2BFA23541EE70037A5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF2C05235425010037A5A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -981,6 +1000,14 @@
 			path = "787. Cheapest Flights Within K Stops";
 			sourceTree = "<group>";
 		};
+		8CAF2C09235425010037A5A6 /* 818. Race Car */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF2C0A235425010037A5A6 /* main.cpp */,
+			);
+			path = "818. Race Car";
+			sourceTree = "<group>";
+		};
 		8CAF34AD234E15B600C88B74 /* 726. Number of Atoms */ = {
 			isa = PBXGroup;
 			children = (
@@ -1062,6 +1089,7 @@
 				8C5C8A642351985E00ED3F87 /* 778. Swim in Rising Water */,
 				8C876CAB2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */,
 				8CAF2BFE23541EE70037A5A6 /* 787. Cheapest Flights Within K Stops */,
+				8CAF2C09235425010037A5A6 /* 818. Race Car */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1115,6 +1143,7 @@
 				8C5C8A632351985E00ED3F87 /* 778. Swim in Rising Water */,
 				8C876CAA2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */,
 				8CAF2BFD23541EE70037A5A6 /* 787. Cheapest Flights Within K Stops */,
+				8CAF2C08235425010037A5A6 /* 818. Race Car */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1555,6 +1584,23 @@
 			name = "787. Cheapest Flights Within K Stops";
 			productName = "787. Cheapest Flights Within K Stops";
 			productReference = 8CAF2BFD23541EE70037A5A6 /* 787. Cheapest Flights Within K Stops */;
+			productType = "com.apple.product-type.tool";
+		};
+		8CAF2C07235425010037A5A6 /* 818. Race Car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF2C0C235425010037A5A6 /* Build configuration list for PBXNativeTarget "818. Race Car" */;
+			buildPhases = (
+				8CAF2C04235425010037A5A6 /* Sources */,
+				8CAF2C05235425010037A5A6 /* Frameworks */,
+				8CAF2C06235425010037A5A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "818. Race Car";
+			productName = "818. Race Car";
+			productReference = 8CAF2C08235425010037A5A6 /* 818. Race Car */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CAF34AB234E15B600C88B74 /* 726. Number of Atoms */ = {
@@ -2195,6 +2241,9 @@
 					8CAF2BFC23541EE70037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CAF2C07235425010037A5A6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF34AB234E15B600C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2360,6 +2409,7 @@
 				8C5C8A622351985E00ED3F87 /* 778. Swim in Rising Water */,
 				8C876CA92353FCB10040B445 /* 786. K-th Smallest Prime Fraction */,
 				8CAF2BFC23541EE70037A5A6 /* 787. Cheapest Flights Within K Stops */,
+				8CAF2C07235425010037A5A6 /* 818. Race Car */,
 			);
 		};
 /* End PBXProject section */
@@ -2450,6 +2500,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF2C0023541EE70037A5A6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF2C04235425010037A5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF2C0B235425010037A5A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2922,6 +2980,28 @@
 			name = Debug;
 		};
 		8CAF2C0223541EE70037A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CAF2C0D235425010037A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF2C0E235425010037A5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3701,6 +3781,15 @@
 			buildConfigurations = (
 				8CAF2C0123541EE70037A5A6 /* Debug */,
 				8CAF2C0223541EE70037A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF2C0C235425010037A5A6 /* Build configuration list for PBXNativeTarget "818. Race Car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF2C0D235425010037A5A6 /* Debug */,
+				8CAF2C0E235425010037A5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
