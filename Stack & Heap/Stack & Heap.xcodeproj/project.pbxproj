@@ -22,6 +22,7 @@
 		8CAF2E1C235451440037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF2E1B235451440037A5A6 /* main.cpp */; };
 		8CAF302F235493A60037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF302E235493A60037A5A6 /* main.cpp */; };
 		8CAF303A235499CB0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3039235499CB0037A5A6 /* main.cpp */; };
+		8CAF30452354C7760037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30442354C7760037A5A6 /* main.cpp */; };
 		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
 		8CAF3712234EE07500C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3711234EE07500C88B74 /* main.cpp */; };
 		8CAF371D234EEC0800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF371C234EEC0800C88B74 /* main.cpp */; };
@@ -187,6 +188,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CAF3035235499CB0037A5A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CAF30402354C7760037A5A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -543,6 +553,8 @@
 		8CAF302E235493A60037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF3037235499CB0037A5A6 /* 857. Minimum Cost to Hire K Workers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "857. Minimum Cost to Hire K Workers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF3039235499CB0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF30422354C7760037A5A6 /* 864. Shortest Path to Get All Keys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "864. Shortest Path to Get All Keys"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF30442354C7760037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF34AC234E15B600C88B74 /* 726. Number of Atoms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "726. Number of Atoms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF34AE234E15B600C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF370F234EE07500C88B74 /* 735. Asteroid Collision */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "735. Asteroid Collision"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -715,6 +727,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CAF3034235499CB0037A5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF303F2354C7760037A5A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1089,6 +1108,14 @@
 			path = "857. Minimum Cost to Hire K Workers";
 			sourceTree = "<group>";
 		};
+		8CAF30432354C7760037A5A6 /* 864. Shortest Path to Get All Keys */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF30442354C7760037A5A6 /* main.cpp */,
+			);
+			path = "864. Shortest Path to Get All Keys";
+			sourceTree = "<group>";
+		};
 		8CAF34AD234E15B600C88B74 /* 726. Number of Atoms */ = {
 			isa = PBXGroup;
 			children = (
@@ -1174,6 +1201,7 @@
 				8CAF2E1A235451440037A5A6 /* 844. Backspace String Compare */,
 				8CAF302D235493A60037A5A6 /* 856. Score of Parentheses */,
 				8CAF3038235499CB0037A5A6 /* 857. Minimum Cost to Hire K Workers */,
+				8CAF30432354C7760037A5A6 /* 864. Shortest Path to Get All Keys */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1231,6 +1259,7 @@
 				8CAF2E19235451440037A5A6 /* 844. Backspace String Compare */,
 				8CAF302C235493A50037A5A6 /* 856. Score of Parentheses */,
 				8CAF3037235499CB0037A5A6 /* 857. Minimum Cost to Hire K Workers */,
+				8CAF30422354C7760037A5A6 /* 864. Shortest Path to Get All Keys */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1739,6 +1768,23 @@
 			name = "857. Minimum Cost to Hire K Workers";
 			productName = "857. Minimum Cost to Hire K Workers";
 			productReference = 8CAF3037235499CB0037A5A6 /* 857. Minimum Cost to Hire K Workers */;
+			productType = "com.apple.product-type.tool";
+		};
+		8CAF30412354C7760037A5A6 /* 864. Shortest Path to Get All Keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF30482354C7760037A5A6 /* Build configuration list for PBXNativeTarget "864. Shortest Path to Get All Keys" */;
+			buildPhases = (
+				8CAF303E2354C7760037A5A6 /* Sources */,
+				8CAF303F2354C7760037A5A6 /* Frameworks */,
+				8CAF30402354C7760037A5A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "864. Shortest Path to Get All Keys";
+			productName = "864. Shortest Path to Get All Keys";
+			productReference = 8CAF30422354C7760037A5A6 /* 864. Shortest Path to Get All Keys */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CAF34AB234E15B600C88B74 /* 726. Number of Atoms */ = {
@@ -2391,6 +2437,9 @@
 					8CAF3036235499CB0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CAF30412354C7760037A5A6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF34AB234E15B600C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2560,6 +2609,7 @@
 				8CAF2E18235451440037A5A6 /* 844. Backspace String Compare */,
 				8CAF302B235493A50037A5A6 /* 856. Score of Parentheses */,
 				8CAF3036235499CB0037A5A6 /* 857. Minimum Cost to Hire K Workers */,
+				8CAF30412354C7760037A5A6 /* 864. Shortest Path to Get All Keys */,
 			);
 		};
 /* End PBXProject section */
@@ -2682,6 +2732,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF303A235499CB0037A5A6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF303E2354C7760037A5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF30452354C7760037A5A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3242,6 +3300,28 @@
 			name = Debug;
 		};
 		8CAF303D235499CB0037A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CAF30462354C7760037A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF30472354C7760037A5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4057,6 +4137,15 @@
 			buildConfigurations = (
 				8CAF303C235499CB0037A5A6 /* Debug */,
 				8CAF303D235499CB0037A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF30482354C7760037A5A6 /* Build configuration list for PBXNativeTarget "864. Shortest Path to Get All Keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF30462354C7760037A5A6 /* Debug */,
+				8CAF30472354C7760037A5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
