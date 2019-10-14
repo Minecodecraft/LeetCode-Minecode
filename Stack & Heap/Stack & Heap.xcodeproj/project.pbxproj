@@ -14,6 +14,7 @@
 		8C5C843E2350B34E00ED3F87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C843D2350B34E00ED3F87 /* main.cpp */; };
 		8C5C864F2351656A00ED3F87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C864E2351656A00ED3F87 /* main.cpp */; };
 		8C5C8A662351985E00ED3F87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5C8A652351985E00ED3F87 /* main.cpp */; };
+		8C876CAD2353FCB10040B445 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C876CAC2353FCB10040B445 /* main.cpp */; };
 		8CAF1186234DD4B800C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1185234DD4B800C88B74 /* main.cpp */; };
 		8CAF1191234DE13700C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF1190234DE13700C88B74 /* main.cpp */; };
 		8CAF34AF234E15B600C88B74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF34AE234E15B600C88B74 /* main.cpp */; };
@@ -109,6 +110,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C5C8A612351985E00ED3F87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C876CA82353FCB10040B445 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -467,6 +477,8 @@
 		8C5C864E2351656A00ED3F87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5C8A632351985E00ED3F87 /* 778. Swim in Rising Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "778. Swim in Rising Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5C8A652351985E00ED3F87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C876CAA2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "786. K-th Smallest Prime Fraction"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C876CAC2353FCB10040B445 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF1183234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "703. Kth Largest Element in a Stream"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF1185234DD4B800C88B74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF118E234DE13700C88B74 /* 719. Find K-th Smallest Pair Distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "719. Find K-th Smallest Pair Distance"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -587,6 +599,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C5C8A602351985E00ED3F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C876CA72353FCB10040B445 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -911,6 +930,14 @@
 			path = "778. Swim in Rising Water";
 			sourceTree = "<group>";
 		};
+		8C876CAB2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */ = {
+			isa = PBXGroup;
+			children = (
+				8C876CAC2353FCB10040B445 /* main.cpp */,
+			);
+			path = "786. K-th Smallest Prime Fraction";
+			sourceTree = "<group>";
+		};
 		8CAF1184234DD4B800C88B74 /* 703. Kth Largest Element in a Stream */ = {
 			isa = PBXGroup;
 			children = (
@@ -1006,6 +1033,7 @@
 				8C5C843C2350B34E00ED3F87 /* 767. Reorganize String */,
 				8C5C864D2351656A00ED3F87 /* 770. Basic Calculator IV */,
 				8C5C8A642351985E00ED3F87 /* 778. Swim in Rising Water */,
+				8C876CAB2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */,
 				8CB42C3A233C774C009C79B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1057,6 +1085,7 @@
 				8C5C843B2350B34E00ED3F87 /* 767. Reorganize String */,
 				8C5C864C2351656A00ED3F87 /* 770. Basic Calculator IV */,
 				8C5C8A632351985E00ED3F87 /* 778. Swim in Rising Water */,
+				8C876CAA2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1429,6 +1458,23 @@
 			name = "778. Swim in Rising Water";
 			productName = "778. Swim in Rising Water";
 			productReference = 8C5C8A632351985E00ED3F87 /* 778. Swim in Rising Water */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C876CA92353FCB10040B445 /* 786. K-th Smallest Prime Fraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C876CB02353FCB10040B445 /* Build configuration list for PBXNativeTarget "786. K-th Smallest Prime Fraction" */;
+			buildPhases = (
+				8C876CA62353FCB10040B445 /* Sources */,
+				8C876CA72353FCB10040B445 /* Frameworks */,
+				8C876CA82353FCB10040B445 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "786. K-th Smallest Prime Fraction";
+			productName = "786. K-th Smallest Prime Fraction";
+			productReference = 8C876CAA2353FCB10040B445 /* 786. K-th Smallest Prime Fraction */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CAF1182234DD4B700C88B74 /* 703. Kth Largest Element in a Stream */ = {
@@ -2090,6 +2136,9 @@
 					8C5C8A622351985E00ED3F87 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C876CA92353FCB10040B445 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF1182234DD4B700C88B74 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2259,6 +2308,7 @@
 				8C5C843A2350B34E00ED3F87 /* 767. Reorganize String */,
 				8C5C864B2351656A00ED3F87 /* 770. Basic Calculator IV */,
 				8C5C8A622351985E00ED3F87 /* 778. Swim in Rising Water */,
+				8C876CA92353FCB10040B445 /* 786. K-th Smallest Prime Fraction */,
 			);
 		};
 /* End PBXProject section */
@@ -2317,6 +2367,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5C8A662351985E00ED3F87 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C876CA62353FCB10040B445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C876CAD2353FCB10040B445 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2722,6 +2780,7 @@
 		8C5C8A682351985E00ED3F87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2730,7 +2789,32 @@
 		8C5C8A692351985E00ED3F87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C876CAE2353FCB10040B445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C876CAF2353FCB10040B445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -3500,6 +3584,15 @@
 			buildConfigurations = (
 				8C5C8A682351985E00ED3F87 /* Debug */,
 				8C5C8A692351985E00ED3F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C876CB02353FCB10040B445 /* Build configuration list for PBXNativeTarget "786. K-th Smallest Prime Fraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C876CAE2353FCB10040B445 /* Debug */,
+				8C876CAF2353FCB10040B445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
