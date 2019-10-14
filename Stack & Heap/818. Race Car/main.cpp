@@ -29,7 +29,8 @@ using namespace std;
 
 /// Solution:
 //
-// Solution 1: BFS Solution with purning
+// Solution 1: BFS Solution with purning, beat 33%
+/*
 class Solution {
 public:
     int racecar(int target) {
@@ -66,11 +67,43 @@ private:
         }
     };
 };
+ */
+
+// Solution 2: DP
+class Solution {
+public:
+    int racecar(int target) {
+        maxbit = floor(log2(target)) + 1;
+        dp = vector<int> (min((int)1e4+10, 1 << maxbit), 0);
+        return recur(target);
+    }
+
+private:
+    int maxbit;
+    vector<int> dp;
+
+    int recur(int target) {
+        if (dp[target] > 0) return dp[target];
+
+        int bitcnt = floor(log2(target)) + 1;
+        if (target == (1 << bitcnt) - 1)
+            dp[target] = bitcnt;
+        else {
+            dp[target] = recur((1 << bitcnt) - 1 - target) + bitcnt + 1;
+            for (int i = 0; i < bitcnt-1; ++i) {
+                int subtarget = target - (1 << (bitcnt-1)) + (1 << i);
+                dp[target] = min(dp[target], recur(subtarget) + bitcnt + i + 1);
+            }
+        }
+        return dp[target];
+    }
+};
 
 int main() {
     Solution sol = Solution();
-    int n = 3;
+//    int n = 3;
 //    int n = 6;
+    int n = 30;
     int res = sol.racecar(n);
     cout << res << endl;
     return 0;
