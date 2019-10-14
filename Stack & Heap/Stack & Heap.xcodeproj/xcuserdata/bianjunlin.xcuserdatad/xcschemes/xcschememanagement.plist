@@ -227,17 +227,22 @@
 		<key>818. Race Car.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>47</integer>
 		</dict>
 		<key>844. Backspace String Compare.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>48</integer>
 		</dict>
 		<key>856. Score of Parentheses.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>46</integer>
+		</dict>
+		<key>857. Minimum Cost to Hire K Workers.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>49</integer>
 		</dict>
 		<key>94. Binary Tree Inorder Traversal.xcscheme_^#shared#^_</key>
 		<dict>
