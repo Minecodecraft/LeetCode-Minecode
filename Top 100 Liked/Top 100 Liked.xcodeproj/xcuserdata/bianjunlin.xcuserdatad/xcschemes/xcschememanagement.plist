@@ -37,12 +37,17 @@
 		<key>136. Single Number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>141. Linked List Cycle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
+		</dict>
+		<key>142. Linked List Cycle II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 		<key>19. Remove Nth Node From End of List.xcscheme_^#shared#^_</key>
 		<dict>
