@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
+		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CAF3074235558650037A5A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF306D235555B80037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF3076235558650037A5A6 /* 21. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF3078235558650037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CAF3073235558650037A5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				8CAF30612355553F0037A5A6 /* Template */,
 				8CAF306C235555B80037A5A6 /* 19. Remove Nth Node From End of List */,
+				8CAF3077235558650037A5A6 /* 21. Merge Two Sorted Lists */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				8CAF30602355553E0037A5A6 /* Template */,
 				8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */,
+				8CAF3076235558650037A5A6 /* 21. Merge Two Sorted Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				8CAF306D235555B80037A5A6 /* main.cpp */,
 			);
 			path = "19. Remove Nth Node From End of List";
+			sourceTree = "<group>";
+		};
+		8CAF3077235558650037A5A6 /* 21. Merge Two Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF3078235558650037A5A6 /* main.cpp */,
+			);
+			path = "21. Merge Two Sorted Lists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CAF3075235558650037A5A6 /* 21. Merge Two Sorted Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF307A235558650037A5A6 /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */;
+			buildPhases = (
+				8CAF3072235558650037A5A6 /* Sources */,
+				8CAF3073235558650037A5A6 /* Frameworks */,
+				8CAF3074235558650037A5A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21. Merge Two Sorted Lists";
+			productName = "21. Merge Two Sorted Lists";
+			productReference = 8CAF3076235558650037A5A6 /* 21. Merge Two Sorted Lists */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 11.1;
 					};
 					8CAF306A235555B80037A5A6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8CAF3075235558650037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -160,6 +209,7 @@
 			targets = (
 				8CAF305F2355553E0037A5A6 /* Template */,
 				8CAF306A235555B80037A5A6 /* 19. Remove Nth Node From End of List */,
+				8CAF3075235558650037A5A6 /* 21. Merge Two Sorted Lists */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF306E235555B80037A5A6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF3072235558650037A5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF3079235558650037A5A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +391,26 @@
 			};
 			name = Release;
 		};
+		8CAF307B235558650037A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF307C235558650037A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +437,15 @@
 			buildConfigurations = (
 				8CAF3070235555B80037A5A6 /* Debug */,
 				8CAF3071235555B80037A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF307A235558650037A5A6 /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF307B235558650037A5A6 /* Debug */,
+				8CAF307C235558650037A5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
