@@ -19,6 +19,7 @@
 		8CAF30C6235582B30037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30C5235582B30037A5A6 /* main.cpp */; };
 		8CAF30D1235588F70037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30D0235588F70037A5A6 /* main.cpp */; };
 		8CAF30DC235590020037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30DB235590020037A5A6 /* main.cpp */; };
+		8CAF30E72355A3230037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30E62355A3230037A5A6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,6 +131,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CAF30E22355A3230037A5A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +167,8 @@
 		8CAF30D0235588F70037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30D9235590020037A5A6 /* 136. Single Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "136. Single Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30DB235590020037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF30E42355A3230037A5A6 /* 141. Linked List Cycle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "141. Linked List Cycle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF30E62355A3230037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +256,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CAF30E12355A3230037A5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -262,6 +281,7 @@
 				8CAF30C4235582B30037A5A6 /* 124. Binary Tree Maximum Path Sum */,
 				8CAF30CF235588F70037A5A6 /* 128. Longest Consecutive Sequence */,
 				8CAF30DA235590020037A5A6 /* 136. Single Number */,
+				8CAF30E52355A3230037A5A6 /* 141. Linked List Cycle */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -281,6 +301,7 @@
 				8CAF30C3235582B30037A5A6 /* 124. Binary Tree Maximum Path Sum */,
 				8CAF30CE235588F70037A5A6 /* 128. Longest Consecutive Sequence */,
 				8CAF30D9235590020037A5A6 /* 136. Single Number */,
+				8CAF30E42355A3230037A5A6 /* 141. Linked List Cycle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -379,6 +400,14 @@
 				8CAF30DB235590020037A5A6 /* main.cpp */,
 			);
 			path = "136. Single Number";
+			sourceTree = "<group>";
+		};
+		8CAF30E52355A3230037A5A6 /* 141. Linked List Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF30E62355A3230037A5A6 /* main.cpp */,
+			);
+			path = "141. Linked List Cycle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,6 +617,23 @@
 			productReference = 8CAF30D9235590020037A5A6 /* 136. Single Number */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CAF30E32355A3230037A5A6 /* 141. Linked List Cycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF30EA2355A3230037A5A6 /* Build configuration list for PBXNativeTarget "141. Linked List Cycle" */;
+			buildPhases = (
+				8CAF30E02355A3230037A5A6 /* Sources */,
+				8CAF30E12355A3230037A5A6 /* Frameworks */,
+				8CAF30E22355A3230037A5A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "141. Linked List Cycle";
+			productName = "141. Linked List Cycle";
+			productReference = 8CAF30E42355A3230037A5A6 /* 141. Linked List Cycle */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -633,6 +679,9 @@
 					8CAF30D8235590020037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CAF30E32355A3230037A5A6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CAF304D235555320037A5A6 /* Build configuration list for PBXProject "Top 100 Liked" */;
@@ -660,6 +709,7 @@
 				8CAF30C2235582B30037A5A6 /* 124. Binary Tree Maximum Path Sum */,
 				8CAF30CD235588F70037A5A6 /* 128. Longest Consecutive Sequence */,
 				8CAF30D8235590020037A5A6 /* 136. Single Number */,
+				8CAF30E32355A3230037A5A6 /* 141. Linked List Cycle */,
 			);
 		};
 /* End PBXProject section */
@@ -758,6 +808,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF30DC235590020037A5A6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF30E02355A3230037A5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF30E72355A3230037A5A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1113,6 +1171,26 @@
 			};
 			name = Release;
 		};
+		8CAF30E82355A3230037A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF30E92355A3230037A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1229,6 +1307,15 @@
 			buildConfigurations = (
 				8CAF30DE235590020037A5A6 /* Debug */,
 				8CAF30DF235590020037A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF30EA2355A3230037A5A6 /* Build configuration list for PBXNativeTarget "141. Linked List Cycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF30E82355A3230037A5A6 /* Debug */,
+				8CAF30E92355A3230037A5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
