@@ -12,6 +12,7 @@
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
 		8CAF3084235559CC0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3083235559CC0037A5A6 /* main.cpp */; };
 		8CAF308F235563A60037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF308E235563A60037A5A6 /* main.cpp */; };
+		8CAF309A235571AB0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3099235571AB0037A5A6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CAF3095235571AB0037A5A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +83,8 @@
 		8CAF3083235559CC0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF308C235563A60037A5A6 /* 98. Validate Binary Search Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "98. Validate Binary Search Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF308E235563A60037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAF3097235571AB0037A5A6 /* 101. Symmetric Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "101. Symmetric Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAF3099235571AB0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CAF3094235571AB0037A5A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +141,7 @@
 				8CAF3077235558650037A5A6 /* 21. Merge Two Sorted Lists */,
 				8CAF3082235559CC0037A5A6 /* 46. Permutations */,
 				8CAF308D235563A60037A5A6 /* 98. Validate Binary Search Tree */,
+				8CAF3098235571AB0037A5A6 /* 101. Symmetric Tree */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				8CAF3076235558650037A5A6 /* 21. Merge Two Sorted Lists */,
 				8CAF3081235559CC0037A5A6 /* 46. Permutations */,
 				8CAF308C235563A60037A5A6 /* 98. Validate Binary Search Tree */,
+				8CAF3097235571AB0037A5A6 /* 101. Symmetric Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +197,14 @@
 				8CAF308E235563A60037A5A6 /* main.cpp */,
 			);
 			path = "98. Validate Binary Search Tree";
+			sourceTree = "<group>";
+		};
+		8CAF3098235571AB0037A5A6 /* 101. Symmetric Tree */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF3099235571AB0037A5A6 /* main.cpp */,
+			);
+			path = "101. Symmetric Tree";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +295,23 @@
 			productReference = 8CAF308C235563A60037A5A6 /* 98. Validate Binary Search Tree */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CAF3096235571AB0037A5A6 /* 101. Symmetric Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAF309B235571AB0037A5A6 /* Build configuration list for PBXNativeTarget "101. Symmetric Tree" */;
+			buildPhases = (
+				8CAF3093235571AB0037A5A6 /* Sources */,
+				8CAF3094235571AB0037A5A6 /* Frameworks */,
+				8CAF3095235571AB0037A5A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "101. Symmetric Tree";
+			productName = "101. Symmetric Tree";
+			productReference = 8CAF3097235571AB0037A5A6 /* 101. Symmetric Tree */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,6 +336,9 @@
 					8CAF308B235563A60037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CAF3096235571AB0037A5A6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CAF304D235555320037A5A6 /* Build configuration list for PBXProject "Top 100 Liked" */;
@@ -310,6 +359,7 @@
 				8CAF3075235558650037A5A6 /* 21. Merge Two Sorted Lists */,
 				8CAF3080235559CC0037A5A6 /* 46. Permutations */,
 				8CAF308B235563A60037A5A6 /* 98. Validate Binary Search Tree */,
+				8CAF3096235571AB0037A5A6 /* 101. Symmetric Tree */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +402,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAF308F235563A60037A5A6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAF3093235571AB0037A5A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAF309A235571AB0037A5A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +625,26 @@
 			};
 			name = Release;
 		};
+		8CAF309C235571AB0037A5A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAF309D235571AB0037A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -620,6 +698,15 @@
 			buildConfigurations = (
 				8CAF3090235563A60037A5A6 /* Debug */,
 				8CAF3091235563A60037A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAF309B235571AB0037A5A6 /* Build configuration list for PBXNativeTarget "101. Symmetric Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAF309C235571AB0037A5A6 /* Debug */,
+				8CAF309D235571AB0037A5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
