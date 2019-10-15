@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Use unordered_set
+/*
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -36,8 +38,26 @@ public:
         return *st.begin();
     }
 };
+ */
+
+// Solution 2: Use XOR
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int n = 0;
+        for (auto& num: nums) {
+            n ^= num;
+        }
+        return n;
+    }
+};
 
 int main() {
-
+    Solution sol = Solution();
+    vector<int> nums = {
+        4, 3, 4, 3, 1, 2, 2
+    };
+    int res = sol.singleNumber(nums);
+    cout << res << endl;
     return 0;
 }
