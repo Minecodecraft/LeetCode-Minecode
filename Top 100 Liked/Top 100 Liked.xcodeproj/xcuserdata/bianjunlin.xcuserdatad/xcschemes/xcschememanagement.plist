@@ -7,7 +7,7 @@
 		<key>101. Symmetric Tree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>3</integer>
 		</dict>
 		<key>102. Binary Tree Level Order Traversal.xcscheme_^#shared#^_</key>
 		<dict>
@@ -37,17 +37,22 @@
 		<key>136. Single Number.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
 		</dict>
 		<key>141. Linked List Cycle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>12</integer>
 		</dict>
 		<key>142. Linked List Cycle II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
+		</dict>
+		<key>148. Sort List.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>19. Remove Nth Node From End of List.xcscheme_^#shared#^_</key>
 		<dict>
@@ -67,7 +72,7 @@
 		<key>98. Validate Binary Search Tree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
