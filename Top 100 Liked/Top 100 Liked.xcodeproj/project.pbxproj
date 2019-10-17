@@ -19,6 +19,7 @@
 		8C61F07823581CA000E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F07723581CA000E17184 /* main.cpp */; };
 		8C61F08323583D6300E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F08223583D6300E17184 /* main.cpp */; };
 		8C61F08E2358416300E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F08D2358416300E17184 /* main.cpp */; };
+		8C61F0992358447C00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F0982358447C00E17184 /* main.cpp */; };
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
@@ -137,6 +138,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C61F0892358416300E17184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C61F0942358447C00E17184 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -307,6 +317,8 @@
 		8C61F08223583D6300E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61F08B2358416300E17184 /* 283. Move Zeroes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "283. Move Zeroes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61F08D2358416300E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "287. Find the Duplicate Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C61F0982358447C00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30602355553E0037A5A6 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -418,6 +430,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C61F0882358416300E17184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61F0932358447C00E17184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -628,6 +647,14 @@
 			path = "283. Move Zeroes";
 			sourceTree = "<group>";
 		};
+		8C61F0972358447C00E17184 /* 287. Find the Duplicate Number */ = {
+			isa = PBXGroup;
+			children = (
+				8C61F0982358447C00E17184 /* main.cpp */,
+			);
+			path = "287. Find the Duplicate Number";
+			sourceTree = "<group>";
+		};
 		8CAF3049235555320037A5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -658,6 +685,7 @@
 				8C61F07623581CA000E17184 /* 238. Product of Array Except Self */,
 				8C61F08123583D6300E17184 /* 240. Search a 2D Matrix II */,
 				8C61F08C2358416300E17184 /* 283. Move Zeroes */,
+				8C61F0972358447C00E17184 /* 287. Find the Duplicate Number */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -692,6 +720,7 @@
 				8C61F07523581CA000E17184 /* 238. Product of Array Except Self */,
 				8C61F08023583D6200E17184 /* 240. Search a 2D Matrix II */,
 				8C61F08B2358416300E17184 /* 283. Move Zeroes */,
+				8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1023,6 +1052,23 @@
 			productReference = 8C61F08B2358416300E17184 /* 283. Move Zeroes */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C61F0952358447C00E17184 /* 287. Find the Duplicate Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C61F09A2358447C00E17184 /* Build configuration list for PBXNativeTarget "287. Find the Duplicate Number" */;
+			buildPhases = (
+				8C61F0922358447C00E17184 /* Sources */,
+				8C61F0932358447C00E17184 /* Frameworks */,
+				8C61F0942358447C00E17184 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "287. Find the Duplicate Number";
+			productName = "287. Find the Duplicate Number";
+			productReference = 8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF305F2355553E0037A5A6 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF30642355553F0037A5A6 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -1323,6 +1369,9 @@
 					8C61F08A2358416300E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C61F0952358447C00E17184 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF305F2355553E0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1410,6 +1459,7 @@
 				8C61F07423581CA000E17184 /* 238. Product of Array Except Self */,
 				8C61F07F23583D6200E17184 /* 240. Search a 2D Matrix II */,
 				8C61F08A2358416300E17184 /* 283. Move Zeroes */,
+				8C61F0952358447C00E17184 /* 287. Find the Duplicate Number */,
 			);
 		};
 /* End PBXProject section */
@@ -1508,6 +1558,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C61F08E2358416300E17184 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61F0922358447C00E17184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61F0992358447C00E17184 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1865,6 +1923,26 @@
 			name = Debug;
 		};
 		8C61F0912358416300E17184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C61F09B2358447C00E17184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C61F09C2358447C00E17184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2390,6 +2468,15 @@
 			buildConfigurations = (
 				8C61F0902358416300E17184 /* Debug */,
 				8C61F0912358416300E17184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C61F09A2358447C00E17184 /* Build configuration list for PBXNativeTarget "287. Find the Duplicate Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C61F09B2358447C00E17184 /* Debug */,
+				8C61F09C2358447C00E17184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
