@@ -20,6 +20,7 @@
 		8C61F08323583D6300E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F08223583D6300E17184 /* main.cpp */; };
 		8C61F08E2358416300E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F08D2358416300E17184 /* main.cpp */; };
 		8C61F0992358447C00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F0982358447C00E17184 /* main.cpp */; };
+		8C61F10C23588D2D00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F10B23588D2D00E17184 /* main.cpp */; };
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
@@ -147,6 +148,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C61F0942358447C00E17184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C61F10723588D2D00E17184 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -319,6 +329,8 @@
 		8C61F08D2358416300E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "287. Find the Duplicate Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61F0982358447C00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C61F10923588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "297. Serialize and Deserialize Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C61F10B23588D2D00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30602355553E0037A5A6 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -437,6 +449,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C61F0932358447C00E17184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61F10623588D2D00E17184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -655,6 +674,14 @@
 			path = "287. Find the Duplicate Number";
 			sourceTree = "<group>";
 		};
+		8C61F10A23588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				8C61F10B23588D2D00E17184 /* main.cpp */,
+			);
+			path = "297. Serialize and Deserialize Binary Tree";
+			sourceTree = "<group>";
+		};
 		8CAF3049235555320037A5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -686,6 +713,7 @@
 				8C61F08123583D6300E17184 /* 240. Search a 2D Matrix II */,
 				8C61F08C2358416300E17184 /* 283. Move Zeroes */,
 				8C61F0972358447C00E17184 /* 287. Find the Duplicate Number */,
+				8C61F10A23588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -721,6 +749,7 @@
 				8C61F08023583D6200E17184 /* 240. Search a 2D Matrix II */,
 				8C61F08B2358416300E17184 /* 283. Move Zeroes */,
 				8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */,
+				8C61F10923588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1069,6 +1098,23 @@
 			productReference = 8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C61F10823588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C61F10F23588D2D00E17184 /* Build configuration list for PBXNativeTarget "297. Serialize and Deserialize Binary Tree" */;
+			buildPhases = (
+				8C61F10523588D2D00E17184 /* Sources */,
+				8C61F10623588D2D00E17184 /* Frameworks */,
+				8C61F10723588D2D00E17184 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "297. Serialize and Deserialize Binary Tree";
+			productName = "297. Serialize and Deserialize Binary Tree";
+			productReference = 8C61F10923588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF305F2355553E0037A5A6 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF30642355553F0037A5A6 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -1372,6 +1418,9 @@
 					8C61F0952358447C00E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C61F10823588D2D00E17184 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF305F2355553E0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1460,6 +1509,7 @@
 				8C61F07F23583D6200E17184 /* 240. Search a 2D Matrix II */,
 				8C61F08A2358416300E17184 /* 283. Move Zeroes */,
 				8C61F0952358447C00E17184 /* 287. Find the Duplicate Number */,
+				8C61F10823588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 			);
 		};
 /* End PBXProject section */
@@ -1566,6 +1616,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C61F0992358447C00E17184 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61F10523588D2D00E17184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61F10C23588D2D00E17184 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1943,6 +2001,26 @@
 			name = Debug;
 		};
 		8C61F09C2358447C00E17184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C61F10D23588D2D00E17184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C61F10E23588D2D00E17184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2477,6 +2555,15 @@
 			buildConfigurations = (
 				8C61F09B2358447C00E17184 /* Debug */,
 				8C61F09C2358447C00E17184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C61F10F23588D2D00E17184 /* Build configuration list for PBXNativeTarget "297. Serialize and Deserialize Binary Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C61F10D23588D2D00E17184 /* Debug */,
+				8C61F10E23588D2D00E17184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
