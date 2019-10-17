@@ -11,6 +11,7 @@
 		8C61E8002357F1F200E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7FF2357F1F200E17184 /* main.cpp */; };
 		8C61E80B2357F53400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E80A2357F53400E17184 /* main.cpp */; };
 		8C61E8162358000700E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E8152358000700E17184 /* main.cpp */; };
+		8C61EA2723580D1A00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61EA2623580D1A00E17184 /* main.cpp */; };
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
@@ -57,6 +58,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C61E8112358000600E17184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C61EA2223580D1A00E17184 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -211,6 +221,8 @@
 		8C61E80A2357F53400E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E8132358000700E17184 /* 206. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "206. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61E8152358000700E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C61EA2423580D1A00E17184 /* 207. Course Schedule */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "207. Course Schedule"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C61EA2623580D1A00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30602355553E0037A5A6 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,6 +278,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C61E8102358000600E17184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61EA2123580D1A00E17184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,6 +431,14 @@
 			path = "206. Reverse Linked List";
 			sourceTree = "<group>";
 		};
+		8C61EA2523580D1A00E17184 /* 207. Course Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				8C61EA2623580D1A00E17184 /* main.cpp */,
+			);
+			path = "207. Course Schedule";
+			sourceTree = "<group>";
+		};
 		8CAF3049235555320037A5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +461,7 @@
 				8C61E7FE2357F1F200E17184 /* 169. Majority Element */,
 				8C61E8092357F53400E17184 /* 200. Number of Islands */,
 				8C61E8142358000700E17184 /* 206. Reverse Linked List */,
+				8C61EA2523580D1A00E17184 /* 207. Course Schedule */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -460,6 +488,7 @@
 				8C61E7FD2357F1F200E17184 /* 169. Majority Element */,
 				8C61E8082357F53400E17184 /* 200. Number of Islands */,
 				8C61E8132358000700E17184 /* 206. Reverse Linked List */,
+				8C61EA2423580D1A00E17184 /* 207. Course Schedule */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -653,6 +682,23 @@
 			name = "206. Reverse Linked List";
 			productName = "206. Reverse Linked List";
 			productReference = 8C61E8132358000700E17184 /* 206. Reverse Linked List */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C61EA2323580D1A00E17184 /* 207. Course Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C61EA2823580D1A00E17184 /* Build configuration list for PBXNativeTarget "207. Course Schedule" */;
+			buildPhases = (
+				8C61EA2023580D1A00E17184 /* Sources */,
+				8C61EA2123580D1A00E17184 /* Frameworks */,
+				8C61EA2223580D1A00E17184 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "207. Course Schedule";
+			productName = "207. Course Schedule";
+			productReference = 8C61EA2423580D1A00E17184 /* 207. Course Schedule */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CAF305F2355553E0037A5A6 /* Template */ = {
@@ -931,6 +977,9 @@
 					8C61E8122358000600E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C61EA2323580D1A00E17184 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF305F2355553E0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1010,6 +1059,7 @@
 				8C61E7FC2357F1F200E17184 /* 169. Majority Element */,
 				8C61E8072357F53400E17184 /* 200. Number of Islands */,
 				8C61E8122358000600E17184 /* 206. Reverse Linked List */,
+				8C61EA2323580D1A00E17184 /* 207. Course Schedule */,
 			);
 		};
 /* End PBXProject section */
@@ -1044,6 +1094,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C61E8162358000700E17184 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61EA2023580D1A00E17184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61EA2723580D1A00E17184 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,6 +1299,26 @@
 			name = Debug;
 		};
 		8C61E8192358000700E17184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C61EA2923580D1A00E17184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C61EA2A23580D1A00E17184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1694,6 +1772,15 @@
 			buildConfigurations = (
 				8C61E8182358000700E17184 /* Debug */,
 				8C61E8192358000700E17184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C61EA2823580D1A00E17184 /* Build configuration list for PBXNativeTarget "207. Course Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C61EA2923580D1A00E17184 /* Debug */,
+				8C61EA2A23580D1A00E17184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
