@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: BinarySearch, but not so good. Only beats 10% O(nlogm)
+/*
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -39,19 +41,37 @@ public:
         return false;
     }
 };
+ */
+
+// Solution 2: Two pointers, O(n+m)
+class Solution {
+public:
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        int rows = matrix.size(), cols = rows ? matrix[0].size() : 0;
+        if (cols == 0) return false;
+
+        int row = 0, col = cols-1;
+        while (row < rows && col >= 0) {
+            if (matrix[row][col] == target) return true;
+            else if (matrix[row][col] > target) --col;
+            else ++row;
+        }
+        return false;
+    }
+};
 
 int main() {
     Solution sol = Solution();
     vector<vector<int>> mat = {
-//        {1,   4,  7, 11, 15},
-//        {2,   5,  8, 12, 19},
-//        {3,   6,  9, 16, 22},
-//        {10, 13, 14, 17, 24},
-//        {18, 21, 23, 26, 30}
-        {}
+        {1,   4,  7, 11, 15},
+        {2,   5,  8, 12, 19},
+        {3,   6,  9, 16, 22},
+        {10, 13, 14, 17, 24},
+        {18, 21, 23, 26, 30}
+//        {}
     };
-//    int target = 5;
-    int target = 20;
+    int target = 5;
+//    int target = 20;
     bool res = sol.searchMatrix(mat, target);
     cout << (res ? "true" : "false") << endl;
     return 0;
