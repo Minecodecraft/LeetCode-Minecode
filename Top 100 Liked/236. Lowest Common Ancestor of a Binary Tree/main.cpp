@@ -32,6 +32,8 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+// Solution 1: Now so good
+/*
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -65,6 +67,26 @@ private:
             st.pop_back();
         }
         return false;
+    }
+};
+ */
+
+// Solution 2: More readable, more faster
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        return dfs(root, p, q);
+    }
+
+private:
+    TreeNode* dfs(TreeNode* pRoot, TreeNode* p, TreeNode* q) {
+        if (pRoot == p || pRoot == q || pRoot == NULL)
+            return pRoot;
+        TreeNode* p1 = dfs(pRoot->left, p, q);
+        TreeNode* p2 = dfs(pRoot->right, p, q);
+        if (p1 && p2)
+            return pRoot;
+        return p1 ? p1 : p2;
     }
 };
 
