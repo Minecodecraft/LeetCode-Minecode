@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C61E7F52357F0B400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7F42357F0B400E17184 /* main.cpp */; };
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
@@ -25,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C61E7F02357F0B400E17184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CAF305E2355553E0037A5A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,6 +173,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C61E7F22357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "160. Intersection of Two Linked Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C61E7F42357F0B400E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30602355553E0037A5A6 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +208,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C61E7EF2357F0B400E17184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CAF305D2355553E0037A5A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +323,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C61E7F32357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
+			isa = PBXGroup;
+			children = (
+				8C61E7F42357F0B400E17184 /* main.cpp */,
+			);
+			path = "160. Intersection of Two Linked Lists";
+			sourceTree = "<group>";
+		};
 		8CAF3049235555320037A5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +349,7 @@
 				8CAF30E52355A3230037A5A6 /* 141. Linked List Cycle */,
 				8CAF30F02355A4A10037A5A6 /* 142. Linked List Cycle II */,
 				8CAF30FB2355A99A0037A5A6 /* 148. Sort List */,
+				8C61E7F32357F0B400E17184 /* 160. Intersection of Two Linked Lists */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -344,6 +372,7 @@
 				8CAF30E42355A3230037A5A6 /* 141. Linked List Cycle */,
 				8CAF30EF2355A4A10037A5A6 /* 142. Linked List Cycle II */,
 				8CAF30FA2355A9990037A5A6 /* 148. Sort List */,
+				8C61E7F22357F0B400E17184 /* 160. Intersection of Two Linked Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -471,6 +500,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C61E7F12357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C61E7F82357F0B400E17184 /* Build configuration list for PBXNativeTarget "160. Intersection of Two Linked Lists" */;
+			buildPhases = (
+				8C61E7EE2357F0B400E17184 /* Sources */,
+				8C61E7EF2357F0B400E17184 /* Frameworks */,
+				8C61E7F02357F0B400E17184 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "160. Intersection of Two Linked Lists";
+			productName = "160. Intersection of Two Linked Lists";
+			productReference = 8C61E7F22357F0B400E17184 /* 160. Intersection of Two Linked Lists */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF305F2355553E0037A5A6 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF30642355553F0037A5A6 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -735,6 +781,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C61E7F12357F0B400E17184 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF305F2355553E0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -810,11 +859,20 @@
 				8CAF30E32355A3230037A5A6 /* 141. Linked List Cycle */,
 				8CAF30EE2355A4A10037A5A6 /* 142. Linked List Cycle II */,
 				8CAF30F92355A9990037A5A6 /* 148. Sort List */,
+				8C61E7F12357F0B400E17184 /* 160. Intersection of Two Linked Lists */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C61E7EE2357F0B400E17184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61E7F52357F0B400E17184 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CAF305C2355553E0037A5A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -938,6 +996,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C61E7F62357F0B400E17184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C61E7F72357F0B400E17184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CAF3057235555320037A5A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1350,6 +1428,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C61E7F82357F0B400E17184 /* Build configuration list for PBXNativeTarget "160. Intersection of Two Linked Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C61E7F62357F0B400E17184 /* Debug */,
+				8C61E7F72357F0B400E17184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CAF304D235555320037A5A6 /* Build configuration list for PBXProject "Top 100 Liked" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
