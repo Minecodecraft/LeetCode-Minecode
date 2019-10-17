@@ -16,6 +16,7 @@
 		8C61EE4D235812D400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61EE4C235812D400E17184 /* main.cpp */; };
 		8C61F062235815A000E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F061235815A000E17184 /* main.cpp */; };
 		8C61F06D2358184F00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F06C2358184F00E17184 /* main.cpp */; };
+		8C61F07823581CA000E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F07723581CA000E17184 /* main.cpp */; };
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
@@ -107,6 +108,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C61F0682358184F00E17184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C61F07323581CA000E17184 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -271,6 +281,8 @@
 		8C61F061235815A000E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61F06A2358184F00E17184 /* 236. Lowest Common Ancestor of a Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "236. Lowest Common Ancestor of a Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61F06C2358184F00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C61F07523581CA000E17184 /* 238. Product of Array Except Self */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "238. Product of Array Except Self"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C61F07723581CA000E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30602355553E0037A5A6 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -361,6 +373,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C61F0672358184F00E17184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61F07223581CA000E17184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -547,6 +566,14 @@
 			path = "236. Lowest Common Ancestor of a Binary Tree";
 			sourceTree = "<group>";
 		};
+		8C61F07623581CA000E17184 /* 238. Product of Array Except Self */ = {
+			isa = PBXGroup;
+			children = (
+				8C61F07723581CA000E17184 /* main.cpp */,
+			);
+			path = "238. Product of Array Except Self";
+			sourceTree = "<group>";
+		};
 		8CAF3049235555320037A5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -574,6 +601,7 @@
 				8C61EE4B235812D400E17184 /* 226. Invert Binary Tree */,
 				8C61F060235815A000E17184 /* 234. Palindrome Linked List */,
 				8C61F06B2358184F00E17184 /* 236. Lowest Common Ancestor of a Binary Tree */,
+				8C61F07623581CA000E17184 /* 238. Product of Array Except Self */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -605,6 +633,7 @@
 				8C61EE4A235812D300E17184 /* 226. Invert Binary Tree */,
 				8C61F05F235815A000E17184 /* 234. Palindrome Linked List */,
 				8C61F06A2358184F00E17184 /* 236. Lowest Common Ancestor of a Binary Tree */,
+				8C61F07523581CA000E17184 /* 238. Product of Array Except Self */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -883,6 +912,23 @@
 			name = "236. Lowest Common Ancestor of a Binary Tree";
 			productName = "236. Lowest Common Ancestor of a Binary Tree";
 			productReference = 8C61F06A2358184F00E17184 /* 236. Lowest Common Ancestor of a Binary Tree */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C61F07423581CA000E17184 /* 238. Product of Array Except Self */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C61F07923581CA000E17184 /* Build configuration list for PBXNativeTarget "238. Product of Array Except Self" */;
+			buildPhases = (
+				8C61F07123581CA000E17184 /* Sources */,
+				8C61F07223581CA000E17184 /* Frameworks */,
+				8C61F07323581CA000E17184 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "238. Product of Array Except Self";
+			productName = "238. Product of Array Except Self";
+			productReference = 8C61F07523581CA000E17184 /* 238. Product of Array Except Self */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CAF305F2355553E0037A5A6 /* Template */ = {
@@ -1176,6 +1222,9 @@
 					8C61F0692358184F00E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C61F07423581CA000E17184 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF305F2355553E0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1260,6 +1309,7 @@
 				8C61EE49235812D300E17184 /* 226. Invert Binary Tree */,
 				8C61F05E235815A000E17184 /* 234. Palindrome Linked List */,
 				8C61F0692358184F00E17184 /* 236. Lowest Common Ancestor of a Binary Tree */,
+				8C61F07423581CA000E17184 /* 238. Product of Array Except Self */,
 			);
 		};
 /* End PBXProject section */
@@ -1334,6 +1384,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C61F06D2358184F00E17184 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C61F07123581CA000E17184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61F07823581CA000E17184 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1631,6 +1689,26 @@
 			name = Debug;
 		};
 		8C61F0702358184F00E17184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C61F07A23581CA000E17184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C61F07B23581CA000E17184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2129,6 +2207,15 @@
 			buildConfigurations = (
 				8C61F06F2358184F00E17184 /* Debug */,
 				8C61F0702358184F00E17184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C61F07923581CA000E17184 /* Build configuration list for PBXNativeTarget "238. Product of Array Except Self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C61F07A23581CA000E17184 /* Debug */,
+				8C61F07B23581CA000E17184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
