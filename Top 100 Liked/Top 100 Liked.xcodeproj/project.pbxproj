@@ -22,6 +22,7 @@
 		8C61F0992358447C00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F0982358447C00E17184 /* main.cpp */; };
 		8C61F10C23588D2D00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F10B23588D2D00E17184 /* main.cpp */; };
 		8C61F1172358979D00E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61F1162358979D00E17184 /* main.cpp */; };
+		8CA57E4023594ED500E89677 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA57E3F23594ED500E89677 /* main.cpp */; };
 		8CAF30632355553F0037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF30622355553F0037A5A6 /* main.cpp */; };
 		8CAF306E235555B80037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF306D235555B80037A5A6 /* main.cpp */; };
 		8CAF3079235558650037A5A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAF3078235558650037A5A6 /* main.cpp */; };
@@ -167,6 +168,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C61F1122358979D00E17184 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CA57E3B23594ED500E89677 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -343,6 +353,8 @@
 		8C61F10B23588D2D00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61F1142358979D00E17184 /* 301. Remove Invalid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "301. Remove Invalid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61F1162358979D00E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CA57E3D23594ED500E89677 /* 399. Evaluate Division */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "399. Evaluate Division"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA57E3F23594ED500E89677 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF30602355553E0037A5A6 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAF30622355553F0037A5A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAF306B235555B80037A5A6 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -475,6 +487,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C61F1112358979D00E17184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA57E3A23594ED500E89677 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -709,6 +728,14 @@
 			path = "301. Remove Invalid Parentheses";
 			sourceTree = "<group>";
 		};
+		8CA57E3E23594ED500E89677 /* 399. Evaluate Division */ = {
+			isa = PBXGroup;
+			children = (
+				8CA57E3F23594ED500E89677 /* main.cpp */,
+			);
+			path = "399. Evaluate Division";
+			sourceTree = "<group>";
+		};
 		8CAF3049235555320037A5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -742,6 +769,7 @@
 				8C61F0972358447C00E17184 /* 287. Find the Duplicate Number */,
 				8C61F10A23588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8C61F1152358979D00E17184 /* 301. Remove Invalid Parentheses */,
+				8CA57E3E23594ED500E89677 /* 399. Evaluate Division */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -779,6 +807,7 @@
 				8C61F0962358447C00E17184 /* 287. Find the Duplicate Number */,
 				8C61F10923588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8C61F1142358979D00E17184 /* 301. Remove Invalid Parentheses */,
+				8CA57E3D23594ED500E89677 /* 399. Evaluate Division */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1161,6 +1190,23 @@
 			productReference = 8C61F1142358979D00E17184 /* 301. Remove Invalid Parentheses */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CA57E3C23594ED500E89677 /* 399. Evaluate Division */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA57E4323594ED500E89677 /* Build configuration list for PBXNativeTarget "399. Evaluate Division" */;
+			buildPhases = (
+				8CA57E3923594ED500E89677 /* Sources */,
+				8CA57E3A23594ED500E89677 /* Frameworks */,
+				8CA57E3B23594ED500E89677 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "399. Evaluate Division";
+			productName = "399. Evaluate Division";
+			productReference = 8CA57E3D23594ED500E89677 /* 399. Evaluate Division */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAF305F2355553E0037A5A6 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAF30642355553F0037A5A6 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -1470,6 +1516,9 @@
 					8C61F1132358979D00E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CA57E3C23594ED500E89677 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAF305F2355553E0037A5A6 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1560,6 +1609,7 @@
 				8C61F0952358447C00E17184 /* 287. Find the Duplicate Number */,
 				8C61F10823588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8C61F1132358979D00E17184 /* 301. Remove Invalid Parentheses */,
+				8CA57E3C23594ED500E89677 /* 399. Evaluate Division */,
 			);
 		};
 /* End PBXProject section */
@@ -1682,6 +1732,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C61F1172358979D00E17184 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA57E3923594ED500E89677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA57E4023594ED500E89677 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2099,6 +2157,26 @@
 			name = Debug;
 		};
 		8C61F11A2358979D00E17184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CA57E4123594ED500E89677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA57E4223594ED500E89677 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2651,6 +2729,15 @@
 			buildConfigurations = (
 				8C61F1192358979D00E17184 /* Debug */,
 				8C61F11A2358979D00E17184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA57E4323594ED500E89677 /* Build configuration list for PBXNativeTarget "399. Evaluate Division" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA57E4123594ED500E89677 /* Debug */,
+				8CA57E4223594ED500E89677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
