@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1C8B412359F95400C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B402359F95400C2A3A7 /* main.cpp */; };
 		8C61E7F52357F0B400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7F42357F0B400E17184 /* main.cpp */; };
 		8C61E8002357F1F200E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7FF2357F1F200E17184 /* main.cpp */; };
 		8C61E80B2357F53400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E80A2357F53400E17184 /* main.cpp */; };
@@ -41,6 +42,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C1C8B3C2359F95400C2A3A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C61E7F02357F0B400E17184 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +333,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C1C8B3E2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "406. Queue Reconstruction by Height"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1C8B402359F95400C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E7F22357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "160. Intersection of Two Linked Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61E7F42357F0B400E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E7FD2357F1F200E17184 /* 169. Majority Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "169. Majority Element"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +400,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C1C8B3B2359F95400C2A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C61E7EF2357F0B400E17184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -608,6 +627,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C1C8B3F2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C8B402359F95400C2A3A7 /* main.cpp */,
+			);
+			path = "406. Queue Reconstruction by Height";
+			sourceTree = "<group>";
+		};
 		8C61E7F32357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -770,6 +797,7 @@
 				8C61F10A23588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8C61F1152358979D00E17184 /* 301. Remove Invalid Parentheses */,
 				8CA57E3E23594ED500E89677 /* 399. Evaluate Division */,
+				8C1C8B3F2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -808,6 +836,7 @@
 				8C61F10923588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8C61F1142358979D00E17184 /* 301. Remove Invalid Parentheses */,
 				8CA57E3D23594ED500E89677 /* 399. Evaluate Division */,
+				8C1C8B3E2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -935,6 +964,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C1C8B3D2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1C8B442359F95400C2A3A7 /* Build configuration list for PBXNativeTarget "406. Queue Reconstruction by Height" */;
+			buildPhases = (
+				8C1C8B3A2359F95400C2A3A7 /* Sources */,
+				8C1C8B3B2359F95400C2A3A7 /* Frameworks */,
+				8C1C8B3C2359F95400C2A3A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "406. Queue Reconstruction by Height";
+			productName = "406. Queue Reconstruction by Height";
+			productReference = 8C1C8B3E2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C61E7F12357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C61E7F82357F0B400E17184 /* Build configuration list for PBXNativeTarget "160. Intersection of Two Linked Lists" */;
@@ -1471,6 +1517,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C1C8B3D2359F95400C2A3A7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C61E7F12357F0B400E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1610,11 +1659,20 @@
 				8C61F10823588D2D00E17184 /* 297. Serialize and Deserialize Binary Tree */,
 				8C61F1132358979D00E17184 /* 301. Remove Invalid Parentheses */,
 				8CA57E3C23594ED500E89677 /* 399. Evaluate Division */,
+				8C1C8B3D2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C1C8B3A2359F95400C2A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C8B412359F95400C2A3A7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C61E7EE2357F0B400E17184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1866,6 +1924,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C1C8B422359F95400C2A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1C8B432359F95400C2A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C61E7F62357F0B400E17184 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2598,6 +2676,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C1C8B442359F95400C2A3A7 /* Build configuration list for PBXNativeTarget "406. Queue Reconstruction by Height" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C8B422359F95400C2A3A7 /* Debug */,
+				8C1C8B432359F95400C2A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C61E7F82357F0B400E17184 /* Build configuration list for PBXNativeTarget "160. Intersection of Two Linked Lists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
