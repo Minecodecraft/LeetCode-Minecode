@@ -15,6 +15,7 @@
 		8C1C8B78235B61E000C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B77235B61E000C2A3A7 /* main.cpp */; };
 		8C1C8B83235B646B00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B82235B646B00C2A3A7 /* main.cpp */; };
 		8C1C8B8E235B6C0F00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B8D235B6C0F00C2A3A7 /* main.cpp */; };
+		8C1C8B99235B6E2700C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B98235B6E2700C2A3A7 /* main.cpp */; };
 		8C61E7F52357F0B400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7F42357F0B400E17184 /* main.cpp */; };
 		8C61E8002357F1F200E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7FF2357F1F200E17184 /* main.cpp */; };
 		8C61E80B2357F53400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E80A2357F53400E17184 /* main.cpp */; };
@@ -113,6 +114,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C1C8B89235B6C0F00C2A3A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C1C8B94235B6E2700C2A3A7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -419,6 +429,8 @@
 		8C1C8B82235B646B00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1C8B8B235B6C0F00C2A3A7 /* 617. Merge Two Binary Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "617. Merge Two Binary Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1C8B8D235B6C0F00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C1C8B96235B6E2700C2A3A7 /* 621. Task Scheduler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "621. Task Scheduler"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1C8B98235B6E2700C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E7F22357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "160. Intersection of Two Linked Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61E7F42357F0B400E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E7FD2357F1F200E17184 /* 169. Majority Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "169. Majority Element"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -534,6 +546,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C1C8B88235B6C0F00C2A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C8B93235B6E2700C2A3A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -824,6 +843,14 @@
 			path = "617. Merge Two Binary Trees";
 			sourceTree = "<group>";
 		};
+		8C1C8B97235B6E2700C2A3A7 /* 621. Task Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C8B98235B6E2700C2A3A7 /* main.cpp */,
+			);
+			path = "621. Task Scheduler";
+			sourceTree = "<group>";
+		};
 		8C61E7F32357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -994,6 +1021,7 @@
 				8C1C8B76235B61E000C2A3A7 /* 560. Subarray Sum Equals K */,
 				8C1C8B81235B646B00C2A3A7 /* 581. Shortest Unsorted Continuous Subarray */,
 				8C1C8B8C235B6C0F00C2A3A7 /* 617. Merge Two Binary Trees */,
+				8C1C8B97235B6E2700C2A3A7 /* 621. Task Scheduler */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1040,6 +1068,7 @@
 				8C1C8B75235B61E000C2A3A7 /* 560. Subarray Sum Equals K */,
 				8C1C8B80235B646B00C2A3A7 /* 581. Shortest Unsorted Continuous Subarray */,
 				8C1C8B8B235B6C0F00C2A3A7 /* 617. Merge Two Binary Trees */,
+				8C1C8B96235B6E2700C2A3A7 /* 621. Task Scheduler */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1301,6 +1330,23 @@
 			name = "617. Merge Two Binary Trees";
 			productName = "617. Merge Two Binary Trees";
 			productReference = 8C1C8B8B235B6C0F00C2A3A7 /* 617. Merge Two Binary Trees */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C1C8B95235B6E2700C2A3A7 /* 621. Task Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1C8B9A235B6E2700C2A3A7 /* Build configuration list for PBXNativeTarget "621. Task Scheduler" */;
+			buildPhases = (
+				8C1C8B92235B6E2700C2A3A7 /* Sources */,
+				8C1C8B93235B6E2700C2A3A7 /* Frameworks */,
+				8C1C8B94235B6E2700C2A3A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "621. Task Scheduler";
+			productName = "621. Task Scheduler";
+			productReference = 8C1C8B96235B6E2700C2A3A7 /* 621. Task Scheduler */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C61E7F12357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
@@ -1863,6 +1909,9 @@
 					8C1C8B8A235B6C0F00C2A3A7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C1C8B95235B6E2700C2A3A7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C61E7F12357F0B400E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -2010,6 +2059,7 @@
 				8C1C8B74235B61E000C2A3A7 /* 560. Subarray Sum Equals K */,
 				8C1C8B7F235B646B00C2A3A7 /* 581. Shortest Unsorted Continuous Subarray */,
 				8C1C8B8A235B6C0F00C2A3A7 /* 617. Merge Two Binary Trees */,
+				8C1C8B95235B6E2700C2A3A7 /* 621. Task Scheduler */,
 			);
 		};
 /* End PBXProject section */
@@ -2076,6 +2126,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1C8B8E235B6C0F00C2A3A7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C8B92235B6E2700C2A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C8B99235B6E2700C2A3A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2481,6 +2539,26 @@
 			name = Debug;
 		};
 		8C1C8B91235B6C0F00C2A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C1C8B9B235B6E2700C2A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1C8B9C235B6E2700C2A3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3290,6 +3368,15 @@
 			buildConfigurations = (
 				8C1C8B90235B6C0F00C2A3A7 /* Debug */,
 				8C1C8B91235B6C0F00C2A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1C8B9A235B6E2700C2A3A7 /* Build configuration list for PBXNativeTarget "621. Task Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C8B9B235B6E2700C2A3A7 /* Debug */,
+				8C1C8B9C235B6E2700C2A3A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
