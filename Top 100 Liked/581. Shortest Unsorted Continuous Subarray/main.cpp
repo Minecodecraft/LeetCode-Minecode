@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: O(nlogn) with sort
+/*
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -35,6 +37,26 @@ public:
             l++;
         while (r > l && nums[r] == sarr[r])
             r--;
+        return r - l + 1;
+    }
+};
+ */
+
+// Solution 2: O(n)
+class Solution {
+public:
+    int findUnsortedSubarray(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> minl (n), maxr (n);
+        for (int i = n - 1, prev_min = INT_MAX; i >= 0; --i)
+            minl[i] = prev_min = min(prev_min, nums[i]);
+
+        for (int i = 0, nxt_max = INT_MIN; i < n; ++i)
+            maxr[i] = nxt_max = max(nxt_max, nums[i]);
+
+        int l = 0, r = n-1;
+        while (l < n && nums[l] <= minl[l]) ++l;
+        while (r > l && nums[r] >= maxr[r]) --r;
         return r - l + 1;
     }
 };
