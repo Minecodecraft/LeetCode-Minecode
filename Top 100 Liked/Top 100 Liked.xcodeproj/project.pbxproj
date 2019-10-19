@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C1C8B412359F95400C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B402359F95400C2A3A7 /* main.cpp */; };
 		8C1C8B4C235A175900C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B4B235A175900C2A3A7 /* main.cpp */; };
+		8C1C8B57235AB70E00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8B56235AB70E00C2A3A7 /* main.cpp */; };
 		8C61E7F52357F0B400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7F42357F0B400E17184 /* main.cpp */; };
 		8C61E8002357F1F200E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E7FF2357F1F200E17184 /* main.cpp */; };
 		8C61E80B2357F53400E17184 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C61E80A2357F53400E17184 /* main.cpp */; };
@@ -53,6 +54,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C1C8B47235A175900C2A3A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C1C8B52235AB70E00C2A3A7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -347,6 +357,8 @@
 		8C1C8B402359F95400C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1C8B49235A175900C2A3A7 /* 437. Path Sum III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "437. Path Sum III"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1C8B4B235A175900C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C1C8B54235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "438. Find All Anagrams in a String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1C8B56235AB70E00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E7F22357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "160. Intersection of Two Linked Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61E7F42357F0B400E17184 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C61E7FD2357F1F200E17184 /* 169. Majority Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "169. Majority Element"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -420,6 +432,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C1C8B46235A175900C2A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C8B51235AB70E00C2A3A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -662,6 +681,14 @@
 			path = "437. Path Sum III";
 			sourceTree = "<group>";
 		};
+		8C1C8B55235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C8B56235AB70E00C2A3A7 /* main.cpp */,
+			);
+			path = "438. Find All Anagrams in a String";
+			sourceTree = "<group>";
+		};
 		8C61E7F32357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
 			isa = PBXGroup;
 			children = (
@@ -826,6 +853,7 @@
 				8CA57E3E23594ED500E89677 /* 399. Evaluate Division */,
 				8C1C8B3F2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */,
 				8C1C8B4A235A175900C2A3A7 /* 437. Path Sum III */,
+				8C1C8B55235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */,
 				8CAF3053235555320037A5A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -866,6 +894,7 @@
 				8CA57E3D23594ED500E89677 /* 399. Evaluate Division */,
 				8C1C8B3E2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */,
 				8C1C8B49235A175900C2A3A7 /* 437. Path Sum III */,
+				8C1C8B54235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1025,6 +1054,23 @@
 			name = "437. Path Sum III";
 			productName = "437. Path Sum III";
 			productReference = 8C1C8B49235A175900C2A3A7 /* 437. Path Sum III */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C1C8B53235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1C8B5A235AB70E00C2A3A7 /* Build configuration list for PBXNativeTarget "438. Find All Anagrams in a String" */;
+			buildPhases = (
+				8C1C8B50235AB70E00C2A3A7 /* Sources */,
+				8C1C8B51235AB70E00C2A3A7 /* Frameworks */,
+				8C1C8B52235AB70E00C2A3A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "438. Find All Anagrams in a String";
+			productName = "438. Find All Anagrams in a String";
+			productReference = 8C1C8B54235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C61E7F12357F0B400E17184 /* 160. Intersection of Two Linked Lists */ = {
@@ -1569,6 +1615,9 @@
 					8C1C8B48235A175900C2A3A7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C1C8B53235AB70E00C2A3A7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C61E7F12357F0B400E17184 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1710,6 +1759,7 @@
 				8CA57E3C23594ED500E89677 /* 399. Evaluate Division */,
 				8C1C8B3D2359F95400C2A3A7 /* 406. Queue Reconstruction by Height */,
 				8C1C8B48235A175900C2A3A7 /* 437. Path Sum III */,
+				8C1C8B53235AB70E00C2A3A7 /* 438. Find All Anagrams in a String */,
 			);
 		};
 /* End PBXProject section */
@@ -1728,6 +1778,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1C8B4C235A175900C2A3A7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C8B50235AB70E00C2A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C8B57235AB70E00C2A3A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2013,6 +2071,26 @@
 			name = Debug;
 		};
 		8C1C8B4F235A175900C2A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C1C8B58235AB70E00C2A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1C8B59235AB70E00C2A3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2768,6 +2846,15 @@
 			buildConfigurations = (
 				8C1C8B4E235A175900C2A3A7 /* Debug */,
 				8C1C8B4F235A175900C2A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1C8B5A235AB70E00C2A3A7 /* Build configuration list for PBXNativeTarget "438. Find All Anagrams in a String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C8B58235AB70E00C2A3A7 /* Debug */,
+				8C1C8B59235AB70E00C2A3A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
