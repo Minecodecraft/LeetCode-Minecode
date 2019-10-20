@@ -13,6 +13,7 @@
 		8C1C8DE2235C0E9E00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8DE1235C0E9E00C2A3A7 /* main.cpp */; };
 		8C1C8DED235C11AF00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8DEC235C11AF00C2A3A7 /* main.cpp */; };
 		8C1C8DF8235C21BD00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8DF7235C21BD00C2A3A7 /* main.cpp */; };
+		8C1C8E03235C324E00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8E02235C324E00C2A3A7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C1C8DFE235C324E00C2A3A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +95,8 @@
 		8C1C8DEC235C11AF00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1C8DF5235C21BD00C2A3A7 /* 108. Convert Sorted Array to Binary Search Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "108. Convert Sorted Array to Binary Search Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1C8DF7235C21BD00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C1C8E00235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "116. Populating Next Right Pointers in Each Node"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1C8E02235C324E00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C1C8DFD235C324E00C2A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +161,7 @@
 				8C1C8DE0235C0E9E00C2A3A7 /* 69. Sqrt(x) */,
 				8C1C8DEB235C11AF00C2A3A7 /* 29. Divide Two Integers */,
 				8C1C8DF6235C21BD00C2A3A7 /* 108. Convert Sorted Array to Binary Search Tree */,
+				8C1C8E01235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 				8C1C8DDF235C0E9E00C2A3A7 /* 69. Sqrt(x) */,
 				8C1C8DEA235C11AE00C2A3A7 /* 29. Divide Two Integers */,
 				8C1C8DF5235C21BD00C2A3A7 /* 108. Convert Sorted Array to Binary Search Tree */,
+				8C1C8E00235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +226,14 @@
 				8C1C8DF7235C21BD00C2A3A7 /* main.cpp */,
 			);
 			path = "108. Convert Sorted Array to Binary Search Tree";
+			sourceTree = "<group>";
+		};
+		8C1C8E01235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C8E02235C324E00C2A3A7 /* main.cpp */,
+			);
+			path = "116. Populating Next Right Pointers in Each Node";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +341,23 @@
 			productReference = 8C1C8DF5235C21BD00C2A3A7 /* 108. Convert Sorted Array to Binary Search Tree */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C1C8DFF235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1C8E04235C324E00C2A3A7 /* Build configuration list for PBXNativeTarget "116. Populating Next Right Pointers in Each Node" */;
+			buildPhases = (
+				8C1C8DFC235C324E00C2A3A7 /* Sources */,
+				8C1C8DFD235C324E00C2A3A7 /* Frameworks */,
+				8C1C8DFE235C324E00C2A3A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "116. Populating Next Right Pointers in Each Node";
+			productName = "116. Populating Next Right Pointers in Each Node";
+			productReference = 8C1C8E00235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,6 +385,9 @@
 					8C1C8DF4235C21BD00C2A3A7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C1C8DFF235C324E00C2A3A7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C1C8BA1235BED1900C2A3A7 /* Build configuration list for PBXProject "Top Interview Questions" */;
@@ -360,6 +409,7 @@
 				8C1C8DDE235C0E9E00C2A3A7 /* 69. Sqrt(x) */,
 				8C1C8DE9235C11AE00C2A3A7 /* 29. Divide Two Integers */,
 				8C1C8DF4235C21BD00C2A3A7 /* 108. Convert Sorted Array to Binary Search Tree */,
+				8C1C8DFF235C324E00C2A3A7 /* 116. Populating Next Right Pointers in Each Node */,
 			);
 		};
 /* End PBXProject section */
@@ -410,6 +460,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1C8DF8235C21BD00C2A3A7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C8DFC235C324E00C2A3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C8E03235C324E00C2A3A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +703,26 @@
 			};
 			name = Release;
 		};
+		8C1C8E05235C324E00C2A3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1C8E06235C324E00C2A3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -707,6 +785,15 @@
 			buildConfigurations = (
 				8C1C8DFA235C21BD00C2A3A7 /* Debug */,
 				8C1C8DFB235C21BD00C2A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1C8E04235C324E00C2A3A7 /* Build configuration list for PBXNativeTarget "116. Populating Next Right Pointers in Each Node" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1C8E05235C324E00C2A3A7 /* Debug */,
+				8C1C8E06235C324E00C2A3A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
