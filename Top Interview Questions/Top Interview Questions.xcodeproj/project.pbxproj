@@ -18,6 +18,7 @@
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
+		8CD630D3235CB082005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630D2235CB082005D643D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +121,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CD630CE235CB082005D643D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +155,8 @@
 		8CD630BC235CA5C8005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630C5235CA913005D643D /* 134. Gas Station */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "134. Gas Station"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630C7235CA913005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CD630D0235CB082005D643D /* 138. Copy List with Random Pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "138. Copy List with Random Pointer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD630D2235CB082005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +237,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CD630CD235CB082005D643D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -242,6 +261,7 @@
 				8CD630B0235CA152005D643D /* 130. Surrounded Regions */,
 				8CD630BB235CA5C8005D643D /* 131. Palindrome Partitioning */,
 				8CD630C6235CA913005D643D /* 134. Gas Station */,
+				8CD630D1235CB082005D643D /* 138. Copy List with Random Pointer */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -260,6 +280,7 @@
 				8CD630AF235CA152005D643D /* 130. Surrounded Regions */,
 				8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */,
 				8CD630C5235CA913005D643D /* 134. Gas Station */,
+				8CD630D0235CB082005D643D /* 138. Copy List with Random Pointer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -350,6 +371,14 @@
 				8CD630C7235CA913005D643D /* main.cpp */,
 			);
 			path = "134. Gas Station";
+			sourceTree = "<group>";
+		};
+		8CD630D1235CB082005D643D /* 138. Copy List with Random Pointer */ = {
+			isa = PBXGroup;
+			children = (
+				8CD630D2235CB082005D643D /* main.cpp */,
+			);
+			path = "138. Copy List with Random Pointer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,6 +571,23 @@
 			productReference = 8CD630C5235CA913005D643D /* 134. Gas Station */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD630CF235CB082005D643D /* 138. Copy List with Random Pointer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD630D4235CB082005D643D /* Build configuration list for PBXNativeTarget "138. Copy List with Random Pointer" */;
+			buildPhases = (
+				8CD630CC235CB082005D643D /* Sources */,
+				8CD630CD235CB082005D643D /* Frameworks */,
+				8CD630CE235CB082005D643D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "138. Copy List with Random Pointer";
+			productName = "138. Copy List with Random Pointer";
+			productReference = 8CD630D0235CB082005D643D /* 138. Copy List with Random Pointer */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -584,6 +630,9 @@
 					8CD630C4235CA913005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CD630CF235CB082005D643D = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 8C1C8BA1235BED1900C2A3A7 /* Build configuration list for PBXProject "Top Interview Questions" */;
@@ -610,6 +659,7 @@
 				8CD630AE235CA152005D643D /* 130. Surrounded Regions */,
 				8CD630B9235CA5C8005D643D /* 131. Palindrome Partitioning */,
 				8CD630C4235CA913005D643D /* 134. Gas Station */,
+				8CD630CF235CB082005D643D /* 138. Copy List with Random Pointer */,
 			);
 		};
 /* End PBXProject section */
@@ -700,6 +750,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD630C8235CA913005D643D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD630CC235CB082005D643D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD630D3235CB082005D643D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1035,6 +1093,26 @@
 			};
 			name = Release;
 		};
+		8CD630D5235CB082005D643D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD630D6235CB082005D643D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1142,6 +1220,15 @@
 			buildConfigurations = (
 				8CD630CA235CA913005D643D /* Debug */,
 				8CD630CB235CA913005D643D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD630D4235CB082005D643D /* Build configuration list for PBXNativeTarget "138. Copy List with Random Pointer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD630D5235CB082005D643D /* Debug */,
+				8CD630D6235CB082005D643D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
