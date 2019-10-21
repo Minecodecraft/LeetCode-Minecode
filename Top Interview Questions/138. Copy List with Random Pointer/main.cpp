@@ -40,6 +40,8 @@ public:
     }
 };
 
+// Solutin 1: Use unordered_map
+/*
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
@@ -58,6 +60,31 @@ public:
             pNode = &(*pNode)->next;
         }
         return pRoot;
+    }
+};
+ */
+
+// Solution 2: Without using any component
+class Solution {
+public:
+    Node* copyRandomList(Node* head) {
+        Node* pNode1, * pNode2;
+        if (head == NULL) return NULL;
+        for (pNode1 = head; pNode1 != NULL; pNode1 = pNode1->next->next) {
+            Node* pNewNode = new Node(pNode1->val, pNode1->next, NULL);
+            pNode1->next = pNewNode;
+        }
+        for (pNode1 = head; pNode1 != NULL; pNode1 = pNode1->next->next) {
+            pNode2 = pNode1->next;
+            pNode2->random = pNode1->random ? pNode1->random->next : NULL;
+        }
+        pNode2 = head->next;
+        for (pNode1 = head; pNode1 != NULL; pNode1 = pNode1->next) {
+            Node* pRemoveNode = pNode1->next;
+            pNode1->next = pNode1->next->next;
+            pRemoveNode->next = pNode1->next ? pNode1->next->next : NULL;
+        }
+        return pNode2;
     }
 };
 
