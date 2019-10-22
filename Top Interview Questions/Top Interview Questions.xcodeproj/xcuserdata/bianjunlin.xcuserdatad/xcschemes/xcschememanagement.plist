@@ -7,7 +7,7 @@
 		<key>108. Convert Sorted Array to Binary Search Tree.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>116. Populating Next Right Pointers in Each Node.xcscheme_^#shared#^_</key>
 		<dict>
@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>162. Find Peak Element.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>29. Divide Two Integers.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -52,27 +57,32 @@
 		<key>36. Valid Sudoku.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>50. Pow(x, n).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 		<key>69. Sqrt(x).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Template.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>8C1C8DE9235C11AE00C2A3A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C6A73CF235E04F500B0BBDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

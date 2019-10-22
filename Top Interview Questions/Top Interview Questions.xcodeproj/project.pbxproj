@@ -15,6 +15,7 @@
 		8C1C8DF8235C21BD00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8DF7235C21BD00C2A3A7 /* main.cpp */; };
 		8C1C8E03235C324E00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8E02235C324E00C2A3A7 /* main.cpp */; };
 		8C1C8E0E235C340D00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8E0D235C340D00C2A3A7 /* main.cpp */; };
+		8C6A73D3235E04F500B0BBDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A73D2235E04F500B0BBDA /* main.cpp */; };
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
@@ -95,6 +96,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C6A73CE235E04F500B0BBDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD630AD235CA152005D643D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +169,8 @@
 		8C1C8E02235C324E00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1C8E0B235C340D00C2A3A7 /* 122. Best Time to Buy and Sell Stock II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "122. Best Time to Buy and Sell Stock II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1C8E0D235C340D00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C6A73D0235E04F500B0BBDA /* 162. Find Peak Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "162. Find Peak Element"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6A73D2235E04F500B0BBDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630AF235CA152005D643D /* 130. Surrounded Regions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "130. Surrounded Regions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630B1235CA152005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131. Palindrome Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C6A73CD235E04F500B0BBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD630AC235CA152005D643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +301,7 @@
 				8CD630C6235CA913005D643D /* 134. Gas Station */,
 				8CD630D1235CB082005D643D /* 138. Copy List with Random Pointer */,
 				8CD630DC235D4485005D643D /* 149. Max Points on a Line */,
+				8C6A73D1235E04F500B0BBDA /* 162. Find Peak Element */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -302,6 +322,7 @@
 				8CD630C5235CA913005D643D /* 134. Gas Station */,
 				8CD630D0235CB082005D643D /* 138. Copy List with Random Pointer */,
 				8CD630DB235D4485005D643D /* 149. Max Points on a Line */,
+				8C6A73D0235E04F500B0BBDA /* 162. Find Peak Element */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,6 +389,14 @@
 				8C1C8E0D235C340D00C2A3A7 /* main.cpp */,
 			);
 			path = "122. Best Time to Buy and Sell Stock II";
+			sourceTree = "<group>";
+		};
+		8C6A73D1235E04F500B0BBDA /* 162. Find Peak Element */ = {
+			isa = PBXGroup;
+			children = (
+				8C6A73D2235E04F500B0BBDA /* main.cpp */,
+			);
+			path = "162. Find Peak Element";
 			sourceTree = "<group>";
 		};
 		8CD630B0235CA152005D643D /* 130. Surrounded Regions */ = {
@@ -549,6 +578,23 @@
 			productReference = 8C1C8E0B235C340D00C2A3A7 /* 122. Best Time to Buy and Sell Stock II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C6A73CF235E04F500B0BBDA /* 162. Find Peak Element */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6A73D6235E04F500B0BBDA /* Build configuration list for PBXNativeTarget "162. Find Peak Element" */;
+			buildPhases = (
+				8C6A73CC235E04F500B0BBDA /* Sources */,
+				8C6A73CD235E04F500B0BBDA /* Frameworks */,
+				8C6A73CE235E04F500B0BBDA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "162. Find Peak Element";
+			productName = "162. Find Peak Element";
+			productReference = 8C6A73D0235E04F500B0BBDA /* 162. Find Peak Element */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD630AE235CA152005D643D /* 130. Surrounded Regions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD630B5235CA152005D643D /* Build configuration list for PBXNativeTarget "130. Surrounded Regions" */;
@@ -667,6 +713,9 @@
 					8C1C8E0A235C340D00C2A3A7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C6A73CF235E04F500B0BBDA = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD630AE235CA152005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -710,6 +759,7 @@
 				8CD630C4235CA913005D643D /* 134. Gas Station */,
 				8CD630CF235CB082005D643D /* 138. Copy List with Random Pointer */,
 				8CD630DA235D4485005D643D /* 149. Max Points on a Line */,
+				8C6A73CF235E04F500B0BBDA /* 162. Find Peak Element */,
 			);
 		};
 /* End PBXProject section */
@@ -776,6 +826,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C1C8E0E235C340D00C2A3A7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6A73CC235E04F500B0BBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6A73D3235E04F500B0BBDA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1091,6 +1149,26 @@
 			};
 			name = Release;
 		};
+		8C6A73D4235E04F500B0BBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C6A73D5235E04F500B0BBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD630B3235CA152005D643D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1271,6 +1349,15 @@
 			buildConfigurations = (
 				8C1C8E10235C340D00C2A3A7 /* Debug */,
 				8C1C8E11235C340D00C2A3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6A73D6235E04F500B0BBDA /* Build configuration list for PBXNativeTarget "162. Find Peak Element" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6A73D4235E04F500B0BBDA /* Debug */,
+				8C6A73D5235E04F500B0BBDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
