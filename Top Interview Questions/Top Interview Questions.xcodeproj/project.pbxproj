@@ -17,6 +17,7 @@
 		8C1C8E0E235C340D00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8E0D235C340D00C2A3A7 /* main.cpp */; };
 		8C6A73D3235E04F500B0BBDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A73D2235E04F500B0BBDA /* main.cpp */; };
 		8CAA0BF4235F2E9300B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BF3235F2E9300B1A6A5 /* main.cpp */; };
+		8CAA0BFF235F384100B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BFE235F384100B1A6A5 /* main.cpp */; };
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
@@ -115,6 +116,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CAA0BFA235F384100B1A6A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD630AD235CA152005D643D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +193,8 @@
 		8C6A73D2235E04F500B0BBDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAA0BF1235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "166. Fraction to Recurring Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAA0BF3235F2E9300B1A6A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CAA0BFC235F384100B1A6A5 /* 171. Excel Sheet Column Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "171. Excel Sheet Column Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAA0BFE235F384100B1A6A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630AF235CA152005D643D /* 130. Surrounded Regions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "130. Surrounded Regions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630B1235CA152005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131. Palindrome Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,6 +278,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CAA0BF9235F384100B1A6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD630AC235CA152005D643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +341,7 @@
 				8CD630DC235D4485005D643D /* 149. Max Points on a Line */,
 				8C6A73D1235E04F500B0BBDA /* 162. Find Peak Element */,
 				8CAA0BF2235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */,
+				8CAA0BFD235F384100B1A6A5 /* 171. Excel Sheet Column Number */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -344,6 +364,7 @@
 				8CD630DB235D4485005D643D /* 149. Max Points on a Line */,
 				8C6A73D0235E04F500B0BBDA /* 162. Find Peak Element */,
 				8CAA0BF1235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */,
+				8CAA0BFC235F384100B1A6A5 /* 171. Excel Sheet Column Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -426,6 +447,14 @@
 				8CAA0BF3235F2E9300B1A6A5 /* main.cpp */,
 			);
 			path = "166. Fraction to Recurring Decimal";
+			sourceTree = "<group>";
+		};
+		8CAA0BFD235F384100B1A6A5 /* 171. Excel Sheet Column Number */ = {
+			isa = PBXGroup;
+			children = (
+				8CAA0BFE235F384100B1A6A5 /* main.cpp */,
+			);
+			path = "171. Excel Sheet Column Number";
 			sourceTree = "<group>";
 		};
 		8CD630B0235CA152005D643D /* 130. Surrounded Regions */ = {
@@ -641,6 +670,23 @@
 			productReference = 8CAA0BF1235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CAA0BFB235F384100B1A6A5 /* 171. Excel Sheet Column Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CAA0C00235F384100B1A6A5 /* Build configuration list for PBXNativeTarget "171. Excel Sheet Column Number" */;
+			buildPhases = (
+				8CAA0BF8235F384100B1A6A5 /* Sources */,
+				8CAA0BF9235F384100B1A6A5 /* Frameworks */,
+				8CAA0BFA235F384100B1A6A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "171. Excel Sheet Column Number";
+			productName = "171. Excel Sheet Column Number";
+			productReference = 8CAA0BFC235F384100B1A6A5 /* 171. Excel Sheet Column Number */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD630AE235CA152005D643D /* 130. Surrounded Regions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD630B5235CA152005D643D /* Build configuration list for PBXNativeTarget "130. Surrounded Regions" */;
@@ -765,6 +811,9 @@
 					8CAA0BF0235F2E9300B1A6A5 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CAA0BFB235F384100B1A6A5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD630AE235CA152005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -810,6 +859,7 @@
 				8CD630DA235D4485005D643D /* 149. Max Points on a Line */,
 				8C6A73CF235E04F500B0BBDA /* 162. Find Peak Element */,
 				8CAA0BF0235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */,
+				8CAA0BFB235F384100B1A6A5 /* 171. Excel Sheet Column Number */,
 			);
 		};
 /* End PBXProject section */
@@ -892,6 +942,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAA0BF4235F2E9300B1A6A5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAA0BF8235F384100B1A6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAA0BFF235F384100B1A6A5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1247,6 +1305,26 @@
 			};
 			name = Release;
 		};
+		8CAA0C01235F384100B1A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CAA0C02235F384100B1A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD630B3235CA152005D643D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1445,6 +1523,15 @@
 			buildConfigurations = (
 				8CAA0BF5235F2E9300B1A6A5 /* Debug */,
 				8CAA0BF6235F2E9300B1A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CAA0C00235F384100B1A6A5 /* Build configuration list for PBXNativeTarget "171. Excel Sheet Column Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CAA0C01235F384100B1A6A5 /* Debug */,
+				8CAA0C02235F384100B1A6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
