@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Use bit mask, not so good
+/*
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -32,6 +34,20 @@ public:
         for (int i = 0; i < 32; ++i) {
             if (n & mask) cnt++;
             mask <<= 1;
+        }
+        return cnt;
+    }
+};
+ */
+
+// Solution 2: Use n & (n-1)
+class Solution {
+public:
+    int hammingWeight(uint32_t n) {
+        int cnt = 0;
+        while (n) {
+            ++cnt;
+            n &= (n-1);
         }
         return cnt;
     }
