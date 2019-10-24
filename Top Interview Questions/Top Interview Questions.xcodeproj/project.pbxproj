@@ -18,6 +18,7 @@
 		8C5B673B23609AE400C893F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B673A23609AE400C893F9 /* main.cpp */; };
 		8C5B674623609DE200C893F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B674523609DE200C893F9 /* main.cpp */; };
 		8C5B6751236120EC00C893F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B6750236120EC00C893F9 /* main.cpp */; };
+		8C5B675C236123A200C893F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B675B236123A200C893F9 /* main.cpp */; };
 		8C6A73D3235E04F500B0BBDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A73D2235E04F500B0BBDA /* main.cpp */; };
 		8CAA0BF4235F2E9300B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BF3235F2E9300B1A6A5 /* main.cpp */; };
 		8CAA0BFF235F384100B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BFE235F384100B1A6A5 /* main.cpp */; };
@@ -123,6 +124,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C5B674C236120EB00C893F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C5B6757236123A200C893F9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -255,6 +265,8 @@
 		8C5B674523609DE200C893F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5B674E236120EB00C893F9 /* 202. Happy Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "202. Happy Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5B6750236120EC00C893F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C5B6759236123A200C893F9 /* 204. Count Primes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "204. Count Primes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5B675B236123A200C893F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C6A73D0235E04F500B0BBDA /* 162. Find Peak Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "162. Find Peak Element"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6A73D2235E04F500B0BBDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAA0BF1235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "166. Fraction to Recurring Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,6 +363,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C5B674B236120EB00C893F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5B6756236123A200C893F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,6 +481,7 @@
 				8C5B673923609AE400C893F9 /* 190. Reverse Bits */,
 				8C5B674423609DE200C893F9 /* 191. Number of 1 Bits */,
 				8C5B674F236120EC00C893F9 /* 202. Happy Number */,
+				8C5B675A236123A200C893F9 /* 204. Count Primes */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -491,6 +511,7 @@
 				8C5B673823609AE400C893F9 /* 190. Reverse Bits */,
 				8C5B674323609DE200C893F9 /* 191. Number of 1 Bits */,
 				8C5B674E236120EB00C893F9 /* 202. Happy Number */,
+				8C5B6759236123A200C893F9 /* 204. Count Primes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -581,6 +602,14 @@
 				8C5B6750236120EC00C893F9 /* main.cpp */,
 			);
 			path = "202. Happy Number";
+			sourceTree = "<group>";
+		};
+		8C5B675A236123A200C893F9 /* 204. Count Primes */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B675B236123A200C893F9 /* main.cpp */,
+			);
+			path = "204. Count Primes";
 			sourceTree = "<group>";
 		};
 		8C6A73D1235E04F500B0BBDA /* 162. Find Peak Element */ = {
@@ -861,6 +890,23 @@
 			productReference = 8C5B674E236120EB00C893F9 /* 202. Happy Number */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C5B6758236123A200C893F9 /* 204. Count Primes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5B675D236123A200C893F9 /* Build configuration list for PBXNativeTarget "204. Count Primes" */;
+			buildPhases = (
+				8C5B6755236123A200C893F9 /* Sources */,
+				8C5B6756236123A200C893F9 /* Frameworks */,
+				8C5B6757236123A200C893F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "204. Count Primes";
+			productName = "204. Count Primes";
+			productReference = 8C5B6759236123A200C893F9 /* 204. Count Primes */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C6A73CF235E04F500B0BBDA /* 162. Find Peak Element */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C6A73D6235E04F500B0BBDA /* Build configuration list for PBXNativeTarget "162. Find Peak Element" */;
@@ -1090,6 +1136,9 @@
 					8C5B674D236120EB00C893F9 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C5B6758236123A200C893F9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C6A73CF235E04F500B0BBDA = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1160,6 +1209,7 @@
 				8C5B673723609AE400C893F9 /* 190. Reverse Bits */,
 				8C5B674223609DE200C893F9 /* 191. Number of 1 Bits */,
 				8C5B674D236120EB00C893F9 /* 202. Happy Number */,
+				8C5B6758236123A200C893F9 /* 204. Count Primes */,
 			);
 		};
 /* End PBXProject section */
@@ -1250,6 +1300,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5B6751236120EC00C893F9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5B6755236123A200C893F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5B675C236123A200C893F9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1673,6 +1731,26 @@
 			};
 			name = Release;
 		};
+		8C5B675E236123A200C893F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C5B675F236123A200C893F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C6A73D4235E04F500B0BBDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2000,6 +2078,15 @@
 			buildConfigurations = (
 				8C5B6753236120EC00C893F9 /* Debug */,
 				8C5B6754236120EC00C893F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5B675D236123A200C893F9 /* Build configuration list for PBXNativeTarget "204. Count Primes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5B675E236123A200C893F9 /* Debug */,
+				8C5B675F236123A200C893F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
