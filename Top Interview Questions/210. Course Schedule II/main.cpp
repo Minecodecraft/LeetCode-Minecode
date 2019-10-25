@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Like topologcin sort, but not so good. Only beats 6%
+/*
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -59,6 +61,38 @@ public:
         if (tot == numCourses)
             return path;
         return {};
+    }
+};
+ */
+
+// Solution 2: Normal topological sort, beats 100%
+class Solution {
+public:
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int>> g (numCourses);
+        vector<int> indegress (numCourses, 0);
+        vector<int> path;
+        for (auto& req: prerequisites) {
+            g[req[1]].push_back(req[0]);
+            indegress[req[0]]++;
+        }
+        queue<int> q;
+        int tot = 0;
+        for (int i = 0; i < numCourses; ++i) {
+            if (indegress[i] == 0) q.push(i);
+        }
+
+        while (q.size()) {
+            ++tot;
+            int cur = q.front(); q.pop();
+            path.push_back(cur);
+            for (auto& adj: g[cur]) {
+                --indegress[adj];
+                if (indegress[adj] == 0)
+                    q.push(adj);
+            }
+        }
+        return tot == numCourses ? path : vector<int>();
     }
 };
 
