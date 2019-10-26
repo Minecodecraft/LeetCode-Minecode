@@ -29,6 +29,7 @@
 		8CAA0C2023601AFA00B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0C1F23601AFA00B1A6A5 /* main.cpp */; };
 		8CBBB31A23643B5B0053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB31923643B5B0053E282 /* main.cpp */; };
 		8CBBB32523643F950053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB32423643F950053E282 /* main.cpp */; };
+		8CBBB330236444360053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB32F236444360053E282 /* main.cpp */; };
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
@@ -235,6 +236,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CBBB32B236444360053E282 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD630AD235CA152005D643D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,6 +337,8 @@
 		8CBBB31923643B5B0053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CBBB32223643F950053E282 /* 230. Kth Smallest Element in a BST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "230. Kth Smallest Element in a BST"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBBB32423643F950053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CBBB32D236444360053E282 /* 237. Delete Node in a Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "237. Delete Node in a Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBBB32F236444360053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630AF235CA152005D643D /* 130. Surrounded Regions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "130. Surrounded Regions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630B1235CA152005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131. Palindrome Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -494,6 +506,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CBBB32A236444360053E282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD630AC235CA152005D643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,6 +581,7 @@
 				8C5B727C236288D100C893F9 /* 212. Word Search II */,
 				8CBBB31823643B5B0053E282 /* 217. Contains Duplicate */,
 				8CBBB32323643F950053E282 /* 230. Kth Smallest Element in a BST */,
+				8CBBB32E236444360053E282 /* 237. Delete Node in a Linked List */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -596,6 +616,7 @@
 				8C5B727B236288D100C893F9 /* 212. Word Search II */,
 				8CBBB31723643B5B0053E282 /* 217. Contains Duplicate */,
 				8CBBB32223643F950053E282 /* 230. Kth Smallest Element in a BST */,
+				8CBBB32D236444360053E282 /* 237. Delete Node in a Linked List */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -774,6 +795,14 @@
 				8CBBB32423643F950053E282 /* main.cpp */,
 			);
 			path = "230. Kth Smallest Element in a BST";
+			sourceTree = "<group>";
+		};
+		8CBBB32E236444360053E282 /* 237. Delete Node in a Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				8CBBB32F236444360053E282 /* main.cpp */,
+			);
+			path = "237. Delete Node in a Linked List";
 			sourceTree = "<group>";
 		};
 		8CD630B0235CA152005D643D /* 130. Surrounded Regions */ = {
@@ -1193,6 +1222,23 @@
 			productReference = 8CBBB32223643F950053E282 /* 230. Kth Smallest Element in a BST */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CBBB32C236444360053E282 /* 237. Delete Node in a Linked List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBBB331236444360053E282 /* Build configuration list for PBXNativeTarget "237. Delete Node in a Linked List" */;
+			buildPhases = (
+				8CBBB329236444360053E282 /* Sources */,
+				8CBBB32A236444360053E282 /* Frameworks */,
+				8CBBB32B236444360053E282 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "237. Delete Node in a Linked List";
+			productName = "237. Delete Node in a Linked List";
+			productReference = 8CBBB32D236444360053E282 /* 237. Delete Node in a Linked List */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD630AE235CA152005D643D /* 130. Surrounded Regions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD630B5235CA152005D643D /* Build configuration list for PBXNativeTarget "130. Surrounded Regions" */;
@@ -1353,6 +1399,9 @@
 					8CBBB32123643F950053E282 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CBBB32C236444360053E282 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD630AE235CA152005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1410,6 +1459,7 @@
 				8C5B727A236288D100C893F9 /* 212. Word Search II */,
 				8CBBB31623643B5B0053E282 /* 217. Contains Duplicate */,
 				8CBBB32123643F950053E282 /* 230. Kth Smallest Element in a BST */,
+				8CBBB32C236444360053E282 /* 237. Delete Node in a Linked List */,
 			);
 		};
 /* End PBXProject section */
@@ -1588,6 +1638,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CBBB32523643F950053E282 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBBB329236444360053E282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBBB330236444360053E282 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2183,6 +2241,26 @@
 			};
 			name = Release;
 		};
+		8CBBB332236444360053E282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBBB333236444360053E282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD630B3235CA152005D643D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2489,6 +2567,15 @@
 			buildConfigurations = (
 				8CBBB32723643F950053E282 /* Debug */,
 				8CBBB32823643F950053E282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBBB331236444360053E282 /* Build configuration list for PBXNativeTarget "237. Delete Node in a Linked List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBBB332236444360053E282 /* Debug */,
+				8CBBB333236444360053E282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
