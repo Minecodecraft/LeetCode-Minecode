@@ -32,6 +32,7 @@
 		8CBBB330236444360053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB32F236444360053E282 /* main.cpp */; };
 		8CBBB33B23644C040053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB33A23644C040053E282 /* main.cpp */; };
 		8CBBB34623644DD50053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB34523644DD50053E282 /* main.cpp */; };
+		8CBBB35123644F570053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB35023644F570053E282 /* main.cpp */; };
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
@@ -265,6 +266,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CBBB34C23644F570053E282 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD630AD235CA152005D643D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +373,8 @@
 		8CBBB33A23644C040053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CBBB34323644DD50053E282 /* 242. Valid Anagram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "242. Valid Anagram"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBBB34523644DD50053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CBBB34E23644F570053E282 /* 289. Game of Life */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "289. Game of Life"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBBB35023644F570053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630AF235CA152005D643D /* 130. Surrounded Regions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "130. Surrounded Regions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630B1235CA152005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131. Palindrome Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -551,6 +563,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CBBB34B23644F570053E282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD630AC235CA152005D643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -622,6 +641,7 @@
 				8CBBB32E236444360053E282 /* 237. Delete Node in a Linked List */,
 				8CBBB33923644C040053E282 /* 268. Missing Number */,
 				8CBBB34423644DD50053E282 /* 242. Valid Anagram */,
+				8CBBB34F23644F570053E282 /* 289. Game of Life */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -659,6 +679,7 @@
 				8CBBB32D236444360053E282 /* 237. Delete Node in a Linked List */,
 				8CBBB33823644C040053E282 /* 268. Missing Number */,
 				8CBBB34323644DD50053E282 /* 242. Valid Anagram */,
+				8CBBB34E23644F570053E282 /* 289. Game of Life */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -861,6 +882,14 @@
 				8CBBB34523644DD50053E282 /* main.cpp */,
 			);
 			path = "242. Valid Anagram";
+			sourceTree = "<group>";
+		};
+		8CBBB34F23644F570053E282 /* 289. Game of Life */ = {
+			isa = PBXGroup;
+			children = (
+				8CBBB35023644F570053E282 /* main.cpp */,
+			);
+			path = "289. Game of Life";
 			sourceTree = "<group>";
 		};
 		8CD630B0235CA152005D643D /* 130. Surrounded Regions */ = {
@@ -1331,6 +1360,23 @@
 			productReference = 8CBBB34323644DD50053E282 /* 242. Valid Anagram */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CBBB34D23644F570053E282 /* 289. Game of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBBB35223644F570053E282 /* Build configuration list for PBXNativeTarget "289. Game of Life" */;
+			buildPhases = (
+				8CBBB34A23644F570053E282 /* Sources */,
+				8CBBB34B23644F570053E282 /* Frameworks */,
+				8CBBB34C23644F570053E282 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "289. Game of Life";
+			productName = "289. Game of Life";
+			productReference = 8CBBB34E23644F570053E282 /* 289. Game of Life */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD630AE235CA152005D643D /* 130. Surrounded Regions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD630B5235CA152005D643D /* Build configuration list for PBXNativeTarget "130. Surrounded Regions" */;
@@ -1500,6 +1546,9 @@
 					8CBBB34223644DD50053E282 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CBBB34D23644F570053E282 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD630AE235CA152005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1560,6 +1609,7 @@
 				8CBBB32C236444360053E282 /* 237. Delete Node in a Linked List */,
 				8CBBB33723644C040053E282 /* 268. Missing Number */,
 				8CBBB34223644DD50053E282 /* 242. Valid Anagram */,
+				8CBBB34D23644F570053E282 /* 289. Game of Life */,
 			);
 		};
 /* End PBXProject section */
@@ -1762,6 +1812,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CBBB34623644DD50053E282 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBBB34A23644F570053E282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBBB35123644F570053E282 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2417,6 +2475,26 @@
 			};
 			name = Release;
 		};
+		8CBBB35323644F570053E282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBBB35423644F570053E282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD630B3235CA152005D643D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2750,6 +2828,15 @@
 			buildConfigurations = (
 				8CBBB34823644DD50053E282 /* Debug */,
 				8CBBB34923644DD50053E282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBBB35223644F570053E282 /* Build configuration list for PBXNativeTarget "289. Game of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBBB35323644F570053E282 /* Debug */,
+				8CBBB35423644F570053E282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
