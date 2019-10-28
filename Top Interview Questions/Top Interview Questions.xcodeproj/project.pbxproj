@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0D96E72366AAEF00BB34F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D96E62366AAEF00BB34F2 /* main.cpp */; };
 		8C1C8BB7235BED3E00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8BB6235BED3E00C2A3A7 /* main.cpp */; };
 		8C1C8BC2235BED9700C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8BC1235BED9700C2A3A7 /* main.cpp */; };
 		8C1C8BCD235BFBBF00C2A3A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1C8BCC235BFBBF00C2A3A7 /* main.cpp */; };
@@ -41,6 +42,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C0D96E22366AAEF00BB34F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C1C8BB2235BED3E00C2A3A7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +333,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C0D96E42366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "315. Count of Smaller Numbers After Self"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0D96E62366AAEF00BB34F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1C8BB4235BED3E00C2A3A7 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1C8BB6235BED3E00C2A3A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C1C8BBF235BED9700C2A3A7 /* 36. Valid Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "36. Valid Sudoku"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +400,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C0D96E12366AAEF00BB34F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C1C8BB1235BED3E00C2A3A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -608,6 +627,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C0D96E52366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D96E62366AAEF00BB34F2 /* main.cpp */,
+			);
+			path = "315. Count of Smaller Numbers After Self";
+			sourceTree = "<group>";
+		};
 		8C1C8B9D235BED1900C2A3A7 = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +669,7 @@
 				8CBBB33923644C040053E282 /* 268. Missing Number */,
 				8CBBB34423644DD50053E282 /* 242. Valid Anagram */,
 				8CBBB34F23644F570053E282 /* 289. Game of Life */,
+				8C0D96E52366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -680,6 +708,7 @@
 				8CBBB33823644C040053E282 /* 268. Missing Number */,
 				8CBBB34323644DD50053E282 /* 242. Valid Anagram */,
 				8CBBB34E23644F570053E282 /* 289. Game of Life */,
+				8C0D96E42366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -935,6 +964,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C0D96E32366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0D96EA2366AAEF00BB34F2 /* Build configuration list for PBXNativeTarget "315. Count of Smaller Numbers After Self" */;
+			buildPhases = (
+				8C0D96E02366AAEF00BB34F2 /* Sources */,
+				8C0D96E12366AAEF00BB34F2 /* Frameworks */,
+				8C0D96E22366AAEF00BB34F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "315. Count of Smaller Numbers After Self";
+			productName = "315. Count of Smaller Numbers After Self";
+			productReference = 8C0D96E42366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C1C8BB3235BED3E00C2A3A7 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C1C8BB8235BED3E00C2A3A7 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -1471,6 +1517,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Minecode.Link;
 				TargetAttributes = {
+					8C0D96E32366AAEF00BB34F2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C1C8BB3235BED3E00C2A3A7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1610,11 +1659,20 @@
 				8CBBB33723644C040053E282 /* 268. Missing Number */,
 				8CBBB34223644DD50053E282 /* 242. Valid Anagram */,
 				8CBBB34D23644F570053E282 /* 289. Game of Life */,
+				8C0D96E32366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C0D96E02366AAEF00BB34F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0D96E72366AAEF00BB34F2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C1C8BB0235BED3E00C2A3A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1866,6 +1924,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C0D96E82366AAEF00BB34F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0D96E92366AAEF00BB34F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C1C8BAB235BED1A00C2A3A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2598,6 +2676,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C0D96EA2366AAEF00BB34F2 /* Build configuration list for PBXNativeTarget "315. Count of Smaller Numbers After Self" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0D96E82366AAEF00BB34F2 /* Debug */,
+				8C0D96E92366AAEF00BB34F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C1C8BA1235BED1900C2A3A7 /* Build configuration list for PBXProject "Top Interview Questions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
