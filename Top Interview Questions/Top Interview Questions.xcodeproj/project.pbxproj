@@ -24,6 +24,7 @@
 		8C5B727E236288D100C893F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5B727D236288D100C893F9 /* main.cpp */; };
 		8C6A73D3235E04F500B0BBDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A73D2235E04F500B0BBDA /* main.cpp */; };
 		8CA351B423698A100059F0EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA351B323698A100059F0EE /* main.cpp */; };
+		8CA351BF2369E2BD0059F0EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA351BE2369E2BD0059F0EE /* main.cpp */; };
 		8CAA0BF4235F2E9300B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BF3235F2E9300B1A6A5 /* main.cpp */; };
 		8CAA0BFF235F384100B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BFE235F384100B1A6A5 /* main.cpp */; };
 		8CAA0C0A235F625900B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0C09235F625900B1A6A5 /* main.cpp */; };
@@ -188,6 +189,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CA351AF23698A100059F0EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CA351BA2369E2BD0059F0EE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -377,6 +387,8 @@
 		8C6A73D2235E04F500B0BBDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA351B123698A100059F0EE /* 324. Wiggle Sort II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "324. Wiggle Sort II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA351B323698A100059F0EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CA351BC2369E2BD0059F0EE /* 326. Power of Three */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "326. Power of Three"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA351BE2369E2BD0059F0EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAA0BF1235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "166. Fraction to Recurring Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAA0BF3235F2E9300B1A6A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAA0BFC235F384100B1A6A5 /* 171. Excel Sheet Column Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "171. Excel Sheet Column Number"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -525,6 +537,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CA351AE23698A100059F0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA351B92369E2BD0059F0EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -690,6 +709,7 @@
 				8CBBB34F23644F570053E282 /* 289. Game of Life */,
 				8C0D96E52366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */,
 				8CA351B223698A100059F0EE /* 324. Wiggle Sort II */,
+				8CA351BD2369E2BD0059F0EE /* 326. Power of Three */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -730,6 +750,7 @@
 				8CBBB34E23644F570053E282 /* 289. Game of Life */,
 				8C0D96E42366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */,
 				8CA351B123698A100059F0EE /* 324. Wiggle Sort II */,
+				8CA351BC2369E2BD0059F0EE /* 326. Power of Three */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -860,6 +881,14 @@
 				8CA351B323698A100059F0EE /* main.cpp */,
 			);
 			path = "324. Wiggle Sort II";
+			sourceTree = "<group>";
+		};
+		8CA351BD2369E2BD0059F0EE /* 326. Power of Three */ = {
+			isa = PBXGroup;
+			children = (
+				8CA351BE2369E2BD0059F0EE /* main.cpp */,
+			);
+			path = "326. Power of Three";
 			sourceTree = "<group>";
 		};
 		8CAA0BF2235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {
@@ -1282,6 +1311,23 @@
 			productReference = 8CA351B123698A100059F0EE /* 324. Wiggle Sort II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CA351BB2369E2BD0059F0EE /* 326. Power of Three */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA351C02369E2BD0059F0EE /* Build configuration list for PBXNativeTarget "326. Power of Three" */;
+			buildPhases = (
+				8CA351B82369E2BD0059F0EE /* Sources */,
+				8CA351B92369E2BD0059F0EE /* Frameworks */,
+				8CA351BA2369E2BD0059F0EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "326. Power of Three";
+			productName = "326. Power of Three";
+			productReference = 8CA351BC2369E2BD0059F0EE /* 326. Power of Three */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAA0BF0235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAA0BF7235F2E9300B1A6A5 /* Build configuration list for PBXNativeTarget "166. Fraction to Recurring Decimal" */;
@@ -1614,6 +1660,9 @@
 					8CA351B023698A100059F0EE = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CA351BB2369E2BD0059F0EE = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAA0BF0235F2E9300B1A6A5 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1710,6 +1759,7 @@
 				8CBBB34D23644F570053E282 /* 289. Game of Life */,
 				8C0D96E32366AAEF00BB34F2 /* 315. Count of Smaller Numbers After Self */,
 				8CA351B023698A100059F0EE /* 324. Wiggle Sort II */,
+				8CA351BB2369E2BD0059F0EE /* 326. Power of Three */,
 			);
 		};
 /* End PBXProject section */
@@ -1848,6 +1898,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA351B423698A100059F0EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA351B82369E2BD0059F0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA351BF2369E2BD0059F0EE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2427,6 +2485,22 @@
 			};
 			name = Release;
 		};
+		8CA351C12369E2BD0059F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA351C22369E2BD0059F0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CAA0BF5235F2E9300B1A6A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2908,6 +2982,15 @@
 			buildConfigurations = (
 				8CA351B523698A100059F0EE /* Debug */,
 				8CA351B623698A100059F0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA351C02369E2BD0059F0EE /* Build configuration list for PBXNativeTarget "326. Power of Three" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA351C12369E2BD0059F0EE /* Debug */,
+				8CA351C22369E2BD0059F0EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
