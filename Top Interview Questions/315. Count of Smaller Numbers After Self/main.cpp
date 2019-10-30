@@ -41,7 +41,8 @@ public:
 };
  */
 
-// Solution 2: BST Solution, O(nlogn)
+// Solution 2: BST Solution, O(nlogn), Worst is O(n^2) since the tree is not balanced
+/*
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -74,6 +75,9 @@ private:
         return insert(node->right, val) + node->smaller + (node->val < val ? 1 : 0);
     }
 };
+ */
+
+// Solution 3:
 
 int main() {
     Solution sol = Solution();
