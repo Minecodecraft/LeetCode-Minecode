@@ -39,6 +39,7 @@
 		8CBBB33B23644C040053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB33A23644C040053E282 /* main.cpp */; };
 		8CBBB34623644DD50053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB34523644DD50053E282 /* main.cpp */; };
 		8CBBB35123644F570053E282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBBB35023644F570053E282 /* main.cpp */; };
+		8CC1E5CE236ACD7900FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E5CD236ACD7900FF7B93 /* main.cpp */; };
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
@@ -335,6 +336,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC1E5C9236ACD7900FF7B93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD630AD235CA152005D643D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +457,8 @@
 		8CBBB34523644DD50053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CBBB34E23644F570053E282 /* 289. Game of Life */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "289. Game of Life"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBBB35023644F570053E282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC1E5CB236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "350. Intersection of Two Arrays II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC1E5CD236ACD7900FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630AF235CA152005D643D /* 130. Surrounded Regions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "130. Surrounded Regions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630B1235CA152005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131. Palindrome Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -684,6 +696,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC1E5C8236ACD7900FF7B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD630AC235CA152005D643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -770,6 +789,7 @@
 				8CA351C82369E77A0059F0EE /* 328. Odd Even Linked List */,
 				8CA351D3236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */,
 				8CA351DE236AC4780059F0EE /* 334. Increasing Triplet Subsequence */,
+				8CC1E5CC236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -814,6 +834,7 @@
 				8CA351C72369E77A0059F0EE /* 328. Odd Even Linked List */,
 				8CA351D2236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */,
 				8CA351DD236AC4780059F0EE /* 334. Increasing Triplet Subsequence */,
+				8CC1E5CB236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1064,6 +1085,14 @@
 				8CBBB35023644F570053E282 /* main.cpp */,
 			);
 			path = "289. Game of Life";
+			sourceTree = "<group>";
+		};
+		8CC1E5CC236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */ = {
+			isa = PBXGroup;
+			children = (
+				8CC1E5CD236ACD7900FF7B93 /* main.cpp */,
+			);
+			path = "350. Intersection of Two Arrays II";
 			sourceTree = "<group>";
 		};
 		8CD630B0235CA152005D643D /* 130. Surrounded Regions */ = {
@@ -1653,6 +1682,23 @@
 			productReference = 8CBBB34E23644F570053E282 /* 289. Game of Life */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC1E5CA236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC1E5D1236ACD7900FF7B93 /* Build configuration list for PBXNativeTarget "350. Intersection of Two Arrays II" */;
+			buildPhases = (
+				8CC1E5C7236ACD7900FF7B93 /* Sources */,
+				8CC1E5C8236ACD7900FF7B93 /* Frameworks */,
+				8CC1E5C9236ACD7900FF7B93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "350. Intersection of Two Arrays II";
+			productName = "350. Intersection of Two Arrays II";
+			productReference = 8CC1E5CB236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD630AE235CA152005D643D /* 130. Surrounded Regions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD630B5235CA152005D643D /* Build configuration list for PBXNativeTarget "130. Surrounded Regions" */;
@@ -1843,6 +1889,9 @@
 					8CBBB34D23644F570053E282 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CC1E5CA236ACD7900FF7B93 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD630AE235CA152005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1910,6 +1959,7 @@
 				8CA351C62369E77A0059F0EE /* 328. Odd Even Linked List */,
 				8CA351D1236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */,
 				8CA351DC236AC4780059F0EE /* 334. Increasing Triplet Subsequence */,
+				8CC1E5CA236ACD7900FF7B93 /* 350. Intersection of Two Arrays II */,
 			);
 		};
 /* End PBXProject section */
@@ -2168,6 +2218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CBBB35123644F570053E282 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC1E5C7236ACD7900FF7B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC1E5CE236ACD7900FF7B93 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2943,6 +3001,22 @@
 			};
 			name = Release;
 		};
+		8CC1E5CF236ACD7900FF7B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC1E5D0236ACD7900FF7B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD630B3235CA152005D643D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3339,6 +3413,15 @@
 			buildConfigurations = (
 				8CBBB35323644F570053E282 /* Debug */,
 				8CBBB35423644F570053E282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC1E5D1236ACD7900FF7B93 /* Build configuration list for PBXNativeTarget "350. Intersection of Two Arrays II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC1E5CF236ACD7900FF7B93 /* Debug */,
+				8CC1E5D0236ACD7900FF7B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
