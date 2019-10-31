@@ -26,6 +26,7 @@
 		8CA351B423698A100059F0EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA351B323698A100059F0EE /* main.cpp */; };
 		8CA351BF2369E2BD0059F0EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA351BE2369E2BD0059F0EE /* main.cpp */; };
 		8CA351CA2369E77A0059F0EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA351C92369E77A0059F0EE /* main.cpp */; };
+		8CA351D5236A928B0059F0EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA351D4236A928B0059F0EE /* main.cpp */; };
 		8CAA0BF4235F2E9300B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BF3235F2E9300B1A6A5 /* main.cpp */; };
 		8CAA0BFF235F384100B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0BFE235F384100B1A6A5 /* main.cpp */; };
 		8CAA0C0A235F625900B1A6A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA0C09235F625900B1A6A5 /* main.cpp */; };
@@ -208,6 +209,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8CA351C52369E77A0059F0EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CA351D0236A928B0059F0EE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -401,6 +411,8 @@
 		8CA351BE2369E2BD0059F0EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA351C72369E77A0059F0EE /* 328. Odd Even Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "328. Odd Even Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA351C92369E77A0059F0EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CA351D2236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "329. Longest Increasing Path in a Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA351D4236A928B0059F0EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAA0BF1235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "166. Fraction to Recurring Decimal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAA0BF3235F2E9300B1A6A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAA0BFC235F384100B1A6A5 /* 171. Excel Sheet Column Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "171. Excel Sheet Column Number"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -569,6 +581,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CA351CF236A928B0059F0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CAA0BEE235F2E9300B1A6A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,6 +749,7 @@
 				8CA351B223698A100059F0EE /* 324. Wiggle Sort II */,
 				8CA351BD2369E2BD0059F0EE /* 326. Power of Three */,
 				8CA351C82369E77A0059F0EE /* 328. Odd Even Linked List */,
+				8CA351D3236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -772,6 +792,7 @@
 				8CA351B123698A100059F0EE /* 324. Wiggle Sort II */,
 				8CA351BC2369E2BD0059F0EE /* 326. Power of Three */,
 				8CA351C72369E77A0059F0EE /* 328. Odd Even Linked List */,
+				8CA351D2236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -918,6 +939,14 @@
 				8CA351C92369E77A0059F0EE /* main.cpp */,
 			);
 			path = "328. Odd Even Linked List";
+			sourceTree = "<group>";
+		};
+		8CA351D3236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				8CA351D4236A928B0059F0EE /* main.cpp */,
+			);
+			path = "329. Longest Increasing Path in a Matrix";
 			sourceTree = "<group>";
 		};
 		8CAA0BF2235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {
@@ -1374,6 +1403,23 @@
 			productReference = 8CA351C72369E77A0059F0EE /* 328. Odd Even Linked List */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CA351D1236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA351D6236A928B0059F0EE /* Build configuration list for PBXNativeTarget "329. Longest Increasing Path in a Matrix" */;
+			buildPhases = (
+				8CA351CE236A928B0059F0EE /* Sources */,
+				8CA351CF236A928B0059F0EE /* Frameworks */,
+				8CA351D0236A928B0059F0EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "329. Longest Increasing Path in a Matrix";
+			productName = "329. Longest Increasing Path in a Matrix";
+			productReference = 8CA351D2236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CAA0BF0235F2E9300B1A6A5 /* 166. Fraction to Recurring Decimal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CAA0BF7235F2E9300B1A6A5 /* Build configuration list for PBXNativeTarget "166. Fraction to Recurring Decimal" */;
@@ -1712,6 +1758,9 @@
 					8CA351C62369E77A0059F0EE = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CA351D1236A928B0059F0EE = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CAA0BF0235F2E9300B1A6A5 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1810,6 +1859,7 @@
 				8CA351B023698A100059F0EE /* 324. Wiggle Sort II */,
 				8CA351BB2369E2BD0059F0EE /* 326. Power of Three */,
 				8CA351C62369E77A0059F0EE /* 328. Odd Even Linked List */,
+				8CA351D1236A928B0059F0EE /* 329. Longest Increasing Path in a Matrix */,
 			);
 		};
 /* End PBXProject section */
@@ -1964,6 +2014,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA351CA2369E77A0059F0EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA351CE236A928B0059F0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA351D5236A928B0059F0EE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2575,6 +2633,22 @@
 			};
 			name = Release;
 		};
+		8CA351D7236A928B0059F0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA351D8236A928B0059F0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CAA0BF5235F2E9300B1A6A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3074,6 +3148,15 @@
 			buildConfigurations = (
 				8CA351CC2369E77A0059F0EE /* Debug */,
 				8CA351CD2369E77A0059F0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA351D6236A928B0059F0EE /* Build configuration list for PBXNativeTarget "329. Longest Increasing Path in a Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA351D7236A928B0059F0EE /* Debug */,
+				8CA351D8236A928B0059F0EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
