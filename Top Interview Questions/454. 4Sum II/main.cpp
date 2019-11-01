@@ -29,17 +29,13 @@ class Solution {
 public:
     int fourSumCount(vector<int>& a, vector<int>& b, vector<int>& c, vector<int>& d) {
         unordered_map<int, int> cnt;
-        for (int i = 0; i < c.size(); ++i)
-            for (int j = 0; j < d.size(); ++j)
-                cnt[c[i]+d[j]]++;
-        
+        for (int& i: a)
+            for (int& j: b)
+                cnt[i+j]++;
         int res = 0;
-        for (int i = 0; i < a.size(); ++i) {
-            for (int j = 0; j < b.size(); ++j) {
-                int sum = a[i] + b[j];
-                res += cnt[-sum];
-            }
-        }
+        for (int& i: c)
+            for (int& j: d)
+                res += cnt[-i-j];
         return res;
     }
 };
