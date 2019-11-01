@@ -12,6 +12,7 @@
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
 		8CC1E8ED236BFF7900FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8EC236BFF7900FF7B93 /* main.cpp */; };
 		8CC318E5236C0E4600E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC318E4236C0E4600E9C1EE /* main.cpp */; };
+		8CC31966236C28C100E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31965236C28C100E9C1EE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC31961236C28C100E9C1EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +83,8 @@
 		8CC1E8EC236BFF7900FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC318E2236C0E4600E9C1EE /* 452. Minimum Number of Arrows to Burst Balloons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "452. Minimum Number of Arrows to Burst Balloons"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC318E4236C0E4600E9C1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC31963236C28C100E9C1EE /* 455. Assign Cookies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "455. Assign Cookies"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC31965236C28C100E9C1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC31960236C28C100E9C1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +141,7 @@
 				8CC1E8E0236BFA4D00FF7B93 /* 330. Patching Array */,
 				8CC1E8EB236BFF7900FF7B93 /* 435. Non-overlapping Intervals */,
 				8CC318E3236C0E4600E9C1EE /* 452. Minimum Number of Arrows to Burst Balloons */,
+				8CC31964236C28C100E9C1EE /* 455. Assign Cookies */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				8CC1E8DF236BFA4D00FF7B93 /* 330. Patching Array */,
 				8CC1E8EA236BFF7900FF7B93 /* 435. Non-overlapping Intervals */,
 				8CC318E2236C0E4600E9C1EE /* 452. Minimum Number of Arrows to Burst Balloons */,
+				8CC31963236C28C100E9C1EE /* 455. Assign Cookies */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +197,14 @@
 				8CC318E4236C0E4600E9C1EE /* main.cpp */,
 			);
 			path = "452. Minimum Number of Arrows to Burst Balloons";
+			sourceTree = "<group>";
+		};
+		8CC31964236C28C100E9C1EE /* 455. Assign Cookies */ = {
+			isa = PBXGroup;
+			children = (
+				8CC31965236C28C100E9C1EE /* main.cpp */,
+			);
+			path = "455. Assign Cookies";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +295,23 @@
 			productReference = 8CC318E2236C0E4600E9C1EE /* 452. Minimum Number of Arrows to Burst Balloons */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC31962236C28C100E9C1EE /* 455. Assign Cookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC31967236C28C100E9C1EE /* Build configuration list for PBXNativeTarget "455. Assign Cookies" */;
+			buildPhases = (
+				8CC3195F236C28C100E9C1EE /* Sources */,
+				8CC31960236C28C100E9C1EE /* Frameworks */,
+				8CC31961236C28C100E9C1EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "455. Assign Cookies";
+			productName = "455. Assign Cookies";
+			productReference = 8CC31963236C28C100E9C1EE /* 455. Assign Cookies */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,6 +336,9 @@
 					8CC318E1236C0E4600E9C1EE = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CC31962236C28C100E9C1EE = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC1E8B6236BDFE400FF7B93 /* Build configuration list for PBXProject "Greedy" */;
@@ -310,6 +359,7 @@
 				8CC1E8DE236BFA4D00FF7B93 /* 330. Patching Array */,
 				8CC1E8E9236BFF7900FF7B93 /* 435. Non-overlapping Intervals */,
 				8CC318E1236C0E4600E9C1EE /* 452. Minimum Number of Arrows to Burst Balloons */,
+				8CC31962236C28C100E9C1EE /* 455. Assign Cookies */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +402,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC318E5236C0E4600E9C1EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC3195F236C28C100E9C1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC31966236C28C100E9C1EE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +605,22 @@
 			};
 			name = Release;
 		};
+		8CC31968236C28C100E9C1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC31969236C28C100E9C1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,6 +674,15 @@
 			buildConfigurations = (
 				8CC318E6236C0E4600E9C1EE /* Debug */,
 				8CC318E7236C0E4600E9C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC31967236C28C100E9C1EE /* Build configuration list for PBXNativeTarget "455. Assign Cookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC31968236C28C100E9C1EE /* Debug */,
+				8CC31969236C28C100E9C1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
