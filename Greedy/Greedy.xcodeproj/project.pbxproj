@@ -10,6 +10,7 @@
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
+		8CC1E8ED236BFF7900FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8EC236BFF7900FF7B93 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC1E8E8236BFF7900FF7B93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		8CC1E8D6236BE0EA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8DF236BFA4D00FF7B93 /* 330. Patching Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "330. Patching Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8E1236BFA4D00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC1E8EA236BFF7900FF7B93 /* 435. Non-overlapping Intervals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "435. Non-overlapping Intervals"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC1E8EC236BFF7900FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC1E8E7236BFF7900FF7B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +101,7 @@
 				8CC1E8CA236BDFFA00FF7B93 /* Template */,
 				8CC1E8D5236BE0EA00FF7B93 /* 135. Candy */,
 				8CC1E8E0236BFA4D00FF7B93 /* 330. Patching Array */,
+				8CC1E8EB236BFF7900FF7B93 /* 435. Non-overlapping Intervals */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				8CC1E8C9236BDFFA00FF7B93 /* Template */,
 				8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */,
 				8CC1E8DF236BFA4D00FF7B93 /* 330. Patching Array */,
+				8CC1E8EA236BFF7900FF7B93 /* 435. Non-overlapping Intervals */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				8CC1E8E1236BFA4D00FF7B93 /* main.cpp */,
 			);
 			path = "330. Patching Array";
+			sourceTree = "<group>";
+		};
+		8CC1E8EB236BFF7900FF7B93 /* 435. Non-overlapping Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				8CC1E8EC236BFF7900FF7B93 /* main.cpp */,
+			);
+			path = "435. Non-overlapping Intervals";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = 8CC1E8DF236BFA4D00FF7B93 /* 330. Patching Array */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC1E8E9236BFF7900FF7B93 /* 435. Non-overlapping Intervals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC1E8EE236BFF7900FF7B93 /* Build configuration list for PBXNativeTarget "435. Non-overlapping Intervals" */;
+			buildPhases = (
+				8CC1E8E6236BFF7900FF7B93 /* Sources */,
+				8CC1E8E7236BFF7900FF7B93 /* Frameworks */,
+				8CC1E8E8236BFF7900FF7B93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "435. Non-overlapping Intervals";
+			productName = "435. Non-overlapping Intervals";
+			productReference = 8CC1E8EA236BFF7900FF7B93 /* 435. Non-overlapping Intervals */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +236,9 @@
 						CreatedOnToolsVersion = 11.1;
 					};
 					8CC1E8DE236BFA4D00FF7B93 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8CC1E8E9236BFF7900FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -210,6 +259,7 @@
 				8CC1E8C8236BDFFA00FF7B93 /* Template */,
 				8CC1E8D3236BE0EA00FF7B93 /* 135. Candy */,
 				8CC1E8DE236BFA4D00FF7B93 /* 330. Patching Array */,
+				8CC1E8E9236BFF7900FF7B93 /* 435. Non-overlapping Intervals */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC1E8E6236BFF7900FF7B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC1E8ED236BFF7900FF7B93 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +457,22 @@
 			};
 			name = Release;
 		};
+		8CC1E8EF236BFF7900FF7B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC1E8F0236BFF7900FF7B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,6 +508,15 @@
 			buildConfigurations = (
 				8CC1E8E4236BFA4D00FF7B93 /* Debug */,
 				8CC1E8E5236BFA4D00FF7B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC1E8EE236BFF7900FF7B93 /* Build configuration list for PBXNativeTarget "435. Non-overlapping Intervals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC1E8EF236BFF7900FF7B93 /* Debug */,
+				8CC1E8F0236BFF7900FF7B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
