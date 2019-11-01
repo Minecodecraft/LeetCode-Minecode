@@ -44,6 +44,7 @@
 		8CC1E5E4236AFF7D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E5E3236AFF7D00FF7B93 /* main.cpp */; };
 		8CC1E5EF236B0D8900FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E5EE236B0D8900FF7B93 /* main.cpp */; };
 		8CC1E5FA236B390500FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E5F9236B390500FF7B93 /* main.cpp */; };
+		8CC1E8A3236BD8F600FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8A2236BD8F600FF7B93 /* main.cpp */; };
 		8CD630B2235CA152005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630B1235CA152005D643D /* main.cpp */; };
 		8CD630BD235CA5C8005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630BC235CA5C8005D643D /* main.cpp */; };
 		8CD630C8235CA913005D643D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD630C7235CA913005D643D /* main.cpp */; };
@@ -385,6 +386,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC1E89E236BD8F600FF7B93 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD630AD235CA152005D643D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -507,6 +517,8 @@
 		8CC1E5EE236B0D8900FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E5F7236B390500FF7B93 /* 395. Longest Substring with At Least K Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "395. Longest Substring with At Least K Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E5F9236B390500FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC1E8A0236BD8F600FF7B93 /* 412. Fizz Buzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "412. Fizz Buzz"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC1E8A2236BD8F600FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630AF235CA152005D643D /* 130. Surrounded Regions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "130. Surrounded Regions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD630B1235CA152005D643D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD630BA235CA5C8005D643D /* 131. Palindrome Partitioning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131. Palindrome Partitioning"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -779,6 +791,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC1E89D236BD8F600FF7B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD630AC235CA152005D643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -870,6 +889,7 @@
 				8CC1E5E2236AFF7D00FF7B93 /* 380. Insert Delete GetRandom O(1) */,
 				8CC1E5ED236B0D8900FF7B93 /* 384. Shuffle an Array */,
 				8CC1E5F8236B390500FF7B93 /* 395. Longest Substring with At Least K Repeating Characters */,
+				8CC1E8A1236BD8F600FF7B93 /* 412. Fizz Buzz */,
 				8C1C8BA7235BED1A00C2A3A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -919,6 +939,7 @@
 				8CC1E5E1236AFF7D00FF7B93 /* 380. Insert Delete GetRandom O(1) */,
 				8CC1E5EC236B0D8900FF7B93 /* 384. Shuffle an Array */,
 				8CC1E5F7236B390500FF7B93 /* 395. Longest Substring with At Least K Repeating Characters */,
+				8CC1E8A0236BD8F600FF7B93 /* 412. Fizz Buzz */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1209,6 +1230,14 @@
 				8CC1E5F9236B390500FF7B93 /* main.cpp */,
 			);
 			path = "395. Longest Substring with At Least K Repeating Characters";
+			sourceTree = "<group>";
+		};
+		8CC1E8A1236BD8F600FF7B93 /* 412. Fizz Buzz */ = {
+			isa = PBXGroup;
+			children = (
+				8CC1E8A2236BD8F600FF7B93 /* main.cpp */,
+			);
+			path = "412. Fizz Buzz";
 			sourceTree = "<group>";
 		};
 		8CD630B0235CA152005D643D /* 130. Surrounded Regions */ = {
@@ -1883,6 +1912,23 @@
 			productReference = 8CC1E5F7236B390500FF7B93 /* 395. Longest Substring with At Least K Repeating Characters */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC1E89F236BD8F600FF7B93 /* 412. Fizz Buzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC1E8A4236BD8F600FF7B93 /* Build configuration list for PBXNativeTarget "412. Fizz Buzz" */;
+			buildPhases = (
+				8CC1E89C236BD8F600FF7B93 /* Sources */,
+				8CC1E89D236BD8F600FF7B93 /* Frameworks */,
+				8CC1E89E236BD8F600FF7B93 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "412. Fizz Buzz";
+			productName = "412. Fizz Buzz";
+			productReference = 8CC1E8A0236BD8F600FF7B93 /* 412. Fizz Buzz */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD630AE235CA152005D643D /* 130. Surrounded Regions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD630B5235CA152005D643D /* Build configuration list for PBXNativeTarget "130. Surrounded Regions" */;
@@ -2088,6 +2134,9 @@
 					8CC1E5F6236B390500FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CC1E89F236BD8F600FF7B93 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD630AE235CA152005D643D = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -2160,6 +2209,7 @@
 				8CC1E5E0236AFF7D00FF7B93 /* 380. Insert Delete GetRandom O(1) */,
 				8CC1E5EB236B0D8900FF7B93 /* 384. Shuffle an Array */,
 				8CC1E5F6236B390500FF7B93 /* 395. Longest Substring with At Least K Repeating Characters */,
+				8CC1E89F236BD8F600FF7B93 /* 412. Fizz Buzz */,
 			);
 		};
 /* End PBXProject section */
@@ -2458,6 +2508,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC1E5FA236B390500FF7B93 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC1E89C236BD8F600FF7B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC1E8A3236BD8F600FF7B93 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3313,6 +3371,22 @@
 			};
 			name = Release;
 		};
+		8CC1E8A5236BD8F600FF7B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC1E8A6236BD8F600FF7B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD630B3235CA152005D643D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3754,6 +3828,15 @@
 			buildConfigurations = (
 				8CC1E5FB236B390500FF7B93 /* Debug */,
 				8CC1E5FC236B390500FF7B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC1E8A4236BD8F600FF7B93 /* Build configuration list for PBXNativeTarget "412. Fizz Buzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC1E8A5236BD8F600FF7B93 /* Debug */,
+				8CC1E8A6236BD8F600FF7B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
