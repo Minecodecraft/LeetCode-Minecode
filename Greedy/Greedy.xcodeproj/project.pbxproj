@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2BCC7B236C687800BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC7A236C687800BBDB03 /* main.cpp */; };
+		8C2BCC86236D653D00BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC85236D653D00BBDB03 /* main.cpp */; };
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
@@ -18,6 +20,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C2BCC76236C687800BBDB03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C2BCC81236D653D00BBDB03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CC1E8C7236BDFFA00FF7B93 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +113,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C2BCC78236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "714. Best Time to Buy and Sell Stock with Transaction Fee"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2BCC7A236C687800BBDB03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "738. Monotone Increasing Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2BCC85236D653D00BBDB03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8C9236BDFFA00FF7B93 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8CB236BDFFA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. Candy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +136,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C2BCC75236C687800BBDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2BCC80236D653D00BBDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CC1E8C6236BDFFA00FF7B93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +209,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2BCC79236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */ = {
+			isa = PBXGroup;
+			children = (
+				8C2BCC7A236C687800BBDB03 /* main.cpp */,
+			);
+			path = "714. Best Time to Buy and Sell Stock with Transaction Fee";
+			sourceTree = "<group>";
+		};
+		8C2BCC84236D653D00BBDB03 /* 738. Monotone Increasing Digits */ = {
+			isa = PBXGroup;
+			children = (
+				8C2BCC85236D653D00BBDB03 /* main.cpp */,
+			);
+			path = "738. Monotone Increasing Digits";
+			sourceTree = "<group>";
+		};
 		8CC1E8B2236BDFE400FF7B93 = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +236,8 @@
 				8CC31964236C28C100E9C1EE /* 455. Assign Cookies */,
 				8CC3196F236C2F3D00E9C1EE /* 630. Course Schedule III */,
 				8CC31998236C604B00E9C1EE /* 649. Dota2 Senate */,
+				8C2BCC79236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */,
+				8C2BCC84236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +253,8 @@
 				8CC31963236C28C100E9C1EE /* 455. Assign Cookies */,
 				8CC3196E236C2F3D00E9C1EE /* 630. Course Schedule III */,
 				8CC31997236C604B00E9C1EE /* 649. Dota2 Senate */,
+				8C2BCC78236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */,
+				8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +326,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C2BCC77236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2BCC7E236C687800BBDB03 /* Build configuration list for PBXNativeTarget "714. Best Time to Buy and Sell Stock with Transaction Fee" */;
+			buildPhases = (
+				8C2BCC74236C687800BBDB03 /* Sources */,
+				8C2BCC75236C687800BBDB03 /* Frameworks */,
+				8C2BCC76236C687800BBDB03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "714. Best Time to Buy and Sell Stock with Transaction Fee";
+			productName = "714. Best Time to Buy and Sell Stock with Transaction Fee";
+			productReference = 8C2BCC78236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C2BCC82236D653D00BBDB03 /* 738. Monotone Increasing Digits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2BCC87236D653D00BBDB03 /* Build configuration list for PBXNativeTarget "738. Monotone Increasing Digits" */;
+			buildPhases = (
+				8C2BCC7F236D653D00BBDB03 /* Sources */,
+				8C2BCC80236D653D00BBDB03 /* Frameworks */,
+				8C2BCC81236D653D00BBDB03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "738. Monotone Increasing Digits";
+			productName = "738. Monotone Increasing Digits";
+			productReference = 8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC1E8C8236BDFFA00FF7B93 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC1E8CD236BDFFA00FF7B93 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -413,6 +505,12 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C2BCC77236C687800BBDB03 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8C2BCC82236D653D00BBDB03 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CC1E8C8236BDFFA00FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -460,11 +558,29 @@
 				8CC31962236C28C100E9C1EE /* 455. Assign Cookies */,
 				8CC3196D236C2F3D00E9C1EE /* 630. Course Schedule III */,
 				8CC31996236C604B00E9C1EE /* 649. Dota2 Senate */,
+				8C2BCC77236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */,
+				8C2BCC82236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C2BCC74236C687800BBDB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2BCC7B236C687800BBDB03 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2BCC7F236D653D00BBDB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2BCC86236D653D00BBDB03 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CC1E8C5236BDFFA00FF7B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,6 +648,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C2BCC7C236C687800BBDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2BCC7D236C687800BBDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2BCC88236D653D00BBDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2BCC89236D653D00BBDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CC1E8C0236BDFE400FF7B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -772,6 +920,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C2BCC7E236C687800BBDB03 /* Build configuration list for PBXNativeTarget "714. Best Time to Buy and Sell Stock with Transaction Fee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2BCC7C236C687800BBDB03 /* Debug */,
+				8C2BCC7D236C687800BBDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2BCC87236D653D00BBDB03 /* Build configuration list for PBXNativeTarget "738. Monotone Increasing Digits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2BCC88236D653D00BBDB03 /* Debug */,
+				8C2BCC89236D653D00BBDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CC1E8B6236BDFE400FF7B93 /* Build configuration list for PBXProject "Greedy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
