@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: O(nlogn), but code is not concisely
+/*
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {
@@ -38,6 +40,20 @@ public:
                 st.erase(prev(it));
             }
             res++;
+        }
+        return res;
+    }
+};
+ */
+
+// Solution 2
+class Solution {
+public:
+    int numRescueBoats(vector<int>& people, int limit) {
+        sort(begin(people), end(people));
+        int i = 0, j, res = 0;
+        for (j = people.size()-1; i <= j; ++res, --j) {
+            if (people[i] + people[j] <= limit) ++i;
         }
         return res;
     }
