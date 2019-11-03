@@ -10,6 +10,7 @@
 		8C2BCC7B236C687800BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC7A236C687800BBDB03 /* main.cpp */; };
 		8C2BCC86236D653D00BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC85236D653D00BBDB03 /* main.cpp */; };
 		8C9B7256236E7C2300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7255236E7C2300883BE7 /* main.cpp */; };
+		8C9B7261236E8FC500883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7260236E8FC500883BE7 /* main.cpp */; };
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
@@ -41,6 +42,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C9B7251236E7C2300883BE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C9B725C236E8FC500883BE7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -139,6 +149,8 @@
 		8C2BCC85236D653D00BBDB03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B7253236E7C2300883BE7 /* 763. Partition Labels */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "763. Partition Labels"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B7255236E7C2300883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C9B725E236E8FC500883BE7 /* 765. Couples Holding Hands */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "765. Couples Holding Hands"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B7260236E8FC500883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8C9236BDFFA00FF7B93 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8CB236BDFFA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. Candy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +187,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C9B7250236E7C2300883BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B725B236E8FC500883BE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,6 +290,14 @@
 			path = "763. Partition Labels";
 			sourceTree = "<group>";
 		};
+		8C9B725F236E8FC500883BE7 /* 765. Couples Holding Hands */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B7260236E8FC500883BE7 /* main.cpp */,
+			);
+			path = "765. Couples Holding Hands";
+			sourceTree = "<group>";
+		};
 		8CC1E8B2236BDFE400FF7B93 = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +313,7 @@
 				8C2BCC84236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
 				8CEEEC57236E75F000E2F287 /* 757. Set Intersection Size At Least Two */,
 				8C9B7254236E7C2300883BE7 /* 763. Partition Labels */,
+				8C9B725F236E8FC500883BE7 /* 765. Couples Holding Hands */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -305,6 +333,7 @@
 				8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
 				8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */,
 				8C9B7253236E7C2300883BE7 /* 763. Partition Labels */,
+				8C9B725E236E8FC500883BE7 /* 765. Couples Holding Hands */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,6 +462,23 @@
 			name = "763. Partition Labels";
 			productName = "763. Partition Labels";
 			productReference = 8C9B7253236E7C2300883BE7 /* 763. Partition Labels */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C9B725D236E8FC500883BE7 /* 765. Couples Holding Hands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9B7262236E8FC500883BE7 /* Build configuration list for PBXNativeTarget "765. Couples Holding Hands" */;
+			buildPhases = (
+				8C9B725A236E8FC500883BE7 /* Sources */,
+				8C9B725B236E8FC500883BE7 /* Frameworks */,
+				8C9B725C236E8FC500883BE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "765. Couples Holding Hands";
+			productName = "765. Couples Holding Hands";
+			productReference = 8C9B725E236E8FC500883BE7 /* 765. Couples Holding Hands */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CC1E8C8236BDFFA00FF7B93 /* Template */ = {
@@ -606,6 +652,9 @@
 					8C9B7252236E7C2300883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C9B725D236E8FC500883BE7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CC1E8C8236BDFFA00FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -660,6 +709,7 @@
 				8C2BCC82236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
 				8CEEEC55236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */,
 				8C9B7252236E7C2300883BE7 /* 763. Partition Labels */,
+				8C9B725D236E8FC500883BE7 /* 765. Couples Holding Hands */,
 			);
 		};
 /* End PBXProject section */
@@ -686,6 +736,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9B7256236E7C2300883BE7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B725A236E8FC500883BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9B7261236E8FC500883BE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,6 +863,22 @@
 			name = Debug;
 		};
 		8C9B7258236E7C2300883BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C9B7263236E8FC500883BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C9B7264236E8FC500883BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1091,6 +1165,15 @@
 			buildConfigurations = (
 				8C9B7257236E7C2300883BE7 /* Debug */,
 				8C9B7258236E7C2300883BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9B7262236E8FC500883BE7 /* Build configuration list for PBXNativeTarget "765. Couples Holding Hands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9B7263236E8FC500883BE7 /* Debug */,
+				8C9B7264236E8FC500883BE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
