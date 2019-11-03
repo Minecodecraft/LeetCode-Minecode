@@ -17,6 +17,7 @@
 		8CC31966236C28C100E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31965236C28C100E9C1EE /* main.cpp */; };
 		8CC31971236C2F3D00E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31970236C2F3D00E9C1EE /* main.cpp */; };
 		8CC3199A236C604B00E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31999236C604B00E9C1EE /* main.cpp */; };
+		8CEEEC59236E75F000E2F287 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEEC58236E75F000E2F287 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CEEEC54236E75EF00E2F287 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +143,8 @@
 		8CC31970236C2F3D00E9C1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC31997236C604B00E9C1EE /* 649. Dota2 Senate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "649. Dota2 Senate"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC31999236C604B00E9C1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "757. Set Intersection Size At Least Two"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEEEC58236E75F000E2F287 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CEEEC53236E75EF00E2F287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -238,6 +257,7 @@
 				8CC31998236C604B00E9C1EE /* 649. Dota2 Senate */,
 				8C2BCC79236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */,
 				8C2BCC84236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
+				8CEEEC57236E75F000E2F287 /* 757. Set Intersection Size At Least Two */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,6 +275,7 @@
 				8CC31997236C604B00E9C1EE /* 649. Dota2 Senate */,
 				8C2BCC78236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */,
 				8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
+				8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,6 +342,14 @@
 				8CC31999236C604B00E9C1EE /* main.cpp */,
 			);
 			path = "649. Dota2 Senate";
+			sourceTree = "<group>";
+		};
+		8CEEEC57236E75F000E2F287 /* 757. Set Intersection Size At Least Two */ = {
+			isa = PBXGroup;
+			children = (
+				8CEEEC58236E75F000E2F287 /* main.cpp */,
+			);
+			path = "757. Set Intersection Size At Least Two";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +525,23 @@
 			productReference = 8CC31997236C604B00E9C1EE /* 649. Dota2 Senate */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CEEEC55236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CEEEC5C236E75F000E2F287 /* Build configuration list for PBXNativeTarget "757. Set Intersection Size At Least Two" */;
+			buildPhases = (
+				8CEEEC52236E75EF00E2F287 /* Sources */,
+				8CEEEC53236E75EF00E2F287 /* Frameworks */,
+				8CEEEC54236E75EF00E2F287 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "757. Set Intersection Size At Least Two";
+			productName = "757. Set Intersection Size At Least Two";
+			productReference = 8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -535,6 +581,9 @@
 					8CC31996236C604B00E9C1EE = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CEEEC55236E75EF00E2F287 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC1E8B6236BDFE400FF7B93 /* Build configuration list for PBXProject "Greedy" */;
@@ -560,6 +609,7 @@
 				8CC31996236C604B00E9C1EE /* 649. Dota2 Senate */,
 				8C2BCC77236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */,
 				8C2BCC82236D653D00BBDB03 /* 738. Monotone Increasing Digits */,
+				8CEEEC55236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */,
 			);
 		};
 /* End PBXProject section */
@@ -642,6 +692,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC3199A236C604B00E9C1EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CEEEC52236E75EF00E2F287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CEEEC59236E75F000E2F287 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,6 +975,22 @@
 			};
 			name = Release;
 		};
+		8CEEEC5A236E75F000E2F287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CEEEC5B236E75F000E2F287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1015,6 +1089,15 @@
 			buildConfigurations = (
 				8CC3199B236C604B00E9C1EE /* Debug */,
 				8CC3199C236C604B00E9C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CEEEC5C236E75F000E2F287 /* Build configuration list for PBXNativeTarget "757. Set Intersection Size At Least Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CEEEC5A236E75F000E2F287 /* Debug */,
+				8CEEEC5B236E75F000E2F287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
