@@ -15,6 +15,7 @@
 		8C9B7277236EADA600883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7276236EADA600883BE7 /* main.cpp */; };
 		8C9B7282236EB35800883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7281236EB35800883BE7 /* main.cpp */; };
 		8C9B728D236ECBFD00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B728C236ECBFD00883BE7 /* main.cpp */; };
+		8C9B7298236ED3BC00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7297236ED3BC00883BE7 /* main.cpp */; };
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
@@ -91,6 +92,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C9B7288236ECBFD00883BE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C9B7293236ED3BC00883BE7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -199,6 +209,8 @@
 		8C9B7281236EB35800883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B728A236ECBFD00883BE7 /* 870. Advantage Shuffle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "870. Advantage Shuffle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B728C236ECBFD00883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C9B7295236ED3BC00883BE7 /* 874. Walking Robot Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "874. Walking Robot Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B7297236ED3BC00883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8C9236BDFFA00FF7B93 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8CB236BDFFA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. Candy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,6 +282,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C9B7287236ECBFD00883BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B7292236ED3BC00883BE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,6 +425,14 @@
 			path = "870. Advantage Shuffle";
 			sourceTree = "<group>";
 		};
+		8C9B7296236ED3BC00883BE7 /* 874. Walking Robot Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B7297236ED3BC00883BE7 /* main.cpp */,
+			);
+			path = "874. Walking Robot Simulation";
+			sourceTree = "<group>";
+		};
 		8CC1E8B2236BDFE400FF7B93 = {
 			isa = PBXGroup;
 			children = (
@@ -426,6 +453,7 @@
 				8C9B7275236EADA600883BE7 /* 860. Lemonade Change */,
 				8C9B7280236EB35800883BE7 /* 861. Score After Flipping Matrix */,
 				8C9B728B236ECBFD00883BE7 /* 870. Advantage Shuffle */,
+				8C9B7296236ED3BC00883BE7 /* 874. Walking Robot Simulation */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -450,6 +478,7 @@
 				8C9B7274236EADA600883BE7 /* 860. Lemonade Change */,
 				8C9B727F236EB35800883BE7 /* 861. Score After Flipping Matrix */,
 				8C9B728A236ECBFD00883BE7 /* 870. Advantage Shuffle */,
+				8C9B7295236ED3BC00883BE7 /* 874. Walking Robot Simulation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -665,6 +694,23 @@
 			productReference = 8C9B728A236ECBFD00883BE7 /* 870. Advantage Shuffle */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C9B7294236ED3BC00883BE7 /* 874. Walking Robot Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9B7299236ED3BC00883BE7 /* Build configuration list for PBXNativeTarget "874. Walking Robot Simulation" */;
+			buildPhases = (
+				8C9B7291236ED3BC00883BE7 /* Sources */,
+				8C9B7292236ED3BC00883BE7 /* Frameworks */,
+				8C9B7293236ED3BC00883BE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "874. Walking Robot Simulation";
+			productName = "874. Walking Robot Simulation";
+			productReference = 8C9B7295236ED3BC00883BE7 /* 874. Walking Robot Simulation */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC1E8C8236BDFFA00FF7B93 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC1E8CD236BDFFA00FF7B93 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -851,6 +897,9 @@
 					8C9B7289236ECBFD00883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C9B7294236ED3BC00883BE7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CC1E8C8236BDFFA00FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -910,6 +959,7 @@
 				8C9B7273236EADA600883BE7 /* 860. Lemonade Change */,
 				8C9B727E236EB35800883BE7 /* 861. Score After Flipping Matrix */,
 				8C9B7289236ECBFD00883BE7 /* 870. Advantage Shuffle */,
+				8C9B7294236ED3BC00883BE7 /* 874. Walking Robot Simulation */,
 			);
 		};
 /* End PBXProject section */
@@ -976,6 +1026,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9B728D236ECBFD00883BE7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B7291236ED3BC00883BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9B7298236ED3BC00883BE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1175,6 +1233,22 @@
 			name = Debug;
 		};
 		8C9B7290236ECBFD00883BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C9B729A236ED3BC00883BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C9B729B236ED3BC00883BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1506,6 +1580,15 @@
 			buildConfigurations = (
 				8C9B728F236ECBFD00883BE7 /* Debug */,
 				8C9B7290236ECBFD00883BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9B7299236ED3BC00883BE7 /* Build configuration list for PBXNativeTarget "874. Walking Robot Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9B729A236ED3BC00883BE7 /* Debug */,
+				8C9B729B236ED3BC00883BE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
