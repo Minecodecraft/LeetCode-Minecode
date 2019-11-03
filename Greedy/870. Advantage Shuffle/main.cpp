@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Use array, O(nlogn) for sort, but O(n) for every time delete element. Not so good
+/*
 class Solution {
 public:
     vector<int> advantageCount(vector<int>& A, vector<int>& B) {
@@ -39,6 +41,21 @@ public:
             A.erase(it);
         }
         return res;
+    }
+};
+ */
+
+// Solution 2: Use multiset to optimize the time complexity of deleting element
+class Solution {
+public:
+    vector<int> advantageCount(vector<int>& A, vector<int>& B) {
+        multiset<int> st (A.begin(), A.end());
+        for (int i = 0; i < B.size(); ++i) {
+            auto it = *st.rbegin() <= B[i] ? st.begin() : st.upper_bound(B[i]);
+            A[i] = *it;
+            st.erase(it);
+        }
+        return A;
     }
 };
 
