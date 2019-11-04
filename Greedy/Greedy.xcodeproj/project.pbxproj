@@ -19,6 +19,7 @@
 		8C9B72A3236EE1BD00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B72A2236EE1BC00883BE7 /* main.cpp */; };
 		8C9B72AE236EFA5300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B72AD236EFA5300883BE7 /* main.cpp */; };
 		8C9B75FE236FF30D00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B75FD236FF30D00883BE7 /* main.cpp */; };
+		8C9B7609236FF85800883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7608236FF85800883BE7 /* main.cpp */; };
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
@@ -139,6 +140,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C9B7604236FF85800883BE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CC1E8C7236BDFFA00FF7B93 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +257,8 @@
 		8C9B72AD236EFA5300883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "921. Minimum Add to Make Parentheses Valid"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B75FD236FF30D00883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "927. Three Equal Parts"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B7608236FF85800883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8C9236BDFFA00FF7B93 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8CB236BDFFA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. Candy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -346,6 +358,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C9B75F8236FF30C00883BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B7603236FF85800883BE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,6 +533,14 @@
 			path = "921. Minimum Add to Make Parentheses Valid";
 			sourceTree = "<group>";
 		};
+		8C9B7607236FF85800883BE7 /* 927. Three Equal Parts */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B7608236FF85800883BE7 /* main.cpp */,
+			);
+			path = "927. Three Equal Parts";
+			sourceTree = "<group>";
+		};
 		8CC1E8B2236BDFE400FF7B93 = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +565,7 @@
 				8C9B72A1236EE1BC00883BE7 /* 881. Boats to Save People */,
 				8C9B72AC236EFA5300883BE7 /* 910. Smallest Range II */,
 				8C9B75FC236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
+				8C9B7607236FF85800883BE7 /* 927. Three Equal Parts */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -566,6 +594,7 @@
 				8C9B72A0236EE1BC00883BE7 /* 881. Boats to Save People */,
 				8C9B72AB236EFA5300883BE7 /* 910. Smallest Range II */,
 				8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
+				8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -849,6 +878,23 @@
 			productReference = 8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C9B7605236FF85800883BE7 /* 927. Three Equal Parts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9B760A236FF85800883BE7 /* Build configuration list for PBXNativeTarget "927. Three Equal Parts" */;
+			buildPhases = (
+				8C9B7602236FF85800883BE7 /* Sources */,
+				8C9B7603236FF85800883BE7 /* Frameworks */,
+				8C9B7604236FF85800883BE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "927. Three Equal Parts";
+			productName = "927. Three Equal Parts";
+			productReference = 8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC1E8C8236BDFFA00FF7B93 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC1E8CD236BDFFA00FF7B93 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -1047,6 +1093,9 @@
 					8C9B75FA236FF30C00883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C9B7605236FF85800883BE7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CC1E8C8236BDFFA00FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1110,6 +1159,7 @@
 				8C9B729F236EE1BC00883BE7 /* 881. Boats to Save People */,
 				8C9B72AA236EFA5300883BE7 /* 910. Smallest Range II */,
 				8C9B75FA236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
+				8C9B7605236FF85800883BE7 /* 927. Three Equal Parts */,
 			);
 		};
 /* End PBXProject section */
@@ -1208,6 +1258,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9B75FE236FF30D00883BE7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B7602236FF85800883BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9B7609236FF85800883BE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1471,6 +1529,22 @@
 			name = Debug;
 		};
 		8C9B7600236FF30D00883BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C9B760B236FF85800883BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C9B760C236FF85800883BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1838,6 +1912,15 @@
 			buildConfigurations = (
 				8C9B75FF236FF30D00883BE7 /* Debug */,
 				8C9B7600236FF30D00883BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9B760A236FF85800883BE7 /* Build configuration list for PBXNativeTarget "927. Three Equal Parts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9B760B236FF85800883BE7 /* Debug */,
+				8C9B760C236FF85800883BE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

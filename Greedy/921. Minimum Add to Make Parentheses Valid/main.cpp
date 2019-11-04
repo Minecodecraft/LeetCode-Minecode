@@ -28,7 +28,16 @@ using namespace std;
 class Solution {
 public:
     int minAddToMakeValid(string S) {
-        
+        int lcnt = 0, rcnt = 0;
+        for (char& ch: S) {
+            if (ch == '(') {
+                ++lcnt;
+            } else {
+                if (lcnt) --lcnt;
+                else ++rcnt;
+            }
+        }
+        return lcnt + rcnt;
     }
 };
 
