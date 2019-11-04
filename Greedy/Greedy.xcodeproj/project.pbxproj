@@ -18,6 +18,7 @@
 		8C9B7298236ED3BC00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7297236ED3BC00883BE7 /* main.cpp */; };
 		8C9B72A3236EE1BD00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B72A2236EE1BC00883BE7 /* main.cpp */; };
 		8C9B72AE236EFA5300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B72AD236EFA5300883BE7 /* main.cpp */; };
+		8C9B75FE236FF30D00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B75FD236FF30D00883BE7 /* main.cpp */; };
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
@@ -121,6 +122,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C9B72A9236EFA5300883BE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C9B75F9236FF30C00883BE7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -235,6 +245,8 @@
 		8C9B72A2236EE1BC00883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B72AB236EFA5300883BE7 /* 910. Smallest Range II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "910. Smallest Range II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B72AD236EFA5300883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "921. Minimum Add to Make Parentheses Valid"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B75FD236FF30D00883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8C9236BDFFA00FF7B93 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8CB236BDFFA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. Candy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,6 +339,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C9B72A8236EFA5300883BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B75F8236FF30C00883BE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -487,6 +506,14 @@
 			path = "910. Smallest Range II";
 			sourceTree = "<group>";
 		};
+		8C9B75FC236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */ = {
+			isa = PBXGroup;
+			children = (
+				8C9B75FD236FF30D00883BE7 /* main.cpp */,
+			);
+			path = "921. Minimum Add to Make Parentheses Valid";
+			sourceTree = "<group>";
+		};
 		8CC1E8B2236BDFE400FF7B93 = {
 			isa = PBXGroup;
 			children = (
@@ -510,6 +537,7 @@
 				8C9B7296236ED3BC00883BE7 /* 874. Walking Robot Simulation */,
 				8C9B72A1236EE1BC00883BE7 /* 881. Boats to Save People */,
 				8C9B72AC236EFA5300883BE7 /* 910. Smallest Range II */,
+				8C9B75FC236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -537,6 +565,7 @@
 				8C9B7295236ED3BC00883BE7 /* 874. Walking Robot Simulation */,
 				8C9B72A0236EE1BC00883BE7 /* 881. Boats to Save People */,
 				8C9B72AB236EFA5300883BE7 /* 910. Smallest Range II */,
+				8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -803,6 +832,23 @@
 			productReference = 8C9B72AB236EFA5300883BE7 /* 910. Smallest Range II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C9B75FA236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9B7601236FF30D00883BE7 /* Build configuration list for PBXNativeTarget "921. Minimum Add to Make Parentheses Valid" */;
+			buildPhases = (
+				8C9B75F7236FF30C00883BE7 /* Sources */,
+				8C9B75F8236FF30C00883BE7 /* Frameworks */,
+				8C9B75F9236FF30C00883BE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "921. Minimum Add to Make Parentheses Valid";
+			productName = "921. Minimum Add to Make Parentheses Valid";
+			productReference = 8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC1E8C8236BDFFA00FF7B93 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC1E8CD236BDFFA00FF7B93 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -998,6 +1044,9 @@
 					8C9B72AA236EFA5300883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C9B75FA236FF30C00883BE7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CC1E8C8236BDFFA00FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1060,6 +1109,7 @@
 				8C9B7294236ED3BC00883BE7 /* 874. Walking Robot Simulation */,
 				8C9B729F236EE1BC00883BE7 /* 881. Boats to Save People */,
 				8C9B72AA236EFA5300883BE7 /* 910. Smallest Range II */,
+				8C9B75FA236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 			);
 		};
 /* End PBXProject section */
@@ -1150,6 +1200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9B72AE236EFA5300883BE7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9B75F7236FF30C00883BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9B75FE236FF30D00883BE7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1397,6 +1455,22 @@
 			name = Debug;
 		};
 		8C9B72B1236EFA5300883BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C9B75FF236FF30D00883BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C9B7600236FF30D00883BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1755,6 +1829,15 @@
 			buildConfigurations = (
 				8C9B72B0236EFA5300883BE7 /* Debug */,
 				8C9B72B1236EFA5300883BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9B7601236FF30D00883BE7 /* Build configuration list for PBXNativeTarget "921. Minimum Add to Make Parentheses Valid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9B75FF236FF30D00883BE7 /* Debug */,
+				8C9B7600236FF30D00883BE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
