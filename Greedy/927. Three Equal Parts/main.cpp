@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Ugly code, not concise, won't get Google offer. Too slow, beats 9%
+// Solution 2: Optimize the logic of equal judgement, beats 90%
 class Solution {
 public:
     vector<int> threeEqualParts(vector<int>& A) {
@@ -40,28 +42,24 @@ public:
             return {0, 2};
         int idx = 0;
         vector<int> res;
-        stack<string> st;
+        int lastzerocnt = -1;
         for (int i = 0; i < 3; ++i) {
-            int onecnt = 0, zerocnt = 0;
-            string str = "";
+            int onecnt = 0, zerocnt = 0, allzerocnt = 0;
             while (idx < A.size() && onecnt < cnt/3) {
                 if (A[idx] == 1) onecnt++;
-                str += to_string(A[idx]);
+                else if (onecnt) allzerocnt++;
                 ++idx;
             }
             while (idx < A.size() && zerocnt < leading) {
                 if (A[idx] == 1)
                     return {-1, -1};
-                str += to_string(A[idx]);
+                if (onecnt) allzerocnt++;
                 ++idx; ++zerocnt;
             }
-            int tmp = 0;
-            while (tmp < str.length() && str[tmp] == '0') ++tmp;
-            str = str.substr(tmp);
 
-            if (st.size() && st.top() != str)
+            if (lastzerocnt >= 0 && allzerocnt != lastzerocnt)
                 return {-1, -1};
-            st.push(str);
+            lastzerocnt = allzerocnt;
             res.push_back(idx);
         }
         return {res[0]-1, res[1]};
@@ -71,9 +69,9 @@ public:
 int main() {
     Solution sol = Solution();
     vector<int> nums = {
-        1,0,1,0,1
+//        1,0,1,0,1
 //        1,1,0,1,1
-//        0,0,0,0,0
+        0,0,0,0,0
 //        0,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,1,0
     };
     auto res = sol.threeEqualParts(nums);
