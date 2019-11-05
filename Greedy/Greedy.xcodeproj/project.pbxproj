@@ -20,6 +20,7 @@
 		8C9B72AE236EFA5300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B72AD236EFA5300883BE7 /* main.cpp */; };
 		8C9B75FE236FF30D00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B75FD236FF30D00883BE7 /* main.cpp */; };
 		8C9B7609236FF85800883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7608236FF85800883BE7 /* main.cpp */; };
+		8CBA091223711BF30035144A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA091123711BF30035144A /* main.cpp */; };
 		8CC1E8CC236BDFFA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8CB236BDFFA00FF7B93 /* main.cpp */; };
 		8CC1E8D7236BE0EA00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8D6236BE0EA00FF7B93 /* main.cpp */; };
 		8CC1E8E2236BFA4D00FF7B93 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC1E8E1236BFA4D00FF7B93 /* main.cpp */; };
@@ -149,6 +150,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CBA090D23711BF30035144A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CC1E8C7236BDFFA00FF7B93 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +269,8 @@
 		8C9B75FD236FF30D00883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "927. Three Equal Parts"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B7608236FF85800883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CBA090F23711BF30035144A /* 936. Stamping The Sequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "936. Stamping The Sequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBA091123711BF30035144A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8C9236BDFFA00FF7B93 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC1E8CB236BDFFA00FF7B93 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC1E8D4236BE0EA00FF7B93 /* 135. Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "135. Candy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -365,6 +377,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C9B7603236FF85800883BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBA090C23711BF30035144A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,6 +560,14 @@
 			path = "927. Three Equal Parts";
 			sourceTree = "<group>";
 		};
+		8CBA091023711BF30035144A /* 936. Stamping The Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				8CBA091123711BF30035144A /* main.cpp */,
+			);
+			path = "936. Stamping The Sequence";
+			sourceTree = "<group>";
+		};
 		8CC1E8B2236BDFE400FF7B93 = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +593,7 @@
 				8C9B72AC236EFA5300883BE7 /* 910. Smallest Range II */,
 				8C9B75FC236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8C9B7607236FF85800883BE7 /* 927. Three Equal Parts */,
+				8CBA091023711BF30035144A /* 936. Stamping The Sequence */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -595,6 +623,7 @@
 				8C9B72AB236EFA5300883BE7 /* 910. Smallest Range II */,
 				8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */,
+				8CBA090F23711BF30035144A /* 936. Stamping The Sequence */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -895,6 +924,23 @@
 			productReference = 8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CBA090E23711BF30035144A /* 936. Stamping The Sequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBA091523711BF30035144A /* Build configuration list for PBXNativeTarget "936. Stamping The Sequence" */;
+			buildPhases = (
+				8CBA090B23711BF30035144A /* Sources */,
+				8CBA090C23711BF30035144A /* Frameworks */,
+				8CBA090D23711BF30035144A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "936. Stamping The Sequence";
+			productName = "936. Stamping The Sequence";
+			productReference = 8CBA090F23711BF30035144A /* 936. Stamping The Sequence */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC1E8C8236BDFFA00FF7B93 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC1E8CD236BDFFA00FF7B93 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -1096,6 +1142,9 @@
 					8C9B7605236FF85800883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CBA090E23711BF30035144A = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CC1E8C8236BDFFA00FF7B93 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1160,6 +1209,7 @@
 				8C9B72AA236EFA5300883BE7 /* 910. Smallest Range II */,
 				8C9B75FA236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8C9B7605236FF85800883BE7 /* 927. Three Equal Parts */,
+				8CBA090E23711BF30035144A /* 936. Stamping The Sequence */,
 			);
 		};
 /* End PBXProject section */
@@ -1266,6 +1316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9B7609236FF85800883BE7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBA090B23711BF30035144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBA091223711BF30035144A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1545,6 +1603,22 @@
 			name = Debug;
 		};
 		8C9B760C236FF85800883BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CBA091323711BF30035144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CBA091423711BF30035144A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1921,6 +1995,15 @@
 			buildConfigurations = (
 				8C9B760B236FF85800883BE7 /* Debug */,
 				8C9B760C236FF85800883BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBA091523711BF30035144A /* Build configuration list for PBXNativeTarget "936. Stamping The Sequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBA091323711BF30035144A /* Debug */,
+				8CBA091423711BF30035144A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
