@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C2BCC7B236C687800BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC7A236C687800BBDB03 /* main.cpp */; };
 		8C2BCC86236D653D00BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC85236D653D00BBDB03 /* main.cpp */; };
+		8C3492352371755500BCB26D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3492342371755500BCB26D /* main.cpp */; };
 		8C9B7256236E7C2300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7255236E7C2300883BE7 /* main.cpp */; };
 		8C9B7261236E8FC500883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7260236E8FC500883BE7 /* main.cpp */; };
 		8C9B726C236EA43D00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B726B236EA43D00883BE7 /* main.cpp */; };
@@ -43,6 +44,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C2BCC81236D653D00BBDB03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C3492302371755500BCB26D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -247,6 +257,8 @@
 		8C2BCC7A236C687800BBDB03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "738. Monotone Increasing Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2BCC85236D653D00BBDB03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C3492322371755500BCB26D /* 944. Delete Columns to Make Sorted */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "944. Delete Columns to Make Sorted"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3492342371755500BCB26D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B7253236E7C2300883BE7 /* 763. Partition Labels */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "763. Partition Labels"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B7255236E7C2300883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B725E236E8FC500883BE7 /* 765. Couples Holding Hands */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "765. Couples Holding Hands"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -300,6 +312,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C2BCC80236D653D00BBDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C34922F2371755500BCB26D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,6 +491,14 @@
 			path = "738. Monotone Increasing Digits";
 			sourceTree = "<group>";
 		};
+		8C3492332371755500BCB26D /* 944. Delete Columns to Make Sorted */ = {
+			isa = PBXGroup;
+			children = (
+				8C3492342371755500BCB26D /* main.cpp */,
+			);
+			path = "944. Delete Columns to Make Sorted";
+			sourceTree = "<group>";
+		};
 		8C9B7254236E7C2300883BE7 /* 763. Partition Labels */ = {
 			isa = PBXGroup;
 			children = (
@@ -594,6 +621,7 @@
 				8C9B75FC236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8C9B7607236FF85800883BE7 /* 927. Three Equal Parts */,
 				8CBA091023711BF30035144A /* 936. Stamping The Sequence */,
+				8C3492332371755500BCB26D /* 944. Delete Columns to Make Sorted */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -624,6 +652,7 @@
 				8C9B75FB236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8C9B7606236FF85800883BE7 /* 927. Three Equal Parts */,
 				8CBA090F23711BF30035144A /* 936. Stamping The Sequence */,
+				8C3492322371755500BCB26D /* 944. Delete Columns to Make Sorted */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -735,6 +764,23 @@
 			name = "738. Monotone Increasing Digits";
 			productName = "738. Monotone Increasing Digits";
 			productReference = 8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C3492312371755500BCB26D /* 944. Delete Columns to Make Sorted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3492382371755500BCB26D /* Build configuration list for PBXNativeTarget "944. Delete Columns to Make Sorted" */;
+			buildPhases = (
+				8C34922E2371755500BCB26D /* Sources */,
+				8C34922F2371755500BCB26D /* Frameworks */,
+				8C3492302371755500BCB26D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "944. Delete Columns to Make Sorted";
+			productName = "944. Delete Columns to Make Sorted";
+			productReference = 8C3492322371755500BCB26D /* 944. Delete Columns to Make Sorted */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C9B7252236E7C2300883BE7 /* 763. Partition Labels */ = {
@@ -1109,6 +1155,9 @@
 					8C2BCC82236D653D00BBDB03 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C3492312371755500BCB26D = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C9B7252236E7C2300883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1210,6 +1259,7 @@
 				8C9B75FA236FF30C00883BE7 /* 921. Minimum Add to Make Parentheses Valid */,
 				8C9B7605236FF85800883BE7 /* 927. Three Equal Parts */,
 				8CBA090E23711BF30035144A /* 936. Stamping The Sequence */,
+				8C3492312371755500BCB26D /* 944. Delete Columns to Make Sorted */,
 			);
 		};
 /* End PBXProject section */
@@ -1228,6 +1278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2BCC86236D653D00BBDB03 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C34922E2371755500BCB26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3492352371755500BCB26D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1427,6 +1485,22 @@
 			name = Debug;
 		};
 		8C2BCC89236D653D00BBDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C3492362371755500BCB26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3492372371755500BCB26D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1896,6 +1970,15 @@
 			buildConfigurations = (
 				8C2BCC88236D653D00BBDB03 /* Debug */,
 				8C2BCC89236D653D00BBDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3492382371755500BCB26D /* Build configuration list for PBXNativeTarget "944. Delete Columns to Make Sorted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3492362371755500BCB26D /* Debug */,
+				8C3492372371755500BCB26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
