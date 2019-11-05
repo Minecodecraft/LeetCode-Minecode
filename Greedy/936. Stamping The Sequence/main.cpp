@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Generate string everytime, not so good, 500ms only beats 26%
+/*
 class Solution {
 public:
     vector<int> movesToStamp(string stamp, string target) {
@@ -51,11 +53,49 @@ public:
         return totcnt == target.length() ? res : vector<int>();
     }
 };
+ */
+
+// Solution 2: Simple Recursive, 76ms, beats 70%
+class Solution {
+public:
+    vector<int> movesToStamp(string stamp, string target) {
+        vector<int> path;
+        string done = string(target.size(), '*');
+        string cur = target;
+        while (cur != done) {
+            int idx = remove(stamp, cur);
+            if (idx == target.length())
+                return vector<int>();
+            path.push_back(idx);
+        }
+        reverse(begin(path), end(path));
+        return path;
+    }
+
+private:
+    int remove(string& stamp, string& target) {
+        for (int i = 0; i < target.length(); ++i) {
+            int tarp = 0, stmp = 0;
+            bool changed = false;
+            while (stmp < stamp.length() && tarp < target.length() && (target[i+tarp] == stamp[stmp] || target[i+tarp] == '*')) {
+                if (target[i+tarp] == stamp[stmp])
+                    changed = true;
+                ++tarp;
+                ++stmp;
+            }
+            if (stmp == stamp.length() && changed) {
+                fill(begin(target) + i, begin(target) + i + stamp.size(), '*');
+                return i;
+            }
+        }
+        return target.length();
+    }
+};
 
 int main() {
     Solution sol = Solution();
-    string stamp = "abc", target = "ababc";
-//    string stamp = "abca", target = "aabcaca";
+//    string stamp = "abc", target = "ababc";
+    string stamp = "abca", target = "aabcaca";
     auto res = sol.movesToStamp(stamp, target);
     for_each(begin(res), end(res), [](int ele) { cout << ele << ", "; });
     cout << endl;
