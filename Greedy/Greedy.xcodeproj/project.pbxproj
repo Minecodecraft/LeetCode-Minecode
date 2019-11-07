@@ -13,6 +13,7 @@
 		8C3492352371755500BCB26D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3492342371755500BCB26D /* main.cpp */; };
 		8C349240237176C100BCB26D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C34923F237176C100BCB26D /* main.cpp */; };
 		8C34924B2371822A00BCB26D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C34924A2371822A00BCB26D /* main.cpp */; };
+		8C97D42523743CCA0001B98C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C97D42423743CCA0001B98C /* main.cpp */; };
 		8C9B7256236E7C2300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7255236E7C2300883BE7 /* main.cpp */; };
 		8C9B7261236E8FC500883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7260236E8FC500883BE7 /* main.cpp */; };
 		8C9B726C236EA43D00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B726B236EA43D00883BE7 /* main.cpp */; };
@@ -83,6 +84,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C3492462371822A00BCB26D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C97D42023743CCA0001B98C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -295,6 +305,8 @@
 		8C34923F237176C100BCB26D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C3492482371822A00BCB26D /* 955. Delete Columns to Make Sorted II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "955. Delete Columns to Make Sorted II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C34924A2371822A00BCB26D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C97D42223743CCA0001B98C /* 991. Broken Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "991. Broken Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C97D42423743CCA0001B98C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B7253236E7C2300883BE7 /* 763. Partition Labels */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "763. Partition Labels"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B7255236E7C2300883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B725E236E8FC500883BE7 /* 765. Couples Holding Hands */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "765. Couples Holding Hands"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -376,6 +388,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C3492452371822A00BCB26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C97D41F23743CCA0001B98C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,6 +599,14 @@
 			path = "955. Delete Columns to Make Sorted II";
 			sourceTree = "<group>";
 		};
+		8C97D42323743CCA0001B98C /* 991. Broken Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8C97D42423743CCA0001B98C /* main.cpp */,
+			);
+			path = "991. Broken Calculator";
+			sourceTree = "<group>";
+		};
 		8C9B7254236E7C2300883BE7 /* 763. Partition Labels */ = {
 			isa = PBXGroup;
 			children = (
@@ -706,6 +733,7 @@
 				8C34923E237176C100BCB26D /* 948. Bag of Tokens */,
 				8C3492492371822A00BCB26D /* 955. Delete Columns to Make Sorted II */,
 				8C2AEAD423742651000E3F48 /* 984. String Without AAA or BBB */,
+				8C97D42323743CCA0001B98C /* 991. Broken Calculator */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -740,6 +768,7 @@
 				8C34923D237176C100BCB26D /* 948. Bag of Tokens */,
 				8C3492482371822A00BCB26D /* 955. Delete Columns to Make Sorted II */,
 				8C2AEAD323742651000E3F48 /* 984. String Without AAA or BBB */,
+				8C97D42223743CCA0001B98C /* 991. Broken Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -919,6 +948,23 @@
 			name = "955. Delete Columns to Make Sorted II";
 			productName = "955. Delete Columns to Make Sorted II";
 			productReference = 8C3492482371822A00BCB26D /* 955. Delete Columns to Make Sorted II */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C97D42123743CCA0001B98C /* 991. Broken Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C97D42823743CCA0001B98C /* Build configuration list for PBXNativeTarget "991. Broken Calculator" */;
+			buildPhases = (
+				8C97D41E23743CCA0001B98C /* Sources */,
+				8C97D41F23743CCA0001B98C /* Frameworks */,
+				8C97D42023743CCA0001B98C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "991. Broken Calculator";
+			productName = "991. Broken Calculator";
+			productReference = 8C97D42223743CCA0001B98C /* 991. Broken Calculator */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C9B7252236E7C2300883BE7 /* 763. Partition Labels */ = {
@@ -1305,6 +1351,9 @@
 					8C3492472371822A00BCB26D = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C97D42123743CCA0001B98C = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C9B7252236E7C2300883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1410,6 +1459,7 @@
 				8C34923C237176C100BCB26D /* 948. Bag of Tokens */,
 				8C3492472371822A00BCB26D /* 955. Delete Columns to Make Sorted II */,
 				8C2AEAD223742651000E3F48 /* 984. String Without AAA or BBB */,
+				8C97D42123743CCA0001B98C /* 991. Broken Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -1460,6 +1510,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C34924B2371822A00BCB26D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C97D41E23743CCA0001B98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C97D42523743CCA0001B98C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1723,6 +1781,22 @@
 			name = Debug;
 		};
 		8C34924E2371822A00BCB26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C97D42623743CCA0001B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C97D42723743CCA0001B98C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2228,6 +2302,15 @@
 			buildConfigurations = (
 				8C34924D2371822A00BCB26D /* Debug */,
 				8C34924E2371822A00BCB26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C97D42823743CCA0001B98C /* Build configuration list for PBXNativeTarget "991. Broken Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C97D42623743CCA0001B98C /* Debug */,
+				8C97D42723743CCA0001B98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
