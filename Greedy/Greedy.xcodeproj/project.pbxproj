@@ -15,6 +15,7 @@
 		8C34924B2371822A00BCB26D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C34924A2371822A00BCB26D /* main.cpp */; };
 		8C97D42523743CCA0001B98C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C97D42423743CCA0001B98C /* main.cpp */; };
 		8C97D43023743E5B0001B98C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C97D42F23743E5B0001B98C /* main.cpp */; };
+		8C97D43B237440F30001B98C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C97D43A237440F30001B98C /* main.cpp */; };
 		8C9B7256236E7C2300883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7255236E7C2300883BE7 /* main.cpp */; };
 		8C9B7261236E8FC500883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B7260236E8FC500883BE7 /* main.cpp */; };
 		8C9B726C236EA43D00883BE7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B726B236EA43D00883BE7 /* main.cpp */; };
@@ -103,6 +104,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C97D42B23743E5B0001B98C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C97D436237440F30001B98C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -319,6 +329,8 @@
 		8C97D42423743CCA0001B98C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C97D42D23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1005. Maximize Sum Of Array After K Negations"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C97D42F23743E5B0001B98C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C97D438237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1007. Minimum Domino Rotations For Equal Row"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C97D43A237440F30001B98C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B7253236E7C2300883BE7 /* 763. Partition Labels */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "763. Partition Labels"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9B7255236E7C2300883BE7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9B725E236E8FC500883BE7 /* 765. Couples Holding Hands */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "765. Couples Holding Hands"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -414,6 +426,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C97D42A23743E5B0001B98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C97D435237440F30001B98C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -634,6 +653,14 @@
 			path = "1005. Maximize Sum Of Array After K Negations";
 			sourceTree = "<group>";
 		};
+		8C97D439237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */ = {
+			isa = PBXGroup;
+			children = (
+				8C97D43A237440F30001B98C /* main.cpp */,
+			);
+			path = "1007. Minimum Domino Rotations For Equal Row";
+			sourceTree = "<group>";
+		};
 		8C9B7254236E7C2300883BE7 /* 763. Partition Labels */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,6 +789,7 @@
 				8C2AEAD423742651000E3F48 /* 984. String Without AAA or BBB */,
 				8C97D42323743CCA0001B98C /* 991. Broken Calculator */,
 				8C97D42E23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */,
+				8C97D439237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -798,6 +826,7 @@
 				8C2AEAD323742651000E3F48 /* 984. String Without AAA or BBB */,
 				8C97D42223743CCA0001B98C /* 991. Broken Calculator */,
 				8C97D42D23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */,
+				8C97D438237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1011,6 +1040,23 @@
 			name = "1005. Maximize Sum Of Array After K Negations";
 			productName = "1005. Maximize Sum Of Array After K Negations";
 			productReference = 8C97D42D23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C97D437237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C97D43C237440F30001B98C /* Build configuration list for PBXNativeTarget "1007. Minimum Domino Rotations For Equal Row" */;
+			buildPhases = (
+				8C97D434237440F30001B98C /* Sources */,
+				8C97D435237440F30001B98C /* Frameworks */,
+				8C97D436237440F30001B98C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1007. Minimum Domino Rotations For Equal Row";
+			productName = "1007. Minimum Domino Rotations For Equal Row";
+			productReference = 8C97D438237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C9B7252236E7C2300883BE7 /* 763. Partition Labels */ = {
@@ -1403,6 +1449,9 @@
 					8C97D42C23743E5B0001B98C = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8C97D437237440F30001B98C = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C9B7252236E7C2300883BE7 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1510,6 +1559,7 @@
 				8C2AEAD223742651000E3F48 /* 984. String Without AAA or BBB */,
 				8C97D42123743CCA0001B98C /* 991. Broken Calculator */,
 				8C97D42C23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */,
+				8C97D437237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */,
 			);
 		};
 /* End PBXProject section */
@@ -1576,6 +1626,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C97D43023743E5B0001B98C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C97D434237440F30001B98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C97D43B237440F30001B98C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1871,6 +1929,22 @@
 			name = Debug;
 		};
 		8C97D43323743E5B0001B98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C97D43D237440F30001B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C97D43E237440F30001B98C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2394,6 +2468,15 @@
 			buildConfigurations = (
 				8C97D43223743E5B0001B98C /* Debug */,
 				8C97D43323743E5B0001B98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C97D43C237440F30001B98C /* Build configuration list for PBXNativeTarget "1007. Minimum Domino Rotations For Equal Row" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C97D43D237440F30001B98C /* Debug */,
+				8C97D43E237440F30001B98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
