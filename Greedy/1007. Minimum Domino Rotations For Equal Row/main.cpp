@@ -63,6 +63,49 @@ public:
 };
  */
 
+// Solution 2: The concislly version of solution1 🏆
+/*
+class Solution {
+public:
+    int minDominoRotations(vector<int>& A, vector<int>& B) {
+        int tmla = A[0], tmlb = B[0];
+        int atoa = 0, atob = 0, btoa = 0, btob = 0;
+        bool cana = true, canb = true;
+        for (int i = 0; i < A.size(); ++i) {
+            if (A[i] != tmla && B[i] != tmla) cana = false;
+            if (A[i] != tmlb && B[i] != tmlb) canb = false;
+            atoa += A[i] == tmla;
+            atob += A[i] == tmlb;
+            btoa += B[i] == tmla;
+            btob += B[i] == tmlb;
+        }
+        if (!cana && !canb) return -1;
+        return (int)A.size() - max(max(atoa, atob), max(btoa, btob));
+    }
+};
+ */
+
+// Solution 3: A clever way, it's interesting.
+class Solution {
+public:
+    int minDominoRotations(vector<int>& A, vector<int>& B) {
+        vector<int> cnta (7, 0);
+        vector<int> cntb (7, 0);
+        vector<int> same (7, 0);
+        for (int i = 0; i < A.size(); ++i) {
+            cnta[A[i]]++;
+            cntb[B[i]]++;
+            if (A[i] == B[i])
+                same[A[i]]++;
+        }
+        for (int i = 1; i <= 6; ++i) {
+            if (cnta[i] + cntb[i] - same[i] == A.size())
+                return A.size() - max(cnta[i], cntb[i]);
+        }
+        return -1;
+    }
+};
+
 int main() {
     Solution sol = Solution();
 
