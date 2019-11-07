@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2AEAD623742651000E3F48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AEAD523742651000E3F48 /* main.cpp */; };
 		8C2BCC7B236C687800BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC7A236C687800BBDB03 /* main.cpp */; };
 		8C2BCC86236D653D00BBDB03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2BCC85236D653D00BBDB03 /* main.cpp */; };
 		8C3492352371755500BCB26D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3492342371755500BCB26D /* main.cpp */; };
@@ -36,6 +37,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C2AEAD123742651000E3F48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C2BCC76236C687800BBDB03 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +283,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C2AEAD323742651000E3F48 /* 984. String Without AAA or BBB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "984. String Without AAA or BBB"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2AEAD523742651000E3F48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2BCC78236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "714. Best Time to Buy and Sell Stock with Transaction Fee"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2BCC7A236C687800BBDB03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2BCC83236D653D00BBDB03 /* 738. Monotone Increasing Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "738. Monotone Increasing Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -328,6 +340,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C2AEAD023742651000E3F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C2BCC75236C687800BBDB03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,6 +532,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C2AEAD423742651000E3F48 /* 984. String Without AAA or BBB */ = {
+			isa = PBXGroup;
+			children = (
+				8C2AEAD523742651000E3F48 /* main.cpp */,
+			);
+			path = "984. String Without AAA or BBB";
+			sourceTree = "<group>";
+		};
 		8C2BCC79236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */ = {
 			isa = PBXGroup;
 			children = (
@@ -678,6 +705,7 @@
 				8C3492332371755500BCB26D /* 944. Delete Columns to Make Sorted */,
 				8C34923E237176C100BCB26D /* 948. Bag of Tokens */,
 				8C3492492371822A00BCB26D /* 955. Delete Columns to Make Sorted II */,
+				8C2AEAD423742651000E3F48 /* 984. String Without AAA or BBB */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -711,6 +739,7 @@
 				8C3492322371755500BCB26D /* 944. Delete Columns to Make Sorted */,
 				8C34923D237176C100BCB26D /* 948. Bag of Tokens */,
 				8C3492482371822A00BCB26D /* 955. Delete Columns to Make Sorted II */,
+				8C2AEAD323742651000E3F48 /* 984. String Without AAA or BBB */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -790,6 +819,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C2AEAD223742651000E3F48 /* 984. String Without AAA or BBB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2AEAD923742651000E3F48 /* Build configuration list for PBXNativeTarget "984. String Without AAA or BBB" */;
+			buildPhases = (
+				8C2AEACF23742651000E3F48 /* Sources */,
+				8C2AEAD023742651000E3F48 /* Frameworks */,
+				8C2AEAD123742651000E3F48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "984. String Without AAA or BBB";
+			productName = "984. String Without AAA or BBB";
+			productReference = 8C2AEAD323742651000E3F48 /* 984. String Without AAA or BBB */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C2BCC77236C687800BBDB03 /* 714. Best Time to Buy and Sell Stock with Transaction Fee */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C2BCC7E236C687800BBDB03 /* Build configuration list for PBXNativeTarget "714. Best Time to Buy and Sell Stock with Transaction Fee" */;
@@ -1241,6 +1287,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C2AEAD223742651000E3F48 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8C2BCC77236C687800BBDB03 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1360,11 +1409,20 @@
 				8C3492312371755500BCB26D /* 944. Delete Columns to Make Sorted */,
 				8C34923C237176C100BCB26D /* 948. Bag of Tokens */,
 				8C3492472371822A00BCB26D /* 955. Delete Columns to Make Sorted II */,
+				8C2AEAD223742651000E3F48 /* 984. String Without AAA or BBB */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C2AEACF23742651000E3F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2AEAD623742651000E3F48 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C2BCC74236C687800BBDB03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1576,6 +1634,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C2AEAD723742651000E3F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2AEAD823742651000E3F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C2BCC7C236C687800BBDB03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2104,6 +2178,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C2AEAD923742651000E3F48 /* Build configuration list for PBXNativeTarget "984. String Without AAA or BBB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2AEAD723742651000E3F48 /* Debug */,
+				8C2AEAD823742651000E3F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C2BCC7E236C687800BBDB03 /* Build configuration list for PBXNativeTarget "714. Best Time to Buy and Sell Stock with Transaction Fee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
