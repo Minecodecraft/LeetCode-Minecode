@@ -37,6 +37,7 @@
 		8CC31966236C28C100E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31965236C28C100E9C1EE /* main.cpp */; };
 		8CC31971236C2F3D00E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31970236C2F3D00E9C1EE /* main.cpp */; };
 		8CC3199A236C604B00E9C1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC31999236C604B00E9C1EE /* main.cpp */; };
+		8CD0A59C23750837006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0A59B23750837006524CA /* main.cpp */; };
 		8CEEEC59236E75F000E2F287 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEEC58236E75F000E2F287 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -311,6 +312,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CD0A59723750837006524CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CEEEC54236E75EF00E2F287 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +393,8 @@
 		8CC31970236C2F3D00E9C1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC31997236C604B00E9C1EE /* 649. Dota2 Senate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "649. Dota2 Senate"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC31999236C604B00E9C1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CD0A59923750837006524CA /* 1046. Last Stone Weight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1046. Last Stone Weight"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD0A59B23750837006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "757. Set Intersection Size At Least Two"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEEEC58236E75F000E2F287 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -592,6 +604,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CC31994236C604B00E9C1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0A59623750837006524CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -818,6 +837,7 @@
 				8C97D42E23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */,
 				8C97D439237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */,
 				8C97D44423744A530001B98C /* 1029. Two City Scheduling */,
+				8CD0A59A23750837006524CA /* 1046. Last Stone Weight */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -856,6 +876,7 @@
 				8C97D42D23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */,
 				8C97D438237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */,
 				8C97D44323744A520001B98C /* 1029. Two City Scheduling */,
+				8CD0A59923750837006524CA /* 1046. Last Stone Weight */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -922,6 +943,14 @@
 				8CC31999236C604B00E9C1EE /* main.cpp */,
 			);
 			path = "649. Dota2 Senate";
+			sourceTree = "<group>";
+		};
+		8CD0A59A23750837006524CA /* 1046. Last Stone Weight */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0A59B23750837006524CA /* main.cpp */,
+			);
+			path = "1046. Last Stone Weight";
 			sourceTree = "<group>";
 		};
 		8CEEEC57236E75F000E2F287 /* 757. Set Intersection Size At Least Two */ = {
@@ -1445,6 +1474,23 @@
 			productReference = 8CC31997236C604B00E9C1EE /* 649. Dota2 Senate */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD0A59823750837006524CA /* 1046. Last Stone Weight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD0A59F23750837006524CA /* Build configuration list for PBXNativeTarget "1046. Last Stone Weight" */;
+			buildPhases = (
+				8CD0A59523750837006524CA /* Sources */,
+				8CD0A59623750837006524CA /* Frameworks */,
+				8CD0A59723750837006524CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1046. Last Stone Weight";
+			productName = "1046. Last Stone Weight";
+			productReference = 8CD0A59923750837006524CA /* 1046. Last Stone Weight */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CEEEC55236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CEEEC5C236E75F000E2F287 /* Build configuration list for PBXNativeTarget "757. Set Intersection Size At Least Two" */;
@@ -1561,6 +1607,9 @@
 					8CC31996236C604B00E9C1EE = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CD0A59823750837006524CA = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CEEEC55236E75EF00E2F287 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1610,6 +1659,7 @@
 				8C97D42C23743E5B0001B98C /* 1005. Maximize Sum Of Array After K Negations */,
 				8C97D437237440F30001B98C /* 1007. Minimum Domino Rotations For Equal Row */,
 				8C97D44223744A520001B98C /* 1029. Two City Scheduling */,
+				8CD0A59823750837006524CA /* 1046. Last Stone Weight */,
 			);
 		};
 /* End PBXProject section */
@@ -1852,6 +1902,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC3199A236C604B00E9C1EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0A59523750837006524CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0A59C23750837006524CA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2455,6 +2513,22 @@
 			};
 			name = Release;
 		};
+		8CD0A59D23750837006524CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD0A59E23750837006524CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CEEEC5A236E75F000E2F287 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2749,6 +2823,15 @@
 			buildConfigurations = (
 				8CC3199B236C604B00E9C1EE /* Debug */,
 				8CC3199C236C604B00E9C1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD0A59F23750837006524CA /* Build configuration list for PBXNativeTarget "1046. Last Stone Weight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD0A59D23750837006524CA /* Debug */,
+				8CD0A59E23750837006524CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
