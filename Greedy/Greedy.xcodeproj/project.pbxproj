@@ -41,6 +41,7 @@
 		8CD0B1BE2375486A006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1BD2375486A006524CA /* main.cpp */; };
 		8CD0B1C923755A3D006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1C823755A3D006524CA /* main.cpp */; };
 		8CD0B1D42375741C006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1D32375741C006524CA /* main.cpp */; };
+		8CD0B1DF23757D0F006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1DE23757D0F006524CA /* main.cpp */; };
 		8CEEEC59236E75F000E2F287 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEEC58236E75F000E2F287 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -351,6 +352,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CD0B1DA23757D0F006524CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CEEEC54236E75EF00E2F287 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +441,8 @@
 		8CD0B1C823755A3D006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD0B1D12375741C006524CA /* 1053. Previous Permutation With One Swap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1053. Previous Permutation With One Swap"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0B1D32375741C006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CD0B1DC23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD0B1DE23757D0F006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "757. Set Intersection Size At Least Two"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEEEC58236E75F000E2F287 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -674,6 +686,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CD0B1D923757D0F006524CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CEEEC53236E75EF00E2F287 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -898,6 +917,7 @@
 				8CD0B1BC2375486A006524CA /* 1090. Largest Values From Labels */,
 				8CD0B1C723755A3D006524CA /* 1094. Car Pooling */,
 				8CD0B1D22375741C006524CA /* 1053. Previous Permutation With One Swap */,
+				8CD0B1DD23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -940,6 +960,7 @@
 				8CD0B1BB2375486A006524CA /* 1090. Largest Values From Labels */,
 				8CD0B1C623755A3D006524CA /* 1094. Car Pooling */,
 				8CD0B1D12375741C006524CA /* 1053. Previous Permutation With One Swap */,
+				8CD0B1DC23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1038,6 +1059,14 @@
 				8CD0B1D32375741C006524CA /* main.cpp */,
 			);
 			path = "1053. Previous Permutation With One Swap";
+			sourceTree = "<group>";
+		};
+		8CD0B1DD23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0B1DE23757D0F006524CA /* main.cpp */,
+			);
+			path = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings";
 			sourceTree = "<group>";
 		};
 		8CEEEC57236E75F000E2F287 /* 757. Set Intersection Size At Least Two */ = {
@@ -1629,6 +1658,23 @@
 			productReference = 8CD0B1D12375741C006524CA /* 1053. Previous Permutation With One Swap */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD0B1DB23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD0B1E023757D0F006524CA /* Build configuration list for PBXNativeTarget "1111. Maximum Nesting Depth of Two Valid Parentheses Strings" */;
+			buildPhases = (
+				8CD0B1D823757D0F006524CA /* Sources */,
+				8CD0B1D923757D0F006524CA /* Frameworks */,
+				8CD0B1DA23757D0F006524CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings";
+			productName = "1111. Maximum Nesting Depth of Two Valid Parentheses Strings";
+			productReference = 8CD0B1DC23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CEEEC55236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CEEEC5C236E75F000E2F287 /* Build configuration list for PBXNativeTarget "757. Set Intersection Size At Least Two" */;
@@ -1757,6 +1803,9 @@
 					8CD0B1D02375741C006524CA = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CD0B1DB23757D0F006524CA = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CEEEC55236E75EF00E2F287 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1810,6 +1859,7 @@
 				8CD0B1BA2375486A006524CA /* 1090. Largest Values From Labels */,
 				8CD0B1C523755A3D006524CA /* 1094. Car Pooling */,
 				8CD0B1D02375741C006524CA /* 1053. Previous Permutation With One Swap */,
+				8CD0B1DB23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 			);
 		};
 /* End PBXProject section */
@@ -2084,6 +2134,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD0B1D42375741C006524CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0B1D823757D0F006524CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0B1DF23757D0F006524CA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2751,6 +2809,22 @@
 			};
 			name = Release;
 		};
+		8CD0B1E123757D0F006524CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD0B1E223757D0F006524CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CEEEC5A236E75F000E2F287 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3081,6 +3155,15 @@
 			buildConfigurations = (
 				8CD0B1D62375741C006524CA /* Debug */,
 				8CD0B1D72375741C006524CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD0B1E023757D0F006524CA /* Build configuration list for PBXNativeTarget "1111. Maximum Nesting Depth of Two Valid Parentheses Strings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD0B1E123757D0F006524CA /* Debug */,
+				8CD0B1E223757D0F006524CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
