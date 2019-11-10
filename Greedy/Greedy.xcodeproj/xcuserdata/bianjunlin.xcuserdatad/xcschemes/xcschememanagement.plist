@@ -32,12 +32,12 @@
 		<key>1090. Largest Values From Labels.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>33</integer>
 		</dict>
 		<key>1094. Car Pooling.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>29</integer>
 		</dict>
 		<key>1111. Maximum Nesting Depth of Two Valid Parentheses Strings.xcscheme_^#shared#^_</key>
 		<dict>
@@ -48,6 +48,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>36</integer>
+		</dict>
+		<key>1247. Minimum Swaps to Make Strings Equal.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>135. Candy.xcscheme_^#shared#^_</key>
 		<dict>

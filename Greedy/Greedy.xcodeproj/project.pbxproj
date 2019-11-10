@@ -43,6 +43,7 @@
 		8CD0B1D42375741C006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1D32375741C006524CA /* main.cpp */; };
 		8CD0B1DF23757D0F006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1DE23757D0F006524CA /* main.cpp */; };
 		8CD0B1EA2376B15F006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1E92376B15F006524CA /* main.cpp */; };
+		8CD0B1F52376B34D006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0B1F42376B34D006524CA /* main.cpp */; };
 		8CEEEC59236E75F000E2F287 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CEEEC58236E75F000E2F287 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -371,6 +372,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CD0B1F02376B34D006524CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CEEEC54236E75EF00E2F287 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,6 +465,8 @@
 		8CD0B1DE23757D0F006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD0B1E72376B15F006524CA /* 1217. Play with Chips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1217. Play with Chips"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0B1E92376B15F006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CD0B1F22376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1247. Minimum Swaps to Make Strings Equal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD0B1F42376B34D006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CEEEC56236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "757. Set Intersection Size At Least Two"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEEEC58236E75F000E2F287 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -712,6 +724,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CD0B1EF2376B34D006524CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CEEEC53236E75EF00E2F287 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -938,6 +957,7 @@
 				8CD0B1D22375741C006524CA /* 1053. Previous Permutation With One Swap */,
 				8CD0B1DD23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 				8CD0B1E82376B15F006524CA /* 1217. Play with Chips */,
+				8CD0B1F32376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */,
 				8CC1E8BC236BDFE400FF7B93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -982,6 +1002,7 @@
 				8CD0B1D12375741C006524CA /* 1053. Previous Permutation With One Swap */,
 				8CD0B1DC23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 				8CD0B1E72376B15F006524CA /* 1217. Play with Chips */,
+				8CD0B1F22376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1096,6 +1117,14 @@
 				8CD0B1E92376B15F006524CA /* main.cpp */,
 			);
 			path = "1217. Play with Chips";
+			sourceTree = "<group>";
+		};
+		8CD0B1F32376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0B1F42376B34D006524CA /* main.cpp */,
+			);
+			path = "1247. Minimum Swaps to Make Strings Equal";
 			sourceTree = "<group>";
 		};
 		8CEEEC57236E75F000E2F287 /* 757. Set Intersection Size At Least Two */ = {
@@ -1721,6 +1750,23 @@
 			productReference = 8CD0B1E72376B15F006524CA /* 1217. Play with Chips */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD0B1F12376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD0B1F62376B34D006524CA /* Build configuration list for PBXNativeTarget "1247. Minimum Swaps to Make Strings Equal" */;
+			buildPhases = (
+				8CD0B1EE2376B34D006524CA /* Sources */,
+				8CD0B1EF2376B34D006524CA /* Frameworks */,
+				8CD0B1F02376B34D006524CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1247. Minimum Swaps to Make Strings Equal";
+			productName = "1247. Minimum Swaps to Make Strings Equal";
+			productReference = 8CD0B1F22376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CEEEC55236E75EF00E2F287 /* 757. Set Intersection Size At Least Two */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CEEEC5C236E75F000E2F287 /* Build configuration list for PBXNativeTarget "757. Set Intersection Size At Least Two" */;
@@ -1855,6 +1901,9 @@
 					8CD0B1E62376B15F006524CA = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CD0B1F12376B34D006524CA = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CEEEC55236E75EF00E2F287 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1910,6 +1959,7 @@
 				8CD0B1D02375741C006524CA /* 1053. Previous Permutation With One Swap */,
 				8CD0B1DB23757D0F006524CA /* 1111. Maximum Nesting Depth of Two Valid Parentheses Strings */,
 				8CD0B1E62376B15F006524CA /* 1217. Play with Chips */,
+				8CD0B1F12376B34D006524CA /* 1247. Minimum Swaps to Make Strings Equal */,
 			);
 		};
 /* End PBXProject section */
@@ -2200,6 +2250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD0B1EA2376B15F006524CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0B1EE2376B34D006524CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0B1F52376B34D006524CA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2899,6 +2957,22 @@
 			};
 			name = Release;
 		};
+		8CD0B1F72376B34D006524CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD0B1F82376B34D006524CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CEEEC5A236E75F000E2F287 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3247,6 +3321,15 @@
 			buildConfigurations = (
 				8CD0B1EC2376B15F006524CA /* Debug */,
 				8CD0B1ED2376B15F006524CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD0B1F62376B34D006524CA /* Build configuration list for PBXNativeTarget "1247. Minimum Swaps to Make Strings Equal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD0B1F72376B34D006524CA /* Debug */,
+				8CD0B1F82376B34D006524CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
