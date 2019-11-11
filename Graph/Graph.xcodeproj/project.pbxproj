@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8CD0BA2B23796EBD006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA2A23796EBD006524CA /* main.cpp */; };
+		8CD0BA3623796F35006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA3523796F35006524CA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8CD0BA2623796EBD006524CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CD0BA3123796F35006524CA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		8CD0BA2823796EBD006524CA /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0BA2A23796EBD006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "785. Is Graph Bipartite?"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD0BA3523796F35006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8CD0BA2523796EBD006524CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0BA3023796F35006524CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8CD0BA2923796EBD006524CA /* Template */,
+				8CD0BA3423796F35006524CA /* 785. Is Graph Bipartite? */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				8CD0BA2823796EBD006524CA /* Template */,
+				8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				8CD0BA2A23796EBD006524CA /* main.cpp */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		8CD0BA3423796F35006524CA /* 785. Is Graph Bipartite? */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0BA3523796F35006524CA /* main.cpp */,
+			);
+			path = "785. Is Graph Bipartite?";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 8CD0BA2823796EBD006524CA /* Template */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CD0BA3223796F35006524CA /* 785. Is Graph Bipartite? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD0BA3723796F35006524CA /* Build configuration list for PBXNativeTarget "785. Is Graph Bipartite?" */;
+			buildPhases = (
+				8CD0BA2F23796F35006524CA /* Sources */,
+				8CD0BA3023796F35006524CA /* Frameworks */,
+				8CD0BA3123796F35006524CA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "785. Is Graph Bipartite?";
+			productName = "785. Is Graph Bipartite?";
+			productReference = 8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
 					8CD0BA2723796EBD006524CA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8CD0BA3223796F35006524CA = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -110,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				8CD0BA2723796EBD006524CA /* Template */,
+				8CD0BA3223796F35006524CA /* 785. Is Graph Bipartite? */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD0BA2B23796EBD006524CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0BA2F23796F35006524CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0BA3623796F35006524CA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +309,22 @@
 			};
 			name = Release;
 		};
+		8CD0BA3823796F35006524CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD0BA3923796F35006524CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +342,15 @@
 			buildConfigurations = (
 				8CD0BA2D23796EBD006524CA /* Debug */,
 				8CD0BA2E23796EBD006524CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD0BA3723796F35006524CA /* Build configuration list for PBXNativeTarget "785. Is Graph Bipartite?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD0BA3823796F35006524CA /* Debug */,
+				8CD0BA3923796F35006524CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
