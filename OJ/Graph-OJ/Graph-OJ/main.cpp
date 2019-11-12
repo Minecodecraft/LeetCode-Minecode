@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  HDU
+//  Graph-OJ
 //
-//  Created by 边俊林 on 2019/10/30.
+//  Created by 边俊林 on 2019/11/12.
 //  Copyright © 2019 边俊林. All rights reserved.
 //
 
@@ -25,6 +25,8 @@ using namespace std;
 
 
 int main() {
-
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    
     return 0;
 }
