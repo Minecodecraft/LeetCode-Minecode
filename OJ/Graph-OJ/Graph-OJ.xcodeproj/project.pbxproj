@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8CE221DA237A867600523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221D9237A867600523ACA /* main.cpp */; };
+		8CE221E7237A86F000523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221E6237A86F000523ACA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8CE221D4237A867600523ACA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CE221E2237A86F000523ACA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		8CE221D6237A867600523ACA /* Graph-OJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Graph-OJ"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE221D9237A867600523ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE221E4237A86F000523ACA /* HDU-1068. Girls and Boys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HDU-1068. Girls and Boys"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE221E6237A86F000523ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8CE221D3237A867600523ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE221E1237A86F000523ACA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8CE221D8237A867600523ACA /* Graph-OJ */,
+				8CE221E5237A86F000523ACA /* HDU-1068. Girls and Boys */,
 				8CE221D7237A867600523ACA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				8CE221D6237A867600523ACA /* Graph-OJ */,
+				8CE221E4237A86F000523ACA /* HDU-1068. Girls and Boys */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				8CE221D9237A867600523ACA /* main.cpp */,
 			);
 			path = "Graph-OJ";
+			sourceTree = "<group>";
+		};
+		8CE221E5237A86F000523ACA /* HDU-1068. Girls and Boys */ = {
+			isa = PBXGroup;
+			children = (
+				8CE221E6237A86F000523ACA /* main.cpp */,
+			);
+			path = "HDU-1068. Girls and Boys";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 8CE221D6237A867600523ACA /* Graph-OJ */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CE221E3237A86F000523ACA /* HDU-1068. Girls and Boys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE221E8237A86F000523ACA /* Build configuration list for PBXNativeTarget "HDU-1068. Girls and Boys" */;
+			buildPhases = (
+				8CE221E0237A86F000523ACA /* Sources */,
+				8CE221E1237A86F000523ACA /* Frameworks */,
+				8CE221E2237A86F000523ACA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HDU-1068. Girls and Boys";
+			productName = "HDU-1068. Girls and Boys";
+			productReference = 8CE221E4237A86F000523ACA /* HDU-1068. Girls and Boys */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
 					8CE221D5237A867600523ACA = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8CE221E3237A86F000523ACA = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -110,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				8CE221D5237A867600523ACA /* Graph-OJ */,
+				8CE221E3237A86F000523ACA /* HDU-1068. Girls and Boys */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE221DA237A867600523ACA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE221E0237A86F000523ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE221E7237A86F000523ACA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +309,22 @@
 			};
 			name = Release;
 		};
+		8CE221E9237A86F000523ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE221EA237A86F000523ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +342,15 @@
 			buildConfigurations = (
 				8CE221DE237A867600523ACA /* Debug */,
 				8CE221DF237A867600523ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE221E8237A86F000523ACA /* Build configuration list for PBXNativeTarget "HDU-1068. Girls and Boys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE221E9237A86F000523ACA /* Debug */,
+				8CE221EA237A86F000523ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
