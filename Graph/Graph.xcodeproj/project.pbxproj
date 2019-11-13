@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C9CEAC3237C0ECB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAC2237C0ECB00539290 /* main.cpp */; };
 		8CD0BA2B23796EBD006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA2A23796EBD006524CA /* main.cpp */; };
 		8CD0BA3623796F35006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA3523796F35006524CA /* main.cpp */; };
 		8CE221C4237A532000523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221C3237A532000523ACA /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C9CEABE237C0ECB00539290 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CD0BA2623796EBD006524CA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "133. Clone Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9CEAC2237C0ECB00539290 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD0BA2823796EBD006524CA /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0BA2A23796EBD006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "785. Is Graph Bipartite?"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C9CEABD237C0ECB00539290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD0BA2523796EBD006524CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */ = {
+			isa = PBXGroup;
+			children = (
+				8C9CEAC2237C0ECB00539290 /* main.cpp */,
+			);
+			path = "133. Clone Graph";
+			sourceTree = "<group>";
+		};
 		8CD0BA1123796E56006524CA = {
 			isa = PBXGroup;
 			children = (
 				8CD0BA2923796EBD006524CA /* Template */,
 				8CD0BA3423796F35006524CA /* 785. Is Graph Bipartite? */,
 				8CE221C2237A532000523ACA /* 886. Possible Bipartition */,
+				8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +120,7 @@
 				8CD0BA2823796EBD006524CA /* Template */,
 				8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */,
 				8CE221C1237A532000523ACA /* 886. Possible Bipartition */,
+				8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +152,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C9CEABF237C0ECB00539290 /* 133. Clone Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9CEAC6237C0ECB00539290 /* Build configuration list for PBXNativeTarget "133. Clone Graph" */;
+			buildPhases = (
+				8C9CEABC237C0ECB00539290 /* Sources */,
+				8C9CEABD237C0ECB00539290 /* Frameworks */,
+				8C9CEABE237C0ECB00539290 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "133. Clone Graph";
+			productName = "133. Clone Graph";
+			productReference = 8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CD0BA2723796EBD006524CA /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CD0BA2C23796EBD006524CA /* Build configuration list for PBXNativeTarget "Template" */;
@@ -183,6 +229,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C9CEABF237C0ECB00539290 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					8CD0BA2723796EBD006524CA = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -210,11 +259,20 @@
 				8CD0BA2723796EBD006524CA /* Template */,
 				8CD0BA3223796F35006524CA /* 785. Is Graph Bipartite? */,
 				8CE221C0237A532000523ACA /* 886. Possible Bipartition */,
+				8C9CEABF237C0ECB00539290 /* 133. Clone Graph */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C9CEABC237C0ECB00539290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9CEAC3237C0ECB00539290 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CD0BA2423796EBD006524CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +300,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C9CEAC4237C0ECB00539290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C9CEAC5237C0ECB00539290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CD0BA1F23796E56006524CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,6 +476,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C9CEAC6237C0ECB00539290 /* Build configuration list for PBXNativeTarget "133. Clone Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9CEAC4237C0ECB00539290 /* Debug */,
+				8C9CEAC5237C0ECB00539290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CD0BA1523796E56006524CA /* Build configuration list for PBXProject "Graph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
