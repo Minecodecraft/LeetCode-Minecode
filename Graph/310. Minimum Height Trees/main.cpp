@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Not conciselly
+/*
 class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
@@ -83,6 +85,41 @@ private:
             }
         }
         return maxlevel;
+    }
+};
+ */
+
+// Solution 2: Conciselly code
+class Solution {
+public:
+    vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
+        // corner case
+        if (n == 1) return {0};
+
+        unordered_map<int, unordered_set<int>> mp;
+        for (auto& e: edges) {
+            mp[e[0]].insert(e[1]);
+            mp[e[1]].insert(e[0]);
+        }
+
+        vector<int> curr;
+        for (int i = 0; i < n; ++i)
+            if (mp[i].size() == 1)
+                curr.push_back(i);
+
+        while (true) {
+            vector<int> next;
+            for (auto& cur: curr) {
+                for (auto& adj: mp[cur]) {
+                    mp[adj].erase(cur);
+                    if (mp[adj].size() == 1)
+                        next.push_back(adj);
+                }
+            }
+            if (next.empty())
+                return curr;
+            curr = next;
+        }
     }
 };
 
