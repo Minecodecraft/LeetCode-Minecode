@@ -12,6 +12,7 @@
 		8C9CEAD9237D1CFA00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAD8237D1CFA00539290 /* main.cpp */; };
 		8CD0BA2B23796EBD006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA2A23796EBD006524CA /* main.cpp */; };
 		8CD0BA3623796F35006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA3523796F35006524CA /* main.cpp */; };
+		8CDEC8AF238BBF0F00CBF1B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEC8AE238BBF0F00CBF1B8 /* main.cpp */; };
 		8CE221C4237A532000523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221C3237A532000523ACA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CDEC8AA238BBF0F00CBF1B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CE221BF237A532000523ACA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +93,8 @@
 		8CD0BA2A23796EBD006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "785. Is Graph Bipartite?"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD0BA3523796F35006524CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CDEC8AC238BBF0F00CBF1B8 /* 684. Redundant Connection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "684. Redundant Connection"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDEC8AE238BBF0F00CBF1B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE221C1237A532000523ACA /* 886. Possible Bipartition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "886. Possible Bipartition"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE221C3237A532000523ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +129,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CD0BA3023796F35006524CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDEC8A9238BBF0F00CBF1B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,6 +185,7 @@
 				8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */,
 				8C9CEACC237C0FFB00539290 /* 310. Minimum Height Trees */,
 				8C9CEAD7237D1CFA00539290 /* 332. Reconstruct Itinerary */,
+				8CDEC8AD238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,6 +199,7 @@
 				8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */,
 				8C9CEACB237C0FFB00539290 /* 310. Minimum Height Trees */,
 				8C9CEAD6237D1CF900539290 /* 332. Reconstruct Itinerary */,
+				8CDEC8AC238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +218,14 @@
 				8CD0BA3523796F35006524CA /* main.cpp */,
 			);
 			path = "785. Is Graph Bipartite?";
+			sourceTree = "<group>";
+		};
+		8CDEC8AD238BBF0F00CBF1B8 /* 684. Redundant Connection */ = {
+			isa = PBXGroup;
+			children = (
+				8CDEC8AE238BBF0F00CBF1B8 /* main.cpp */,
+			);
+			path = "684. Redundant Connection";
 			sourceTree = "<group>";
 		};
 		8CE221C2237A532000523ACA /* 886. Possible Bipartition */ = {
@@ -295,6 +324,23 @@
 			productReference = 8CD0BA3323796F35006524CA /* 785. Is Graph Bipartite? */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CDEC8AB238BBF0F00CBF1B8 /* 684. Redundant Connection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDEC8B2238BBF0F00CBF1B8 /* Build configuration list for PBXNativeTarget "684. Redundant Connection" */;
+			buildPhases = (
+				8CDEC8A8238BBF0F00CBF1B8 /* Sources */,
+				8CDEC8A9238BBF0F00CBF1B8 /* Frameworks */,
+				8CDEC8AA238BBF0F00CBF1B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "684. Redundant Connection";
+			productName = "684. Redundant Connection";
+			productReference = 8CDEC8AC238BBF0F00CBF1B8 /* 684. Redundant Connection */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CE221C0237A532000523ACA /* 886. Possible Bipartition */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE221C7237A532000523ACA /* Build configuration list for PBXNativeTarget "886. Possible Bipartition" */;
@@ -336,6 +382,9 @@
 					8CD0BA3223796F35006524CA = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CDEC8AB238BBF0F00CBF1B8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8CE221C0237A532000523ACA = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -360,6 +409,7 @@
 				8C9CEABF237C0ECB00539290 /* 133. Clone Graph */,
 				8C9CEACA237C0FFB00539290 /* 310. Minimum Height Trees */,
 				8C9CEAD5237D1CF900539290 /* 332. Reconstruct Itinerary */,
+				8CDEC8AB238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 			);
 		};
 /* End PBXProject section */
@@ -402,6 +452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD0BA3623796F35006524CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDEC8A8238BBF0F00CBF1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDEC8AF238BBF0F00CBF1B8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +663,22 @@
 			};
 			name = Release;
 		};
+		8CDEC8B0238BBF0F00CBF1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CDEC8B1238BBF0F00CBF1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CE221C5237A532000523ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -674,6 +748,15 @@
 			buildConfigurations = (
 				8CD0BA3823796F35006524CA /* Debug */,
 				8CD0BA3923796F35006524CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDEC8B2238BBF0F00CBF1B8 /* Build configuration list for PBXNativeTarget "684. Redundant Connection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDEC8B0238BBF0F00CBF1B8 /* Debug */,
+				8CDEC8B1238BBF0F00CBF1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
