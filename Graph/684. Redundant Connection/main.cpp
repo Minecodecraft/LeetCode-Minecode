@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Graph Theory, DFS, beats 100% (4ms)
+/*
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& es) {
@@ -90,6 +92,28 @@ private:
             }
         }
         color[u] = 2;
+    }
+};
+ */
+
+// Solution 2: Union Find, Beats 100% (4ms)
+class Solution {
+public:
+    vector<int> findRedundantConnection(vector<vector<int>>& edges) {
+        int n = 0;
+        for (auto& edge: edges) n = max(n, max(edge[0], edge[1]));
+
+        vector<int> f (n+1, 0);
+        for (int i = 1; i <= n; ++i) f[i] = i;
+        vector<int> res;
+        for (auto& e: edges) {
+            int u = e[0], v = e[1];
+            while (u != f[u]) u = f[u];
+            while (v != f[v]) v = f[v];
+            if (u == v) res = e;
+            else f[u] = v;
+        }
+        return res;
     }
 };
 
