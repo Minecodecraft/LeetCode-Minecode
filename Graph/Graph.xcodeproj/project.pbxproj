@@ -15,6 +15,7 @@
 		8CDEC8AF238BBF0F00CBF1B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEC8AE238BBF0F00CBF1B8 /* main.cpp */; };
 		8CDEC8BA238BD40600CBF1B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEC8B9238BD40600CBF1B8 /* main.cpp */; };
 		8CE221C4237A532000523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221C3237A532000523ACA /* main.cpp */; };
+		8CE2FC2223934B52005AE2F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2FC2123934B52005AE2F1 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +91,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CE2FC1D23934B52005AE2F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +119,8 @@
 		8CDEC8B9238BD40600CBF1B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE221C1237A532000523ACA /* 886. Possible Bipartition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "886. Possible Bipartition"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE221C3237A532000523ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "802. Find Eventual Safe States"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE2FC2123934B52005AE2F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +180,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE2FC1C23934B52005AE2F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -206,6 +225,7 @@
 				8C9CEAD7237D1CFA00539290 /* 332. Reconstruct Itinerary */,
 				8CDEC8AD238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CDEC8B8238BD40600CBF1B8 /* 685. Redundant Connection II */,
+				8CE2FC2023934B52005AE2F1 /* 802. Find Eventual Safe States */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +241,7 @@
 				8C9CEAD6237D1CF900539290 /* 332. Reconstruct Itinerary */,
 				8CDEC8AC238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CDEC8B7238BD40600CBF1B8 /* 685. Redundant Connection II */,
+				8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +284,14 @@
 				8CE221C3237A532000523ACA /* main.cpp */,
 			);
 			path = "886. Possible Bipartition";
+			sourceTree = "<group>";
+		};
+		8CE2FC2023934B52005AE2F1 /* 802. Find Eventual Safe States */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2FC2123934B52005AE2F1 /* main.cpp */,
+			);
+			path = "802. Find Eventual Safe States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +433,23 @@
 			productReference = 8CE221C1237A532000523ACA /* 886. Possible Bipartition */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CE2FC1E23934B52005AE2F1 /* 802. Find Eventual Safe States */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE2FC2523934B52005AE2F1 /* Build configuration list for PBXNativeTarget "802. Find Eventual Safe States" */;
+			buildPhases = (
+				8CE2FC1B23934B52005AE2F1 /* Sources */,
+				8CE2FC1C23934B52005AE2F1 /* Frameworks */,
+				8CE2FC1D23934B52005AE2F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "802. Find Eventual Safe States";
+			productName = "802. Find Eventual Safe States";
+			productReference = 8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -437,6 +483,9 @@
 					8CE221C0237A532000523ACA = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					8CE2FC1E23934B52005AE2F1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CD0BA1523796E56006524CA /* Build configuration list for PBXProject "Graph" */;
@@ -460,6 +509,7 @@
 				8C9CEAD5237D1CF900539290 /* 332. Reconstruct Itinerary */,
 				8CDEC8AB238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CDEC8B6238BD40600CBF1B8 /* 685. Redundant Connection II */,
+				8CE2FC1E23934B52005AE2F1 /* 802. Find Eventual Safe States */,
 			);
 		};
 /* End PBXProject section */
@@ -526,6 +576,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE221C4237A532000523ACA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE2FC1B23934B52005AE2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2FC2223934B52005AE2F1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,6 +827,22 @@
 			};
 			name = Release;
 		};
+		8CE2FC2323934B52005AE2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE2FC2423934B52005AE2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -849,6 +923,15 @@
 			buildConfigurations = (
 				8CE221C5237A532000523ACA /* Debug */,
 				8CE221C6237A532000523ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE2FC2523934B52005AE2F1 /* Build configuration list for PBXNativeTarget "802. Find Eventual Safe States" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE2FC2323934B52005AE2F1 /* Debug */,
+				8CE2FC2423934B52005AE2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
