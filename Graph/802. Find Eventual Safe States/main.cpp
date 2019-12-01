@@ -26,6 +26,7 @@ using namespace std;
 /// Solution:
 //
 // Solution 1: Ugly dfs, only beats 10%
+/*
 class Solution {
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
@@ -75,6 +76,36 @@ private:
         }
         vis.erase(u);
         return cache[u] = has;
+    }
+};
+ */
+
+// Solution 2: Optimized code, beats 100%
+class Solution {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int sz = graph.size();
+        dp = vector<int> (sz, 0);
+        vector<int> res;
+        for (int i = 0; i < sz; ++i)
+            if (dfs(graph, i))
+                res.push_back(i);
+        return res;
+    }
+    
+private:
+    vector<int> dp;
+    bool dfs(vector<vector<int>>& graph, int u) {
+        if (dp[u] != 0)
+            return dp[u] == 1;
+        
+        dp[u] = -1;
+        for (int i = 0; i < graph[u].size(); ++i) {
+            int v = graph[u][i];
+            if (!dfs(graph, v))
+                return false;
+        }
+        return dp[u] = 1;
     }
 };
 
