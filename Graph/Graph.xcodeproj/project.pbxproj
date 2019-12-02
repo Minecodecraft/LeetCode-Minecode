@@ -14,6 +14,7 @@
 		8CD0BA3623796F35006524CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CD0BA3523796F35006524CA /* main.cpp */; };
 		8CDEC8AF238BBF0F00CBF1B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEC8AE238BBF0F00CBF1B8 /* main.cpp */; };
 		8CDEC8BA238BD40600CBF1B8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CDEC8B9238BD40600CBF1B8 /* main.cpp */; };
+		8CE2134423940B68005AE2F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2134323940B68005AE2F1 /* main.cpp */; };
 		8CE221C4237A532000523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221C3237A532000523ACA /* main.cpp */; };
 		8CE2FC2223934B52005AE2F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2FC2123934B52005AE2F1 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CE2133F23940B68005AE2F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CE221BF237A532000523ACA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,6 +127,8 @@
 		8CDEC8AE238BBF0F00CBF1B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CDEC8B7238BD40600CBF1B8 /* 685. Redundant Connection II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "685. Redundant Connection II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDEC8B9238BD40600CBF1B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE2134123940B68005AE2F1 /* 839. Similar String Groups */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "839. Similar String Groups"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE2134323940B68005AE2F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE221C1237A532000523ACA /* 886. Possible Bipartition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "886. Possible Bipartition"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE221C3237A532000523ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "802. Find Eventual Safe States"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +179,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CDEC8B4238BD40600CBF1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE2133E23940B68005AE2F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,6 +245,7 @@
 				8CDEC8AD238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CDEC8B8238BD40600CBF1B8 /* 685. Redundant Connection II */,
 				8CE2FC2023934B52005AE2F1 /* 802. Find Eventual Safe States */,
+				8CE2134223940B68005AE2F1 /* 839. Similar String Groups */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,6 +262,7 @@
 				8CDEC8AC238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CDEC8B7238BD40600CBF1B8 /* 685. Redundant Connection II */,
 				8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */,
+				8CE2134123940B68005AE2F1 /* 839. Similar String Groups */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,6 +297,14 @@
 				8CDEC8B9238BD40600CBF1B8 /* main.cpp */,
 			);
 			path = "685. Redundant Connection II";
+			sourceTree = "<group>";
+		};
+		8CE2134223940B68005AE2F1 /* 839. Similar String Groups */ = {
+			isa = PBXGroup;
+			children = (
+				8CE2134323940B68005AE2F1 /* main.cpp */,
+			);
+			path = "839. Similar String Groups";
 			sourceTree = "<group>";
 		};
 		8CE221C2237A532000523ACA /* 886. Possible Bipartition */ = {
@@ -416,6 +445,23 @@
 			productReference = 8CDEC8B7238BD40600CBF1B8 /* 685. Redundant Connection II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CE2134023940B68005AE2F1 /* 839. Similar String Groups */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE2134723940B68005AE2F1 /* Build configuration list for PBXNativeTarget "839. Similar String Groups" */;
+			buildPhases = (
+				8CE2133D23940B68005AE2F1 /* Sources */,
+				8CE2133E23940B68005AE2F1 /* Frameworks */,
+				8CE2133F23940B68005AE2F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "839. Similar String Groups";
+			productName = "839. Similar String Groups";
+			productReference = 8CE2134123940B68005AE2F1 /* 839. Similar String Groups */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CE221C0237A532000523ACA /* 886. Possible Bipartition */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE221C7237A532000523ACA /* Build configuration list for PBXNativeTarget "886. Possible Bipartition" */;
@@ -480,6 +526,9 @@
 					8CDEC8B6238BD40600CBF1B8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8CE2134023940B68005AE2F1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8CE221C0237A532000523ACA = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -510,6 +559,7 @@
 				8CDEC8AB238BBF0F00CBF1B8 /* 684. Redundant Connection */,
 				8CDEC8B6238BD40600CBF1B8 /* 685. Redundant Connection II */,
 				8CE2FC1E23934B52005AE2F1 /* 802. Find Eventual Safe States */,
+				8CE2134023940B68005AE2F1 /* 839. Similar String Groups */,
 			);
 		};
 /* End PBXProject section */
@@ -568,6 +618,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CDEC8BA238BD40600CBF1B8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE2133D23940B68005AE2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE2134423940B68005AE2F1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,6 +869,22 @@
 			};
 			name = Release;
 		};
+		8CE2134523940B68005AE2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE2134623940B68005AE2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CE221C5237A532000523ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -914,6 +988,15 @@
 			buildConfigurations = (
 				8CDEC8BC238BD40600CBF1B8 /* Debug */,
 				8CDEC8BD238BD40600CBF1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE2134723940B68005AE2F1 /* Build configuration list for PBXNativeTarget "839. Similar String Groups" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE2134523940B68005AE2F1 /* Debug */,
+				8CE2134623940B68005AE2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
