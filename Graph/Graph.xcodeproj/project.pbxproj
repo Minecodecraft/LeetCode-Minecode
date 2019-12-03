@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C9CEAC3237C0ECB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAC2237C0ECB00539290 /* main.cpp */; };
 		8C9CEACE237C0FFB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEACD237C0FFB00539290 /* main.cpp */; };
 		8C9CEAD9237D1CFA00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAD8237D1CFA00539290 /* main.cpp */; };
@@ -23,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C63042D23962A4F00B49C30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C9CEABE237C0ECB00539290 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -143,6 +153,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "959. Regions Cut By Slashes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C63043123962A4F00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "133. Clone Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9CEAC2237C0ECB00539290 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEACB237C0FFB00539290 /* 310. Minimum Height Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "310. Minimum Height Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +184,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C63042C23962A4F00B49C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C9CEABD237C0ECB00539290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +285,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
+			isa = PBXGroup;
+			children = (
+				8C63043123962A4F00B49C30 /* main.cpp */,
+			);
+			path = "959. Regions Cut By Slashes";
+			sourceTree = "<group>";
+		};
 		8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +333,7 @@
 				8CE2134D2394905B005AE2F1 /* 841. Keys and Rooms */,
 				8CE213582394A2B7005AE2F1 /* 854. K-Similar Strings */,
 				8CE21E442395683D005AE2F1 /* 928. Minimize Malware Spread II */,
+				8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -326,6 +354,7 @@
 				8CE2134C2394905B005AE2F1 /* 841. Keys and Rooms */,
 				8CE213572394A2B7005AE2F1 /* 854. K-Similar Strings */,
 				8CE21E432395683D005AE2F1 /* 928. Minimize Malware Spread II */,
+				8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,6 +442,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C63043523962A4F00B49C30 /* Build configuration list for PBXNativeTarget "959. Regions Cut By Slashes" */;
+			buildPhases = (
+				8C63042B23962A4F00B49C30 /* Sources */,
+				8C63042C23962A4F00B49C30 /* Frameworks */,
+				8C63042D23962A4F00B49C30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "959. Regions Cut By Slashes";
+			productName = "959. Regions Cut By Slashes";
+			productReference = 8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C9CEABF237C0ECB00539290 /* 133. Clone Graph */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C9CEAC6237C0ECB00539290 /* Build configuration list for PBXNativeTarget "133. Clone Graph" */;
@@ -643,6 +689,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C63042E23962A4F00B49C30 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C9CEABF237C0ECB00539290 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -710,11 +759,20 @@
 				8CE2134B2394905B005AE2F1 /* 841. Keys and Rooms */,
 				8CE213562394A2B7005AE2F1 /* 854. K-Similar Strings */,
 				8CE21E422395683D005AE2F1 /* 928. Minimize Malware Spread II */,
+				8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C63042B23962A4F00B49C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C63043223962A4F00B49C30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C9CEABC237C0ECB00539290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -822,6 +880,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C63043323962A4F00B49C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C63043423962A4F00B49C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C9CEAC4237C0ECB00539290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1142,6 +1216,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C63043523962A4F00B49C30 /* Build configuration list for PBXNativeTarget "959. Regions Cut By Slashes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C63043323962A4F00B49C30 /* Debug */,
+				8C63043423962A4F00B49C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C9CEAC6237C0ECB00539290 /* Build configuration list for PBXNativeTarget "133. Clone Graph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
