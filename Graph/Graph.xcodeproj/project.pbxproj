@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
+		8C63142223968AD400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142123968AD400B49C30 /* main.cpp */; };
 		8C9CEAC3237C0ECB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAC2237C0ECB00539290 /* main.cpp */; };
 		8C9CEACE237C0FFB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEACD237C0FFB00539290 /* main.cpp */; };
 		8C9CEAD9237D1CFA00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAD8237D1CFA00539290 /* main.cpp */; };
@@ -35,6 +36,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C631412239688E300B49C30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C63141D23968AD400B49C30 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -167,6 +177,8 @@
 		8C63043123962A4F00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "990. Satisfiability of Equality Equations"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C631416239688E300B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C63141F23968AD400B49C30 /* 996. Number of Squareful Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "996. Number of Squareful Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C63142123968AD400B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "133. Clone Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9CEAC2237C0ECB00539290 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEACB237C0FFB00539290 /* 310. Minimum Height Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "310. Minimum Height Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +216,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C631411239688E300B49C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C63141C23968AD400B49C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,6 +339,14 @@
 			path = "990. Satisfiability of Equality Equations";
 			sourceTree = "<group>";
 		};
+		8C63142023968AD400B49C30 /* 996. Number of Squareful Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				8C63142123968AD400B49C30 /* main.cpp */,
+			);
+			path = "996. Number of Squareful Arrays";
+			sourceTree = "<group>";
+		};
 		8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +389,7 @@
 				8CE21E442395683D005AE2F1 /* 928. Minimize Malware Spread II */,
 				8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */,
 				8C631415239688E300B49C30 /* 990. Satisfiability of Equality Equations */,
+				8C63142023968AD400B49C30 /* 996. Number of Squareful Arrays */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -384,6 +412,7 @@
 				8CE21E432395683D005AE2F1 /* 928. Minimize Malware Spread II */,
 				8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */,
 				8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */,
+				8C63141F23968AD400B49C30 /* 996. Number of Squareful Arrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -503,6 +532,23 @@
 			name = "990. Satisfiability of Equality Equations";
 			productName = "990. Satisfiability of Equality Equations";
 			productReference = 8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C63141E23968AD400B49C30 /* 996. Number of Squareful Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C63142323968AD400B49C30 /* Build configuration list for PBXNativeTarget "996. Number of Squareful Arrays" */;
+			buildPhases = (
+				8C63141B23968AD400B49C30 /* Sources */,
+				8C63141C23968AD400B49C30 /* Frameworks */,
+				8C63141D23968AD400B49C30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "996. Number of Squareful Arrays";
+			productName = "996. Number of Squareful Arrays";
+			productReference = 8C63141F23968AD400B49C30 /* 996. Number of Squareful Arrays */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C9CEABF237C0ECB00539290 /* 133. Clone Graph */ = {
@@ -741,6 +787,9 @@
 					8C631413239688E300B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C63141E23968AD400B49C30 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C9CEABF237C0ECB00539290 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -810,6 +859,7 @@
 				8CE21E422395683D005AE2F1 /* 928. Minimize Malware Spread II */,
 				8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */,
 				8C631413239688E300B49C30 /* 990. Satisfiability of Equality Equations */,
+				8C63141E23968AD400B49C30 /* 996. Number of Squareful Arrays */,
 			);
 		};
 /* End PBXProject section */
@@ -828,6 +878,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C631417239688E300B49C30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C63141B23968AD400B49C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C63142223968AD400B49C30 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -963,6 +1021,22 @@
 			name = Debug;
 		};
 		8C631419239688E300B49C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C63142423968AD400B49C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C63142523968AD400B49C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1304,6 +1378,15 @@
 			buildConfigurations = (
 				8C631418239688E300B49C30 /* Debug */,
 				8C631419239688E300B49C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C63142323968AD400B49C30 /* Build configuration list for PBXNativeTarget "996. Number of Squareful Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C63142423968AD400B49C30 /* Debug */,
+				8C63142523968AD400B49C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
