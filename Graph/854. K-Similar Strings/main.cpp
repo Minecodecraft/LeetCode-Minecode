@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Backtracking Solution, 4ms, beats 100%
+/*
 class Solution {
 public:
     int kSimilarity(string A, string B) {
@@ -53,11 +55,45 @@ public:
         return 0;
     }
 };
+ */
+
+// Solution 2: BFS Solution
+class Solution {
+public:
+    int kSimilarity(string A, string B) {
+        int len = A.length();
+        vector<vector<int>> pos(6);
+        for (int i = 0; i < len; ++i)
+            pos[B[i] - 'a'].push_back(i);
+
+        queue<pair<string, int>> q;
+        q.push(make_pair(A, 0));
+        while (q.size()) {
+            auto& pir = q.front(); q.pop();
+            string& str = pir.first;
+            int cnt = pir.second;
+            if (str == B)
+                return cnt;
+            int i = 0;
+            while (i < len && str[i] == B[i]) ++i;
+            for (int j : pos[str[i] - 'a']) {
+                if (str[j] == B[j]) continue;
+                string newstr = str;
+                newstr[i] = str[j];
+                newstr[j] = str[i];
+                q.push(make_pair(newstr, cnt+1));
+            }
+        }
+        return 0;
+    }
+};
 
 int main() {
     Solution sol = Solution();
-    string a = "abac";
-    string b = "baca";
+//    string a = "abac";
+//    string b = "baca";
+    string a = "abccaacceecdeea";
+    string b = "bcaacceeccdeaae";
     int res = sol.kSimilarity(a, b);
     cout << res << endl;
     return 0;
