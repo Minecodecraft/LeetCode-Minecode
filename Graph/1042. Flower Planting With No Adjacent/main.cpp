@@ -28,7 +28,21 @@ using namespace std;
 class Solution {
 public:
     vector<int> gardenNoAdj(int N, vector<vector<int>>& paths) {
-
+        vector<int> color (N, 0);
+        vector<vector<int>> g (N);
+        for (auto& path: paths) {
+            g[path[0]-1].push_back(path[1]-1);
+            g[path[1]-1].push_back(path[0]-1);
+        }
+        for (int i = 0; i < N; ++i) {
+            vector<bool> colors (5, true);
+            for (auto& neg: g[i]) colors[color[neg]] = false;
+            for (int tar = 1; tar <= 4; ++tar)
+                if (colors[tar]) {
+                    color[i] = tar; break;
+                }
+        }
+        return color;
     }
 };
 
