@@ -11,6 +11,7 @@
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
 		8C63142223968AD400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142123968AD400B49C30 /* main.cpp */; };
 		8C63142D2396975E00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142C2396975E00B49C30 /* main.cpp */; };
+		8C6314382397381100B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6314372397381100B49C30 /* main.cpp */; };
 		8C9CEAC3237C0ECB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAC2237C0ECB00539290 /* main.cpp */; };
 		8C9CEACE237C0FFB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEACD237C0FFB00539290 /* main.cpp */; };
 		8C9CEAD9237D1CFA00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAD8237D1CFA00539290 /* main.cpp */; };
@@ -55,6 +56,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C6314282396975E00B49C30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C6314332397381100B49C30 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -191,6 +201,8 @@
 		8C63142123968AD400B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63142A2396975E00B49C30 /* 997. Find the Town Judge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "997. Find the Town Judge"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63142C2396975E00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C6314352397381100B49C30 /* 1042. Flower Planting With No Adjacent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1042. Flower Planting With No Adjacent"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6314372397381100B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "133. Clone Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9CEAC2237C0ECB00539290 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEACB237C0FFB00539290 /* 310. Minimum Height Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "310. Minimum Height Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,6 +254,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C6314272396975E00B49C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6314322397381100B49C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +393,14 @@
 			path = "997. Find the Town Judge";
 			sourceTree = "<group>";
 		};
+		8C6314362397381100B49C30 /* 1042. Flower Planting With No Adjacent */ = {
+			isa = PBXGroup;
+			children = (
+				8C6314372397381100B49C30 /* main.cpp */,
+			);
+			path = "1042. Flower Planting With No Adjacent";
+			sourceTree = "<group>";
+		};
 		8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +445,7 @@
 				8C631415239688E300B49C30 /* 990. Satisfiability of Equality Equations */,
 				8C63142023968AD400B49C30 /* 996. Number of Squareful Arrays */,
 				8C63142B2396975E00B49C30 /* 997. Find the Town Judge */,
+				8C6314362397381100B49C30 /* 1042. Flower Planting With No Adjacent */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -442,6 +470,7 @@
 				8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */,
 				8C63141F23968AD400B49C30 /* 996. Number of Squareful Arrays */,
 				8C63142A2396975E00B49C30 /* 997. Find the Town Judge */,
+				8C6314352397381100B49C30 /* 1042. Flower Planting With No Adjacent */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -595,6 +624,23 @@
 			name = "997. Find the Town Judge";
 			productName = "997. Find the Town Judge";
 			productReference = 8C63142A2396975E00B49C30 /* 997. Find the Town Judge */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C6314342397381100B49C30 /* 1042. Flower Planting With No Adjacent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6314392397381100B49C30 /* Build configuration list for PBXNativeTarget "1042. Flower Planting With No Adjacent" */;
+			buildPhases = (
+				8C6314312397381100B49C30 /* Sources */,
+				8C6314322397381100B49C30 /* Frameworks */,
+				8C6314332397381100B49C30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1042. Flower Planting With No Adjacent";
+			productName = "1042. Flower Planting With No Adjacent";
+			productReference = 8C6314352397381100B49C30 /* 1042. Flower Planting With No Adjacent */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C9CEABF237C0ECB00539290 /* 133. Clone Graph */ = {
@@ -839,6 +885,9 @@
 					8C6314292396975E00B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C6314342397381100B49C30 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C9CEABF237C0ECB00539290 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -910,6 +959,7 @@
 				8C631413239688E300B49C30 /* 990. Satisfiability of Equality Equations */,
 				8C63141E23968AD400B49C30 /* 996. Number of Squareful Arrays */,
 				8C6314292396975E00B49C30 /* 997. Find the Town Judge */,
+				8C6314342397381100B49C30 /* 1042. Flower Planting With No Adjacent */,
 			);
 		};
 /* End PBXProject section */
@@ -944,6 +994,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C63142D2396975E00B49C30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6314312397381100B49C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6314382397381100B49C30 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1111,6 +1169,22 @@
 			name = Debug;
 		};
 		8C6314302396975E00B49C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C63143A2397381100B49C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C63143B2397381100B49C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1470,6 +1544,15 @@
 			buildConfigurations = (
 				8C63142F2396975E00B49C30 /* Debug */,
 				8C6314302396975E00B49C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6314392397381100B49C30 /* Build configuration list for PBXNativeTarget "1042. Flower Planting With No Adjacent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C63143A2397381100B49C30 /* Debug */,
+				8C63143B2397381100B49C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
