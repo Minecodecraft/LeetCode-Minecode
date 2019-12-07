@@ -12,12 +12,17 @@
 		<key>1043. Partition Array for Maximum Sum.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>1059. All Paths from Source Lead to Destination.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>18</integer>
+		</dict>
+		<key>1102. Path With Maximum Minimum Value.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
 		</dict>
 		<key>133. Clone Graph.xcscheme_^#shared#^_</key>
 		<dict>
