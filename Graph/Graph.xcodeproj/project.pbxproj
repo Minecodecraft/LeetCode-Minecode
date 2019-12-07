@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0D24D7239B50E800EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24D6239B50E800EA796A /* main.cpp */; };
 		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
 		8C63142223968AD400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142123968AD400B49C30 /* main.cpp */; };
@@ -29,6 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C0D24D2239B50E800EA796A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C63042D23962A4F00B49C30 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +213,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C0D24D4239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1059. All Paths from Source Lead to Destination"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0D24D6239B50E800EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "959. Regions Cut By Slashes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63043123962A4F00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "990. Satisfiability of Equality Equations"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +256,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C0D24D1239B50E800EA796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C63042C23962A4F00B49C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,6 +399,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C0D24D5239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D24D6239B50E800EA796A /* main.cpp */,
+			);
+			path = "1059. All Paths from Source Lead to Destination";
+			sourceTree = "<group>";
+		};
 		8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,6 +501,7 @@
 				8C63142B2396975E00B49C30 /* 997. Find the Town Judge */,
 				8C6314362397381100B49C30 /* 1042. Flower Planting With No Adjacent */,
 				8C63144123973DE400B49C30 /* 1043. Partition Array for Maximum Sum */,
+				8C0D24D5239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -500,6 +528,7 @@
 				8C63142A2396975E00B49C30 /* 997. Find the Town Judge */,
 				8C6314352397381100B49C30 /* 1042. Flower Planting With No Adjacent */,
 				8C63144023973DE400B49C30 /* 1043. Partition Array for Maximum Sum */,
+				8C0D24D4239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -587,6 +616,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C0D24D3239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0D24DA239B50E800EA796A /* Build configuration list for PBXNativeTarget "1059. All Paths from Source Lead to Destination" */;
+			buildPhases = (
+				8C0D24D0239B50E800EA796A /* Sources */,
+				8C0D24D1239B50E800EA796A /* Frameworks */,
+				8C0D24D2239B50E800EA796A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1059. All Paths from Source Lead to Destination";
+			productName = "1059. All Paths from Source Lead to Destination";
+			productReference = 8C0D24D4239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C63043523962A4F00B49C30 /* Build configuration list for PBXNativeTarget "959. Regions Cut By Slashes" */;
@@ -919,6 +965,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C0D24D3239B50E800EA796A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C63042E23962A4F00B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1010,11 +1059,20 @@
 				8C6314292396975E00B49C30 /* 997. Find the Town Judge */,
 				8C6314342397381100B49C30 /* 1042. Flower Planting With No Adjacent */,
 				8C63143F23973DE400B49C30 /* 1043. Partition Array for Maximum Sum */,
+				8C0D24D3239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C0D24D0239B50E800EA796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0D24D7239B50E800EA796A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C63042B23962A4F00B49C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1170,6 +1228,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C0D24D8239B50E800EA796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0D24D9239B50E800EA796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C63043323962A4F00B49C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1586,6 +1660,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C0D24DA239B50E800EA796A /* Build configuration list for PBXNativeTarget "1059. All Paths from Source Lead to Destination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0D24D8239B50E800EA796A /* Debug */,
+				8C0D24D9239B50E800EA796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C63043523962A4F00B49C30 /* Build configuration list for PBXNativeTarget "959. Regions Cut By Slashes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
