@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C0D24D7239B50E800EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24D6239B50E800EA796A /* main.cpp */; };
 		8C0D24E2239C040000EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24E1239C040000EA796A /* main.cpp */; };
+		8C0D2AA8239F4DBA00EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AA7239F4DBA00EA796A /* main.cpp */; };
 		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
 		8C63142223968AD400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142123968AD400B49C30 /* main.cpp */; };
@@ -41,6 +42,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C0D24DD239C040000EA796A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C0D2AA3239F4DBA00EA796A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -227,6 +237,8 @@
 		8C0D24D6239B50E800EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0D24DF239C040000EA796A /* 1102. Path With Maximum Minimum Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1102. Path With Maximum Minimum Value"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0D24E1239C040000EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1129. Shortest Path with Alternating Colors"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0D2AA7239F4DBA00EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "959. Regions Cut By Slashes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63043123962A4F00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "990. Satisfiability of Equality Equations"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -276,6 +288,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C0D24DC239C040000EA796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0D2AA2239F4DBA00EA796A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -434,6 +453,14 @@
 			path = "1102. Path With Maximum Minimum Value";
 			sourceTree = "<group>";
 		};
+		8C0D2AA6239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D2AA7239F4DBA00EA796A /* main.cpp */,
+			);
+			path = "1129. Shortest Path with Alternating Colors";
+			sourceTree = "<group>";
+		};
 		8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,6 +557,7 @@
 				8C63144123973DE400B49C30 /* 1043. Partition Array for Maximum Sum */,
 				8C0D24D5239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8C0D24E0239C040000EA796A /* 1102. Path With Maximum Minimum Value */,
+				8C0D2AA6239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -558,6 +586,7 @@
 				8C63144023973DE400B49C30 /* 1043. Partition Array for Maximum Sum */,
 				8C0D24D4239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8C0D24DF239C040000EA796A /* 1102. Path With Maximum Minimum Value */,
+				8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -677,6 +706,23 @@
 			name = "1102. Path With Maximum Minimum Value";
 			productName = "1102. Path With Maximum Minimum Value";
 			productReference = 8C0D24DF239C040000EA796A /* 1102. Path With Maximum Minimum Value */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C0D2AA4239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0D2AAB239F4DBA00EA796A /* Build configuration list for PBXNativeTarget "1129. Shortest Path with Alternating Colors" */;
+			buildPhases = (
+				8C0D2AA1239F4DBA00EA796A /* Sources */,
+				8C0D2AA2239F4DBA00EA796A /* Frameworks */,
+				8C0D2AA3239F4DBA00EA796A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1129. Shortest Path with Alternating Colors";
+			productName = "1129. Shortest Path with Alternating Colors";
+			productReference = 8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
@@ -1017,6 +1063,9 @@
 					8C0D24DE239C040000EA796A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C0D2AA4239F4DBA00EA796A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C63042E23962A4F00B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1110,6 +1159,7 @@
 				8C63143F23973DE400B49C30 /* 1043. Partition Array for Maximum Sum */,
 				8C0D24D3239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8C0D24DE239C040000EA796A /* 1102. Path With Maximum Minimum Value */,
+				8C0D2AA4239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
 			);
 		};
 /* End PBXProject section */
@@ -1128,6 +1178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0D24E2239C040000EA796A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0D2AA1239F4DBA00EA796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0D2AA8239F4DBA00EA796A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1311,6 +1369,22 @@
 			name = Debug;
 		};
 		8C0D24E5239C040000EA796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0D2AA9239F4DBA00EA796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0D2AAA239F4DBA00EA796A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1748,6 +1822,15 @@
 			buildConfigurations = (
 				8C0D24E4239C040000EA796A /* Debug */,
 				8C0D24E5239C040000EA796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0D2AAB239F4DBA00EA796A /* Build configuration list for PBXNativeTarget "1129. Shortest Path with Alternating Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0D2AA9239F4DBA00EA796A /* Debug */,
+				8C0D2AAA239F4DBA00EA796A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
