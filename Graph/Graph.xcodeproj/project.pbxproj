@@ -31,6 +31,7 @@
 		8CE21E462395683D005AE2F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE21E452395683D005AE2F1 /* main.cpp */; };
 		8CE221C4237A532000523ACA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE221C3237A532000523ACA /* main.cpp */; };
 		8CE2FC2223934B52005AE2F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2FC2123934B52005AE2F1 /* main.cpp */; };
+		8CF2B058239F9018002A6B99 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2B057239F9018002A6B99 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -250,6 +251,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF2B053239F9018002A6B99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -301,6 +311,8 @@
 		8CE221C3237A532000523ACA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "802. Find Eventual Safe States"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE2FC2123934B52005AE2F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF2B055239F9018002A6B99 /* 1153. String Transforms Into Another String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1153. String Transforms Into Another String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF2B057239F9018002A6B99 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -472,6 +484,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF2B052239F9018002A6B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -614,6 +633,7 @@
 				8C0D2AA6239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
 				8C0D2AB1239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8C0D2ABC239F788100EA796A /* 1136. Parallel Courses */,
+				8CF2B056239F9018002A6B99 /* 1153. String Transforms Into Another String */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -645,6 +665,7 @@
 				8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
 				8C0D2AB0239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8C0D2ABB239F788100EA796A /* 1136. Parallel Courses */,
+				8CF2B055239F9018002A6B99 /* 1153. String Transforms Into Another String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -727,6 +748,14 @@
 				8CE2FC2123934B52005AE2F1 /* main.cpp */,
 			);
 			path = "802. Find Eventual Safe States";
+			sourceTree = "<group>";
+		};
+		8CF2B056239F9018002A6B99 /* 1153. String Transforms Into Another String */ = {
+			isa = PBXGroup;
+			children = (
+				8CF2B057239F9018002A6B99 /* main.cpp */,
+			);
+			path = "1153. String Transforms Into Another String";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1140,6 +1169,23 @@
 			productReference = 8CE2FC1F23934B52005AE2F1 /* 802. Find Eventual Safe States */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF2B054239F9018002A6B99 /* 1153. String Transforms Into Another String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF2B05B239F9018002A6B99 /* Build configuration list for PBXNativeTarget "1153. String Transforms Into Another String" */;
+			buildPhases = (
+				8CF2B051239F9018002A6B99 /* Sources */,
+				8CF2B052239F9018002A6B99 /* Frameworks */,
+				8CF2B053239F9018002A6B99 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1153. String Transforms Into Another String";
+			productName = "1153. String Transforms Into Another String";
+			productReference = 8CF2B055239F9018002A6B99 /* 1153. String Transforms Into Another String */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1221,6 +1267,9 @@
 					8CE2FC1E23934B52005AE2F1 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8CF2B054239F9018002A6B99 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CD0BA1523796E56006524CA /* Build configuration list for PBXProject "Graph" */;
@@ -1260,6 +1309,7 @@
 				8C0D2AA4239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
 				8C0D2AAF239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8C0D2ABA239F788100EA796A /* 1136. Parallel Courses */,
+				8CF2B054239F9018002A6B99 /* 1153. String Transforms Into Another String */,
 			);
 		};
 /* End PBXProject section */
@@ -1454,6 +1504,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CE2FC2223934B52005AE2F1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF2B051239F9018002A6B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF2B058239F9018002A6B99 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1953,6 +2011,22 @@
 			};
 			name = Release;
 		};
+		8CF2B059239F9018002A6B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF2B05A239F9018002A6B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2177,6 +2251,15 @@
 			buildConfigurations = (
 				8CE2FC2323934B52005AE2F1 /* Debug */,
 				8CE2FC2423934B52005AE2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF2B05B239F9018002A6B99 /* Build configuration list for PBXNativeTarget "1153. String Transforms Into Another String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF2B059239F9018002A6B99 /* Debug */,
+				8CF2B05A239F9018002A6B99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
