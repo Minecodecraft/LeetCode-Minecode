@@ -10,6 +10,7 @@
 		8C0D24D7239B50E800EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24D6239B50E800EA796A /* main.cpp */; };
 		8C0D24E2239C040000EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24E1239C040000EA796A /* main.cpp */; };
 		8C0D2AA8239F4DBA00EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AA7239F4DBA00EA796A /* main.cpp */; };
+		8C0D2AB3239F711100EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AB2239F711100EA796A /* main.cpp */; };
 		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
 		8C63142223968AD400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142123968AD400B49C30 /* main.cpp */; };
@@ -51,6 +52,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C0D2AA3239F4DBA00EA796A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C0D2AAE239F711100EA796A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -239,6 +249,8 @@
 		8C0D24E1239C040000EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1129. Shortest Path with Alternating Colors"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0D2AA7239F4DBA00EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C0D2AB0239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1135. Connecting Cities With Minimum Cost"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0D2AB2239F711100EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "959. Regions Cut By Slashes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63043123962A4F00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "990. Satisfiability of Equality Equations"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -295,6 +307,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C0D2AA2239F4DBA00EA796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0D2AAD239F711100EA796A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,6 +480,14 @@
 			path = "1129. Shortest Path with Alternating Colors";
 			sourceTree = "<group>";
 		};
+		8C0D2AB1239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D2AB2239F711100EA796A /* main.cpp */,
+			);
+			path = "1135. Connecting Cities With Minimum Cost";
+			sourceTree = "<group>";
+		};
 		8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
 			isa = PBXGroup;
 			children = (
@@ -558,6 +585,7 @@
 				8C0D24D5239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8C0D24E0239C040000EA796A /* 1102. Path With Maximum Minimum Value */,
 				8C0D2AA6239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
+				8C0D2AB1239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -587,6 +615,7 @@
 				8C0D24D4239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8C0D24DF239C040000EA796A /* 1102. Path With Maximum Minimum Value */,
 				8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
+				8C0D2AB0239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -723,6 +752,23 @@
 			name = "1129. Shortest Path with Alternating Colors";
 			productName = "1129. Shortest Path with Alternating Colors";
 			productReference = 8C0D2AA5239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C0D2AAF239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0D2AB4239F711100EA796A /* Build configuration list for PBXNativeTarget "1135. Connecting Cities With Minimum Cost" */;
+			buildPhases = (
+				8C0D2AAC239F711100EA796A /* Sources */,
+				8C0D2AAD239F711100EA796A /* Frameworks */,
+				8C0D2AAE239F711100EA796A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1135. Connecting Cities With Minimum Cost";
+			productName = "1135. Connecting Cities With Minimum Cost";
+			productReference = 8C0D2AB0239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
@@ -1066,6 +1112,9 @@
 					8C0D2AA4239F4DBA00EA796A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C0D2AAF239F711100EA796A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C63042E23962A4F00B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1160,6 +1209,7 @@
 				8C0D24D3239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */,
 				8C0D24DE239C040000EA796A /* 1102. Path With Maximum Minimum Value */,
 				8C0D2AA4239F4DBA00EA796A /* 1129. Shortest Path with Alternating Colors */,
+				8C0D2AAF239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 			);
 		};
 /* End PBXProject section */
@@ -1186,6 +1236,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0D2AA8239F4DBA00EA796A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0D2AAC239F711100EA796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0D2AB3239F711100EA796A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1385,6 +1443,22 @@
 			name = Debug;
 		};
 		8C0D2AAA239F4DBA00EA796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0D2AB5239F711100EA796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0D2AB6239F711100EA796A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1831,6 +1905,15 @@
 			buildConfigurations = (
 				8C0D2AA9239F4DBA00EA796A /* Debug */,
 				8C0D2AAA239F4DBA00EA796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0D2AB4239F711100EA796A /* Build configuration list for PBXNativeTarget "1135. Connecting Cities With Minimum Cost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0D2AB5239F711100EA796A /* Debug */,
+				8C0D2AB6239F711100EA796A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
