@@ -12,6 +12,7 @@
 		8C0D2AA8239F4DBA00EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AA7239F4DBA00EA796A /* main.cpp */; };
 		8C0D2AB3239F711100EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AB2239F711100EA796A /* main.cpp */; };
 		8C0D2ABE239F788100EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2ABD239F788100EA796A /* main.cpp */; };
+		8C2DED1B239FA45900AE2E7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DED1A239FA45900AE2E7F /* main.cpp */; };
 		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
 		8C63142223968AD400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142123968AD400B49C30 /* main.cpp */; };
@@ -73,6 +74,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C0D2AB9239F788100EA796A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C2DED16239FA45900AE2E7F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -283,6 +293,8 @@
 		8C0D2AB2239F711100EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0D2ABB239F788100EA796A /* 1136. Parallel Courses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1136. Parallel Courses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0D2ABD239F788100EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C2DED18239FA45900AE2E7F /* 1162. As Far from Land as Possible */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1162. As Far from Land as Possible"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DED1A239FA45900AE2E7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "959. Regions Cut By Slashes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63043123962A4F00B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C631414239688E300B49C30 /* 990. Satisfiability of Equality Equations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "990. Satisfiability of Equality Equations"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -357,6 +369,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C0D2AB8239F788100EA796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DED15239FA45900AE2E7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -553,6 +572,14 @@
 			path = "1136. Parallel Courses";
 			sourceTree = "<group>";
 		};
+		8C2DED19239FA45900AE2E7F /* 1162. As Far from Land as Possible */ = {
+			isa = PBXGroup;
+			children = (
+				8C2DED1A239FA45900AE2E7F /* main.cpp */,
+			);
+			path = "1162. As Far from Land as Possible";
+			sourceTree = "<group>";
+		};
 		8C63043023962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +689,7 @@
 				8C0D2ABC239F788100EA796A /* 1136. Parallel Courses */,
 				8CF2B056239F9018002A6B99 /* 1153. String Transforms Into Another String */,
 				8C693CC9239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
+				8C2DED19239FA45900AE2E7F /* 1162. As Far from Land as Possible */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -695,6 +723,7 @@
 				8C0D2ABB239F788100EA796A /* 1136. Parallel Courses */,
 				8CF2B055239F9018002A6B99 /* 1153. String Transforms Into Another String */,
 				8C693CC8239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
+				8C2DED18239FA45900AE2E7F /* 1162. As Far from Land as Possible */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -873,6 +902,23 @@
 			name = "1136. Parallel Courses";
 			productName = "1136. Parallel Courses";
 			productReference = 8C0D2ABB239F788100EA796A /* 1136. Parallel Courses */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C2DED17239FA45900AE2E7F /* 1162. As Far from Land as Possible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2DED1E239FA45900AE2E7F /* Build configuration list for PBXNativeTarget "1162. As Far from Land as Possible" */;
+			buildPhases = (
+				8C2DED14239FA45900AE2E7F /* Sources */,
+				8C2DED15239FA45900AE2E7F /* Frameworks */,
+				8C2DED16239FA45900AE2E7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1162. As Far from Land as Possible";
+			productName = "1162. As Far from Land as Possible";
+			productReference = 8C2DED18239FA45900AE2E7F /* 1162. As Far from Land as Possible */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C63042E23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {
@@ -1256,6 +1302,9 @@
 					8C0D2ABA239F788100EA796A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C2DED17239FA45900AE2E7F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C63042E23962A4F00B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1360,6 +1409,7 @@
 				8C0D2ABA239F788100EA796A /* 1136. Parallel Courses */,
 				8CF2B054239F9018002A6B99 /* 1153. String Transforms Into Another String */,
 				8C693CC7239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
+				8C2DED17239FA45900AE2E7F /* 1162. As Far from Land as Possible */,
 			);
 		};
 /* End PBXProject section */
@@ -1402,6 +1452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0D2ABE239F788100EA796A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2DED14239FA45900AE2E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2DED1B239FA45900AE2E7F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1649,6 +1707,22 @@
 			name = Debug;
 		};
 		8C0D2AC1239F788100EA796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2DED1C239FA45900AE2E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2DED1D239FA45900AE2E7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2145,6 +2219,15 @@
 			buildConfigurations = (
 				8C0D2AC0239F788100EA796A /* Debug */,
 				8C0D2AC1239F788100EA796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2DED1E239FA45900AE2E7F /* Build configuration list for PBXNativeTarget "1162. As Far from Land as Possible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2DED1C239FA45900AE2E7F /* Debug */,
+				8C2DED1D239FA45900AE2E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
