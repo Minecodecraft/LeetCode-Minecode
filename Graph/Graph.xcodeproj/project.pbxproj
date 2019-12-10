@@ -18,6 +18,7 @@
 		8C63142D2396975E00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63142C2396975E00B49C30 /* main.cpp */; };
 		8C6314382397381100B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6314372397381100B49C30 /* main.cpp */; };
 		8C63144323973DE400B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63144223973DE400B49C30 /* main.cpp */; };
+		8C693CCB239F9E5F004B8D0A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C693CCA239F9E5F004B8D0A /* main.cpp */; };
 		8C9CEAC3237C0ECB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAC2237C0ECB00539290 /* main.cpp */; };
 		8C9CEACE237C0FFB00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEACD237C0FFB00539290 /* main.cpp */; };
 		8C9CEAD9237D1CFA00539290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C9CEAD8237D1CFA00539290 /* main.cpp */; };
@@ -126,6 +127,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C63143E23973DE400B49C30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C693CC6239F9E5F004B8D0A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -285,6 +295,8 @@
 		8C6314372397381100B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63144023973DE400B49C30 /* 1043. Partition Array for Maximum Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1043. Partition Array for Maximum Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C63144223973DE400B49C30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C693CC8239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1161. Maximum Level Sum of a Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C693CCA239F9E5F004B8D0A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEAC0237C0ECB00539290 /* 133. Clone Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "133. Clone Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C9CEAC2237C0ECB00539290 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C9CEACB237C0FFB00539290 /* 310. Minimum Height Trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "310. Minimum Height Trees"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -387,6 +399,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C63143D23973DE400B49C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C693CC5239F9E5F004B8D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -582,6 +601,14 @@
 			path = "1043. Partition Array for Maximum Sum";
 			sourceTree = "<group>";
 		};
+		8C693CC9239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				8C693CCA239F9E5F004B8D0A /* main.cpp */,
+			);
+			path = "1161. Maximum Level Sum of a Binary Tree";
+			sourceTree = "<group>";
+		};
 		8C9CEAC1237C0ECB00539290 /* 133. Clone Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -634,6 +661,7 @@
 				8C0D2AB1239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8C0D2ABC239F788100EA796A /* 1136. Parallel Courses */,
 				8CF2B056239F9018002A6B99 /* 1153. String Transforms Into Another String */,
+				8C693CC9239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -666,6 +694,7 @@
 				8C0D2AB0239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8C0D2ABB239F788100EA796A /* 1136. Parallel Courses */,
 				8CF2B055239F9018002A6B99 /* 1153. String Transforms Into Another String */,
+				8C693CC8239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -948,6 +977,23 @@
 			productReference = 8C63144023973DE400B49C30 /* 1043. Partition Array for Maximum Sum */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C693CC7239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C693CCE239F9E5F004B8D0A /* Build configuration list for PBXNativeTarget "1161. Maximum Level Sum of a Binary Tree" */;
+			buildPhases = (
+				8C693CC4239F9E5F004B8D0A /* Sources */,
+				8C693CC5239F9E5F004B8D0A /* Frameworks */,
+				8C693CC6239F9E5F004B8D0A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1161. Maximum Level Sum of a Binary Tree";
+			productName = "1161. Maximum Level Sum of a Binary Tree";
+			productReference = 8C693CC8239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C9CEABF237C0ECB00539290 /* 133. Clone Graph */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C9CEAC6237C0ECB00539290 /* Build configuration list for PBXNativeTarget "133. Clone Graph" */;
@@ -1228,6 +1274,9 @@
 					8C63143F23973DE400B49C30 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C693CC7239F9E5F004B8D0A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C9CEABF237C0ECB00539290 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1310,6 +1359,7 @@
 				8C0D2AAF239F711100EA796A /* 1135. Connecting Cities With Minimum Cost */,
 				8C0D2ABA239F788100EA796A /* 1136. Parallel Courses */,
 				8CF2B054239F9018002A6B99 /* 1153. String Transforms Into Another String */,
+				8C693CC7239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
 			);
 		};
 /* End PBXProject section */
@@ -1400,6 +1450,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C63144323973DE400B49C30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C693CC4239F9E5F004B8D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C693CCB239F9E5F004B8D0A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1687,6 +1745,22 @@
 			name = Debug;
 		};
 		8C63144623973DE400B49C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C693CCC239F9E5F004B8D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C693CCD239F9E5F004B8D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2125,6 +2199,15 @@
 			buildConfigurations = (
 				8C63144523973DE400B49C30 /* Debug */,
 				8C63144623973DE400B49C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C693CCE239F9E5F004B8D0A /* Build configuration list for PBXNativeTarget "1161. Maximum Level Sum of a Binary Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C693CCC239F9E5F004B8D0A /* Debug */,
+				8C693CCD239F9E5F004B8D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
