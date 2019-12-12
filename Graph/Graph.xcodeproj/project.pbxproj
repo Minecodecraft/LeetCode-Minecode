@@ -13,6 +13,7 @@
 		8C0D2AB3239F711100EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AB2239F711100EA796A /* main.cpp */; };
 		8C0D2ABE239F788100EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2ABD239F788100EA796A /* main.cpp */; };
 		8C0FF7E823A0B6850030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FF7E723A0B6850030EB9E /* main.cpp */; };
+		8C0FF7F323A0BDE90030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FF7F223A0BDE90030EB9E /* main.cpp */; };
 		8C2DED1B239FA45900AE2E7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DED1A239FA45900AE2E7F /* main.cpp */; };
 		8C63043223962A4F00B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C63043123962A4F00B49C30 /* main.cpp */; };
 		8C631417239688E300B49C30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C631416239688E300B49C30 /* main.cpp */; };
@@ -84,6 +85,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C0FF7E323A0B6850030EB9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C0FF7EE23A0BDE90030EB9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -305,6 +315,8 @@
 		8C0D2ABD239F788100EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0FF7E523A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1168. Optimize Water Distribution in a Village"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0FF7E723A0B6850030EB9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C0FF7F023A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1203. Sort Items by Groups Respecting Dependencies"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0FF7F223A0BDE90030EB9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2DED18239FA45900AE2E7F /* 1162. As Far from Land as Possible */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1162. As Far from Land as Possible"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2DED1A239FA45900AE2E7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C63042F23962A4F00B49C30 /* 959. Regions Cut By Slashes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "959. Regions Cut By Slashes"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +400,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C0FF7E223A0B6850030EB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FF7ED23A0BDE90030EB9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -599,6 +618,14 @@
 			path = "1168. Optimize Water Distribution in a Village";
 			sourceTree = "<group>";
 		};
+		8C0FF7F123A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FF7F223A0BDE90030EB9E /* main.cpp */,
+			);
+			path = "1203. Sort Items by Groups Respecting Dependencies";
+			sourceTree = "<group>";
+		};
 		8C2DED19239FA45900AE2E7F /* 1162. As Far from Land as Possible */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,6 +745,7 @@
 				8C693CC9239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
 				8C2DED19239FA45900AE2E7F /* 1162. As Far from Land as Possible */,
 				8C0FF7E623A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */,
+				8C0FF7F123A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -753,6 +781,7 @@
 				8C693CC8239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
 				8C2DED18239FA45900AE2E7F /* 1162. As Far from Land as Possible */,
 				8C0FF7E523A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */,
+				8C0FF7F023A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -948,6 +977,23 @@
 			name = "1168. Optimize Water Distribution in a Village";
 			productName = "1168. Optimize Water Distribution in a Village";
 			productReference = 8C0FF7E523A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C0FF7EF23A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0FF7F423A0BDE90030EB9E /* Build configuration list for PBXNativeTarget "1203. Sort Items by Groups Respecting Dependencies" */;
+			buildPhases = (
+				8C0FF7EC23A0BDE90030EB9E /* Sources */,
+				8C0FF7ED23A0BDE90030EB9E /* Frameworks */,
+				8C0FF7EE23A0BDE90030EB9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1203. Sort Items by Groups Respecting Dependencies";
+			productName = "1203. Sort Items by Groups Respecting Dependencies";
+			productReference = 8C0FF7F023A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C2DED17239FA45900AE2E7F /* 1162. As Far from Land as Possible */ = {
@@ -1351,6 +1397,9 @@
 					8C0FF7E423A0B6850030EB9E = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C0FF7EF23A0BDE90030EB9E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C2DED17239FA45900AE2E7F = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1460,6 +1509,7 @@
 				8C693CC7239F9E5F004B8D0A /* 1161. Maximum Level Sum of a Binary Tree */,
 				8C2DED17239FA45900AE2E7F /* 1162. As Far from Land as Possible */,
 				8C0FF7E423A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */,
+				8C0FF7EF23A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */,
 			);
 		};
 /* End PBXProject section */
@@ -1510,6 +1560,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0FF7E823A0B6850030EB9E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0FF7EC23A0BDE90030EB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0FF7F323A0BDE90030EB9E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1781,6 +1839,22 @@
 			name = Debug;
 		};
 		8C0FF7EA23A0B6850030EB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0FF7F523A0BDE90030EB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0FF7F623A0BDE90030EB9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2302,6 +2376,15 @@
 			buildConfigurations = (
 				8C0FF7E923A0B6850030EB9E /* Debug */,
 				8C0FF7EA23A0B6850030EB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0FF7F423A0BDE90030EB9E /* Build configuration list for PBXNativeTarget "1203. Sort Items by Groups Respecting Dependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0FF7F523A0BDE90030EB9E /* Debug */,
+				8C0FF7F623A0BDE90030EB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
