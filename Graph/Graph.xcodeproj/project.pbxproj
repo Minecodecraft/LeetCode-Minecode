@@ -14,6 +14,7 @@
 		8C0D2ABE239F788100EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2ABD239F788100EA796A /* main.cpp */; };
 		8C0F029F23A2290C0030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F029E23A2290C0030EB9E /* main.cpp */; };
 		8C0F02AC23A243560030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F02AB23A243560030EB9E /* main.cpp */; };
+		8C0F02B723A26C660030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F02B623A26C660030EB9E /* main.cpp */; };
 		8C0FF7E823A0B6850030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FF7E723A0B6850030EB9E /* main.cpp */; };
 		8C0FF7F323A0BDE90030EB9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FF7F223A0BDE90030EB9E /* main.cpp */; };
 		8C2DED1B239FA45900AE2E7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DED1A239FA45900AE2E7F /* main.cpp */; };
@@ -96,6 +97,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C0F02A723A243560030EB9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C0F02B223A26C660030EB9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -337,6 +347,8 @@
 		8C0F029E23A2290C0030EB9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0F02A923A243560030EB9E /* 269. Alien Dictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "269. Alien Dictionary"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0F02AB23A243560030EB9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C0F02B423A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "323. Number of Connected Components in an Undirected Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0F02B623A26C660030EB9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0FF7E523A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1168. Optimize Water Distribution in a Village"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0FF7E723A0B6850030EB9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0FF7F023A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1203. Sort Items by Groups Respecting Dependencies"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -431,6 +443,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C0F02A623A243560030EB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F02B123A26C660030EB9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -664,6 +683,14 @@
 			path = "269. Alien Dictionary";
 			sourceTree = "<group>";
 		};
+		8C0F02B523A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F02B623A26C660030EB9E /* main.cpp */,
+			);
+			path = "323. Number of Connected Components in an Undirected Graph";
+			sourceTree = "<group>";
+		};
 		8C0FF7E623A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */ = {
 			isa = PBXGroup;
 			children = (
@@ -802,6 +829,7 @@
 				8C0FF7F123A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */,
 				8C0F029D23A2290C0030EB9E /* 261. Graph Valid Tree */,
 				8C0F02AA23A243560030EB9E /* 269. Alien Dictionary */,
+				8C0F02B523A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -840,6 +868,7 @@
 				8C0FF7F023A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */,
 				8C0F029C23A2290C0030EB9E /* 261. Graph Valid Tree */,
 				8C0F02A923A243560030EB9E /* 269. Alien Dictionary */,
+				8C0F02B423A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1052,6 +1081,23 @@
 			name = "269. Alien Dictionary";
 			productName = "269. Alien Dictionary";
 			productReference = 8C0F02A923A243560030EB9E /* 269. Alien Dictionary */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C0F02B323A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0F02BA23A26C660030EB9E /* Build configuration list for PBXNativeTarget "323. Number of Connected Components in an Undirected Graph" */;
+			buildPhases = (
+				8C0F02B023A26C660030EB9E /* Sources */,
+				8C0F02B123A26C660030EB9E /* Frameworks */,
+				8C0F02B223A26C660030EB9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "323. Number of Connected Components in an Undirected Graph";
+			productName = "323. Number of Connected Components in an Undirected Graph";
+			productReference = 8C0F02B423A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C0FF7E423A0B6850030EB9E /* 1168. Optimize Water Distribution in a Village */ = {
@@ -1492,6 +1538,9 @@
 					8C0F02A823A243560030EB9E = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					8C0F02B323A26C660030EB9E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C0FF7E423A0B6850030EB9E = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1610,6 +1659,7 @@
 				8C0FF7EF23A0BDE90030EB9E /* 1203. Sort Items by Groups Respecting Dependencies */,
 				8C0F029B23A2290C0030EB9E /* 261. Graph Valid Tree */,
 				8C0F02A823A243560030EB9E /* 269. Alien Dictionary */,
+				8C0F02B323A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */,
 			);
 		};
 /* End PBXProject section */
@@ -1668,6 +1718,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0F02AC23A243560030EB9E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0F02B023A26C660030EB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0F02B723A26C660030EB9E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1971,6 +2029,22 @@
 			name = Debug;
 		};
 		8C0F02AE23A243560030EB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0F02B823A26C660030EB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0F02B923A26C660030EB9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2533,6 +2607,15 @@
 			buildConfigurations = (
 				8C0F02AD23A243560030EB9E /* Debug */,
 				8C0F02AE23A243560030EB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0F02BA23A26C660030EB9E /* Build configuration list for PBXNativeTarget "323. Number of Connected Components in an Undirected Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0F02B823A26C660030EB9E /* Debug */,
+				8C0F02B923A26C660030EB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
