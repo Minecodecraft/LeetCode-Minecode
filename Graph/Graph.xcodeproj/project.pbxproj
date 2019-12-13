@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0652D423A3395800BFE70D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0652D323A3395800BFE70D /* main.cpp */; };
 		8C0D24D7239B50E800EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24D6239B50E800EA796A /* main.cpp */; };
 		8C0D24E2239C040000EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D24E1239C040000EA796A /* main.cpp */; };
 		8C0D2AA8239F4DBA00EA796A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D2AA7239F4DBA00EA796A /* main.cpp */; };
@@ -42,6 +43,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C0652CF23A3395800BFE70D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C0D24D2239B50E800EA796A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +343,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C0652D123A3395800BFE70D /* 444. Sequence Reconstruction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "444. Sequence Reconstruction"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0652D323A3395800BFE70D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0D24D4239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1059. All Paths from Source Lead to Destination"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0D24D6239B50E800EA796A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C0D24DF239C040000EA796A /* 1102. Path With Maximum Minimum Value */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1102. Path With Maximum Minimum Value"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,6 +412,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C0652CE23A3395800BFE70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C0D24D1239B50E800EA796A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -627,6 +646,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C0652D223A3395800BFE70D /* 444. Sequence Reconstruction */ = {
+			isa = PBXGroup;
+			children = (
+				8C0652D323A3395800BFE70D /* main.cpp */,
+			);
+			path = "444. Sequence Reconstruction";
+			sourceTree = "<group>";
+		};
 		8C0D24D5239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */ = {
 			isa = PBXGroup;
 			children = (
@@ -830,6 +857,7 @@
 				8C0F029D23A2290C0030EB9E /* 261. Graph Valid Tree */,
 				8C0F02AA23A243560030EB9E /* 269. Alien Dictionary */,
 				8C0F02B523A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */,
+				8C0652D223A3395800BFE70D /* 444. Sequence Reconstruction */,
 				8CD0BA1B23796E56006524CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -869,6 +897,7 @@
 				8C0F029C23A2290C0030EB9E /* 261. Graph Valid Tree */,
 				8C0F02A923A243560030EB9E /* 269. Alien Dictionary */,
 				8C0F02B423A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */,
+				8C0652D123A3395800BFE70D /* 444. Sequence Reconstruction */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -964,6 +993,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C0652D023A3395800BFE70D /* 444. Sequence Reconstruction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0652D723A3395800BFE70D /* Build configuration list for PBXNativeTarget "444. Sequence Reconstruction" */;
+			buildPhases = (
+				8C0652CD23A3395800BFE70D /* Sources */,
+				8C0652CE23A3395800BFE70D /* Frameworks */,
+				8C0652CF23A3395800BFE70D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "444. Sequence Reconstruction";
+			productName = "444. Sequence Reconstruction";
+			productReference = 8C0652D123A3395800BFE70D /* 444. Sequence Reconstruction */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C0D24D3239B50E800EA796A /* 1059. All Paths from Source Lead to Destination */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C0D24DA239B50E800EA796A /* Build configuration list for PBXNativeTarget "1059. All Paths from Source Lead to Destination" */;
@@ -1517,6 +1563,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C0652D023A3395800BFE70D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C0D24D3239B50E800EA796A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1660,11 +1709,20 @@
 				8C0F029B23A2290C0030EB9E /* 261. Graph Valid Tree */,
 				8C0F02A823A243560030EB9E /* 269. Alien Dictionary */,
 				8C0F02B323A26C660030EB9E /* 323. Number of Connected Components in an Undirected Graph */,
+				8C0652D023A3395800BFE70D /* 444. Sequence Reconstruction */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C0652CD23A3395800BFE70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0652D423A3395800BFE70D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C0D24D0239B50E800EA796A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1924,6 +1982,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C0652D523A3395800BFE70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0652D623A3395800BFE70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C0D24D8239B50E800EA796A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2548,6 +2622,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C0652D723A3395800BFE70D /* Build configuration list for PBXNativeTarget "444. Sequence Reconstruction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0652D523A3395800BFE70D /* Debug */,
+				8C0652D623A3395800BFE70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C0D24DA239B50E800EA796A /* Build configuration list for PBXNativeTarget "1059. All Paths from Source Lead to Destination" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
