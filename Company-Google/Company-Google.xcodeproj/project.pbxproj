@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C55D6EB23AB4D750084D7E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C55D6EA23AB4D750084D7E1 /* main.cpp */; };
 		8CA02F0623A87889004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F0523A87889004D6643 /* main.cpp */; };
 		8CA02F1123A878AE004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F1023A878AE004D6643 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C55D6E623AB4D750084D7E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CA02F0123A87889004D6643 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "683. K Empty Slots"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C55D6EA23AB4D750084D7E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA02F0323A87889004D6643 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA02F0523A87889004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "388. Longest Absolute File Path"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C55D6E523AB4D750084D7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CA02F0023A87889004D6643 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C55D6E923AB4D750084D7E1 /* 683. K Empty Slots */ = {
+			isa = PBXGroup;
+			children = (
+				8C55D6EA23AB4D750084D7E1 /* main.cpp */,
+			);
+			path = "683. K Empty Slots";
+			sourceTree = "<group>";
+		};
 		8CA02EEC23A87859004D6643 = {
 			isa = PBXGroup;
 			children = (
 				8CA02F0423A87889004D6643 /* Template */,
 				8CA02F0F23A878AE004D6643 /* 388. Longest Absolute File Path */,
+				8C55D6E923AB4D750084D7E1 /* 683. K Empty Slots */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				8CA02F0323A87889004D6643 /* Template */,
 				8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */,
+				8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C55D6E723AB4D750084D7E1 /* 683. K Empty Slots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C55D6EE23AB4D750084D7E1 /* Build configuration list for PBXNativeTarget "683. K Empty Slots" */;
+			buildPhases = (
+				8C55D6E423AB4D750084D7E1 /* Sources */,
+				8C55D6E523AB4D750084D7E1 /* Frameworks */,
+				8C55D6E623AB4D750084D7E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "683. K Empty Slots";
+			productName = "683. K Empty Slots";
+			productReference = 8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CA02F0223A87889004D6643 /* Template */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CA02F0723A87889004D6643 /* Build configuration list for PBXNativeTarget "Template" */;
@@ -137,6 +183,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C55D6E723AB4D750084D7E1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					8CA02F0223A87889004D6643 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -160,11 +209,20 @@
 			targets = (
 				8CA02F0223A87889004D6643 /* Template */,
 				8CA02F0D23A878AE004D6643 /* 388. Longest Absolute File Path */,
+				8C55D6E723AB4D750084D7E1 /* 683. K Empty Slots */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C55D6E423AB4D750084D7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C55D6EB23AB4D750084D7E1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8CA02EFF23A87889004D6643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +242,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C55D6EC23AB4D750084D7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C55D6ED23AB4D750084D7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CA02EFA23A8785A004D6643 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +402,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C55D6EE23AB4D750084D7E1 /* Build configuration list for PBXNativeTarget "683. K Empty Slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C55D6EC23AB4D750084D7E1 /* Debug */,
+				8C55D6ED23AB4D750084D7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8CA02EF023A87859004D6643 /* Build configuration list for PBXProject "Company-Google" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
