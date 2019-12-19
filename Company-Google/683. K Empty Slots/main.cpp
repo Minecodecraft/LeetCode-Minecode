@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: O(nlogn), beats only 30%, not good, no Google
+/*
 class Solution {
 public:
     int kEmptySlots(vector<int>& bulbs, int k) {
@@ -42,6 +44,28 @@ public:
 
 private:
     const int INF = 0x3f3f3f3f;
+};
+ */
+
+// Solution 2: O(n), beats 60% +
+class Solution {
+public:
+    int kEmptySlots(vector<int>& bulbs, int k) {
+        int n = bulbs.size();
+        vector<int> d (n, 0);
+        for (int i = 0; i < n; ++i)
+            d[bulbs[i]-1] = i+1;
+        int l = 0, r = k+1, res = INT_MAX;
+        for (int i = 0; i < n && r < n; ++i) {
+            if (i == r)
+                res = min(res, max(d[l], d[r]));
+            if (d[l] > d[i] || d[r] >= d[i]) {
+                l = i;
+                r = i + k + 1;
+            }
+        }
+        return res == INT_MAX ? -1 : res;
+    }
 };
 
 int main() {
