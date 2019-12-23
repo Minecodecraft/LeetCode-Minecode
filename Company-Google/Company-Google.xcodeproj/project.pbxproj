@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
 		8C55D6EB23AB4D750084D7E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C55D6EA23AB4D750084D7E1 /* main.cpp */; };
 		8C766E5D23AE067500884D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C766E5C23AE067500884D53 /* main.cpp */; };
 		8CA02F0623A87889004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F0523A87889004D6643 /* main.cpp */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C3ADFBC23B049530008A90F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C55D6E623AB4D750084D7E1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C3ADFBE23B049530008A90F /* 904. Fruit Into Baskets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "904. Fruit Into Baskets"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3ADFC023B049530008A90F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "683. K Empty Slots"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C55D6EA23AB4D750084D7E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C766E5A23AE067500884D53 /* 681. Next Closest Time */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "681. Next Closest Time"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +76,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C3ADFBB23B049530008A90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C55D6E523AB4D750084D7E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C3ADFBF23B049530008A90F /* 904. Fruit Into Baskets */ = {
+			isa = PBXGroup;
+			children = (
+				8C3ADFC023B049530008A90F /* main.cpp */,
+			);
+			path = "904. Fruit Into Baskets";
+			sourceTree = "<group>";
+		};
 		8C55D6E923AB4D750084D7E1 /* 683. K Empty Slots */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +145,7 @@
 				8CA02F0F23A878AE004D6643 /* 388. Longest Absolute File Path */,
 				8C55D6E923AB4D750084D7E1 /* 683. K Empty Slots */,
 				8C766E5B23AE067500884D53 /* 681. Next Closest Time */,
+				8C3ADFBF23B049530008A90F /* 904. Fruit Into Baskets */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +157,7 @@
 				8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */,
 				8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */,
 				8C766E5A23AE067500884D53 /* 681. Next Closest Time */,
+				8C3ADFBE23B049530008A90F /* 904. Fruit Into Baskets */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +181,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C3ADFBD23B049530008A90F /* 904. Fruit Into Baskets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3ADFC423B049530008A90F /* Build configuration list for PBXNativeTarget "904. Fruit Into Baskets" */;
+			buildPhases = (
+				8C3ADFBA23B049530008A90F /* Sources */,
+				8C3ADFBB23B049530008A90F /* Frameworks */,
+				8C3ADFBC23B049530008A90F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "904. Fruit Into Baskets";
+			productName = "904. Fruit Into Baskets";
+			productReference = 8C3ADFBE23B049530008A90F /* 904. Fruit Into Baskets */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C55D6E723AB4D750084D7E1 /* 683. K Empty Slots */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C55D6EE23AB4D750084D7E1 /* Build configuration list for PBXNativeTarget "683. K Empty Slots" */;
@@ -229,6 +275,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C3ADFBD23B049530008A90F = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					8C55D6E723AB4D750084D7E1 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -260,11 +309,20 @@
 				8CA02F0D23A878AE004D6643 /* 388. Longest Absolute File Path */,
 				8C55D6E723AB4D750084D7E1 /* 683. K Empty Slots */,
 				8C766E5923AE067500884D53 /* 681. Next Closest Time */,
+				8C3ADFBD23B049530008A90F /* 904. Fruit Into Baskets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C3ADFBA23B049530008A90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3ADFC123B049530008A90F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C55D6E423AB4D750084D7E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +358,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C3ADFC223B049530008A90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3ADFC323B049530008A90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C55D6EC23AB4D750084D7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -476,6 +550,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C3ADFC423B049530008A90F /* Build configuration list for PBXNativeTarget "904. Fruit Into Baskets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3ADFC223B049530008A90F /* Debug */,
+				8C3ADFC323B049530008A90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C55D6EE23AB4D750084D7E1 /* Build configuration list for PBXNativeTarget "683. K Empty Slots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
