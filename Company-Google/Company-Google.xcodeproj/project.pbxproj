@@ -8,16 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
+		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
 		8C3ADFCC23B04FBD0008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFCB23B04FBD0008A90F /* main.cpp */; };
 		8C55D6EB23AB4D750084D7E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C55D6EA23AB4D750084D7E1 /* main.cpp */; };
 		8C766E5D23AE067500884D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C766E5C23AE067500884D53 /* main.cpp */; };
 		8CA02F0623A87889004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F0523A87889004D6643 /* main.cpp */; };
 		8CA02F1123A878AE004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F1023A878AE004D6643 /* main.cpp */; };
+		8CE3661B23B62DE1007FA09C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3661A23B62DE1007FA09C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C2F913723B0F96E008C2B49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C2FA78323B21565008C2B49 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -80,11 +91,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CE3661623B62DE1007FA09C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F913B23B0F96E008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "410. Split Array Largest Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2FA78723B21565008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C3ADFBE23B049530008A90F /* 904. Fruit Into Baskets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "904. Fruit Into Baskets"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3ADFC023B049530008A90F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C3ADFC923B04FBD0008A90F /* 929. Unique Email Addresses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "929. Unique Email Addresses"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,10 +119,19 @@
 		8CA02F0523A87889004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "388. Longest Absolute File Path"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA02F1023A878AE004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE3661823B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "308. Range Sum Query 2D - Mutable"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE3661A23B62DE1007FA09C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C2F913623B0F96E008C2B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FA78223B21565008C2B49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,6 +180,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE3661523B62DE1007FA09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,6 +196,14 @@
 				8C2F913B23B0F96E008C2B49 /* main.cpp */,
 			);
 			path = "4. Median of Two Sorted Arrays";
+			sourceTree = "<group>";
+		};
+		8C2FA78623B21565008C2B49 /* 410. Split Array Largest Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8C2FA78723B21565008C2B49 /* main.cpp */,
+			);
+			path = "410. Split Array Largest Sum";
 			sourceTree = "<group>";
 		};
 		8C3ADFBF23B049530008A90F /* 904. Fruit Into Baskets */ = {
@@ -202,6 +248,8 @@
 				8C3ADFBF23B049530008A90F /* 904. Fruit Into Baskets */,
 				8C3ADFCA23B04FBD0008A90F /* 929. Unique Email Addresses */,
 				8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */,
+				8C2FA78623B21565008C2B49 /* 410. Split Array Largest Sum */,
+				8CE3661923B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,6 +264,8 @@
 				8C3ADFBE23B049530008A90F /* 904. Fruit Into Baskets */,
 				8C3ADFC923B04FBD0008A90F /* 929. Unique Email Addresses */,
 				8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */,
+				8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */,
+				8CE3661823B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +286,14 @@
 			path = "388. Longest Absolute File Path";
 			sourceTree = "<group>";
 		};
+		8CE3661923B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */ = {
+			isa = PBXGroup;
+			children = (
+				8CE3661A23B62DE1007FA09C /* main.cpp */,
+			);
+			path = "308. Range Sum Query 2D - Mutable";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,6 +312,23 @@
 			name = "4. Median of Two Sorted Arrays";
 			productName = "4. Median of Two Sorted Arrays";
 			productReference = 8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C2FA78423B21565008C2B49 /* 410. Split Array Largest Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2FA78B23B21565008C2B49 /* Build configuration list for PBXNativeTarget "410. Split Array Largest Sum" */;
+			buildPhases = (
+				8C2FA78123B21565008C2B49 /* Sources */,
+				8C2FA78223B21565008C2B49 /* Frameworks */,
+				8C2FA78323B21565008C2B49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "410. Split Array Largest Sum";
+			productName = "410. Split Array Largest Sum";
+			productReference = 8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C3ADFBD23B049530008A90F /* 904. Fruit Into Baskets */ = {
@@ -358,6 +433,23 @@
 			productReference = 8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CE3661723B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE3661E23B62DE1007FA09C /* Build configuration list for PBXNativeTarget "308. Range Sum Query 2D - Mutable" */;
+			buildPhases = (
+				8CE3661423B62DE1007FA09C /* Sources */,
+				8CE3661523B62DE1007FA09C /* Frameworks */,
+				8CE3661623B62DE1007FA09C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "308. Range Sum Query 2D - Mutable";
+			productName = "308. Range Sum Query 2D - Mutable";
+			productReference = 8CE3661823B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,6 +460,9 @@
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
 					8C2F913823B0F96E008C2B49 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8C2FA78423B21565008C2B49 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 					8C3ADFBD23B049530008A90F = {
@@ -386,6 +481,9 @@
 						CreatedOnToolsVersion = 11.3;
 					};
 					8CA02F0D23A878AE004D6643 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8CE3661723B62DE1007FA09C = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -410,6 +508,8 @@
 				8C3ADFBD23B049530008A90F /* 904. Fruit Into Baskets */,
 				8C3ADFC823B04FBD0008A90F /* 929. Unique Email Addresses */,
 				8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */,
+				8C2FA78423B21565008C2B49 /* 410. Split Array Largest Sum */,
+				8CE3661723B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
 			);
 		};
 /* End PBXProject section */
@@ -420,6 +520,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2FA78123B21565008C2B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FA78823B21565008C2B49 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +579,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CE3661423B62DE1007FA09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE3661B23B62DE1007FA09C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -483,6 +599,22 @@
 			name = Debug;
 		};
 		8C2F913E23B0F96E008C2B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2FA78923B21565008C2B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2FA78A23B21565008C2B49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -695,6 +827,22 @@
 			};
 			name = Release;
 		};
+		8CE3661C23B62DE1007FA09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE3661D23B62DE1007FA09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -703,6 +851,15 @@
 			buildConfigurations = (
 				8C2F913D23B0F96E008C2B49 /* Debug */,
 				8C2F913E23B0F96E008C2B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2FA78B23B21565008C2B49 /* Build configuration list for PBXNativeTarget "410. Split Array Largest Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2FA78923B21565008C2B49 /* Debug */,
+				8C2FA78A23B21565008C2B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -766,6 +923,15 @@
 			buildConfigurations = (
 				8CA02F1323A878AE004D6643 /* Debug */,
 				8CA02F1423A878AE004D6643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE3661E23B62DE1007FA09C /* Build configuration list for PBXNativeTarget "308. Range Sum Query 2D - Mutable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE3661C23B62DE1007FA09C /* Debug */,
+				8CE3661D23B62DE1007FA09C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
