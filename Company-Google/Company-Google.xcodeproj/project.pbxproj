@@ -12,6 +12,7 @@
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
 		8C3ADFCC23B04FBD0008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFCB23B04FBD0008A90F /* main.cpp */; };
 		8C55D6EB23AB4D750084D7E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C55D6EA23AB4D750084D7E1 /* main.cpp */; };
+		8C6063F623B7433C000F38B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6063F523B7433C000F38B6 /* main.cpp */; };
 		8C766E5D23AE067500884D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C766E5C23AE067500884D53 /* main.cpp */; };
 		8CA02F0623A87889004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F0523A87889004D6643 /* main.cpp */; };
 		8CA02F1123A878AE004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F1023A878AE004D6643 /* main.cpp */; };
@@ -56,6 +57,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C55D6E623AB4D750084D7E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C6063F123B7433C000F38B6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -113,6 +123,8 @@
 		8C3ADFCB23B04FBD0008A90F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "683. K Empty Slots"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C55D6EA23AB4D750084D7E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C6063F323B7433C000F38B6 /* 482. License Key Formatting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "482. License Key Formatting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6063F523B7433C000F38B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C766E5A23AE067500884D53 /* 681. Next Closest Time */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "681. Next Closest Time"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C766E5C23AE067500884D53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA02F0323A87889004D6643 /* Template */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Template; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +165,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C55D6E523AB4D750084D7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6063F023B7433C000F38B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,6 +249,14 @@
 			path = "683. K Empty Slots";
 			sourceTree = "<group>";
 		};
+		8C6063F423B7433C000F38B6 /* 482. License Key Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				8C6063F523B7433C000F38B6 /* main.cpp */,
+			);
+			path = "482. License Key Formatting";
+			sourceTree = "<group>";
+		};
 		8C766E5B23AE067500884D53 /* 681. Next Closest Time */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +277,7 @@
 				8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */,
 				8C2FA78623B21565008C2B49 /* 410. Split Array Largest Sum */,
 				8CE3661923B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
+				8C6063F423B7433C000F38B6 /* 482. License Key Formatting */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -266,6 +294,7 @@
 				8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */,
 				8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */,
 				8CE3661823B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
+				8C6063F323B7433C000F38B6 /* 482. License Key Formatting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -382,6 +411,23 @@
 			productReference = 8C55D6E823AB4D750084D7E1 /* 683. K Empty Slots */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C6063F223B7433C000F38B6 /* 482. License Key Formatting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6063F923B7433C000F38B6 /* Build configuration list for PBXNativeTarget "482. License Key Formatting" */;
+			buildPhases = (
+				8C6063EF23B7433C000F38B6 /* Sources */,
+				8C6063F023B7433C000F38B6 /* Frameworks */,
+				8C6063F123B7433C000F38B6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "482. License Key Formatting";
+			productName = "482. License Key Formatting";
+			productReference = 8C6063F323B7433C000F38B6 /* 482. License Key Formatting */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C766E5923AE067500884D53 /* 681. Next Closest Time */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C766E6023AE067500884D53 /* Build configuration list for PBXNativeTarget "681. Next Closest Time" */;
@@ -474,6 +520,9 @@
 					8C55D6E723AB4D750084D7E1 = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					8C6063F223B7433C000F38B6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					8C766E5923AE067500884D53 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -510,6 +559,7 @@
 				8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */,
 				8C2FA78423B21565008C2B49 /* 410. Split Array Largest Sum */,
 				8CE3661723B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
+				8C6063F223B7433C000F38B6 /* 482. License Key Formatting */,
 			);
 		};
 /* End PBXProject section */
@@ -552,6 +602,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C55D6EB23AB4D750084D7E1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6063EF23B7433C000F38B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6063F623B7433C000F38B6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +721,22 @@
 			name = Debug;
 		};
 		8C55D6ED23AB4D750084D7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C6063F723B7433C000F38B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C6063F823B7433C000F38B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -887,6 +961,15 @@
 			buildConfigurations = (
 				8C55D6EC23AB4D750084D7E1 /* Debug */,
 				8C55D6ED23AB4D750084D7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6063F923B7433C000F38B6 /* Build configuration list for PBXNativeTarget "482. License Key Formatting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6063F723B7433C000F38B6 /* Debug */,
+				8C6063F823B7433C000F38B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
