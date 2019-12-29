@@ -16,6 +16,7 @@
 		8C766E5D23AE067500884D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C766E5C23AE067500884D53 /* main.cpp */; };
 		8CA02F0623A87889004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F0523A87889004D6643 /* main.cpp */; };
 		8CA02F1123A878AE004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F1023A878AE004D6643 /* main.cpp */; };
+		8CB5EDC623B8DFF00084AC34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5EDC523B8DFF00084AC34 /* main.cpp */; };
 		8CE3661B23B62DE1007FA09C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3661A23B62DE1007FA09C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CB5EDC123B8DFEF0084AC34 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CE3661623B62DE1007FA09C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +141,8 @@
 		8CA02F0523A87889004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "388. Longest Absolute File Path"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA02F1023A878AE004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CB5EDC323B8DFEF0084AC34 /* 975. Odd Even Jump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "975. Odd Even Jump"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB5EDC523B8DFF00084AC34 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CE3661823B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "308. Range Sum Query 2D - Mutable"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE3661A23B62DE1007FA09C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +205,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CA02F0B23A878AE004D6643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5EDC023B8DFEF0084AC34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,6 +297,7 @@
 				8C2FA78623B21565008C2B49 /* 410. Split Array Largest Sum */,
 				8CE3661923B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
 				8C6063F423B7433C000F38B6 /* 482. License Key Formatting */,
+				8CB5EDC423B8DFEF0084AC34 /* 975. Odd Even Jump */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -295,6 +315,7 @@
 				8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */,
 				8CE3661823B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
 				8C6063F323B7433C000F38B6 /* 482. License Key Formatting */,
+				8CB5EDC323B8DFEF0084AC34 /* 975. Odd Even Jump */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -313,6 +334,14 @@
 				8CA02F1023A878AE004D6643 /* main.cpp */,
 			);
 			path = "388. Longest Absolute File Path";
+			sourceTree = "<group>";
+		};
+		8CB5EDC423B8DFEF0084AC34 /* 975. Odd Even Jump */ = {
+			isa = PBXGroup;
+			children = (
+				8CB5EDC523B8DFF00084AC34 /* main.cpp */,
+			);
+			path = "975. Odd Even Jump";
 			sourceTree = "<group>";
 		};
 		8CE3661923B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */ = {
@@ -479,6 +508,23 @@
 			productReference = 8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CB5EDC223B8DFEF0084AC34 /* 975. Odd Even Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB5EDC923B8DFF00084AC34 /* Build configuration list for PBXNativeTarget "975. Odd Even Jump" */;
+			buildPhases = (
+				8CB5EDBF23B8DFEF0084AC34 /* Sources */,
+				8CB5EDC023B8DFEF0084AC34 /* Frameworks */,
+				8CB5EDC123B8DFEF0084AC34 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "975. Odd Even Jump";
+			productName = "975. Odd Even Jump";
+			productReference = 8CB5EDC323B8DFEF0084AC34 /* 975. Odd Even Jump */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CE3661723B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE3661E23B62DE1007FA09C /* Build configuration list for PBXNativeTarget "308. Range Sum Query 2D - Mutable" */;
@@ -532,6 +578,9 @@
 					8CA02F0D23A878AE004D6643 = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					8CB5EDC223B8DFEF0084AC34 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					8CE3661723B62DE1007FA09C = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -560,6 +609,7 @@
 				8C2FA78423B21565008C2B49 /* 410. Split Array Largest Sum */,
 				8CE3661723B62DE1007FA09C /* 308. Range Sum Query 2D - Mutable */,
 				8C6063F223B7433C000F38B6 /* 482. License Key Formatting */,
+				8CB5EDC223B8DFEF0084AC34 /* 975. Odd Even Jump */,
 			);
 		};
 /* End PBXProject section */
@@ -634,6 +684,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA02F1123A878AE004D6643 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5EDBF23B8DFEF0084AC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB5EDC623B8DFF00084AC34 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,6 +959,22 @@
 			};
 			name = Release;
 		};
+		8CB5EDC723B8DFF00084AC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CB5EDC823B8DFF00084AC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CE3661C23B62DE1007FA09C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1006,6 +1080,15 @@
 			buildConfigurations = (
 				8CA02F1323A878AE004D6643 /* Debug */,
 				8CA02F1423A878AE004D6643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB5EDC923B8DFF00084AC34 /* Build configuration list for PBXNativeTarget "975. Odd Even Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB5EDC723B8DFF00084AC34 /* Debug */,
+				8CB5EDC823B8DFF00084AC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
