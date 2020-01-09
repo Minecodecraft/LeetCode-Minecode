@@ -16,6 +16,7 @@
 		8C766E5D23AE067500884D53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C766E5C23AE067500884D53 /* main.cpp */; };
 		8CA02F0623A87889004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F0523A87889004D6643 /* main.cpp */; };
 		8CA02F1123A878AE004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F1023A878AE004D6643 /* main.cpp */; };
+		8CA713DC23C5DAA300A121A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA713DB23C5DAA300A121A1 /* main.cpp */; };
 		8CA7FD5623C4815000A121A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7FD5523C4815000A121A1 /* main.cpp */; };
 		8CB5EDC623B8DFF00084AC34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5EDC523B8DFF00084AC34 /* main.cpp */; };
 		8CB5EDD123B8EB8C0084AC34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5EDD023B8EB8C0084AC34 /* main.cpp */; };
@@ -104,6 +105,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CA713D723C5DAA200A121A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CA7FD5123C4815000A121A1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +171,8 @@
 		8CA02F0523A87889004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "388. Longest Absolute File Path"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA02F1023A878AE004D6643 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CA713D923C5DAA200A121A1 /* 686. Repeated String Match */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "686. Repeated String Match"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA713DB23C5DAA300A121A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA7FD5323C4815000A121A1 /* 418. Sentence Screen Fitting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "418. Sentence Screen Fitting"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA7FD5523C4815000A121A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB5EDC323B8DFEF0084AC34 /* 975. Odd Even Jump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "975. Odd Even Jump"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +241,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CA02F0B23A878AE004D6643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA713D623C5DAA200A121A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,6 +357,7 @@
 				8CB5EDC423B8DFEF0084AC34 /* 975. Odd Even Jump */,
 				8CB5EDCF23B8EB8C0084AC34 /* 489. Robot Room Cleaner */,
 				8CA7FD5423C4815000A121A1 /* 418. Sentence Screen Fitting */,
+				8CA713DA23C5DAA300A121A1 /* 686. Repeated String Match */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -358,6 +378,7 @@
 				8CB5EDC323B8DFEF0084AC34 /* 975. Odd Even Jump */,
 				8CB5EDCE23B8EB8C0084AC34 /* 489. Robot Room Cleaner */,
 				8CA7FD5323C4815000A121A1 /* 418. Sentence Screen Fitting */,
+				8CA713D923C5DAA200A121A1 /* 686. Repeated String Match */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,6 +397,14 @@
 				8CA02F1023A878AE004D6643 /* main.cpp */,
 			);
 			path = "388. Longest Absolute File Path";
+			sourceTree = "<group>";
+		};
+		8CA713DA23C5DAA300A121A1 /* 686. Repeated String Match */ = {
+			isa = PBXGroup;
+			children = (
+				8CA713DB23C5DAA300A121A1 /* main.cpp */,
+			);
+			path = "686. Repeated String Match";
 			sourceTree = "<group>";
 		};
 		8CA7FD5423C4815000A121A1 /* 418. Sentence Screen Fitting */ = {
@@ -566,6 +595,23 @@
 			productReference = 8CA02F0E23A878AE004D6643 /* 388. Longest Absolute File Path */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CA713D823C5DAA200A121A1 /* 686. Repeated String Match */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA713DF23C5DAA300A121A1 /* Build configuration list for PBXNativeTarget "686. Repeated String Match" */;
+			buildPhases = (
+				8CA713D523C5DAA200A121A1 /* Sources */,
+				8CA713D623C5DAA200A121A1 /* Frameworks */,
+				8CA713D723C5DAA200A121A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "686. Repeated String Match";
+			productName = "686. Repeated String Match";
+			productReference = 8CA713D923C5DAA200A121A1 /* 686. Repeated String Match */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CA7FD5223C4815000A121A1 /* 418. Sentence Screen Fitting */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CA7FD5923C4815000A121A1 /* Build configuration list for PBXNativeTarget "418. Sentence Screen Fitting" */;
@@ -670,6 +716,9 @@
 					8CA02F0D23A878AE004D6643 = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					8CA713D823C5DAA200A121A1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					8CA7FD5223C4815000A121A1 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -710,6 +759,7 @@
 				8CB5EDC223B8DFEF0084AC34 /* 975. Odd Even Jump */,
 				8CB5EDCD23B8EB8C0084AC34 /* 489. Robot Room Cleaner */,
 				8CA7FD5223C4815000A121A1 /* 418. Sentence Screen Fitting */,
+				8CA713D823C5DAA200A121A1 /* 686. Repeated String Match */,
 			);
 		};
 /* End PBXProject section */
@@ -784,6 +834,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA02F1123A878AE004D6643 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA713D523C5DAA200A121A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA713DC23C5DAA300A121A1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,6 +1133,22 @@
 			};
 			name = Release;
 		};
+		8CA713DD23C5DAA300A121A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA713DE23C5DAA300A121A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CA7FD5723C4815000A121A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1228,6 +1302,15 @@
 			buildConfigurations = (
 				8CA02F1323A878AE004D6643 /* Debug */,
 				8CA02F1423A878AE004D6643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA713DF23C5DAA300A121A1 /* Build configuration list for PBXNativeTarget "686. Repeated String Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA713DD23C5DAA300A121A1 /* Debug */,
+				8CA713DE23C5DAA300A121A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
