@@ -18,6 +18,7 @@
 		8CA02F1123A878AE004D6643 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02F1023A878AE004D6643 /* main.cpp */; };
 		8CA713DC23C5DAA300A121A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA713DB23C5DAA300A121A1 /* main.cpp */; };
 		8CA7FD5623C4815000A121A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA7FD5523C4815000A121A1 /* main.cpp */; };
+		8CA85BB923C70E64009CD03D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA85BB823C70E64009CD03D /* main.cpp */; };
 		8CB5EDC623B8DFF00084AC34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5EDC523B8DFF00084AC34 /* main.cpp */; };
 		8CB5EDD123B8EB8C0084AC34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5EDD023B8EB8C0084AC34 /* main.cpp */; };
 		8CE3661B23B62DE1007FA09C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3661A23B62DE1007FA09C /* main.cpp */; };
@@ -123,6 +124,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CA85BB423C70E64009CD03D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CB5EDC123B8DFEF0084AC34 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,6 +185,8 @@
 		8CA713DB23C5DAA300A121A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CA7FD5323C4815000A121A1 /* 418. Sentence Screen Fitting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "418. Sentence Screen Fitting"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA7FD5523C4815000A121A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CA85BB623C70E64009CD03D /* 843. Guess the Word */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "843. Guess the Word"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA85BB823C70E64009CD03D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB5EDC323B8DFEF0084AC34 /* 975. Odd Even Jump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "975. Odd Even Jump"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB5EDC523B8DFF00084AC34 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CB5EDCE23B8EB8C0084AC34 /* 489. Robot Room Cleaner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "489. Robot Room Cleaner"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,6 +267,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CA7FD5023C4815000A121A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA85BB323C70E64009CD03D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,6 +377,7 @@
 				8CB5EDCF23B8EB8C0084AC34 /* 489. Robot Room Cleaner */,
 				8CA7FD5423C4815000A121A1 /* 418. Sentence Screen Fitting */,
 				8CA713DA23C5DAA300A121A1 /* 686. Repeated String Match */,
+				8CA85BB723C70E64009CD03D /* 843. Guess the Word */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -379,6 +399,7 @@
 				8CB5EDCE23B8EB8C0084AC34 /* 489. Robot Room Cleaner */,
 				8CA7FD5323C4815000A121A1 /* 418. Sentence Screen Fitting */,
 				8CA713D923C5DAA200A121A1 /* 686. Repeated String Match */,
+				8CA85BB623C70E64009CD03D /* 843. Guess the Word */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,6 +434,14 @@
 				8CA7FD5523C4815000A121A1 /* main.cpp */,
 			);
 			path = "418. Sentence Screen Fitting";
+			sourceTree = "<group>";
+		};
+		8CA85BB723C70E64009CD03D /* 843. Guess the Word */ = {
+			isa = PBXGroup;
+			children = (
+				8CA85BB823C70E64009CD03D /* main.cpp */,
+			);
+			path = "843. Guess the Word";
 			sourceTree = "<group>";
 		};
 		8CB5EDC423B8DFEF0084AC34 /* 975. Odd Even Jump */ = {
@@ -629,6 +658,23 @@
 			productReference = 8CA7FD5323C4815000A121A1 /* 418. Sentence Screen Fitting */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CA85BB523C70E64009CD03D /* 843. Guess the Word */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA85BBC23C70E64009CD03D /* Build configuration list for PBXNativeTarget "843. Guess the Word" */;
+			buildPhases = (
+				8CA85BB223C70E64009CD03D /* Sources */,
+				8CA85BB323C70E64009CD03D /* Frameworks */,
+				8CA85BB423C70E64009CD03D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "843. Guess the Word";
+			productName = "843. Guess the Word";
+			productReference = 8CA85BB623C70E64009CD03D /* 843. Guess the Word */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CB5EDC223B8DFEF0084AC34 /* 975. Odd Even Jump */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB5EDC923B8DFF00084AC34 /* Build configuration list for PBXNativeTarget "975. Odd Even Jump" */;
@@ -722,6 +768,9 @@
 					8CA7FD5223C4815000A121A1 = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					8CA85BB523C70E64009CD03D = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					8CB5EDC223B8DFEF0084AC34 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -760,6 +809,7 @@
 				8CB5EDCD23B8EB8C0084AC34 /* 489. Robot Room Cleaner */,
 				8CA7FD5223C4815000A121A1 /* 418. Sentence Screen Fitting */,
 				8CA713D823C5DAA200A121A1 /* 686. Repeated String Match */,
+				8CA85BB523C70E64009CD03D /* 843. Guess the Word */,
 			);
 		};
 /* End PBXProject section */
@@ -850,6 +900,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA7FD5623C4815000A121A1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA85BB223C70E64009CD03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA85BB923C70E64009CD03D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1165,6 +1223,22 @@
 			};
 			name = Release;
 		};
+		8CA85BBA23C70E64009CD03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA85BBB23C70E64009CD03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CB5EDC723B8DFF00084AC34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1320,6 +1394,15 @@
 			buildConfigurations = (
 				8CA7FD5723C4815000A121A1 /* Debug */,
 				8CA7FD5823C4815000A121A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA85BBC23C70E64009CD03D /* Build configuration list for PBXNativeTarget "843. Guess the Word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA85BBA23C70E64009CD03D /* Debug */,
+				8CA85BBB23C70E64009CD03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
