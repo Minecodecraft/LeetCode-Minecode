@@ -10,6 +10,7 @@
 		8C86A62C23CFF88900DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A62B23CFF88900DA2A37 /* main.cpp */; };
 		8C86A63923CFF94700DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A63823CFF94700DA2A37 /* main.cpp */; };
 		8C86A64423D0023900DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A64323D0023900DA2A37 /* main.cpp */; };
+		8C86A9CF23D08E4100DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A9CE23D08E4100DA2A37 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C86A9CA23D08E4100DA2A37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		8C86A63823CFF94700DA2A37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C86A64123D0023900DA2A37 /* 244. Shortest Word Distance II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "244. Shortest Word Distance II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C86A64323D0023900DA2A37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C86A9CC23D08E4100DA2A37 /* 364. Nested List Weight Sum II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "364. Nested List Weight Sum II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86A9CE23D08E4100DA2A37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C86A9C923D08E4100DA2A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +101,7 @@
 				8C86A62A23CFF88900DA2A37 /* Company-LinkedIn */,
 				8C86A63723CFF94700DA2A37 /* 47. Permutations II */,
 				8C86A64223D0023900DA2A37 /* 244. Shortest Word Distance II */,
+				8C86A9CD23D08E4100DA2A37 /* 364. Nested List Weight Sum II */,
 				8C86A62923CFF88900DA2A37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +112,7 @@
 				8C86A62823CFF88900DA2A37 /* Company-LinkedIn */,
 				8C86A63623CFF94700DA2A37 /* 47. Permutations II */,
 				8C86A64123D0023900DA2A37 /* 244. Shortest Word Distance II */,
+				8C86A9CC23D08E4100DA2A37 /* 364. Nested List Weight Sum II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				8C86A64323D0023900DA2A37 /* main.cpp */,
 			);
 			path = "244. Shortest Word Distance II";
+			sourceTree = "<group>";
+		};
+		8C86A9CD23D08E4100DA2A37 /* 364. Nested List Weight Sum II */ = {
+			isa = PBXGroup;
+			children = (
+				8C86A9CE23D08E4100DA2A37 /* main.cpp */,
+			);
+			path = "364. Nested List Weight Sum II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = 8C86A64123D0023900DA2A37 /* 244. Shortest Word Distance II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C86A9CB23D08E4100DA2A37 /* 364. Nested List Weight Sum II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C86A9D223D08E4100DA2A37 /* Build configuration list for PBXNativeTarget "364. Nested List Weight Sum II" */;
+			buildPhases = (
+				8C86A9C823D08E4100DA2A37 /* Sources */,
+				8C86A9C923D08E4100DA2A37 /* Frameworks */,
+				8C86A9CA23D08E4100DA2A37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "364. Nested List Weight Sum II";
+			productName = "364. Nested List Weight Sum II";
+			productReference = 8C86A9CC23D08E4100DA2A37 /* 364. Nested List Weight Sum II */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +236,9 @@
 						CreatedOnToolsVersion = 11.3;
 					};
 					8C86A64023D0023900DA2A37 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8C86A9CB23D08E4100DA2A37 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -210,6 +259,7 @@
 				8C86A62723CFF88900DA2A37 /* Company-LinkedIn */,
 				8C86A63523CFF94700DA2A37 /* 47. Permutations II */,
 				8C86A64023D0023900DA2A37 /* 244. Shortest Word Distance II */,
+				8C86A9CB23D08E4100DA2A37 /* 364. Nested List Weight Sum II */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C86A64423D0023900DA2A37 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86A9C823D08E4100DA2A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86A9CF23D08E4100DA2A37 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +457,22 @@
 			};
 			name = Release;
 		};
+		8C86A9D023D08E4100DA2A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C86A9D123D08E4100DA2A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,6 +508,15 @@
 			buildConfigurations = (
 				8C86A64523D0023900DA2A37 /* Debug */,
 				8C86A64623D0023900DA2A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C86A9D223D08E4100DA2A37 /* Build configuration list for PBXNativeTarget "364. Nested List Weight Sum II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86A9D023D08E4100DA2A37 /* Debug */,
+				8C86A9D123D08E4100DA2A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
