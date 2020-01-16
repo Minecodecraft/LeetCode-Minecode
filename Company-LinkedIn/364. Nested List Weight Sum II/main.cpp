@@ -51,7 +51,8 @@ class NestedInteger {
     const vector<NestedInteger> &getList() const;
 };
 
-// Solution 1: 
+// Solution 1: Non recursive, non `depth`
+/*
 class Solution {
 public:
     int depthSumInverse(vector<NestedInteger>& list) {
@@ -70,6 +71,36 @@ public:
             list = newlist;
         }
         return weighted;
+    }
+};
+ */
+
+// Solution 2: DFS
+// Hints: x + 2y + 3z = (3+1) * (x+y+z) - (3x+2y+z), so we can calculate the `delta`, `sum` (sum of all number) and `totdepth` (total depth)
+class Solution {
+public:
+    int depthSumInverse(vector<NestedInteger>& nestedList) {
+        int overflow = dfs(nestedList, 1);
+        return sum * (totdepth + 1) - overflow;
+    }
+
+private:
+    int sum = 0;
+    int totdepth = 1;
+
+    int dfs(vector<NestedInteger>& list, int depth) {
+        int cursum = 0;
+        totdepth = max(totdepth, depth);
+        for (auto& ele: list) {
+            if (ele.isInteger()) {
+                sum += ele.getInteger();
+                cursum += depth * ele.getInteger();
+            } else {
+                auto tmp = ele.getList();
+                cursum += dfs(tmp, depth+1);
+            }
+        }
+        return cursum;
     }
 };
 
