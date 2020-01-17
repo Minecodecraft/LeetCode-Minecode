@@ -11,6 +11,7 @@
 		8C86A63923CFF94700DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A63823CFF94700DA2A37 /* main.cpp */; };
 		8C86A64423D0023900DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A64323D0023900DA2A37 /* main.cpp */; };
 		8C86A9CF23D08E4100DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86A9CE23D08E4100DA2A37 /* main.cpp */; };
+		8C86ACE023D13EE900DA2A37 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C86ACDF23D13EE900DA2A37 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C86ACDB23D13EE900DA2A37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,8 @@
 		8C86A64323D0023900DA2A37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C86A9CC23D08E4100DA2A37 /* 364. Nested List Weight Sum II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "364. Nested List Weight Sum II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C86A9CE23D08E4100DA2A37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C86ACDD23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "170. Two Sum III - Data structure design"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C86ACDF23D13EE900DA2A37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C86ACDA23D13EE900DA2A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				8C86A63723CFF94700DA2A37 /* 47. Permutations II */,
 				8C86A64223D0023900DA2A37 /* 244. Shortest Word Distance II */,
 				8C86A9CD23D08E4100DA2A37 /* 364. Nested List Weight Sum II */,
+				8C86ACDE23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */,
 				8C86A62923CFF88900DA2A37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				8C86A63623CFF94700DA2A37 /* 47. Permutations II */,
 				8C86A64123D0023900DA2A37 /* 244. Shortest Word Distance II */,
 				8C86A9CC23D08E4100DA2A37 /* 364. Nested List Weight Sum II */,
+				8C86ACDD23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +168,14 @@
 				8C86A9CE23D08E4100DA2A37 /* main.cpp */,
 			);
 			path = "364. Nested List Weight Sum II";
+			sourceTree = "<group>";
+		};
+		8C86ACDE23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */ = {
+			isa = PBXGroup;
+			children = (
+				8C86ACDF23D13EE900DA2A37 /* main.cpp */,
+			);
+			path = "170. Two Sum III - Data structure design";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +249,23 @@
 			productReference = 8C86A9CC23D08E4100DA2A37 /* 364. Nested List Weight Sum II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C86ACDC23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C86ACE323D13EE900DA2A37 /* Build configuration list for PBXNativeTarget "170. Two Sum III - Data structure design" */;
+			buildPhases = (
+				8C86ACD923D13EE900DA2A37 /* Sources */,
+				8C86ACDA23D13EE900DA2A37 /* Frameworks */,
+				8C86ACDB23D13EE900DA2A37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "170. Two Sum III - Data structure design";
+			productName = "170. Two Sum III - Data structure design";
+			productReference = 8C86ACDD23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +287,9 @@
 					8C86A9CB23D08E4100DA2A37 = {
 						CreatedOnToolsVersion = 11.3;
 					};
+					8C86ACDC23D13EE900DA2A37 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 				};
 			};
 			buildConfigurationList = 8C86A62323CFF88900DA2A37 /* Build configuration list for PBXProject "Company-LinkedIn" */;
@@ -260,6 +309,7 @@
 				8C86A63523CFF94700DA2A37 /* 47. Permutations II */,
 				8C86A64023D0023900DA2A37 /* 244. Shortest Word Distance II */,
 				8C86A9CB23D08E4100DA2A37 /* 364. Nested List Weight Sum II */,
+				8C86ACDC23D13EE900DA2A37 /* 170. Two Sum III - Data structure design */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C86A9CF23D08E4100DA2A37 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C86ACD923D13EE900DA2A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C86ACE023D13EE900DA2A37 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +531,22 @@
 			};
 			name = Release;
 		};
+		8C86ACE123D13EE900DA2A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C86ACE223D13EE900DA2A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -517,6 +591,15 @@
 			buildConfigurations = (
 				8C86A9D023D08E4100DA2A37 /* Debug */,
 				8C86A9D123D08E4100DA2A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C86ACE323D13EE900DA2A37 /* Build configuration list for PBXNativeTarget "170. Two Sum III - Data structure design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C86ACE123D13EE900DA2A37 /* Debug */,
+				8C86ACE223D13EE900DA2A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
