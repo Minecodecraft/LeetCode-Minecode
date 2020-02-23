@@ -1,3 +1,27 @@
+.*
+*.xcuserdata*
+.gitattributes
+*xcuserdata*
+*.bcsymbolmap
+Carthage/*
+Carthage/
+.vscode/
+node_modules
+package-lock.json
+Gemfile.lock
+Libs/*-dev
+
+# proto
+# im-protobuf/
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+.DS_Store
+tags
+.idea/
+
 # Prerequisites
 *.d
 
