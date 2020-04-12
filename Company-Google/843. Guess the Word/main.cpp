@@ -27,8 +27,31 @@ using namespace std;
 //
 class Solution {
 public:
-    void findSecretWord(vector<string>& wordlist, Master& master) {
+    void findSecretWord(vector<string>& words, Master& master) {
+        random_shuffle(words.begin(), words.end());
+        int cnt = 0;
+        for (int i = 0; i < 10; ++i) {
+            string& cur = words.back();
+            cnt = master.guess(cur);
+            if (cnt == 6) return;
 
+            vector<string> newWords;
+            for (auto& word: words) {
+                if (word != cur && match(cur, word) == cnt) {
+                    newWords.push_back(word);
+                }
+            }
+            words = newWords;
+        }
+    }
+
+private:
+    int match(string a, string b) {
+        int cnt = 0;
+        for (int i = 0; i < a.length(); ++i) {
+            if (a[i] == b[i]) ++cnt;
+        }
+        return cnt;
     }
 };
 
