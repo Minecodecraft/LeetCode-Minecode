@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		136995B72440B20B00D37E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136995B62440B20B00D37E40 /* main.cpp */; };
+		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
+		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
@@ -27,6 +29,24 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		136995B22440B20B00D37E40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		136A634B244740820088C0D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		136A670224494A530088C0D3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -175,6 +195,10 @@
 /* Begin PBXFileReference section */
 		136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "288. Unique Word Abbreviation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136995B62440B20B00D37E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		136A634D244740820088C0D3 /* 271. Encode and Decode Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "271. Encode and Decode Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136A634F244740820088C0D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		136A670424494A530088C0D3 /* 361. Bomb Enemy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "361. Bomb Enemy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136A670624494A530088C0D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F913B23B0F96E008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "410. Split Array Largest Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +233,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		136995B12440B20B00D37E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136A634A244740820088C0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136A670124494A530088C0D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,6 +369,22 @@
 			path = "288. Unique Word Abbreviation";
 			sourceTree = "<group>";
 		};
+		136A634E244740820088C0D3 /* 271. Encode and Decode Strings */ = {
+			isa = PBXGroup;
+			children = (
+				136A634F244740820088C0D3 /* main.cpp */,
+			);
+			path = "271. Encode and Decode Strings";
+			sourceTree = "<group>";
+		};
+		136A670524494A530088C0D3 /* 361. Bomb Enemy */ = {
+			isa = PBXGroup;
+			children = (
+				136A670624494A530088C0D3 /* main.cpp */,
+			);
+			path = "361. Bomb Enemy";
+			sourceTree = "<group>";
+		};
 		8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +460,8 @@
 				8CA713DA23C5DAA300A121A1 /* 686. Repeated String Match */,
 				8CA85BB723C70E64009CD03D /* 843. Guess the Word */,
 				136995B52440B20B00D37E40 /* 288. Unique Word Abbreviation */,
+				136A634E244740820088C0D3 /* 271. Encode and Decode Strings */,
+				136A670524494A530088C0D3 /* 361. Bomb Enemy */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -429,6 +485,8 @@
 				8CA713D923C5DAA200A121A1 /* 686. Repeated String Match */,
 				8CA85BB623C70E64009CD03D /* 843. Guess the Word */,
 				136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */,
+				136A634D244740820088C0D3 /* 271. Encode and Decode Strings */,
+				136A670424494A530088C0D3 /* 361. Bomb Enemy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -515,6 +573,40 @@
 			name = "288. Unique Word Abbreviation";
 			productName = "288. Unique Word Abbreviation";
 			productReference = 136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */;
+			productType = "com.apple.product-type.tool";
+		};
+		136A634C244740820088C0D3 /* 271. Encode and Decode Strings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136A6353244740820088C0D3 /* Build configuration list for PBXNativeTarget "271. Encode and Decode Strings" */;
+			buildPhases = (
+				136A6349244740820088C0D3 /* Sources */,
+				136A634A244740820088C0D3 /* Frameworks */,
+				136A634B244740820088C0D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "271. Encode and Decode Strings";
+			productName = "271. Encode and Decode Strings";
+			productReference = 136A634D244740820088C0D3 /* 271. Encode and Decode Strings */;
+			productType = "com.apple.product-type.tool";
+		};
+		136A670324494A530088C0D3 /* 361. Bomb Enemy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136A670A24494A530088C0D3 /* Build configuration list for PBXNativeTarget "361. Bomb Enemy" */;
+			buildPhases = (
+				136A670024494A530088C0D3 /* Sources */,
+				136A670124494A530088C0D3 /* Frameworks */,
+				136A670224494A530088C0D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "361. Bomb Enemy";
+			productName = "361. Bomb Enemy";
+			productReference = 136A670424494A530088C0D3 /* 361. Bomb Enemy */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
@@ -784,6 +876,12 @@
 					136995B32440B20B00D37E40 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					136A634C244740820088C0D3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					136A670324494A530088C0D3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C2F913823B0F96E008C2B49 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -860,6 +958,8 @@
 				8CA713D823C5DAA200A121A1 /* 686. Repeated String Match */,
 				8CA85BB523C70E64009CD03D /* 843. Guess the Word */,
 				136995B32440B20B00D37E40 /* 288. Unique Word Abbreviation */,
+				136A634C244740820088C0D3 /* 271. Encode and Decode Strings */,
+				136A670324494A530088C0D3 /* 361. Bomb Enemy */,
 			);
 		};
 /* End PBXProject section */
@@ -870,6 +970,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				136995B72440B20B00D37E40 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136A6349244740820088C0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136A6350244740820088C0D3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136A670024494A530088C0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136A670724494A530088C0D3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,6 +1121,38 @@
 			name = Debug;
 		};
 		136995B92440B20B00D37E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		136A6351244740820088C0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136A6352244740820088C0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		136A670824494A530088C0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136A670924494A530088C0D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1369,6 +1517,24 @@
 			buildConfigurations = (
 				136995B82440B20B00D37E40 /* Debug */,
 				136995B92440B20B00D37E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136A6353244740820088C0D3 /* Build configuration list for PBXNativeTarget "271. Encode and Decode Strings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136A6351244740820088C0D3 /* Debug */,
+				136A6352244740820088C0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136A670A24494A530088C0D3 /* Build configuration list for PBXNativeTarget "361. Bomb Enemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136A670824494A530088C0D3 /* Debug */,
+				136A670924494A530088C0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
