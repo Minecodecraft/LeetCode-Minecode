@@ -11,6 +11,7 @@
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
 		1373C0C924B7449100822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0C824B7449100822911 /* main.cpp */; };
+		1373C0D424B7F8FA00822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0D324B7F8FA00822911 /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
@@ -57,6 +58,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1373C0C424B7449100822911 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1373C0CF24B7F8FA00822911 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -211,6 +221,8 @@
 		136A670624494A530088C0D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1373C0C624B7449100822911 /* 753. Cracking the Safe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "753. Cracking the Safe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1373C0C824B7449100822911 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1057. Campus Bikes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1373C0D324B7F8FA00822911 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F913B23B0F96E008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "410. Split Array Largest Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,6 +278,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1373C0C324B7449100822911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1373C0CE24B7F8FA00822911 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,6 +431,14 @@
 			path = "753. Cracking the Safe";
 			sourceTree = "<group>";
 		};
+		1373C0D224B7F8FA00822911 /* 1057. Campus Bikes */ = {
+			isa = PBXGroup;
+			children = (
+				1373C0D324B7F8FA00822911 /* main.cpp */,
+			);
+			path = "1057. Campus Bikes";
+			sourceTree = "<group>";
+		};
 		8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +517,7 @@
 				136A634E244740820088C0D3 /* 271. Encode and Decode Strings */,
 				136A670524494A530088C0D3 /* 361. Bomb Enemy */,
 				1373C0C724B7449100822911 /* 753. Cracking the Safe */,
+				1373C0D224B7F8FA00822911 /* 1057. Campus Bikes */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -516,6 +544,7 @@
 				136A634D244740820088C0D3 /* 271. Encode and Decode Strings */,
 				136A670424494A530088C0D3 /* 361. Bomb Enemy */,
 				1373C0C624B7449100822911 /* 753. Cracking the Safe */,
+				1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -653,6 +682,23 @@
 			name = "753. Cracking the Safe";
 			productName = "753. Cracking the Safe";
 			productReference = 1373C0C624B7449100822911 /* 753. Cracking the Safe */;
+			productType = "com.apple.product-type.tool";
+		};
+		1373C0D024B7F8FA00822911 /* 1057. Campus Bikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1373C0D524B7F8FA00822911 /* Build configuration list for PBXNativeTarget "1057. Campus Bikes" */;
+			buildPhases = (
+				1373C0CD24B7F8FA00822911 /* Sources */,
+				1373C0CE24B7F8FA00822911 /* Frameworks */,
+				1373C0CF24B7F8FA00822911 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1057. Campus Bikes";
+			productName = "1057. Campus Bikes";
+			productReference = 1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
@@ -931,6 +977,9 @@
 					1373C0C524B7449100822911 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					1373C0D024B7F8FA00822911 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C2F913823B0F96E008C2B49 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -1010,6 +1059,7 @@
 				136A634C244740820088C0D3 /* 271. Encode and Decode Strings */,
 				136A670324494A530088C0D3 /* 361. Bomb Enemy */,
 				1373C0C524B7449100822911 /* 753. Cracking the Safe */,
+				1373C0D024B7F8FA00822911 /* 1057. Campus Bikes */,
 			);
 		};
 /* End PBXProject section */
@@ -1044,6 +1094,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1373C0C924B7449100822911 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1373C0CD24B7F8FA00822911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1373C0D424B7F8FA00822911 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1227,6 +1285,22 @@
 			name = Debug;
 		};
 		1373C0CB24B7449100822911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1373C0D624B7F8FA00822911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1373C0D724B7F8FA00822911 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1618,6 +1692,15 @@
 			buildConfigurations = (
 				1373C0CA24B7449100822911 /* Debug */,
 				1373C0CB24B7449100822911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1373C0D524B7F8FA00822911 /* Build configuration list for PBXNativeTarget "1057. Campus Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1373C0D624B7F8FA00822911 /* Debug */,
+				1373C0D724B7F8FA00822911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
