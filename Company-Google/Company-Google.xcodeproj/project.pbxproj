@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		136995B72440B20B00D37E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136995B62440B20B00D37E40 /* main.cpp */; };
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
@@ -30,6 +31,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		131CDB0B24CC686500D5C7CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		136995B22440B20B00D37E40 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +223,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
+		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "288. Unique Word Abbreviation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136995B62440B20B00D37E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136A634D244740820088C0D3 /* 271. Encode and Decode Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "271. Encode and Decode Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +268,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		131CDB0A24CC686500D5C7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		136995B12440B20B00D37E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +418,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
+			isa = PBXGroup;
+			children = (
+				131CDB0F24CC686500D5C7CC /* main.cpp */,
+			);
+			path = "937. Reorder Data in Log Files";
+			sourceTree = "<group>";
+		};
 		136995B52440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,6 +545,7 @@
 				136A670524494A530088C0D3 /* 361. Bomb Enemy */,
 				1373C0C724B7449100822911 /* 753. Cracking the Safe */,
 				1373C0D224B7F8FA00822911 /* 1057. Campus Bikes */,
+				131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -545,6 +573,7 @@
 				136A670424494A530088C0D3 /* 361. Bomb Enemy */,
 				1373C0C624B7449100822911 /* 753. Cracking the Safe */,
 				1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */,
+				131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -616,6 +645,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131CDB1324CC686500D5C7CC /* Build configuration list for PBXNativeTarget "937. Reorder Data in Log Files" */;
+			buildPhases = (
+				131CDB0924CC686500D5C7CC /* Sources */,
+				131CDB0A24CC686500D5C7CC /* Frameworks */,
+				131CDB0B24CC686500D5C7CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "937. Reorder Data in Log Files";
+			productName = "937. Reorder Data in Log Files";
+			productReference = 131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */;
+			productType = "com.apple.product-type.tool";
+		};
 		136995B32440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 136995BA2440B20B00D37E40 /* Build configuration list for PBXNativeTarget "288. Unique Word Abbreviation" */;
@@ -965,6 +1011,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					131CDB0C24CC686500D5C7CC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					136995B32440B20B00D37E40 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1060,11 +1109,20 @@
 				136A670324494A530088C0D3 /* 361. Bomb Enemy */,
 				1373C0C524B7449100822911 /* 753. Cracking the Safe */,
 				1373C0D024B7F8FA00822911 /* 1057. Campus Bikes */,
+				131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		131CDB0924CC686500D5C7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131CDB1024CC686500D5C7CC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		136995B02440B20B00D37E40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1228,6 +1286,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		131CDB1124CC686500D5C7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		131CDB1224CC686500D5C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		136995B82440B20B00D37E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1660,6 +1734,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		131CDB1324CC686500D5C7CC /* Build configuration list for PBXNativeTarget "937. Reorder Data in Log Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131CDB1124CC686500D5C7CC /* Debug */,
+				131CDB1224CC686500D5C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		136995BA2440B20B00D37E40 /* Build configuration list for PBXNativeTarget "288. Unique Word Abbreviation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
