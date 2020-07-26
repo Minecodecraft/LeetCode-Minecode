@@ -12,6 +12,7 @@
 		134E664F24CD8E7E00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E664E24CD8E7E00355C4A /* main.cpp */; };
 		134E665A24CDB4C600355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E665924CDB4C600355C4A /* main.cpp */; };
 		134E666524CDB53100355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E666424CDB53100355C4A /* main.cpp */; };
+		134E667024CDBC4100355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E666F24CDBC4100355C4A /* main.cpp */; };
 		136995B72440B20B00D37E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136995B62440B20B00D37E40 /* main.cpp */; };
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
@@ -72,6 +73,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		134E666024CDB53100355C4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		134E666B24CDBC4100355C4A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -273,6 +283,8 @@
 		134E665924CDB4C600355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134E666224CDB53100355C4A /* 163. Missing Ranges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "163. Missing Ranges"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134E666424CDB53100355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		134E666D24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "159. Longest Substring with At Most Two Distinct Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134E666F24CDBC4100355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "288. Unique Word Abbreviation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136995B62440B20B00D37E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136A634D244740820088C0D3 /* 271. Encode and Decode Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "271. Encode and Decode Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -345,6 +357,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		134E665F24CDB53100355C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134E666A24CDBC4100355C4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,6 +553,14 @@
 			path = "163. Missing Ranges";
 			sourceTree = "<group>";
 		};
+		134E666E24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */ = {
+			isa = PBXGroup;
+			children = (
+				134E666F24CDBC4100355C4A /* main.cpp */,
+			);
+			path = "159. Longest Substring with At Most Two Distinct Characters";
+			sourceTree = "<group>";
+		};
 		136995B52440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
 			isa = PBXGroup;
 			children = (
@@ -658,6 +685,7 @@
 				134E664D24CD8E7E00355C4A /* 393. UTF-8 Validation */,
 				134E665824CDB4C600355C4A /* 281. Zigzag Iterator */,
 				134E666324CDB53100355C4A /* 163. Missing Ranges */,
+				134E666E24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -690,6 +718,7 @@
 				134E664C24CD8E7E00355C4A /* 393. UTF-8 Validation */,
 				134E665724CDB4C600355C4A /* 281. Zigzag Iterator */,
 				134E666224CDB53100355C4A /* 163. Missing Ranges */,
+				134E666D24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -844,6 +873,23 @@
 			name = "163. Missing Ranges";
 			productName = "163. Missing Ranges";
 			productReference = 134E666224CDB53100355C4A /* 163. Missing Ranges */;
+			productType = "com.apple.product-type.tool";
+		};
+		134E666C24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134E667124CDBC4100355C4A /* Build configuration list for PBXNativeTarget "159. Longest Substring with At Most Two Distinct Characters" */;
+			buildPhases = (
+				134E666924CDBC4100355C4A /* Sources */,
+				134E666A24CDBC4100355C4A /* Frameworks */,
+				134E666B24CDBC4100355C4A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "159. Longest Substring with At Most Two Distinct Characters";
+			productName = "159. Longest Substring with At Most Two Distinct Characters";
+			productReference = 134E666D24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */;
 			productType = "com.apple.product-type.tool";
 		};
 		136995B32440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
@@ -1210,6 +1256,9 @@
 					134E666124CDB53100355C4A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					134E666C24CDBC4100355C4A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					136995B32440B20B00D37E40 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1310,6 +1359,7 @@
 				134E664B24CD8E7E00355C4A /* 393. UTF-8 Validation */,
 				134E665624CDB4C600355C4A /* 281. Zigzag Iterator */,
 				134E666124CDB53100355C4A /* 163. Missing Ranges */,
+				134E666C24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */,
 			);
 		};
 /* End PBXProject section */
@@ -1352,6 +1402,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				134E666524CDB53100355C4A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134E666924CDBC4100355C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134E667024CDBC4100355C4A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1591,6 +1649,22 @@
 			name = Debug;
 		};
 		134E666824CDB53100355C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		134E667224CDBC4100355C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		134E667324CDBC4100355C4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2071,6 +2145,15 @@
 			buildConfigurations = (
 				134E666724CDB53100355C4A /* Debug */,
 				134E666824CDB53100355C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134E667124CDBC4100355C4A /* Build configuration list for PBXNativeTarget "159. Longest Substring with At Most Two Distinct Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134E667224CDBC4100355C4A /* Debug */,
+				134E667324CDBC4100355C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
