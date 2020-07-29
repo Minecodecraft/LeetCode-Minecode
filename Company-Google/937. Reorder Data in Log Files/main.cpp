@@ -32,6 +32,8 @@ struct Node {
     int digitIdx = -1;
 };
 
+// Solution 1: Too long
+/*
 class Solution {
 public:
     vector<string> reorderLogFiles(vector<string>& logs) {
@@ -65,6 +67,34 @@ public:
             str += node.content;
             res.push_back(str);
         }
+        return res;
+    }
+};
+ */
+
+// Solution 2
+class Solution {
+public:
+    vector<string> reorderLogFiles(vector<string>& logs) {
+        vector<string> res;
+        vector<pair<string, string>> pirs;
+        vector<string> digits;
+        for (auto& log: logs) {
+            int i = 0;
+            while (log[i] != ' ') ++i;
+            if (isdigit(log[i+1])) {
+                digits.push_back(log);
+            } else {
+                pirs.emplace_back(log.substr(0, i), log.substr(i, log.length()-i));
+            }
+        }
+        sort(pirs.begin(), pirs.end(), [](pair<string, string>& a, pair<string, string>& b) {
+            return a.second == b.second ? a.first < b.first : a.second < b.second;
+        });
+        for (auto& pir: pirs) {
+            res.emplace_back(pir.first + pir.second);
+        }
+        res.insert(res.end(), digits.begin(), digits.end());
         return res;
     }
 };
