@@ -20,6 +20,8 @@
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
 		1373C0C924B7449100822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0C824B7449100822911 /* main.cpp */; };
 		1373C0D424B7F8FA00822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0D324B7F8FA00822911 /* main.cpp */; };
+		1380154E24D1824800B7A901 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1380154D24D1824800B7A901 /* main.cpp */; };
+		138E481E24D5543B00E1477A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 138E481D24D5543B00E1477A /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
@@ -147,6 +149,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1373C0CF24B7F8FA00822911 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1380154924D1824800B7A901 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		138E481924D5543B00E1477A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -319,6 +339,10 @@
 		1373C0C824B7449100822911 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1057. Campus Bikes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1373C0D324B7F8FA00822911 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1380154B24D1824800B7A901 /* 642. Design Search Autocomplete System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "642. Design Search Autocomplete System"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1380154D24D1824800B7A901 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "340. Longest Substring with At Most K Distinct Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
+		138E481D24D5543B00E1477A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F913B23B0F96E008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "410. Split Array Largest Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -437,6 +461,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1373C0CE24B7F8FA00822911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1380154824D1824800B7A901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138E481824D5543B00E1477A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -655,6 +693,22 @@
 			path = "1057. Campus Bikes";
 			sourceTree = "<group>";
 		};
+		1380154C24D1824800B7A901 /* 642. Design Search Autocomplete System */ = {
+			isa = PBXGroup;
+			children = (
+				1380154D24D1824800B7A901 /* main.cpp */,
+			);
+			path = "642. Design Search Autocomplete System";
+			sourceTree = "<group>";
+		};
+		138E481C24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */ = {
+			isa = PBXGroup;
+			children = (
+				138E481D24D5543B00E1477A /* main.cpp */,
+			);
+			path = "340. Longest Substring with At Most K Distinct Characters";
+			sourceTree = "<group>";
+		};
 		8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,6 +796,8 @@
 				134E666E24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */,
 				134E667924CDC5EF00355C4A /* 222. Count Complete Tree Nodes */,
 				134E6C7E24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */,
+				1380154C24D1824800B7A901 /* 642. Design Search Autocomplete System */,
+				138E481C24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -777,6 +833,8 @@
 				134E666D24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */,
 				134E667824CDC5EF00355C4A /* 222. Count Complete Tree Nodes */,
 				134E6C7D24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */,
+				1380154B24D1824800B7A901 /* 642. Design Search Autocomplete System */,
+				138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1067,6 +1125,40 @@
 			name = "1057. Campus Bikes";
 			productName = "1057. Campus Bikes";
 			productReference = 1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */;
+			productType = "com.apple.product-type.tool";
+		};
+		1380154A24D1824800B7A901 /* 642. Design Search Autocomplete System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1380155124D1824800B7A901 /* Build configuration list for PBXNativeTarget "642. Design Search Autocomplete System" */;
+			buildPhases = (
+				1380154724D1824800B7A901 /* Sources */,
+				1380154824D1824800B7A901 /* Frameworks */,
+				1380154924D1824800B7A901 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "642. Design Search Autocomplete System";
+			productName = "642. Design Search Autocomplete System";
+			productReference = 1380154B24D1824800B7A901 /* 642. Design Search Autocomplete System */;
+			productType = "com.apple.product-type.tool";
+		};
+		138E481A24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138E482124D5543B00E1477A /* Build configuration list for PBXNativeTarget "340. Longest Substring with At Most K Distinct Characters" */;
+			buildPhases = (
+				138E481724D5543B00E1477A /* Sources */,
+				138E481824D5543B00E1477A /* Frameworks */,
+				138E481924D5543B00E1477A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "340. Longest Substring with At Most K Distinct Characters";
+			productName = "340. Longest Substring with At Most K Distinct Characters";
+			productReference = 138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
@@ -1372,6 +1464,12 @@
 					1373C0D024B7F8FA00822911 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					1380154A24D1824800B7A901 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					138E481A24D5543B00E1477A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C2F913823B0F96E008C2B49 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -1460,6 +1558,8 @@
 				134E666C24CDBC4100355C4A /* 159. Longest Substring with At Most Two Distinct Characters */,
 				134E667724CDC5EF00355C4A /* 222. Count Complete Tree Nodes */,
 				134E6C7C24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */,
+				1380154A24D1824800B7A901 /* 642. Design Search Autocomplete System */,
+				138E481A24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 			);
 		};
 /* End PBXProject section */
@@ -1566,6 +1666,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1373C0D424B7F8FA00822911 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1380154724D1824800B7A901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1380154E24D1824800B7A901 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138E481724D5543B00E1477A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138E481E24D5543B00E1477A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1893,6 +2009,38 @@
 			name = Debug;
 		};
 		1373C0D724B7F8FA00822911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1380154F24D1824800B7A901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1380155024D1824800B7A901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		138E481F24D5543B00E1477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		138E482024D5543B00E1477A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2365,6 +2513,24 @@
 			buildConfigurations = (
 				1373C0D624B7F8FA00822911 /* Debug */,
 				1373C0D724B7F8FA00822911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1380155124D1824800B7A901 /* Build configuration list for PBXNativeTarget "642. Design Search Autocomplete System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1380154F24D1824800B7A901 /* Debug */,
+				1380155024D1824800B7A901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138E482124D5543B00E1477A /* Build configuration list for PBXNativeTarget "340. Longest Substring with At Most K Distinct Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138E481F24D5543B00E1477A /* Debug */,
+				138E482024D5543B00E1477A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
