@@ -22,6 +22,7 @@
 		1373C0D424B7F8FA00822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0D324B7F8FA00822911 /* main.cpp */; };
 		1380154E24D1824800B7A901 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1380154D24D1824800B7A901 /* main.cpp */; };
 		138E481E24D5543B00E1477A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 138E481D24D5543B00E1477A /* main.cpp */; };
+		13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E40CE924D9998E0010F6B4 /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
@@ -167,6 +168,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		138E481924D5543B00E1477A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		13E40CE524D9998E0010F6B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -343,6 +353,8 @@
 		1380154D24D1824800B7A901 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "340. Longest Substring with At Most K Distinct Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138E481D24D5543B00E1477A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "568. Maximum Vacation Days"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E40CE924D9998E0010F6B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F913B23B0F96E008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "410. Split Array Largest Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -475,6 +487,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		138E481824D5543B00E1477A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E40CE424D9998E0010F6B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -709,6 +728,14 @@
 			path = "340. Longest Substring with At Most K Distinct Characters";
 			sourceTree = "<group>";
 		};
+		13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
+			isa = PBXGroup;
+			children = (
+				13E40CE924D9998E0010F6B4 /* main.cpp */,
+			);
+			path = "568. Maximum Vacation Days";
+			sourceTree = "<group>";
+		};
 		8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -798,6 +825,7 @@
 				134E6C7E24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */,
 				1380154C24D1824800B7A901 /* 642. Design Search Autocomplete System */,
 				138E481C24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
+				13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -835,6 +863,7 @@
 				134E6C7D24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */,
 				1380154B24D1824800B7A901 /* 642. Design Search Autocomplete System */,
 				138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
+				13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1161,6 +1190,23 @@
 			productReference = 138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */;
 			productType = "com.apple.product-type.tool";
 		};
+		13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E40CED24D9998E0010F6B4 /* Build configuration list for PBXNativeTarget "568. Maximum Vacation Days" */;
+			buildPhases = (
+				13E40CE324D9998E0010F6B4 /* Sources */,
+				13E40CE424D9998E0010F6B4 /* Frameworks */,
+				13E40CE524D9998E0010F6B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "568. Maximum Vacation Days";
+			productName = "568. Maximum Vacation Days";
+			productReference = 13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C2F913F23B0F96E008C2B49 /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */;
@@ -1470,6 +1516,9 @@
 					138E481A24D5543B00E1477A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					13E40CE624D9998E0010F6B4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C2F913823B0F96E008C2B49 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -1560,6 +1609,7 @@
 				134E6C7C24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */,
 				1380154A24D1824800B7A901 /* 642. Design Search Autocomplete System */,
 				138E481A24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
+				13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */,
 			);
 		};
 /* End PBXProject section */
@@ -1682,6 +1732,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				138E481E24D5543B00E1477A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E40CE324D9998E0010F6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2041,6 +2099,22 @@
 			name = Debug;
 		};
 		138E482024D5543B00E1477A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13E40CEB24D9998E0010F6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13E40CEC24D9998E0010F6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2531,6 +2605,15 @@
 			buildConfigurations = (
 				138E481F24D5543B00E1477A /* Debug */,
 				138E482024D5543B00E1477A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E40CED24D9998E0010F6B4 /* Build configuration list for PBXNativeTarget "568. Maximum Vacation Days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E40CEB24D9998E0010F6B4 /* Debug */,
+				13E40CEC24D9998E0010F6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
