@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
+		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134E664424CD0F4A00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E664324CD0F4A00355C4A /* main.cpp */; };
 		134E664F24CD8E7E00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E664E24CD8E7E00355C4A /* main.cpp */; };
 		134E665A24CDB4C600355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E665924CDB4C600355C4A /* main.cpp */; };
@@ -42,6 +43,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		131CDB0B24CC686500D5C7CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		134A6B4C24DD61FB001C85B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -325,6 +335,8 @@
 /* Begin PBXFileReference section */
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134A6B5024DD61FB001C85B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134E664124CD0F4A00355C4A /* 298. Binary Tree Longest Consecutive Sequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "298. Binary Tree Longest Consecutive Sequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134E664324CD0F4A00355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134E664C24CD8E7E00355C4A /* 393. UTF-8 Validation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "393. UTF-8 Validation"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -389,6 +401,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		131CDB0A24CC686500D5C7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134A6B4B24DD61FB001C85B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -616,6 +635,14 @@
 			path = "937. Reorder Data in Log Files";
 			sourceTree = "<group>";
 		};
+		134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				134A6B5024DD61FB001C85B7 /* main.cpp */,
+			);
+			path = "939. Minimum Area Rectangle";
+			sourceTree = "<group>";
+		};
 		134E664224CD0F4A00355C4A /* 298. Binary Tree Longest Consecutive Sequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -826,6 +853,7 @@
 				1380154C24D1824800B7A901 /* 642. Design Search Autocomplete System */,
 				138E481C24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */,
+				134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -864,6 +892,7 @@
 				1380154B24D1824800B7A901 /* 642. Design Search Autocomplete System */,
 				138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */,
+				134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -950,6 +979,23 @@
 			name = "937. Reorder Data in Log Files";
 			productName = "937. Reorder Data in Log Files";
 			productReference = 131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */;
+			productType = "com.apple.product-type.tool";
+		};
+		134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134A6B5424DD61FB001C85B7 /* Build configuration list for PBXNativeTarget "939. Minimum Area Rectangle" */;
+			buildPhases = (
+				134A6B4A24DD61FB001C85B7 /* Sources */,
+				134A6B4B24DD61FB001C85B7 /* Frameworks */,
+				134A6B4C24DD61FB001C85B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "939. Minimum Area Rectangle";
+			productName = "939. Minimum Area Rectangle";
+			productReference = 134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */;
 			productType = "com.apple.product-type.tool";
 		};
 		134E664024CD0F4A00355C4A /* 298. Binary Tree Longest Consecutive Sequence */ = {
@@ -1474,6 +1520,9 @@
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					134A6B4D24DD61FB001C85B7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					134E664024CD0F4A00355C4A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1610,6 +1659,7 @@
 				1380154A24D1824800B7A901 /* 642. Design Search Autocomplete System */,
 				138E481A24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */,
+				134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
 			);
 		};
 /* End PBXProject section */
@@ -1620,6 +1670,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				131CDB1024CC686500D5C7CC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134A6B4A24DD61FB001C85B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134A6B5124DD61FB001C85B7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1875,6 +1933,22 @@
 			name = Debug;
 		};
 		131CDB1224CC686500D5C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		134A6B5224DD61FB001C85B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		134A6B5324DD61FB001C85B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2479,6 +2553,15 @@
 			buildConfigurations = (
 				131CDB1124CC686500D5C7CC /* Debug */,
 				131CDB1224CC686500D5C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134A6B5424DD61FB001C85B7 /* Build configuration list for PBXNativeTarget "939. Minimum Area Rectangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134A6B5224DD61FB001C85B7 /* Debug */,
+				134A6B5324DD61FB001C85B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
