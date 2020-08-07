@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
+		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
 		134E664424CD0F4A00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E664324CD0F4A00355C4A /* main.cpp */; };
 		134E664F24CD8E7E00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E664E24CD8E7E00355C4A /* main.cpp */; };
 		134E665A24CDB4C600355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E665924CDB4C600355C4A /* main.cpp */; };
@@ -52,6 +53,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		134A6B4C24DD61FB001C85B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		134A6B5724DD6CB6001C85B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -337,6 +347,8 @@
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134A6B5024DD61FB001C85B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "247. Strobogrammatic Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134A6B5B24DD6CB6001C85B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134E664124CD0F4A00355C4A /* 298. Binary Tree Longest Consecutive Sequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "298. Binary Tree Longest Consecutive Sequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134E664324CD0F4A00355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134E664C24CD8E7E00355C4A /* 393. UTF-8 Validation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "393. UTF-8 Validation"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -408,6 +420,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		134A6B4B24DD61FB001C85B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134A6B5624DD6CB6001C85B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -643,6 +662,14 @@
 			path = "939. Minimum Area Rectangle";
 			sourceTree = "<group>";
 		};
+		134A6B5A24DD6CB6001C85B7 /* 247. Strobogrammatic Number II */ = {
+			isa = PBXGroup;
+			children = (
+				134A6B5B24DD6CB6001C85B7 /* main.cpp */,
+			);
+			path = "247. Strobogrammatic Number II";
+			sourceTree = "<group>";
+		};
 		134E664224CD0F4A00355C4A /* 298. Binary Tree Longest Consecutive Sequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -854,6 +881,7 @@
 				138E481C24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */,
 				134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
+				134A6B5A24DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -893,6 +921,7 @@
 				138E481B24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */,
 				134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
+				134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -996,6 +1025,23 @@
 			name = "939. Minimum Area Rectangle";
 			productName = "939. Minimum Area Rectangle";
 			productReference = 134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */;
+			productType = "com.apple.product-type.tool";
+		};
+		134A6B5824DD6CB6001C85B7 /* 247. Strobogrammatic Number II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134A6B5D24DD6CB6001C85B7 /* Build configuration list for PBXNativeTarget "247. Strobogrammatic Number II" */;
+			buildPhases = (
+				134A6B5524DD6CB6001C85B7 /* Sources */,
+				134A6B5624DD6CB6001C85B7 /* Frameworks */,
+				134A6B5724DD6CB6001C85B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "247. Strobogrammatic Number II";
+			productName = "247. Strobogrammatic Number II";
+			productReference = 134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */;
 			productType = "com.apple.product-type.tool";
 		};
 		134E664024CD0F4A00355C4A /* 298. Binary Tree Longest Consecutive Sequence */ = {
@@ -1523,6 +1569,9 @@
 					134A6B4D24DD61FB001C85B7 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					134A6B5824DD6CB6001C85B7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					134E664024CD0F4A00355C4A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1660,6 +1709,7 @@
 				138E481A24D5543B00E1477A /* 340. Longest Substring with At Most K Distinct Characters */,
 				13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */,
 				134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
+				134A6B5824DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 			);
 		};
 /* End PBXProject section */
@@ -1678,6 +1728,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				134A6B5124DD61FB001C85B7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134A6B5524DD6CB6001C85B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1949,6 +2007,22 @@
 			name = Debug;
 		};
 		134A6B5324DD61FB001C85B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		134A6B5E24DD6CB6001C85B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		134A6B5F24DD6CB6001C85B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2562,6 +2636,15 @@
 			buildConfigurations = (
 				134A6B5224DD61FB001C85B7 /* Debug */,
 				134A6B5324DD61FB001C85B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134A6B5D24DD6CB6001C85B7 /* Build configuration list for PBXNativeTarget "247. Strobogrammatic Number II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134A6B5E24DD6CB6001C85B7 /* Debug */,
+				134A6B5F24DD6CB6001C85B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
