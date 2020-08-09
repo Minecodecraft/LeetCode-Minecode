@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13173A2124DEB4EC00A5FFD8 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -44,6 +45,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		13173A1D24DEB4EC00A5FFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		131CDB0B24CC686500D5C7CC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +363,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "296. Best Meeting Point"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13173A2124DEB4EC00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -424,6 +436,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		13173A1C24DEB4EC00A5FFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		131CDB0A24CC686500D5C7CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -665,6 +684,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13173A2024DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {
+			isa = PBXGroup;
+			children = (
+				13173A2124DEB4EC00A5FFD8 /* main.cpp */,
+			);
+			path = "296. Best Meeting Point";
+			sourceTree = "<group>";
+		};
 		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,6 +937,7 @@
 				134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
 				134A6B5A24DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				134A6B6524DD6F36001C85B7 /* 248. Strobogrammatic Number III */,
+				13173A2024DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -951,6 +979,7 @@
 				134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
 				134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				134A6B6424DD6F36001C85B7 /* 248. Strobogrammatic Number III */,
+				13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1022,6 +1051,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		13173A1E24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13173A2524DEB4EC00A5FFD8 /* Build configuration list for PBXNativeTarget "296. Best Meeting Point" */;
+			buildPhases = (
+				13173A1B24DEB4EC00A5FFD8 /* Sources */,
+				13173A1C24DEB4EC00A5FFD8 /* Frameworks */,
+				13173A1D24DEB4EC00A5FFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "296. Best Meeting Point";
+			productName = "296. Best Meeting Point";
+			productReference = 13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */;
+			productType = "com.apple.product-type.tool";
+		};
 		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 131CDB1324CC686500D5C7CC /* Build configuration list for PBXNativeTarget "937. Reorder Data in Log Files" */;
@@ -1609,6 +1655,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					13173A1E24DEB4EC00A5FFD8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1760,11 +1809,20 @@
 				134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */,
 				134A6B5824DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				134A6B6324DD6F36001C85B7 /* 248. Strobogrammatic Number III */,
+				13173A1E24DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13173A1B24DEB4EC00A5FFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		131CDB0924CC686500D5C7CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2040,6 +2098,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		13173A2324DEB4EC00A5FFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13173A2424DEB4EC00A5FFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		131CDB1124CC686500D5C7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2696,6 +2770,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13173A2524DEB4EC00A5FFD8 /* Build configuration list for PBXNativeTarget "296. Best Meeting Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13173A2324DEB4EC00A5FFD8 /* Debug */,
+				13173A2424DEB4EC00A5FFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		131CDB1324CC686500D5C7CC /* Build configuration list for PBXNativeTarget "937. Reorder Data in Log Files" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
