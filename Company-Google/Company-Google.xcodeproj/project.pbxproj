@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13173A2124DEB4EC00A5FFD8 /* main.cpp */; };
+		13175DAC24E3A7CA00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13175DAB24E3A7CA00A5FFD8 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -46,6 +47,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		13173A1D24DEB4EC00A5FFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		13175DA724E3A7CA00A5FFD8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -365,6 +375,8 @@
 /* Begin PBXFileReference section */
 		13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "296. Best Meeting Point"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13173A2124DEB4EC00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "774. Minimize Max Distance to Gas Station"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13175DAB24E3A7CA00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -437,6 +449,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		13173A1C24DEB4EC00A5FFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13175DA624E3A7CA00A5FFD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -692,6 +711,14 @@
 			path = "296. Best Meeting Point";
 			sourceTree = "<group>";
 		};
+		13175DAA24E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */ = {
+			isa = PBXGroup;
+			children = (
+				13175DAB24E3A7CA00A5FFD8 /* main.cpp */,
+			);
+			path = "774. Minimize Max Distance to Gas Station";
+			sourceTree = "<group>";
+		};
 		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -938,6 +965,7 @@
 				134A6B5A24DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				134A6B6524DD6F36001C85B7 /* 248. Strobogrammatic Number III */,
 				13173A2024DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
+				13175DAA24E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -980,6 +1008,7 @@
 				134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				134A6B6424DD6F36001C85B7 /* 248. Strobogrammatic Number III */,
 				13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
+				13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1066,6 +1095,23 @@
 			name = "296. Best Meeting Point";
 			productName = "296. Best Meeting Point";
 			productReference = 13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */;
+			productType = "com.apple.product-type.tool";
+		};
+		13175DA824E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13175DAF24E3A7CA00A5FFD8 /* Build configuration list for PBXNativeTarget "774. Minimize Max Distance to Gas Station" */;
+			buildPhases = (
+				13175DA524E3A7CA00A5FFD8 /* Sources */,
+				13175DA624E3A7CA00A5FFD8 /* Frameworks */,
+				13175DA724E3A7CA00A5FFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "774. Minimize Max Distance to Gas Station";
+			productName = "774. Minimize Max Distance to Gas Station";
+			productReference = 13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */;
 			productType = "com.apple.product-type.tool";
 		};
 		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
@@ -1658,6 +1704,9 @@
 					13173A1E24DEB4EC00A5FFD8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					13175DA824E3A7CA00A5FFD8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1810,6 +1859,7 @@
 				134A6B5824DD6CB6001C85B7 /* 247. Strobogrammatic Number II */,
 				134A6B6324DD6F36001C85B7 /* 248. Strobogrammatic Number III */,
 				13173A1E24DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
+				13175DA824E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 			);
 		};
 /* End PBXProject section */
@@ -1820,6 +1870,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13175DA524E3A7CA00A5FFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13175DAC24E3A7CA00A5FFD8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2107,6 +2165,22 @@
 			name = Debug;
 		};
 		13173A2424DEB4EC00A5FFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13175DAD24E3A7CA00A5FFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13175DAE24E3A7CA00A5FFD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2775,6 +2849,15 @@
 			buildConfigurations = (
 				13173A2324DEB4EC00A5FFD8 /* Debug */,
 				13173A2424DEB4EC00A5FFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13175DAF24E3A7CA00A5FFD8 /* Build configuration list for PBXNativeTarget "774. Minimize Max Distance to Gas Station" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13175DAD24E3A7CA00A5FFD8 /* Debug */,
+				13175DAE24E3A7CA00A5FFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
