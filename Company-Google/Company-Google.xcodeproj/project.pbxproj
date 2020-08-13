@@ -10,6 +10,7 @@
 		13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13173A2124DEB4EC00A5FFD8 /* main.cpp */; };
 		13175DAC24E3A7CA00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13175DAB24E3A7CA00A5FFD8 /* main.cpp */; };
 		1317696224E4D30B00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317696124E4D30B00A5FFD8 /* main.cpp */; };
+		1317696D24E4E8D900A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317696C24E4E8D900A5FFD8 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -66,6 +67,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1317695D24E4D30B00A5FFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1317696824E4E8D900A5FFD8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -389,6 +399,8 @@
 		13175DAB24E3A7CA00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1317695F24E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "346. Moving Average from Data Stream"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1317696124E4D30B00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "351. Android Unlock Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1317696C24E4E8D900A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -475,6 +487,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1317695C24E4D30B00A5FFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317696724E4E8D900A5FFD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -746,6 +765,14 @@
 			path = "346. Moving Average from Data Stream";
 			sourceTree = "<group>";
 		};
+		1317696B24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				1317696C24E4E8D900A5FFD8 /* main.cpp */,
+			);
+			path = "351. Android Unlock Patterns";
+			sourceTree = "<group>";
+		};
 		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -994,6 +1021,7 @@
 				13173A2024DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
 				13175DAA24E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				1317696024E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */,
+				1317696B24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1038,6 +1066,7 @@
 				13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
 				13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				1317695F24E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */,
+				1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1158,6 +1187,23 @@
 			name = "346. Moving Average from Data Stream";
 			productName = "346. Moving Average from Data Stream";
 			productReference = 1317695F24E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */;
+			productType = "com.apple.product-type.tool";
+		};
+		1317696924E4E8D900A5FFD8 /* 351. Android Unlock Patterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317696E24E4E8D900A5FFD8 /* Build configuration list for PBXNativeTarget "351. Android Unlock Patterns" */;
+			buildPhases = (
+				1317696624E4E8D900A5FFD8 /* Sources */,
+				1317696724E4E8D900A5FFD8 /* Frameworks */,
+				1317696824E4E8D900A5FFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "351. Android Unlock Patterns";
+			productName = "351. Android Unlock Patterns";
+			productReference = 1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */;
 			productType = "com.apple.product-type.tool";
 		};
 		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
@@ -1756,6 +1802,9 @@
 					1317695E24E4D30B00A5FFD8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					1317696924E4E8D900A5FFD8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1910,6 +1959,7 @@
 				13173A1E24DEB4EC00A5FFD8 /* 296. Best Meeting Point */,
 				13175DA824E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				1317695E24E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */,
+				1317696924E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
 			);
 		};
 /* End PBXProject section */
@@ -1936,6 +1986,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1317696224E4D30B00A5FFD8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317696624E4E8D900A5FFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317696D24E4E8D900A5FFD8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2255,6 +2313,22 @@
 			name = Debug;
 		};
 		1317696424E4D30B00A5FFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1317696F24E4E8D900A5FFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1317697024E4E8D900A5FFD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2941,6 +3015,15 @@
 			buildConfigurations = (
 				1317696324E4D30B00A5FFD8 /* Debug */,
 				1317696424E4D30B00A5FFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1317696E24E4E8D900A5FFD8 /* Build configuration list for PBXNativeTarget "351. Android Unlock Patterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317696F24E4E8D900A5FFD8 /* Debug */,
+				1317697024E4E8D900A5FFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

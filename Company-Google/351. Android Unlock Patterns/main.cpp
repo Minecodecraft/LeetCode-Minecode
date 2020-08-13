@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  346. Moving Average from Data Stream
+//  351. Android Unlock Patterns
 //
 //  Created by Jaylen Bian on 8/13/20.
 //  Copyright © 2020 边俊林. All rights reserved.
@@ -25,8 +25,6 @@ using namespace std;
 
 /// Solution:
 //
-// Tips: If we want 1->9, we must make sure 5 has been selected.
-// And we can consider 1->8 is neighbours.
 class Solution {
     int helper(bool* vis, int (&skip)[10][10], int cur, int remain) {
         if (remain == 0)
@@ -61,12 +59,6 @@ public:
         return res;
     }
 };
-
-/**
- * Your MovingAverage object will be instantiated and called as such:
- * MovingAverage* obj = new MovingAverage(size);
- * double param_1 = obj->next(val);
- */
 
 int main() {
 
