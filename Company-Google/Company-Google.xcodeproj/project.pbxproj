@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130322CE24E6D6AA00E2EC14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130322CD24E6D6AA00E2EC14 /* main.cpp */; };
 		13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13173A2124DEB4EC00A5FFD8 /* main.cpp */; };
 		13175DAC24E3A7CA00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13175DAB24E3A7CA00A5FFD8 /* main.cpp */; };
 		1317696224E4D30B00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317696124E4D30B00A5FFD8 /* main.cpp */; };
 		1317696D24E4E8D900A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317696C24E4E8D900A5FFD8 /* main.cpp */; };
+		1317697824E4EA5F00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317697724E4EA5F00A5FFD8 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -48,6 +50,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		130322C924E6D6AA00E2EC14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		13173A1D24DEB4EC00A5FFD8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,6 +87,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1317696824E4E8D900A5FFD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1317697324E4EA5F00A5FFD8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -393,6 +413,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		130322CB24E6D6AA00E2EC14 /* 679. 24 Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "679. 24 Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130322CD24E6D6AA00E2EC14 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "296. Best Meeting Point"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13173A2124DEB4EC00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "774. Minimize Max Distance to Gas Station"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -401,6 +423,8 @@
 		1317696124E4D30B00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "351. Android Unlock Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1317696C24E4E8D900A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1317697524E4EA5F00A5FFD8 /* 734. Sentence Similarity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "734. Sentence Similarity"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1317697724E4EA5F00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -472,6 +496,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		130322C824E6D6AA00E2EC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13173A1C24DEB4EC00A5FFD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +525,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1317696724E4E8D900A5FFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317697224E4EA5F00A5FFD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -741,6 +779,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130322CC24E6D6AA00E2EC14 /* 679. 24 Game */ = {
+			isa = PBXGroup;
+			children = (
+				130322CD24E6D6AA00E2EC14 /* main.cpp */,
+			);
+			path = "679. 24 Game";
+			sourceTree = "<group>";
+		};
 		13173A2024DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {
 			isa = PBXGroup;
 			children = (
@@ -771,6 +817,14 @@
 				1317696C24E4E8D900A5FFD8 /* main.cpp */,
 			);
 			path = "351. Android Unlock Patterns";
+			sourceTree = "<group>";
+		};
+		1317697624E4EA5F00A5FFD8 /* 734. Sentence Similarity */ = {
+			isa = PBXGroup;
+			children = (
+				1317697724E4EA5F00A5FFD8 /* main.cpp */,
+			);
+			path = "734. Sentence Similarity";
 			sourceTree = "<group>";
 		};
 		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
@@ -1022,6 +1076,8 @@
 				13175DAA24E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				1317696024E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */,
 				1317696B24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
+				1317697624E4EA5F00A5FFD8 /* 734. Sentence Similarity */,
+				130322CC24E6D6AA00E2EC14 /* 679. 24 Game */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1067,6 +1123,8 @@
 				13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				1317695F24E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */,
 				1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
+				1317697524E4EA5F00A5FFD8 /* 734. Sentence Similarity */,
+				130322CB24E6D6AA00E2EC14 /* 679. 24 Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1138,6 +1196,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		130322CA24E6D6AA00E2EC14 /* 679. 24 Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130322D124E6D6AA00E2EC14 /* Build configuration list for PBXNativeTarget "679. 24 Game" */;
+			buildPhases = (
+				130322C724E6D6AA00E2EC14 /* Sources */,
+				130322C824E6D6AA00E2EC14 /* Frameworks */,
+				130322C924E6D6AA00E2EC14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "679. 24 Game";
+			productName = "679. 24 Game";
+			productReference = 130322CB24E6D6AA00E2EC14 /* 679. 24 Game */;
+			productType = "com.apple.product-type.tool";
+		};
 		13173A1E24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13173A2524DEB4EC00A5FFD8 /* Build configuration list for PBXNativeTarget "296. Best Meeting Point" */;
@@ -1204,6 +1279,23 @@
 			name = "351. Android Unlock Patterns";
 			productName = "351. Android Unlock Patterns";
 			productReference = 1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */;
+			productType = "com.apple.product-type.tool";
+		};
+		1317697424E4EA5F00A5FFD8 /* 734. Sentence Similarity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317697924E4EA5F00A5FFD8 /* Build configuration list for PBXNativeTarget "734. Sentence Similarity" */;
+			buildPhases = (
+				1317697124E4EA5F00A5FFD8 /* Sources */,
+				1317697224E4EA5F00A5FFD8 /* Frameworks */,
+				1317697324E4EA5F00A5FFD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "734. Sentence Similarity";
+			productName = "734. Sentence Similarity";
+			productReference = 1317697524E4EA5F00A5FFD8 /* 734. Sentence Similarity */;
 			productType = "com.apple.product-type.tool";
 		};
 		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
@@ -1793,6 +1885,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					130322CA24E6D6AA00E2EC14 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					13173A1E24DEB4EC00A5FFD8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -1803,6 +1898,9 @@
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					1317696924E4E8D900A5FFD8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1317697424E4EA5F00A5FFD8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					131CDB0C24CC686500D5C7CC = {
@@ -1960,11 +2058,21 @@
 				13175DA824E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */,
 				1317695E24E4D30B00A5FFD8 /* 346. Moving Average from Data Stream */,
 				1317696924E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
+				1317697424E4EA5F00A5FFD8 /* 734. Sentence Similarity */,
+				130322CA24E6D6AA00E2EC14 /* 679. 24 Game */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		130322C724E6D6AA00E2EC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130322CE24E6D6AA00E2EC14 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13173A1B24DEB4EC00A5FFD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1994,6 +2102,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1317696D24E4E8D900A5FFD8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1317697124E4EA5F00A5FFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317697824E4EA5F00A5FFD8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2272,6 +2388,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		130322CF24E6D6AA00E2EC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		130322D024E6D6AA00E2EC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		13173A2324DEB4EC00A5FFD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2329,6 +2461,22 @@
 			name = Debug;
 		};
 		1317697024E4E8D900A5FFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1317697A24E4EA5F00A5FFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1317697B24E4EA5F00A5FFD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2992,6 +3140,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		130322D124E6D6AA00E2EC14 /* Build configuration list for PBXNativeTarget "679. 24 Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130322CF24E6D6AA00E2EC14 /* Debug */,
+				130322D024E6D6AA00E2EC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		13173A2524DEB4EC00A5FFD8 /* Build configuration list for PBXNativeTarget "296. Best Meeting Point" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3024,6 +3181,15 @@
 			buildConfigurations = (
 				1317696F24E4E8D900A5FFD8 /* Debug */,
 				1317697024E4E8D900A5FFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1317697924E4EA5F00A5FFD8 /* Build configuration list for PBXNativeTarget "734. Sentence Similarity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317697A24E4EA5F00A5FFD8 /* Debug */,
+				1317697B24E4EA5F00A5FFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
