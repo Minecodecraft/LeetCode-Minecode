@@ -48,6 +48,23 @@ class Solution {
         }
         return res;
     }
+
+    void my_reverse(vector<int>::iterator first, vector<int>::iterator last) {
+        for (--last; first < last; ++first, --last)
+            swap(*first, *last);
+    }
+
+    bool my_next_permutation(vector<int>::iterator first, vector<int>::iterator last) {
+        vector<int>::iterator cur = last - 1, pre = cur - 1;
+        while (pre >= first && *cur <= *pre)
+            --pre, --cur;
+        if (pre < first)
+            return false;
+        for (cur = last-1; *cur <= *pre; --cur);
+        swap(*pre, *cur);
+        my_reverse(pre+1, last);
+        return true;
+    }
 public:
     bool judgePoint24(vector<int>& nums) {
         sort(nums.begin(), nums.end());
@@ -56,7 +73,7 @@ public:
             for (double ele: arr)
                 if (abs(ele-24) <= EPS)
                     return true;
-        } while (next_permutation(nums.begin(), nums.end()));
+        } while (my_next_permutation(nums.begin(), nums.end()));
 
         return false;
     }
