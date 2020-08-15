@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		130322CE24E6D6AA00E2EC14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130322CD24E6D6AA00E2EC14 /* main.cpp */; };
+		130328D924E760EC00E2EC14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130328D824E760EC00E2EC14 /* main.cpp */; };
 		13173A2224DEB4EC00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13173A2124DEB4EC00A5FFD8 /* main.cpp */; };
 		13175DAC24E3A7CA00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13175DAB24E3A7CA00A5FFD8 /* main.cpp */; };
 		1317696224E4D30B00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317696124E4D30B00A5FFD8 /* main.cpp */; };
@@ -51,6 +52,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		130322C924E6D6AA00E2EC14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		130328D424E760EC00E2EC14 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -415,6 +425,8 @@
 /* Begin PBXFileReference section */
 		130322CB24E6D6AA00E2EC14 /* 679. 24 Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "679. 24 Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		130322CD24E6D6AA00E2EC14 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		130328D624E760EC00E2EC14 /* 809. Expressive Words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "809. Expressive Words"; sourceTree = BUILT_PRODUCTS_DIR; };
+		130328D824E760EC00E2EC14 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13173A1F24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "296. Best Meeting Point"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13173A2124DEB4EC00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13175DA924E3A7CA00A5FFD8 /* 774. Minimize Max Distance to Gas Station */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "774. Minimize Max Distance to Gas Station"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -497,6 +509,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		130322C824E6D6AA00E2EC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130328D324E760EC00E2EC14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -785,6 +804,14 @@
 				130322CD24E6D6AA00E2EC14 /* main.cpp */,
 			);
 			path = "679. 24 Game";
+			sourceTree = "<group>";
+		};
+		130328D724E760EC00E2EC14 /* 809. Expressive Words */ = {
+			isa = PBXGroup;
+			children = (
+				130328D824E760EC00E2EC14 /* main.cpp */,
+			);
+			path = "809. Expressive Words";
 			sourceTree = "<group>";
 		};
 		13173A2024DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {
@@ -1078,6 +1105,7 @@
 				1317696B24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
 				1317697624E4EA5F00A5FFD8 /* 734. Sentence Similarity */,
 				130322CC24E6D6AA00E2EC14 /* 679. 24 Game */,
+				130328D724E760EC00E2EC14 /* 809. Expressive Words */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1125,6 +1153,7 @@
 				1317696A24E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
 				1317697524E4EA5F00A5FFD8 /* 734. Sentence Similarity */,
 				130322CB24E6D6AA00E2EC14 /* 679. 24 Game */,
+				130328D624E760EC00E2EC14 /* 809. Expressive Words */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1211,6 +1240,23 @@
 			name = "679. 24 Game";
 			productName = "679. 24 Game";
 			productReference = 130322CB24E6D6AA00E2EC14 /* 679. 24 Game */;
+			productType = "com.apple.product-type.tool";
+		};
+		130328D524E760EC00E2EC14 /* 809. Expressive Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130328DC24E760EC00E2EC14 /* Build configuration list for PBXNativeTarget "809. Expressive Words" */;
+			buildPhases = (
+				130328D224E760EC00E2EC14 /* Sources */,
+				130328D324E760EC00E2EC14 /* Frameworks */,
+				130328D424E760EC00E2EC14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "809. Expressive Words";
+			productName = "809. Expressive Words";
+			productReference = 130328D624E760EC00E2EC14 /* 809. Expressive Words */;
 			productType = "com.apple.product-type.tool";
 		};
 		13173A1E24DEB4EC00A5FFD8 /* 296. Best Meeting Point */ = {
@@ -1888,6 +1934,9 @@
 					130322CA24E6D6AA00E2EC14 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					130328D524E760EC00E2EC14 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					13173A1E24DEB4EC00A5FFD8 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -2060,6 +2109,7 @@
 				1317696924E4E8D900A5FFD8 /* 351. Android Unlock Patterns */,
 				1317697424E4EA5F00A5FFD8 /* 734. Sentence Similarity */,
 				130322CA24E6D6AA00E2EC14 /* 679. 24 Game */,
+				130328D524E760EC00E2EC14 /* 809. Expressive Words */,
 			);
 		};
 /* End PBXProject section */
@@ -2070,6 +2120,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				130322CE24E6D6AA00E2EC14 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130328D224E760EC00E2EC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130328D924E760EC00E2EC14 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2397,6 +2455,22 @@
 			name = Debug;
 		};
 		130322D024E6D6AA00E2EC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		130328DA24E760EC00E2EC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		130328DB24E760EC00E2EC14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3145,6 +3219,15 @@
 			buildConfigurations = (
 				130322CF24E6D6AA00E2EC14 /* Debug */,
 				130322D024E6D6AA00E2EC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130328DC24E760EC00E2EC14 /* Build configuration list for PBXNativeTarget "809. Expressive Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130328DA24E760EC00E2EC14 /* Debug */,
+				130328DB24E760EC00E2EC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
