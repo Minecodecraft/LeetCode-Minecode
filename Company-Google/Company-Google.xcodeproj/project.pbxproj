@@ -38,6 +38,7 @@
 		139D054225039F7000330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D054125039F7000330B38 /* main.cpp */; };
 		139D0B392504843B00330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D0B382504843B00330B38 /* main.cpp */; };
 		139D0B442504846300330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D0B432504846300330B38 /* main.cpp */; };
+		139D0B4F2504BB7B00330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D0B4E2504BB7B00330B38 /* main.cpp */; };
 		13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E40CE924D9998E0010F6B4 /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
@@ -336,6 +337,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		139D0B4A2504BB7B00330B38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		13E40CE524D9998E0010F6B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -545,6 +555,8 @@
 		139D0B382504843B00330B38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		139D0B412504846300330B38 /* 1088. Confusing Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1088. Confusing Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139D0B432504846300330B38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		139D0B4C2504BB7B00330B38 /* 228. Summary Ranges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "228. Summary Ranges"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139D0B4E2504BB7B00330B38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "568. Maximum Vacation Days"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E40CE924D9998E0010F6B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -791,6 +803,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		139D0B3E2504846300330B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139D0B492504BB7B00330B38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1160,6 +1179,14 @@
 			path = "1088. Confusing Number II";
 			sourceTree = "<group>";
 		};
+		139D0B4D2504BB7B00330B38 /* 228. Summary Ranges */ = {
+			isa = PBXGroup;
+			children = (
+				139D0B4E2504BB7B00330B38 /* main.cpp */,
+			);
+			path = "228. Summary Ranges";
+			sourceTree = "<group>";
+		};
 		13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXGroup;
 			children = (
@@ -1274,6 +1301,7 @@
 				139D054025039F7000330B38 /* 299. Bulls and Cows */,
 				139D0B372504843B00330B38 /* 1056. Confusing Number */,
 				139D0B422504846300330B38 /* 1088. Confusing Number II */,
+				139D0B4D2504BB7B00330B38 /* 228. Summary Ranges */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1328,6 +1356,7 @@
 				139D053F25039F7000330B38 /* 299. Bulls and Cows */,
 				139D0B362504843B00330B38 /* 1056. Confusing Number */,
 				139D0B412504846300330B38 /* 1088. Confusing Number II */,
+				139D0B4C2504BB7B00330B38 /* 228. Summary Ranges */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1926,6 +1955,23 @@
 			productReference = 139D0B412504846300330B38 /* 1088. Confusing Number II */;
 			productType = "com.apple.product-type.tool";
 		};
+		139D0B4B2504BB7B00330B38 /* 228. Summary Ranges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139D0B502504BB7B00330B38 /* Build configuration list for PBXNativeTarget "228. Summary Ranges" */;
+			buildPhases = (
+				139D0B482504BB7B00330B38 /* Sources */,
+				139D0B492504BB7B00330B38 /* Frameworks */,
+				139D0B4A2504BB7B00330B38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "228. Summary Ranges";
+			productName = "228. Summary Ranges";
+			productReference = 139D0B4C2504BB7B00330B38 /* 228. Summary Ranges */;
+			productType = "com.apple.product-type.tool";
+		};
 		13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13E40CED24D9998E0010F6B4 /* Build configuration list for PBXNativeTarget "568. Maximum Vacation Days" */;
@@ -2300,6 +2346,9 @@
 					139D0B402504846300330B38 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					139D0B4B2504BB7B00330B38 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					13E40CE624D9998E0010F6B4 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -2410,6 +2459,7 @@
 				139D053E25039F7000330B38 /* 299. Bulls and Cows */,
 				139D0B352504843B00330B38 /* 1056. Confusing Number */,
 				139D0B402504846300330B38 /* 1088. Confusing Number II */,
+				139D0B4B2504BB7B00330B38 /* 228. Summary Ranges */,
 			);
 		};
 /* End PBXProject section */
@@ -2660,6 +2710,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				139D0B442504846300330B38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139D0B482504BB7B00330B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139D0B4F2504BB7B00330B38 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3283,6 +3341,22 @@
 			name = Debug;
 		};
 		139D0B472504846300330B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		139D0B512504BB7B00330B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		139D0B522504BB7B00330B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3933,6 +4007,15 @@
 			buildConfigurations = (
 				139D0B462504846300330B38 /* Debug */,
 				139D0B472504846300330B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139D0B502504BB7B00330B38 /* Build configuration list for PBXNativeTarget "228. Summary Ranges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139D0B512504BB7B00330B38 /* Debug */,
+				139D0B522504BB7B00330B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
