@@ -30,6 +30,7 @@
 		136995B72440B20B00D37E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136995B62440B20B00D37E40 /* main.cpp */; };
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
+		136F1386250D0CFC00C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F1385250D0CFC00C5A4BF /* main.cpp */; };
 		1373C0C924B7449100822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0C824B7449100822911 /* main.cpp */; };
 		1373C0D424B7F8FA00822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0D324B7F8FA00822911 /* main.cpp */; };
 		1380154E24D1824800B7A901 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1380154D24D1824800B7A901 /* main.cpp */; };
@@ -257,6 +258,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		136A670224494A530088C0D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		136F1381250D0CFC00C5A4BF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -539,6 +549,8 @@
 		136A634F244740820088C0D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136A670424494A530088C0D3 /* 361. Bomb Enemy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "361. Bomb Enemy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136A670624494A530088C0D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		136F1383250D0CFC00C5A4BF /* 465. Optimal Account Balancing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "465. Optimal Account Balancing"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136F1385250D0CFC00C5A4BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1373C0C624B7449100822911 /* 753. Cracking the Safe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "753. Cracking the Safe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1373C0C824B7449100822911 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1057. Campus Bikes"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -747,6 +759,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		136A670124494A530088C0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F1380250D0CFC00C5A4BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1115,6 +1134,14 @@
 			path = "361. Bomb Enemy";
 			sourceTree = "<group>";
 		};
+		136F1384250D0CFC00C5A4BF /* 465. Optimal Account Balancing */ = {
+			isa = PBXGroup;
+			children = (
+				136F1385250D0CFC00C5A4BF /* main.cpp */,
+			);
+			path = "465. Optimal Account Balancing";
+			sourceTree = "<group>";
+		};
 		1373C0C724B7449100822911 /* 753. Cracking the Safe */ = {
 			isa = PBXGroup;
 			children = (
@@ -1302,6 +1329,7 @@
 				139D0B372504843B00330B38 /* 1056. Confusing Number */,
 				139D0B422504846300330B38 /* 1088. Confusing Number II */,
 				139D0B4D2504BB7B00330B38 /* 228. Summary Ranges */,
+				136F1384250D0CFC00C5A4BF /* 465. Optimal Account Balancing */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1357,6 +1385,7 @@
 				139D0B362504843B00330B38 /* 1056. Confusing Number */,
 				139D0B412504846300330B38 /* 1088. Confusing Number II */,
 				139D0B4C2504BB7B00330B38 /* 228. Summary Ranges */,
+				136F1383250D0CFC00C5A4BF /* 465. Optimal Account Balancing */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1817,6 +1846,23 @@
 			name = "361. Bomb Enemy";
 			productName = "361. Bomb Enemy";
 			productReference = 136A670424494A530088C0D3 /* 361. Bomb Enemy */;
+			productType = "com.apple.product-type.tool";
+		};
+		136F1382250D0CFC00C5A4BF /* 465. Optimal Account Balancing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136F1389250D0CFC00C5A4BF /* Build configuration list for PBXNativeTarget "465. Optimal Account Balancing" */;
+			buildPhases = (
+				136F137F250D0CFC00C5A4BF /* Sources */,
+				136F1380250D0CFC00C5A4BF /* Frameworks */,
+				136F1381250D0CFC00C5A4BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "465. Optimal Account Balancing";
+			productName = "465. Optimal Account Balancing";
+			productReference = 136F1383250D0CFC00C5A4BF /* 465. Optimal Account Balancing */;
 			productType = "com.apple.product-type.tool";
 		};
 		1373C0C524B7449100822911 /* 753. Cracking the Safe */ = {
@@ -2322,6 +2368,9 @@
 					136A670324494A530088C0D3 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					136F1382250D0CFC00C5A4BF = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					1373C0C524B7449100822911 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -2460,6 +2509,7 @@
 				139D0B352504843B00330B38 /* 1056. Confusing Number */,
 				139D0B402504846300330B38 /* 1088. Confusing Number II */,
 				139D0B4B2504BB7B00330B38 /* 228. Summary Ranges */,
+				136F1382250D0CFC00C5A4BF /* 465. Optimal Account Balancing */,
 			);
 		};
 /* End PBXProject section */
@@ -2646,6 +2696,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				136A670724494A530088C0D3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F137F250D0CFC00C5A4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136F1386250D0CFC00C5A4BF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3213,6 +3271,22 @@
 			name = Debug;
 		};
 		136A670924494A530088C0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		136F1387250D0CFC00C5A4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136F1388250D0CFC00C5A4BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3935,6 +4009,15 @@
 			buildConfigurations = (
 				136A670824494A530088C0D3 /* Debug */,
 				136A670924494A530088C0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136F1389250D0CFC00C5A4BF /* Build configuration list for PBXNativeTarget "465. Optimal Account Balancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136F1387250D0CFC00C5A4BF /* Debug */,
+				136F1388250D0CFC00C5A4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
