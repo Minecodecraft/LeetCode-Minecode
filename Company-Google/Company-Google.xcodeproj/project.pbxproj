@@ -42,6 +42,7 @@
 		139D0B392504843B00330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D0B382504843B00330B38 /* main.cpp */; };
 		139D0B442504846300330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D0B432504846300330B38 /* main.cpp */; };
 		139D0B4F2504BB7B00330B38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 139D0B4E2504BB7B00330B38 /* main.cpp */; };
+		13A078CF25296F8E00BB1CE0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A078CE25296F8E00BB1CE0 /* main.cpp */; };
 		13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E40CE924D9998E0010F6B4 /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
@@ -376,6 +377,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		13A078CA25296F8D00BB1CE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		13E40CE524D9998E0010F6B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,6 +603,8 @@
 		139D0B432504846300330B38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		139D0B4C2504BB7B00330B38 /* 228. Summary Ranges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "228. Summary Ranges"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139D0B4E2504BB7B00330B38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13A078CC25296F8D00BB1CE0 /* 750. Number Of Corner Rectangles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "750. Number Of Corner Rectangles"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A078CE25296F8E00BB1CE0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "568. Maximum Vacation Days"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E40CE924D9998E0010F6B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -867,6 +879,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		139D0B492504BB7B00330B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A078C925296F8D00BB1CE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1268,6 +1287,14 @@
 			path = "228. Summary Ranges";
 			sourceTree = "<group>";
 		};
+		13A078CD25296F8E00BB1CE0 /* 750. Number Of Corner Rectangles */ = {
+			isa = PBXGroup;
+			children = (
+				13A078CE25296F8E00BB1CE0 /* main.cpp */,
+			);
+			path = "750. Number Of Corner Rectangles";
+			sourceTree = "<group>";
+		};
 		13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXGroup;
 			children = (
@@ -1386,6 +1413,7 @@
 				136F1384250D0CFC00C5A4BF /* 465. Optimal Account Balancing */,
 				136F138F250D16CB00C5A4BF /* 1110. Delete Nodes And Return Forest */,
 				136F139A250DBA6900C5A4BF /* 803. Bricks Falling When Hit */,
+				13A078CD25296F8E00BB1CE0 /* 750. Number Of Corner Rectangles */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1444,6 +1472,7 @@
 				136F1383250D0CFC00C5A4BF /* 465. Optimal Account Balancing */,
 				136F138E250D16CB00C5A4BF /* 1110. Delete Nodes And Return Forest */,
 				136F1399250DBA6900C5A4BF /* 803. Bricks Falling When Hit */,
+				13A078CC25296F8D00BB1CE0 /* 750. Number Of Corner Rectangles */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2110,6 +2139,23 @@
 			productReference = 139D0B4C2504BB7B00330B38 /* 228. Summary Ranges */;
 			productType = "com.apple.product-type.tool";
 		};
+		13A078CB25296F8D00BB1CE0 /* 750. Number Of Corner Rectangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A078D225296F8E00BB1CE0 /* Build configuration list for PBXNativeTarget "750. Number Of Corner Rectangles" */;
+			buildPhases = (
+				13A078C825296F8D00BB1CE0 /* Sources */,
+				13A078C925296F8D00BB1CE0 /* Frameworks */,
+				13A078CA25296F8D00BB1CE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "750. Number Of Corner Rectangles";
+			productName = "750. Number Of Corner Rectangles";
+			productReference = 13A078CC25296F8D00BB1CE0 /* 750. Number Of Corner Rectangles */;
+			productType = "com.apple.product-type.tool";
+		};
 		13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13E40CED24D9998E0010F6B4 /* Build configuration list for PBXNativeTarget "568. Maximum Vacation Days" */;
@@ -2496,6 +2542,9 @@
 					139D0B4B2504BB7B00330B38 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					13A078CB25296F8D00BB1CE0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					13E40CE624D9998E0010F6B4 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -2610,6 +2659,7 @@
 				136F1382250D0CFC00C5A4BF /* 465. Optimal Account Balancing */,
 				136F138D250D16CB00C5A4BF /* 1110. Delete Nodes And Return Forest */,
 				136F1398250DBA6900C5A4BF /* 803. Bricks Falling When Hit */,
+				13A078CB25296F8D00BB1CE0 /* 750. Number Of Corner Rectangles */,
 			);
 		};
 /* End PBXProject section */
@@ -2892,6 +2942,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				139D0B4F2504BB7B00330B38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A078C825296F8D00BB1CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A078CF25296F8E00BB1CE0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3586,6 +3644,22 @@
 			};
 			name = Release;
 		};
+		13A078D025296F8E00BB1CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13A078D125296F8E00BB1CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		13E40CEB24D9998E0010F6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4265,6 +4339,15 @@
 			buildConfigurations = (
 				139D0B512504BB7B00330B38 /* Debug */,
 				139D0B522504BB7B00330B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A078D225296F8E00BB1CE0 /* Build configuration list for PBXNativeTarget "750. Number Of Corner Rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A078D025296F8E00BB1CE0 /* Debug */,
+				13A078D125296F8E00BB1CE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
