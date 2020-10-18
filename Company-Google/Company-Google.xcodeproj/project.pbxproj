@@ -17,6 +17,7 @@
 		1317696D24E4E8D900A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317696C24E4E8D900A5FFD8 /* main.cpp */; };
 		1317697824E4EA5F00A5FFD8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1317697724E4EA5F00A5FFD8 /* main.cpp */; };
 		131B907E253B3001000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B907D253B3001000C98A3 /* main.cpp */; };
+		131B9089253B42CC000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B9088253B42CC000C98A3 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -147,6 +148,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		131B9079253B3000000C98A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		131B9084253B42CC000C98A3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -583,6 +593,8 @@
 		1317697724E4EA5F00A5FFD8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131B907B253B3000000C98A3 /* 305. Number of Islands II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "305. Number of Islands II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131B907D253B3001000C98A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		131B9086253B42CC000C98A3 /* 1231. Divide Chocolate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1231. Divide Chocolate"; sourceTree = BUILT_PRODUCTS_DIR; };
+		131B9088253B42CC000C98A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -740,6 +752,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		131B9078253B3000000C98A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131B9083253B42CC000C98A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1144,6 +1163,14 @@
 			path = "305. Number of Islands II";
 			sourceTree = "<group>";
 		};
+		131B9087253B42CC000C98A3 /* 1231. Divide Chocolate */ = {
+			isa = PBXGroup;
+			children = (
+				131B9088253B42CC000C98A3 /* main.cpp */,
+			);
+			path = "1231. Divide Chocolate";
+			sourceTree = "<group>";
+		};
 		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1498,6 +1525,7 @@
 				13A078D8252A216000BB1CE0 /* 157. Read N Characters Given Read4 */,
 				13A078E3252A9CB500BB1CE0 /* 158. Read N Characters Given Read4 II - Call multiple times */,
 				131B907C253B3001000C98A3 /* 305. Number of Islands II */,
+				131B9087253B42CC000C98A3 /* 1231. Divide Chocolate */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1560,6 +1588,7 @@
 				13A078D7252A216000BB1CE0 /* 157. Read N Characters Given Read4 */,
 				13A078E2252A9CB500BB1CE0 /* 158. Read N Characters Given Read4 II - Call multiple times */,
 				131B907B253B3000000C98A3 /* 305. Number of Islands II */,
+				131B9086253B42CC000C98A3 /* 1231. Divide Chocolate */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1799,6 +1828,23 @@
 			name = "305. Number of Islands II";
 			productName = "305. Number of Islands II";
 			productReference = 131B907B253B3000000C98A3 /* 305. Number of Islands II */;
+			productType = "com.apple.product-type.tool";
+		};
+		131B9085253B42CC000C98A3 /* 1231. Divide Chocolate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131B908A253B42CC000C98A3 /* Build configuration list for PBXNativeTarget "1231. Divide Chocolate" */;
+			buildPhases = (
+				131B9082253B42CC000C98A3 /* Sources */,
+				131B9083253B42CC000C98A3 /* Frameworks */,
+				131B9084253B42CC000C98A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1231. Divide Chocolate";
+			productName = "1231. Divide Chocolate";
+			productReference = 131B9086253B42CC000C98A3 /* 1231. Divide Chocolate */;
 			productType = "com.apple.product-type.tool";
 		};
 		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
@@ -2605,6 +2651,9 @@
 					131B907A253B3000000C98A3 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					131B9085253B42CC000C98A3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -2810,6 +2859,7 @@
 				13A078D6252A216000BB1CE0 /* 157. Read N Characters Given Read4 */,
 				13A078E1252A9CB500BB1CE0 /* 158. Read N Characters Given Read4 II - Call multiple times */,
 				131B907A253B3000000C98A3 /* 305. Number of Islands II */,
+				131B9085253B42CC000C98A3 /* 1231. Divide Chocolate */,
 			);
 		};
 /* End PBXProject section */
@@ -2892,6 +2942,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				131B907E253B3001000C98A3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131B9082253B42CC000C98A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131B9089253B42CC000C98A3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3411,6 +3469,22 @@
 			name = Debug;
 		};
 		131B9080253B3001000C98A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		131B908B253B42CC000C98A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		131B908C253B42CC000C98A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4336,6 +4410,15 @@
 			buildConfigurations = (
 				131B907F253B3001000C98A3 /* Debug */,
 				131B9080253B3001000C98A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131B908A253B42CC000C98A3 /* Build configuration list for PBXNativeTarget "1231. Divide Chocolate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131B908B253B42CC000C98A3 /* Debug */,
+				131B908C253B42CC000C98A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
