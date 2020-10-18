@@ -26,35 +26,29 @@ using namespace std;
 /// Solution:
 //
 class Solution {
-    bool check(vector<int>& arr, int K, int tar, int& maxx) {
-        int tot = 0, sum = 0, p = 0, minn = INT_MAX;
+    bool check(vector<int>& arr, int K, int tar) {
+        int tot = 0, sum = 0, p = 0;
         while (p < arr.size()) {
             sum += arr[p++];
             if (sum >= tar) {
-                minn = min(minn, sum);
                 sum = 0;
                 ++tot;
             }
         }
-        if (tot >= K) {
-            maxx = max(maxx, minn);
-            return true;
-        }
-        return false;
+        return tot >= K;
     }
 
 public:
     int maximizeSweetness(vector<int>& arr, int K) {
         int l = 0, r = accumulate(arr.begin(), arr.end(), 0);
-        int res = 0;
         while (l < r) {
-            int mid = l + (r - l) / 2;
-            if (check(arr, K+1, mid, res))
-                l = mid + 1;
+            int mid = (l + r + 1) / 2;
+            if (check(arr, K+1, mid))
+                l = mid;
             else
-                r = mid;
+                r = mid - 1;
         }
-        return res;
+        return l;
     }
 };
 
