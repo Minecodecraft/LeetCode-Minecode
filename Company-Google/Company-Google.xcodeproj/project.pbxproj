@@ -20,6 +20,7 @@
 		131B9089253B42CC000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B9088253B42CC000C98A3 /* main.cpp */; };
 		131B9094253BFC4E000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B9093253BFC4E000C98A3 /* main.cpp */; };
 		131B909F253C0E6C000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B909E253C0E6C000C98A3 /* main.cpp */; };
+		131B90AA253D200A000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B90A9253D200A000C98A3 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -177,6 +178,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		131B909A253C0E6C000C98A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		131B90A5253D200A000C98A3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -619,6 +629,8 @@
 		131B9093253BFC4E000C98A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131B909C253C0E6C000C98A3 /* 1055. Shortest Way to Form String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1055. Shortest Way to Form String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131B909E253C0E6C000C98A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		131B90A7253D200A000C98A3 /* 833. Find And Replace in String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "833. Find And Replace in String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		131B90A9253D200A000C98A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -797,6 +809,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		131B9099253C0E6C000C98A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131B90A4253D200A000C98A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1225,6 +1244,14 @@
 			path = "1055. Shortest Way to Form String";
 			sourceTree = "<group>";
 		};
+		131B90A8253D200A000C98A3 /* 833. Find And Replace in String */ = {
+			isa = PBXGroup;
+			children = (
+				131B90A9253D200A000C98A3 /* main.cpp */,
+			);
+			path = "833. Find And Replace in String";
+			sourceTree = "<group>";
+		};
 		131CDB0E24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1582,6 +1609,7 @@
 				131B9087253B42CC000C98A3 /* 1231. Divide Chocolate */,
 				131B9092253BFC4E000C98A3 /* 1146. Snapshot Array */,
 				131B909D253C0E6C000C98A3 /* 1055. Shortest Way to Form String */,
+				131B90A8253D200A000C98A3 /* 833. Find And Replace in String */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1647,6 +1675,7 @@
 				131B9086253B42CC000C98A3 /* 1231. Divide Chocolate */,
 				131B9091253BFC4E000C98A3 /* 1146. Snapshot Array */,
 				131B909C253C0E6C000C98A3 /* 1055. Shortest Way to Form String */,
+				131B90A7253D200A000C98A3 /* 833. Find And Replace in String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1937,6 +1966,23 @@
 			name = "1055. Shortest Way to Form String";
 			productName = "1055. Shortest Way to Form String";
 			productReference = 131B909C253C0E6C000C98A3 /* 1055. Shortest Way to Form String */;
+			productType = "com.apple.product-type.tool";
+		};
+		131B90A6253D200A000C98A3 /* 833. Find And Replace in String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131B90AD253D200A000C98A3 /* Build configuration list for PBXNativeTarget "833. Find And Replace in String" */;
+			buildPhases = (
+				131B90A3253D200A000C98A3 /* Sources */,
+				131B90A4253D200A000C98A3 /* Frameworks */,
+				131B90A5253D200A000C98A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "833. Find And Replace in String";
+			productName = "833. Find And Replace in String";
+			productReference = 131B90A7253D200A000C98A3 /* 833. Find And Replace in String */;
 			productType = "com.apple.product-type.tool";
 		};
 		131CDB0C24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {
@@ -2752,6 +2798,9 @@
 					131B909B253C0E6C000C98A3 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					131B90A6253D200A000C98A3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -2960,6 +3009,7 @@
 				131B9085253B42CC000C98A3 /* 1231. Divide Chocolate */,
 				131B9090253BFC4E000C98A3 /* 1146. Snapshot Array */,
 				131B909B253C0E6C000C98A3 /* 1055. Shortest Way to Form String */,
+				131B90A6253D200A000C98A3 /* 833. Find And Replace in String */,
 			);
 		};
 /* End PBXProject section */
@@ -3066,6 +3116,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				131B909F253C0E6C000C98A3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131B90A3253D200A000C98A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131B90AA253D200A000C98A3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3633,6 +3691,22 @@
 			name = Debug;
 		};
 		131B90A2253C0E6C000C98A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		131B90AB253D200A000C98A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		131B90AC253D200A000C98A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4585,6 +4659,15 @@
 			buildConfigurations = (
 				131B90A1253C0E6C000C98A3 /* Debug */,
 				131B90A2253C0E6C000C98A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131B90AD253D200A000C98A3 /* Build configuration list for PBXNativeTarget "833. Find And Replace in String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131B90AB253D200A000C98A3 /* Debug */,
+				131B90AC253D200A000C98A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
