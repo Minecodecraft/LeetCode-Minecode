@@ -25,6 +25,9 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Brute Force
+// In fact, we don;t need to generate a new string, see Solution 2 below.
+/*
 class Solution {
     bool check(string& s, string& source, int p) {
         for (char ch: source)
@@ -58,6 +61,28 @@ public:
             }
         }
         return res;
+    }
+};
+ */
+
+// Solution 2
+// Modify the string from back to front.
+class Solution {
+public:
+    string findReplaceString(string s, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
+        vector<pair<int, int>> pos;
+        for (int i = 0; i < indexes.size(); ++i)
+            pos.push_back({indexes[i], i});
+        sort(pos.rbegin(), pos.rend());
+
+        for (auto& index: pos) {
+            int idx = index.first;
+            string src = sources[index.second], tar = targets[index.second];
+            if (s.substr(idx, src.length()) == src) {
+                s = s.substr(0, idx) + tar + s.substr(idx+src.length());
+            }
+        }
+        return s;
     }
 };
 
