@@ -50,6 +50,7 @@
 		13A078CF25296F8E00BB1CE0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A078CE25296F8E00BB1CE0 /* main.cpp */; };
 		13A078DA252A216000BB1CE0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A078D9252A216000BB1CE0 /* main.cpp */; };
 		13A078E5252A9CB500BB1CE0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A078E4252A9CB500BB1CE0 /* main.cpp */; };
+		13A64D2E25695CD80050420E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A64D2D25695CD80050420E /* main.cpp */; };
 		13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E40CE924D9998E0010F6B4 /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
@@ -456,6 +457,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		13A64D2925695CD80050420E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		13E40CE524D9998E0010F6B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -689,6 +699,8 @@
 		13A078D9252A216000BB1CE0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13A078E2252A9CB500BB1CE0 /* 158. Read N Characters Given Read4 II - Call multiple times */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "158. Read N Characters Given Read4 II - Call multiple times"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A078E4252A9CB500BB1CE0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13A64D2B25695CD80050420E /* 280. Wiggle Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "280. Wiggle Sort"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A64D2D25695CD80050420E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "568. Maximum Vacation Days"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E40CE924D9998E0010F6B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1019,6 +1031,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		13A078DF252A9CB500BB1CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A64D2825695CD80050420E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1484,6 +1503,14 @@
 			path = "158. Read N Characters Given Read4 II - Call multiple times";
 			sourceTree = "<group>";
 		};
+		13A64D2C25695CD80050420E /* 280. Wiggle Sort */ = {
+			isa = PBXGroup;
+			children = (
+				13A64D2D25695CD80050420E /* main.cpp */,
+			);
+			path = "280. Wiggle Sort";
+			sourceTree = "<group>";
+		};
 		13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXGroup;
 			children = (
@@ -1610,6 +1637,7 @@
 				131B9092253BFC4E000C98A3 /* 1146. Snapshot Array */,
 				131B909D253C0E6C000C98A3 /* 1055. Shortest Way to Form String */,
 				131B90A8253D200A000C98A3 /* 833. Find And Replace in String */,
+				13A64D2C25695CD80050420E /* 280. Wiggle Sort */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1676,6 +1704,7 @@
 				131B9091253BFC4E000C98A3 /* 1146. Snapshot Array */,
 				131B909C253C0E6C000C98A3 /* 1055. Shortest Way to Form String */,
 				131B90A7253D200A000C98A3 /* 833. Find And Replace in String */,
+				13A64D2B25695CD80050420E /* 280. Wiggle Sort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2478,6 +2507,23 @@
 			productReference = 13A078E2252A9CB500BB1CE0 /* 158. Read N Characters Given Read4 II - Call multiple times */;
 			productType = "com.apple.product-type.tool";
 		};
+		13A64D2A25695CD80050420E /* 280. Wiggle Sort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A64D3125695CD80050420E /* Build configuration list for PBXNativeTarget "280. Wiggle Sort" */;
+			buildPhases = (
+				13A64D2725695CD80050420E /* Sources */,
+				13A64D2825695CD80050420E /* Frameworks */,
+				13A64D2925695CD80050420E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "280. Wiggle Sort";
+			productName = "280. Wiggle Sort";
+			productReference = 13A64D2B25695CD80050420E /* 280. Wiggle Sort */;
+			productType = "com.apple.product-type.tool";
+		};
 		13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13E40CED24D9998E0010F6B4 /* Build configuration list for PBXNativeTarget "568. Maximum Vacation Days" */;
@@ -2888,6 +2934,9 @@
 					13A078E1252A9CB500BB1CE0 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					13A64D2A25695CD80050420E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					13E40CE624D9998E0010F6B4 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3010,6 +3059,7 @@
 				131B9090253BFC4E000C98A3 /* 1146. Snapshot Array */,
 				131B909B253C0E6C000C98A3 /* 1055. Shortest Way to Form String */,
 				131B90A6253D200A000C98A3 /* 833. Find And Replace in String */,
+				13A64D2A25695CD80050420E /* 280. Wiggle Sort */,
 			);
 		};
 /* End PBXProject section */
@@ -3356,6 +3406,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A078E5252A9CB500BB1CE0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A64D2725695CD80050420E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A64D2E25695CD80050420E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4178,6 +4236,22 @@
 			};
 			name = Release;
 		};
+		13A64D2F25695CD80050420E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13A64D3025695CD80050420E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		13E40CEB24D9998E0010F6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4929,6 +5003,15 @@
 			buildConfigurations = (
 				13A078E7252A9CB500BB1CE0 /* Debug */,
 				13A078E8252A9CB500BB1CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A64D3125695CD80050420E /* Build configuration list for PBXNativeTarget "280. Wiggle Sort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A64D2F25695CD80050420E /* Debug */,
+				13A64D3025695CD80050420E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
