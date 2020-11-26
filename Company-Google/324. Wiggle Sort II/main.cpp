@@ -28,7 +28,7 @@ using namespace std;
 class Solution {
 public:
     void wiggleSort(vector<int>& nums) {
-        int n = nums.size();
+        int n = (int)nums.size();
         if (n == 0) return;
 #define num_after_swap(idx) nums[(1 + 2 * (idx)) % (n | 1)]
 
