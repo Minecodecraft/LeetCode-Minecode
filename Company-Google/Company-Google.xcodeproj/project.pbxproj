@@ -32,6 +32,7 @@
 		134E667024CDBC4100355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E666F24CDBC4100355C4A /* main.cpp */; };
 		134E667B24CDC5EF00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E667A24CDC5EF00355C4A /* main.cpp */; };
 		134E6C8024CE707200355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E6C7F24CE707200355C4A /* main.cpp */; };
+		1355D8C42577EB6300E97D13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1355D8C32577EB6300E97D13 /* main.cpp */; };
 		136995B72440B20B00D37E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136995B62440B20B00D37E40 /* main.cpp */; };
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
@@ -290,6 +291,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		134E6C7B24CE707200355C4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1355D8BF2577EB6300E97D13 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -693,6 +703,8 @@
 		134E667A24CDC5EF00355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134E6C7D24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "947. Most Stones Removed with Same Row or Column"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134E6C7F24CE707200355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1202. Smallest String With Swaps"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1355D8C32577EB6300E97D13 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "288. Unique Word Abbreviation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136995B62440B20B00D37E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136A634D244740820088C0D3 /* 271. Encode and Decode Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "271. Encode and Decode Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -941,6 +953,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		134E6C7A24CE707200355C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355D8BE2577EB6300E97D13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1416,6 +1435,14 @@
 			path = "947. Most Stones Removed with Same Row or Column";
 			sourceTree = "<group>";
 		};
+		1355D8C22577EB6300E97D13 /* 1202. Smallest String With Swaps */ = {
+			isa = PBXGroup;
+			children = (
+				1355D8C32577EB6300E97D13 /* main.cpp */,
+			);
+			path = "1202. Smallest String With Swaps";
+			sourceTree = "<group>";
+		};
 		136995B52440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1722,6 +1749,7 @@
 				13A64D37256966E00050420E /* 324. Wiggle Sort II */,
 				13A43558256F318F00A7A7E2 /* 987. Vertical Order Traversal of a Binary Tree */,
 				13A435A1256F5C1700A7A7E2 /* 405. Convert a Number to Hexadecimal */,
+				1355D8C22577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1792,6 +1820,7 @@
 				13A64D36256966E00050420E /* 324. Wiggle Sort II */,
 				13A43557256F318F00A7A7E2 /* 987. Vertical Order Traversal of a Binary Tree */,
 				13A435A0256F5C1700A7A7E2 /* 405. Convert a Number to Hexadecimal */,
+				1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2286,6 +2315,23 @@
 			name = "947. Most Stones Removed with Same Row or Column";
 			productName = "947. Most Stones Removed with Same Row or Column";
 			productReference = 134E6C7D24CE707200355C4A /* 947. Most Stones Removed with Same Row or Column */;
+			productType = "com.apple.product-type.tool";
+		};
+		1355D8C02577EB6300E97D13 /* 1202. Smallest String With Swaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1355D8C72577EB6300E97D13 /* Build configuration list for PBXNativeTarget "1202. Smallest String With Swaps" */;
+			buildPhases = (
+				1355D8BD2577EB6300E97D13 /* Sources */,
+				1355D8BE2577EB6300E97D13 /* Frameworks */,
+				1355D8BF2577EB6300E97D13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1202. Smallest String With Swaps";
+			productName = "1202. Smallest String With Swaps";
+			productReference = 1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */;
 			productType = "com.apple.product-type.tool";
 		};
 		136995B32440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
@@ -3018,6 +3064,9 @@
 					134E6C7C24CE707200355C4A = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					1355D8C02577EB6300E97D13 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					136995B32440B20B00D37E40 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3210,6 +3259,7 @@
 				13A64D35256966E00050420E /* 324. Wiggle Sort II */,
 				13A43556256F318F00A7A7E2 /* 987. Vertical Order Traversal of a Binary Tree */,
 				13A4359F256F5C1700A7A7E2 /* 405. Convert a Number to Hexadecimal */,
+				1355D8C02577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 			);
 		};
 /* End PBXProject section */
@@ -3412,6 +3462,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				134E6C8024CE707200355C4A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1355D8BD2577EB6300E97D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1355D8C42577EB6300E97D13 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4117,6 +4175,24 @@
 		134E6C8224CE707200355C4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1355D8C52577EB6300E97D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1355D8C62577EB6300E97D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -5067,6 +5143,15 @@
 			buildConfigurations = (
 				134E6C8124CE707200355C4A /* Debug */,
 				134E6C8224CE707200355C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1355D8C72577EB6300E97D13 /* Build configuration list for PBXNativeTarget "1202. Smallest String With Swaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1355D8C52577EB6300E97D13 /* Debug */,
+				1355D8C62577EB6300E97D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
