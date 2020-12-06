@@ -23,6 +23,7 @@
 		131B90AA253D200A000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B90A9253D200A000C98A3 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		13344E0C257BEB9600400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E0B257BEB9600400100 /* main.cpp */; };
+		13344E58257C922000400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E57257C922000400100 /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
 		134A6B6724DD6F36001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B6624DD6F36001C85B7 /* main.cpp */; };
@@ -211,6 +212,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		13344E07257BEB9600400100 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		13344E53257C922000400100 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -695,6 +705,8 @@
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "727. Minimum Window Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13344E0B257BEB9600400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "317. Shortest Distance from All Buildings"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13344E57257C922000400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134A6B5024DD61FB001C85B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "247. Strobogrammatic Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -902,6 +914,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		13344E06257BEB9600400100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13344E52257C922000400100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1382,6 +1401,14 @@
 			path = "727. Minimum Window Subsequence";
 			sourceTree = "<group>";
 		};
+		13344E56257C922000400100 /* 317. Shortest Distance from All Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				13344E57257C922000400100 /* main.cpp */,
+			);
+			path = "317. Shortest Distance from All Buildings";
+			sourceTree = "<group>";
+		};
 		134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
 			isa = PBXGroup;
 			children = (
@@ -1778,6 +1805,7 @@
 				13A435A1256F5C1700A7A7E2 /* 405. Convert a Number to Hexadecimal */,
 				1355D8C22577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				13344E0A257BEB9600400100 /* 727. Minimum Window Subsequence */,
+				13344E56257C922000400100 /* 317. Shortest Distance from All Buildings */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1850,6 +1878,7 @@
 				13A435A0256F5C1700A7A7E2 /* 405. Convert a Number to Hexadecimal */,
 				1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */,
+				13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2191,6 +2220,23 @@
 			name = "727. Minimum Window Subsequence";
 			productName = "727. Minimum Window Subsequence";
 			productReference = 13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */;
+			productType = "com.apple.product-type.tool";
+		};
+		13344E54257C922000400100 /* 317. Shortest Distance from All Buildings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13344E5B257C922000400100 /* Build configuration list for PBXNativeTarget "317. Shortest Distance from All Buildings" */;
+			buildPhases = (
+				13344E51257C922000400100 /* Sources */,
+				13344E52257C922000400100 /* Frameworks */,
+				13344E53257C922000400100 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "317. Shortest Distance from All Buildings";
+			productName = "317. Shortest Distance from All Buildings";
+			productReference = 13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */;
 			productType = "com.apple.product-type.tool";
 		};
 		134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
@@ -3083,6 +3129,9 @@
 					13344E08257BEB9600400100 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					13344E54257C922000400100 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					134A6B4D24DD61FB001C85B7 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3310,6 +3359,7 @@
 				13A4359F256F5C1700A7A7E2 /* 405. Convert a Number to Hexadecimal */,
 				1355D8C02577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				13344E08257BEB9600400100 /* 727. Minimum Window Subsequence */,
+				13344E54257C922000400100 /* 317. Shortest Distance from All Buildings */,
 			);
 		};
 /* End PBXProject section */
@@ -3440,6 +3490,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13344E0C257BEB9600400100 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13344E51257C922000400100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13344E58257C922000400100 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4088,6 +4146,24 @@
 			name = Debug;
 		};
 		13344E0E257BEB9600400100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13344E59257C922000400100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13344E5A257C922000400100 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -5138,6 +5214,15 @@
 			buildConfigurations = (
 				13344E0D257BEB9600400100 /* Debug */,
 				13344E0E257BEB9600400100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13344E5B257C922000400100 /* Build configuration list for PBXNativeTarget "317. Shortest Distance from All Buildings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13344E59257C922000400100 /* Debug */,
+				13344E5A257C922000400100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
