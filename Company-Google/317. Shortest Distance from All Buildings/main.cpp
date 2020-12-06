@@ -86,6 +86,45 @@ public:
 };
  */
 
+// Solution 2: Reuse the grid to optimize `vis` array, 32ms
+class Solution {
+    int dir[5] = {0, 1, 0, -1, 0};
+public:
+    int shortestDistance(vector<vector<int>>& grid) {
+        int n = grid.size(), m = n == 0 ? 0 : grid[0].size();
+        int mindis = -1, emptyval = 0; // empty val means the val that marks an empty land which you can pass by.
+        auto tot = grid;
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (grid[i][j] == 1) {
+                    mindis = -1;
+                    queue<pair<int, int>> q;
+                    q.emplace(i, j);
+                    auto dis = grid;
+                    while (q.size()) {
+                        int x = q.front().first, y = q.front().second;
+                        q.pop();
+                        for (int k = 0; k < 4; ++k) {
+                            int tx = x + dir[k], ty = y + dir[k+1];
+                            if (tx >= 0 && tx < n && ty >= 0 && ty < m && grid[tx][ty] == emptyval) {
+                                q.emplace(tx, ty);
+                                grid[tx][ty]--;
+                                dis[tx][ty] = dis[x][y] + 1;
+                                tot[tx][ty] += dis[tx][ty] - 1;
+                                if (mindis == -1 || mindis > tot[tx][ty])
+                                    mindis = tot[tx][ty];
+                            }
+                        }
+                    }
+                    --emptyval;
+                }
+            }
+        }
+        return mindis;
+    }
+};
+
 int main() {
     Solution sol = Solution();
     vector<vector<int>> g = {
