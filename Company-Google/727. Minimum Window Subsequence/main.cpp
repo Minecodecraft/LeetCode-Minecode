@@ -23,12 +23,14 @@
 
 using namespace std;
 
-/// Solution:
+/// Solution: 1: Use simple dp
 //
+/**
 class Solution {
 public:
     string minWindow(string S, string T) {
         int n = S.length(), m = T.length();
+        // dp[i][j]=k means k is the largest index in S[0:i] that T[0:j] is the subsequence of this S substring.
         vector<vector<int>> dp = vector<vector<int>> (n, vector<int> (m, -1));
 
         for (int i = 0; i < n; ++i)
@@ -55,6 +57,37 @@ public:
         if (beg == -1)
             return "";
         return S.substr(beg, len);
+    }
+};
+ */
+
+// Solution 2: Use dp with rolling array optimization.
+class Solution {
+public:
+    string minWindow(string S, string T) {
+        int n = S.length(), m = T.length();
+        // use rolling array, dp[i][j]=k means k is the largest index in S[0:i] that T[0:j] is the subsequence of this S substring.
+        vector<int> dp (n, -1);
+        for (int i = 0; i < n; ++i)
+            if (S[i] == T[0])
+                dp[i] = i;
+        for (int i = 1; i < m; ++i) {
+            int matched = -1;
+            vector<int> tmp (n, -1);
+            for (int j = 0; j < n; ++j) {
+                if (matched != -1 && S[j] == T[i])
+                    tmp[j] = matched;
+                if (dp[j] != -1)
+                    matched = dp[j];
+            }
+            swap(tmp, dp);
+        }
+
+        int beg = -1, len = INT_MAX;
+        for (int i = 0; i < n; ++i)
+            if (dp[i] != -1 && i - dp[i] + 1 < len)
+                beg = dp[i], len = i - dp[i] + 1;
+        return beg == -1 ? "" : S.substr(beg, len);
     }
 };
 
