@@ -24,6 +24,8 @@
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		13344E0C257BEB9600400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E0B257BEB9600400100 /* main.cpp */; };
 		13344E58257C922000400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E57257C922000400100 /* main.cpp */; };
+		13391FA7258775D60034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FA6258775D60034670D /* main.cpp */; };
+		13391FF52587985C0034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FF42587985C0034670D /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
 		134A6B6724DD6F36001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B6624DD6F36001C85B7 /* main.cpp */; };
@@ -221,6 +223,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		13344E53257C922000400100 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		13391FA2258775D60034670D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		13391FF02587985C0034670D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -707,6 +727,10 @@
 		13344E0B257BEB9600400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "317. Shortest Distance from All Buildings"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13344E57257C922000400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13391FA4258775D60034670D /* 524. Longest Word in Dictionary through Deleting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "524. Longest Word in Dictionary through Deleting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13391FA6258775D60034670D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13391FF22587985C0034670D /* 284. Peeking Iterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "284. Peeking Iterator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13391FF42587985C0034670D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134A6B5024DD61FB001C85B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "247. Strobogrammatic Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -921,6 +945,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		13344E52257C922000400100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13391FA1258775D60034670D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13391FEF2587985C0034670D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1409,6 +1447,22 @@
 			path = "317. Shortest Distance from All Buildings";
 			sourceTree = "<group>";
 		};
+		13391FA5258775D60034670D /* 524. Longest Word in Dictionary through Deleting */ = {
+			isa = PBXGroup;
+			children = (
+				13391FA6258775D60034670D /* main.cpp */,
+			);
+			path = "524. Longest Word in Dictionary through Deleting";
+			sourceTree = "<group>";
+		};
+		13391FF32587985C0034670D /* 284. Peeking Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				13391FF42587985C0034670D /* main.cpp */,
+			);
+			path = "284. Peeking Iterator";
+			sourceTree = "<group>";
+		};
 		134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
 			isa = PBXGroup;
 			children = (
@@ -1806,6 +1860,8 @@
 				1355D8C22577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				13344E0A257BEB9600400100 /* 727. Minimum Window Subsequence */,
 				13344E56257C922000400100 /* 317. Shortest Distance from All Buildings */,
+				13391FA5258775D60034670D /* 524. Longest Word in Dictionary through Deleting */,
+				13391FF32587985C0034670D /* 284. Peeking Iterator */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1879,6 +1935,8 @@
 				1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */,
 				13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */,
+				13391FA4258775D60034670D /* 524. Longest Word in Dictionary through Deleting */,
+				13391FF22587985C0034670D /* 284. Peeking Iterator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2237,6 +2295,40 @@
 			name = "317. Shortest Distance from All Buildings";
 			productName = "317. Shortest Distance from All Buildings";
 			productReference = 13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */;
+			productType = "com.apple.product-type.tool";
+		};
+		13391FA3258775D60034670D /* 524. Longest Word in Dictionary through Deleting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13391FAA258775D60034670D /* Build configuration list for PBXNativeTarget "524. Longest Word in Dictionary through Deleting" */;
+			buildPhases = (
+				13391FA0258775D60034670D /* Sources */,
+				13391FA1258775D60034670D /* Frameworks */,
+				13391FA2258775D60034670D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "524. Longest Word in Dictionary through Deleting";
+			productName = "524. Longest Word in Dictionary through Deleting";
+			productReference = 13391FA4258775D60034670D /* 524. Longest Word in Dictionary through Deleting */;
+			productType = "com.apple.product-type.tool";
+		};
+		13391FF12587985C0034670D /* 284. Peeking Iterator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13391FF62587985C0034670D /* Build configuration list for PBXNativeTarget "284. Peeking Iterator" */;
+			buildPhases = (
+				13391FEE2587985C0034670D /* Sources */,
+				13391FEF2587985C0034670D /* Frameworks */,
+				13391FF02587985C0034670D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "284. Peeking Iterator";
+			productName = "284. Peeking Iterator";
+			productReference = 13391FF22587985C0034670D /* 284. Peeking Iterator */;
 			productType = "com.apple.product-type.tool";
 		};
 		134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
@@ -3132,6 +3224,12 @@
 					13344E54257C922000400100 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					13391FA3258775D60034670D = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
+					13391FF12587985C0034670D = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					134A6B4D24DD61FB001C85B7 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3360,6 +3458,8 @@
 				1355D8C02577EB6300E97D13 /* 1202. Smallest String With Swaps */,
 				13344E08257BEB9600400100 /* 727. Minimum Window Subsequence */,
 				13344E54257C922000400100 /* 317. Shortest Distance from All Buildings */,
+				13391FA3258775D60034670D /* 524. Longest Word in Dictionary through Deleting */,
+				13391FF12587985C0034670D /* 284. Peeking Iterator */,
 			);
 		};
 /* End PBXProject section */
@@ -3498,6 +3598,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				13344E58257C922000400100 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13391FA0258775D60034670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13391FA7258775D60034670D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13391FEE2587985C0034670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13391FF52587985C0034670D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4164,6 +4280,42 @@
 			name = Debug;
 		};
 		13344E5A257C922000400100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13391FA8258775D60034670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13391FA9258775D60034670D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13391FF72587985C0034670D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13391FF82587985C0034670D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -5223,6 +5375,24 @@
 			buildConfigurations = (
 				13344E59257C922000400100 /* Debug */,
 				13344E5A257C922000400100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13391FAA258775D60034670D /* Build configuration list for PBXNativeTarget "524. Longest Word in Dictionary through Deleting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13391FA8258775D60034670D /* Debug */,
+				13391FA9258775D60034670D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13391FF62587985C0034670D /* Build configuration list for PBXNativeTarget "284. Peeking Iterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13391FF72587985C0034670D /* Debug */,
+				13391FF82587985C0034670D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
