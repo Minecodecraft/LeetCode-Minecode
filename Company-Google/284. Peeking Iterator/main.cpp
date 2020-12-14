@@ -37,7 +37,8 @@ class Iterator {
     bool hasNext() const;
 };
 
-// Solution 1:
+// Solution 1: Simple solution
+/**
 class PeekingIterator : public Iterator {
     int current;
     bool exist;
@@ -65,6 +66,17 @@ public:
 
     bool hasNext() const {
         return exist;
+    }
+};
+ */
+
+// Solution 2: Use copy constructor
+class PeekingIterator : public Iterator {
+public:
+    PeekingIterator(const vector<int>& nums) : Iterator(nums) { }
+
+    int peek() {
+        return Iterator(*this).next();
     }
 };
 
