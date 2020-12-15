@@ -26,12 +26,12 @@ using namespace std;
 /// Solution:
 //
 class Solution {
-    int helper(string exp, unordered_map<string, int> mp) {
+    int helper(string exp, unordered_map<string, vector<int>>& mp) {
         // If exp is a number of variable
         if (exp[0] == '-' || (exp[0] >= '0' && exp[0] <= '9'))
             return stoi(exp);
         else if (exp[0] != '(')
-            return mp[exp];
+            return mp[exp].back();
 
         // If exp is a expr
         exp = exp.substr(1, exp.length()-2);
@@ -42,11 +42,17 @@ class Solution {
         } else if (cmd == "mult") {
             return helper(parse(exp, start), mp) * helper(parse(exp, start), mp);
         } else if (cmd == "let") {
+            vector<string> vars;
             while (start < exp.length()) {
                 string var = parse(exp, start);
-                if (start > exp.length())
-                    return helper(var, mp);
-                mp[var] = helper(parse(exp, start), mp);
+                if (start > exp.length()) {
+                    int res = helper(var, mp);
+                    for (auto theVar: vars)
+                        mp[theVar].pop_back();
+                    return res;
+                }
+                vars.push_back(var);
+                mp[var].push_back(helper(parse(exp, start), mp));
             }
         }
         return 0;
@@ -75,7 +81,7 @@ class Solution {
 
 public:
     int evaluate(string exp) {
-        unordered_map<string, int> mp;
+        unordered_map<string, vector<int>> mp;
         return helper(exp, mp);
     }
 };
