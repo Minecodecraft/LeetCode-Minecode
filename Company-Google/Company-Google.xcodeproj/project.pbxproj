@@ -22,6 +22,7 @@
 		131B909F253C0E6C000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B909E253C0E6C000C98A3 /* main.cpp */; };
 		131B90AA253D200A000C98A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131B90A9253D200A000C98A3 /* main.cpp */; };
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
+		1321ACCD258897EC00FFF1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1321ACCC258897EC00FFF1EE /* main.cpp */; };
 		13344E0C257BEB9600400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E0B257BEB9600400100 /* main.cpp */; };
 		13344E58257C922000400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E57257C922000400100 /* main.cpp */; };
 		13391FA7258775D60034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FA6258775D60034670D /* main.cpp */; };
@@ -206,6 +207,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		131CDB0B24CC686500D5C7CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1321ACC8258897EC00FFF1EE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -733,6 +743,8 @@
 		131B90A9253D200A000C98A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "937. Reorder Data in Log Files"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131CDB0F24CC686500D5C7CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1321ACCA258897EC00FFF1EE /* 837. New 21 Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "837. New 21 Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1321ACCC258897EC00FFF1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "727. Minimum Window Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13344E0B257BEB9600400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "317. Shortest Distance from All Buildings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -943,6 +955,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		131CDB0A24CC686500D5C7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1321ACC7258897EC00FFF1EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1450,6 +1469,14 @@
 			path = "937. Reorder Data in Log Files";
 			sourceTree = "<group>";
 		};
+		1321ACCB258897EC00FFF1EE /* 837. New 21 Game */ = {
+			isa = PBXGroup;
+			children = (
+				1321ACCC258897EC00FFF1EE /* main.cpp */,
+			);
+			path = "837. New 21 Game";
+			sourceTree = "<group>";
+		};
 		13344E0A257BEB9600400100 /* 727. Minimum Window Subsequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -1890,6 +1917,7 @@
 				13391FA5258775D60034670D /* 524. Longest Word in Dictionary through Deleting */,
 				13391FF32587985C0034670D /* 284. Peeking Iterator */,
 				13392042258852D30034670D /* 736. Parse Lisp Expression */,
+				1321ACCB258897EC00FFF1EE /* 837. New 21 Game */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1966,6 +1994,7 @@
 				13391FA4258775D60034670D /* 524. Longest Word in Dictionary through Deleting */,
 				13391FF22587985C0034670D /* 284. Peeking Iterator */,
 				13392041258852D30034670D /* 736. Parse Lisp Expression */,
+				1321ACCA258897EC00FFF1EE /* 837. New 21 Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2290,6 +2319,23 @@
 			name = "937. Reorder Data in Log Files";
 			productName = "937. Reorder Data in Log Files";
 			productReference = 131CDB0D24CC686500D5C7CC /* 937. Reorder Data in Log Files */;
+			productType = "com.apple.product-type.tool";
+		};
+		1321ACC9258897EC00FFF1EE /* 837. New 21 Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1321ACD0258897EC00FFF1EE /* Build configuration list for PBXNativeTarget "837. New 21 Game" */;
+			buildPhases = (
+				1321ACC6258897EC00FFF1EE /* Sources */,
+				1321ACC7258897EC00FFF1EE /* Frameworks */,
+				1321ACC8258897EC00FFF1EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "837. New 21 Game";
+			productName = "837. New 21 Game";
+			productReference = 1321ACCA258897EC00FFF1EE /* 837. New 21 Game */;
 			productType = "com.apple.product-type.tool";
 		};
 		13344E08257BEB9600400100 /* 727. Minimum Window Subsequence */ = {
@@ -3264,6 +3310,9 @@
 					131CDB0C24CC686500D5C7CC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					1321ACC9258897EC00FFF1EE = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					13344E08257BEB9600400100 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
@@ -3510,6 +3559,7 @@
 				13391FA3258775D60034670D /* 524. Longest Word in Dictionary through Deleting */,
 				13391FF12587985C0034670D /* 284. Peeking Iterator */,
 				13392040258852D30034670D /* 736. Parse Lisp Expression */,
+				1321ACC9258897EC00FFF1EE /* 837. New 21 Game */,
 			);
 		};
 /* End PBXProject section */
@@ -3632,6 +3682,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				131CDB1024CC686500D5C7CC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1321ACC6258897EC00FFF1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1321ACCD258897EC00FFF1EE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4305,6 +4363,24 @@
 		131CDB1224CC686500D5C7CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1321ACCE258897EC00FFF1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1321ACCF258897EC00FFF1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -5433,6 +5509,15 @@
 			buildConfigurations = (
 				131CDB1124CC686500D5C7CC /* Debug */,
 				131CDB1224CC686500D5C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1321ACD0258897EC00FFF1EE /* Build configuration list for PBXNativeTarget "837. New 21 Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1321ACCE258897EC00FFF1EE /* Debug */,
+				1321ACCF258897EC00FFF1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
