@@ -39,6 +39,7 @@
 		134E667B24CDC5EF00355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E667A24CDC5EF00355C4A /* main.cpp */; };
 		134E6C8024CE707200355C4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134E6C7F24CE707200355C4A /* main.cpp */; };
 		1355D8C42577EB6300E97D13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1355D8C32577EB6300E97D13 /* main.cpp */; };
+		1367E0A9258A524000455E0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1367E0A8258A524000455E0D /* main.cpp */; };
 		136995B72440B20B00D37E40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136995B62440B20B00D37E40 /* main.cpp */; };
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
@@ -360,6 +361,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1355D8BF2577EB6300E97D13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1367E0A4258A524000455E0D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -777,6 +787,8 @@
 		134E6C7F24CE707200355C4A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1202. Smallest String With Swaps"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1355D8C32577EB6300E97D13 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1367E0A6258A524000455E0D /* 1066. Campus Bikes II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1066. Campus Bikes II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1367E0A8258A524000455E0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136995B42440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "288. Unique Word Abbreviation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136995B62440B20B00D37E40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136A634D244740820088C0D3 /* 271. Encode and Decode Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "271. Encode and Decode Strings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1074,6 +1086,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1355D8BE2577EB6300E97D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1367E0A3258A524000455E0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1605,6 +1624,14 @@
 			path = "1202. Smallest String With Swaps";
 			sourceTree = "<group>";
 		};
+		1367E0A7258A524000455E0D /* 1066. Campus Bikes II */ = {
+			isa = PBXGroup;
+			children = (
+				1367E0A8258A524000455E0D /* main.cpp */,
+			);
+			path = "1066. Campus Bikes II";
+			sourceTree = "<group>";
+		};
 		136995B52440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1918,6 +1945,7 @@
 				13391FF32587985C0034670D /* 284. Peeking Iterator */,
 				13392042258852D30034670D /* 736. Parse Lisp Expression */,
 				1321ACCB258897EC00FFF1EE /* 837. New 21 Game */,
+				1367E0A7258A524000455E0D /* 1066. Campus Bikes II */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1995,6 +2023,7 @@
 				13391FF22587985C0034670D /* 284. Peeking Iterator */,
 				13392041258852D30034670D /* 736. Parse Lisp Expression */,
 				1321ACCA258897EC00FFF1EE /* 837. New 21 Game */,
+				1367E0A6258A524000455E0D /* 1066. Campus Bikes II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2608,6 +2637,23 @@
 			name = "1202. Smallest String With Swaps";
 			productName = "1202. Smallest String With Swaps";
 			productReference = 1355D8C12577EB6300E97D13 /* 1202. Smallest String With Swaps */;
+			productType = "com.apple.product-type.tool";
+		};
+		1367E0A5258A524000455E0D /* 1066. Campus Bikes II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1367E0AC258A524000455E0D /* Build configuration list for PBXNativeTarget "1066. Campus Bikes II" */;
+			buildPhases = (
+				1367E0A2258A524000455E0D /* Sources */,
+				1367E0A3258A524000455E0D /* Frameworks */,
+				1367E0A4258A524000455E0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1066. Campus Bikes II";
+			productName = "1066. Campus Bikes II";
+			productReference = 1367E0A6258A524000455E0D /* 1066. Campus Bikes II */;
 			productType = "com.apple.product-type.tool";
 		};
 		136995B32440B20B00D37E40 /* 288. Unique Word Abbreviation */ = {
@@ -3361,6 +3407,9 @@
 					1355D8C02577EB6300E97D13 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					1367E0A5258A524000455E0D = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					136995B32440B20B00D37E40 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3560,6 +3609,7 @@
 				13391FF12587985C0034670D /* 284. Peeking Iterator */,
 				13392040258852D30034670D /* 736. Parse Lisp Expression */,
 				1321ACC9258897EC00FFF1EE /* 837. New 21 Game */,
+				1367E0A5258A524000455E0D /* 1066. Campus Bikes II */,
 			);
 		};
 /* End PBXProject section */
@@ -3818,6 +3868,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1355D8C42577EB6300E97D13 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1367E0A2258A524000455E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1367E0A9258A524000455E0D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4646,6 +4704,24 @@
 			name = Debug;
 		};
 		1355D8C62577EB6300E97D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1367E0AA258A524000455E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1367E0AB258A524000455E0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -5662,6 +5738,15 @@
 			buildConfigurations = (
 				1355D8C52577EB6300E97D13 /* Debug */,
 				1355D8C62577EB6300E97D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1367E0AC258A524000455E0D /* Build configuration list for PBXNativeTarget "1066. Campus Bikes II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1367E0AA258A524000455E0D /* Debug */,
+				1367E0AB258A524000455E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
