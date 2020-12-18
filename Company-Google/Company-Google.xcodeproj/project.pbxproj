@@ -64,6 +64,7 @@
 		13A64D39256966E00050420E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A64D38256966E00050420E /* main.cpp */; };
 		13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E40CE924D9998E0010F6B4 /* main.cpp */; };
 		13E4D7D2258CBF38000875C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E4D7D1258CBF38000875C7 /* main.cpp */; };
+		13FA093D258CE89A0074036B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13FA093C258CE89A0074036B /* main.cpp */; };
 		8C2F913C23B0F96E008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F913B23B0F96E008C2B49 /* main.cpp */; };
 		8C2FA78823B21565008C2B49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2FA78723B21565008C2B49 /* main.cpp */; };
 		8C3ADFC123B049530008A90F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C3ADFC023B049530008A90F /* main.cpp */; };
@@ -595,6 +596,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		13FA0938258CE89A0074036B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C2F913723B0F96E008C2B49 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -847,6 +857,8 @@
 		13E40CE924D9998E0010F6B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13E4D7CF258CBF38000875C7 /* 425. Word Squares */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "425. Word Squares"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E4D7D1258CBF38000875C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13FA093A258CE89A0074036B /* 846. Hand of Straights */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "846. Hand of Straights"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FA093C258CE89A0074036B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2F913923B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2F913B23B0F96E008C2B49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C2FA78523B21565008C2B49 /* 410. Split Array Largest Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "410. Split Array Largest Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1273,6 +1285,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		13E4D7CC258CBF38000875C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FA0937258CE89A0074036B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1843,6 +1862,14 @@
 			path = "425. Word Squares";
 			sourceTree = "<group>";
 		};
+		13FA093B258CE89A0074036B /* 846. Hand of Straights */ = {
+			isa = PBXGroup;
+			children = (
+				13FA093C258CE89A0074036B /* main.cpp */,
+			);
+			path = "846. Hand of Straights";
+			sourceTree = "<group>";
+		};
 		8C2F913A23B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -1974,6 +2001,7 @@
 				1321ACCB258897EC00FFF1EE /* 837. New 21 Game */,
 				1367E0A7258A524000455E0D /* 1066. Campus Bikes II */,
 				13E4D7D0258CBF38000875C7 /* 425. Word Squares */,
+				13FA093B258CE89A0074036B /* 846. Hand of Straights */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2053,6 +2081,7 @@
 				1321ACCA258897EC00FFF1EE /* 837. New 21 Game */,
 				1367E0A6258A524000455E0D /* 1066. Campus Bikes II */,
 				13E4D7CF258CBF38000875C7 /* 425. Word Squares */,
+				13FA093A258CE89A0074036B /* 846. Hand of Straights */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3093,6 +3122,23 @@
 			productReference = 13E4D7CF258CBF38000875C7 /* 425. Word Squares */;
 			productType = "com.apple.product-type.tool";
 		};
+		13FA0939258CE89A0074036B /* 846. Hand of Straights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FA0940258CE89A0074036B /* Build configuration list for PBXNativeTarget "846. Hand of Straights" */;
+			buildPhases = (
+				13FA0936258CE89A0074036B /* Sources */,
+				13FA0937258CE89A0074036B /* Frameworks */,
+				13FA0938258CE89A0074036B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "846. Hand of Straights";
+			productName = "846. Hand of Straights";
+			productReference = 13FA093A258CE89A0074036B /* 846. Hand of Straights */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C2F913823B0F96E008C2B49 /* 4. Median of Two Sorted Arrays */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C2F913F23B0F96E008C2B49 /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */;
@@ -3528,6 +3574,9 @@
 					13E4D7CE258CBF38000875C7 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					13FA0939258CE89A0074036B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					8C2F913823B0F96E008C2B49 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -3660,6 +3709,7 @@
 				1321ACC9258897EC00FFF1EE /* 837. New 21 Game */,
 				1367E0A5258A524000455E0D /* 1066. Campus Bikes II */,
 				13E4D7CE258CBF38000875C7 /* 425. Word Squares */,
+				13FA0939258CE89A0074036B /* 846. Hand of Straights */,
 			);
 		};
 /* End PBXProject section */
@@ -4118,6 +4168,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E4D7D2258CBF38000875C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FA0936258CE89A0074036B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FA093D258CE89A0074036B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5178,6 +5236,22 @@
 			};
 			name = Release;
 		};
+		13FA093E258CE89A0074036B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13FA093F258CE89A0074036B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C2F913D23B0F96E008C2B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6039,6 +6113,15 @@
 			buildConfigurations = (
 				13E4D7D3258CBF38000875C7 /* Debug */,
 				13E4D7D4258CBF38000875C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FA0940258CE89A0074036B /* Build configuration list for PBXNativeTarget "846. Hand of Straights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FA093E258CE89A0074036B /* Debug */,
+				13FA093F258CE89A0074036B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
