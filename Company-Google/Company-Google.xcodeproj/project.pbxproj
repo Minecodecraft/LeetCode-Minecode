@@ -44,6 +44,7 @@
 		136A6350244740820088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A634F244740820088C0D3 /* main.cpp */; };
 		136A670724494A530088C0D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136A670624494A530088C0D3 /* main.cpp */; };
 		136D3E2125A0BDC2005F0B0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136D3E2025A0BDC2005F0B0F /* main.cpp */; };
+		136D3E7625A1CF70005F0B0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136D3E7525A1CF70005F0B0F /* main.cpp */; };
 		136F1386250D0CFC00C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F1385250D0CFC00C5A4BF /* main.cpp */; };
 		136F1391250D16CB00C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F1390250D16CB00C5A4BF /* main.cpp */; };
 		136F139C250DBA6900C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F139B250DBA6900C5A4BF /* main.cpp */; };
@@ -409,6 +410,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		136D3E1C25A0BDC2005F0B0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		136D3E7125A1CF70005F0B0F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -827,6 +837,8 @@
 		136A670624494A530088C0D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136D3E1E25A0BDC2005F0B0F /* 274. H-Index */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "274. H-Index"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136D3E2025A0BDC2005F0B0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		136D3E7325A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "562. Longest Line of Consecutive One in Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136D3E7525A1CF70005F0B0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136F1383250D0CFC00C5A4BF /* 465. Optimal Account Balancing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "465. Optimal Account Balancing"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136F1385250D0CFC00C5A4BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136F138E250D16CB00C5A4BF /* 1110. Delete Nodes And Return Forest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1110. Delete Nodes And Return Forest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1157,6 +1169,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		136D3E1B25A0BDC2005F0B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D3E7025A1CF70005F0B0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1721,6 +1740,14 @@
 			path = "274. H-Index";
 			sourceTree = "<group>";
 		};
+		136D3E7425A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				136D3E7525A1CF70005F0B0F /* main.cpp */,
+			);
+			path = "562. Longest Line of Consecutive One in Matrix";
+			sourceTree = "<group>";
+		};
 		136F1384250D0CFC00C5A4BF /* 465. Optimal Account Balancing */ = {
 			isa = PBXGroup;
 			children = (
@@ -2030,6 +2057,7 @@
 				13E4D7D0258CBF38000875C7 /* 425. Word Squares */,
 				13FA093B258CE89A0074036B /* 846. Hand of Straights */,
 				136D3E1F25A0BDC2005F0B0F /* 274. H-Index */,
+				136D3E7425A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2111,6 +2139,7 @@
 				13E4D7CF258CBF38000875C7 /* 425. Word Squares */,
 				13FA093A258CE89A0074036B /* 846. Hand of Straights */,
 				136D3E1E25A0BDC2005F0B0F /* 274. H-Index */,
+				136D3E7325A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2809,6 +2838,23 @@
 			name = "274. H-Index";
 			productName = "274. H-Index";
 			productReference = 136D3E1E25A0BDC2005F0B0F /* 274. H-Index */;
+			productType = "com.apple.product-type.tool";
+		};
+		136D3E7225A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136D3E7725A1CF70005F0B0F /* Build configuration list for PBXNativeTarget "562. Longest Line of Consecutive One in Matrix" */;
+			buildPhases = (
+				136D3E6F25A1CF70005F0B0F /* Sources */,
+				136D3E7025A1CF70005F0B0F /* Frameworks */,
+				136D3E7125A1CF70005F0B0F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "562. Longest Line of Consecutive One in Matrix";
+			productName = "562. Longest Line of Consecutive One in Matrix";
+			productReference = 136D3E7325A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */;
 			productType = "com.apple.product-type.tool";
 		};
 		136F1382250D0CFC00C5A4BF /* 465. Optimal Account Balancing */ = {
@@ -3560,6 +3606,9 @@
 					136D3E1D25A0BDC2005F0B0F = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					136D3E7225A1CF70005F0B0F = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					136F1382250D0CFC00C5A4BF = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3760,6 +3809,7 @@
 				13E4D7CE258CBF38000875C7 /* 425. Word Squares */,
 				13FA0939258CE89A0074036B /* 846. Hand of Straights */,
 				136D3E1D25A0BDC2005F0B0F /* 274. H-Index */,
+				136D3E7225A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
 			);
 		};
 /* End PBXProject section */
@@ -4058,6 +4108,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				136D3E2125A0BDC2005F0B0F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136D3E6F25A1CF70005F0B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136D3E7625A1CF70005F0B0F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4962,6 +5020,24 @@
 			name = Debug;
 		};
 		136D3E2325A0BDC2005F0B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		136D3E7825A1CF70005F0B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136D3E7925A1CF70005F0B0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -6009,6 +6085,15 @@
 			buildConfigurations = (
 				136D3E2225A0BDC2005F0B0F /* Debug */,
 				136D3E2325A0BDC2005F0B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136D3E7725A1CF70005F0B0F /* Build configuration list for PBXNativeTarget "562. Longest Line of Consecutive One in Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136D3E7825A1CF70005F0B0F /* Debug */,
+				136D3E7925A1CF70005F0B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
