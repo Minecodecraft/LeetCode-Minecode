@@ -28,6 +28,7 @@
 		13391FA7258775D60034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FA6258775D60034670D /* main.cpp */; };
 		13391FF52587985C0034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FF42587985C0034670D /* main.cpp */; };
 		13392044258852D30034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13392043258852D30034670D /* main.cpp */; };
+		1346497B25A29C0E0008BEDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1346497A25A29C0E0008BEDC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
 		134A6B6724DD6F36001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B6624DD6F36001C85B7 /* main.cpp */; };
@@ -266,6 +267,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		1339203F258852D30034670D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1346497625A29C0E0008BEDC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -805,6 +815,8 @@
 		13391FF42587985C0034670D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13392041258852D30034670D /* 736. Parse Lisp Expression */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "736. Parse Lisp Expression"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13392043258852D30034670D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1346497825A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "849. Maximize Distance to Closest Person"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1346497A25A29C0E0008BEDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134A6B5024DD61FB001C85B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B5924DD6CB6001C85B7 /* 247. Strobogrammatic Number II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "247. Strobogrammatic Number II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1057,6 +1069,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1339203E258852D30034670D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1346497525A29C0E0008BEDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1612,6 +1631,14 @@
 			path = "736. Parse Lisp Expression";
 			sourceTree = "<group>";
 		};
+		1346497925A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */ = {
+			isa = PBXGroup;
+			children = (
+				1346497A25A29C0E0008BEDC /* main.cpp */,
+			);
+			path = "849. Maximize Distance to Closest Person";
+			sourceTree = "<group>";
+		};
 		134A6B4F24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
 			isa = PBXGroup;
 			children = (
@@ -2058,6 +2085,7 @@
 				13FA093B258CE89A0074036B /* 846. Hand of Straights */,
 				136D3E1F25A0BDC2005F0B0F /* 274. H-Index */,
 				136D3E7425A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
+				1346497925A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2140,6 +2168,7 @@
 				13FA093A258CE89A0074036B /* 846. Hand of Straights */,
 				136D3E1E25A0BDC2005F0B0F /* 274. H-Index */,
 				136D3E7325A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
+				1346497825A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2566,6 +2595,23 @@
 			name = "736. Parse Lisp Expression";
 			productName = "736. Parse Lisp Expression";
 			productReference = 13392041258852D30034670D /* 736. Parse Lisp Expression */;
+			productType = "com.apple.product-type.tool";
+		};
+		1346497725A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1346497E25A29C0E0008BEDC /* Build configuration list for PBXNativeTarget "849. Maximize Distance to Closest Person" */;
+			buildPhases = (
+				1346497425A29C0E0008BEDC /* Sources */,
+				1346497525A29C0E0008BEDC /* Frameworks */,
+				1346497625A29C0E0008BEDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "849. Maximize Distance to Closest Person";
+			productName = "849. Maximize Distance to Closest Person";
+			productReference = 1346497825A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */;
 			productType = "com.apple.product-type.tool";
 		};
 		134A6B4D24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {
@@ -3558,6 +3604,9 @@
 					13392040258852D30034670D = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					1346497725A29C0E0008BEDC = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					134A6B4D24DD61FB001C85B7 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3810,6 +3859,7 @@
 				13FA0939258CE89A0074036B /* 846. Hand of Straights */,
 				136D3E1D25A0BDC2005F0B0F /* 274. H-Index */,
 				136D3E7225A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
+				1346497725A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */,
 			);
 		};
 /* End PBXProject section */
@@ -3980,6 +4030,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13392044258852D30034670D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1346497425A29C0E0008BEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1346497B25A29C0E0008BEDC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4758,6 +4816,24 @@
 			name = Debug;
 		};
 		13392047258852D30034670D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1346497C25A29C0E0008BEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1346497D25A29C0E0008BEDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -5941,6 +6017,15 @@
 			buildConfigurations = (
 				13392046258852D30034670D /* Debug */,
 				13392047258852D30034670D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1346497E25A29C0E0008BEDC /* Build configuration list for PBXNativeTarget "849. Maximize Distance to Closest Person" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1346497C25A29C0E0008BEDC /* Debug */,
+				1346497D25A29C0E0008BEDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
