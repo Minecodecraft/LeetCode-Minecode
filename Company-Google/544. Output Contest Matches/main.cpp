@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Very ugly and complex solution
+/*
 class Solution {
     struct Node {
         pair<int, int> *num = NULL;
@@ -72,6 +74,51 @@ public:
         }
         auto res = merge(nodes);
         return toString(res);
+    }
+};
+ */
+
+// Solution 2: Simulation, simple and concise
+// Time Complexity: O(NlogN), Space Complexity: O(N)
+/*
+class Solution {
+public:
+    string findContestMatch(int n) {
+        vector<string> strs (n);
+        for (int i = 1; i <= n; ++i)
+            strs[i-1] = to_string(i);
+
+        for (; n > 1; n >>= 1)
+            for (int i = 0; i < n / 2; ++i)
+                strs[i] = "(" + strs[i] + "," + strs[n - i - 1] + ")";
+        return strs[0];
+    }
+};
+ */
+
+// Solution 3: Use deqeue to simplify the code of solution 1
+class Solution {
+    string makePair(deque<string> q) {
+        if (q.size() > 1) {
+            deque<string> tmp;
+            int n = q.size();
+            for (int i = 0; i < n / 2; ++i) {
+                string str = "(" + q.front() + "," + q.back() + ")";
+                tmp.push_back(str);
+                q.pop_front();
+                q.pop_back();
+            }
+            return makePair(tmp);
+        }
+        return q.front();
+    }
+
+public:
+    string findContestMatch(int n) {
+        deque<string> q;
+        for (int i = 1; i <= n; ++i)
+            q.push_back(to_string(i));
+        return makePair(q);
     }
 };
 
