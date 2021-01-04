@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: Use two pointer
+/*
 class Solution {
     int dis(int s, int e, int n) {
         cout << s << " ---- " << e << endl;
@@ -45,6 +47,28 @@ public:
             l = r;
         }
         return res;
+    }
+};
+ */
+
+// Solution 2: Count zero with some brilliant way.
+class Solution {
+public:
+    int maxDistToClosest(vector<int>& seats) {
+        int n = seats.size();
+        int maxx = 0, zero = 0;
+        while (seats[maxx] == 0)
+            maxx++;
+
+        for (int i = maxx + 1; i < n; ++i) {
+            if (seats[i] == 0) {
+                ++zero;
+            } else {
+                maxx = max(maxx, (zero + 1) / 2);
+                zero = 0;
+            }
+        }
+        return max(maxx, zero);
     }
 };
 
