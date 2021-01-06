@@ -50,6 +50,7 @@
 		136F1386250D0CFC00C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F1385250D0CFC00C5A4BF /* main.cpp */; };
 		136F1391250D16CB00C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F1390250D16CB00C5A4BF /* main.cpp */; };
 		136F139C250DBA6900C5A4BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136F139B250DBA6900C5A4BF /* main.cpp */; };
+		1371943E25A61A9B0038AA41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1371943D25A61A9B0038AA41 /* main.cpp */; };
 		1373C0C924B7449100822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0C824B7449100822911 /* main.cpp */; };
 		1373C0D424B7F8FA00822911 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1373C0D324B7F8FA00822911 /* main.cpp */; };
 		1380154E24D1824800B7A901 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1380154D24D1824800B7A901 /* main.cpp */; };
@@ -474,6 +475,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		1371943925A61A9B0038AA41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		1373C0C424B7449100822911 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -869,6 +879,8 @@
 		136F1390250D16CB00C5A4BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136F1399250DBA6900C5A4BF /* 803. Bricks Falling When Hit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "803. Bricks Falling When Hit"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136F139B250DBA6900C5A4BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1371943B25A61A9B0038AA41 /* 360. Sort Transformed Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "360. Sort Transformed Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1371943D25A61A9B0038AA41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1373C0C624B7449100822911 /* 753. Cracking the Safe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "753. Cracking the Safe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1373C0C824B7449100822911 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1373C0D124B7F8FA00822911 /* 1057. Campus Bikes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1057. Campus Bikes"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1235,6 +1247,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		136F1396250DBA6900C5A4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1371943825A61A9B0038AA41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1826,6 +1845,14 @@
 			path = "803. Bricks Falling When Hit";
 			sourceTree = "<group>";
 		};
+		1371943C25A61A9B0038AA41 /* 360. Sort Transformed Array */ = {
+			isa = PBXGroup;
+			children = (
+				1371943D25A61A9B0038AA41 /* main.cpp */,
+			);
+			path = "360. Sort Transformed Array";
+			sourceTree = "<group>";
+		};
 		1373C0C724B7449100822911 /* 753. Cracking the Safe */ = {
 			isa = PBXGroup;
 			children = (
@@ -2114,6 +2141,7 @@
 				136D3E7425A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
 				1346497925A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */,
 				133D09BA25A2B67600700628 /* 544. Output Contest Matches */,
+				1371943C25A61A9B0038AA41 /* 360. Sort Transformed Array */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2198,6 +2226,7 @@
 				136D3E7325A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
 				1346497825A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */,
 				133D09B925A2B67600700628 /* 544. Output Contest Matches */,
+				1371943B25A61A9B0038AA41 /* 360. Sort Transformed Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3000,6 +3029,23 @@
 			productReference = 136F1399250DBA6900C5A4BF /* 803. Bricks Falling When Hit */;
 			productType = "com.apple.product-type.tool";
 		};
+		1371943A25A61A9B0038AA41 /* 360. Sort Transformed Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1371944125A61A9B0038AA41 /* Build configuration list for PBXNativeTarget "360. Sort Transformed Array" */;
+			buildPhases = (
+				1371943725A61A9B0038AA41 /* Sources */,
+				1371943825A61A9B0038AA41 /* Frameworks */,
+				1371943925A61A9B0038AA41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "360. Sort Transformed Array";
+			productName = "360. Sort Transformed Array";
+			productReference = 1371943B25A61A9B0038AA41 /* 360. Sort Transformed Array */;
+			productType = "com.apple.product-type.tool";
+		};
 		1373C0C524B7449100822911 /* 753. Cracking the Safe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1373C0CC24B7449100822911 /* Build configuration list for PBXNativeTarget "753. Cracking the Safe" */;
@@ -3716,6 +3762,9 @@
 					136F1398250DBA6900C5A4BF = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					1371943A25A61A9B0038AA41 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					1373C0C524B7449100822911 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -3910,6 +3959,7 @@
 				136D3E7225A1CF70005F0B0F /* 562. Longest Line of Consecutive One in Matrix */,
 				1346497725A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */,
 				133D09B825A2B67600700628 /* 544. Output Contest Matches */,
+				1371943A25A61A9B0038AA41 /* 360. Sort Transformed Array */,
 			);
 		};
 /* End PBXProject section */
@@ -4256,6 +4306,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				136F139C250DBA6900C5A4BF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1371943725A61A9B0038AA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1371943E25A61A9B0038AA41 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5237,6 +5295,22 @@
 			name = Debug;
 		};
 		136F139E250DBA6900C5A4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1371943F25A61A9B0038AA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1371944025A61A9B0038AA41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -6289,6 +6363,15 @@
 			buildConfigurations = (
 				136F139D250DBA6900C5A4BF /* Debug */,
 				136F139E250DBA6900C5A4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1371944125A61A9B0038AA41 /* Build configuration list for PBXNativeTarget "360. Sort Transformed Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1371943F25A61A9B0038AA41 /* Debug */,
+				1371944025A61A9B0038AA41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
