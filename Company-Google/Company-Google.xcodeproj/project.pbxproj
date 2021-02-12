@@ -24,6 +24,7 @@
 		131CDB1024CC686500D5C7CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131CDB0F24CC686500D5C7CC /* main.cpp */; };
 		1321ACCD258897EC00FFF1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1321ACCC258897EC00FFF1EE /* main.cpp */; };
 		132D4FAA25D42F69002A4B30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132D4FA925D42F69002A4B30 /* main.cpp */; };
+		132D500525D61F59002A4B30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132D500425D61F59002A4B30 /* main.cpp */; };
 		13344E0C257BEB9600400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E0B257BEB9600400100 /* main.cpp */; };
 		13344E58257C922000400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E57257C922000400100 /* main.cpp */; };
 		13391FA7258775D60034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FA6258775D60034670D /* main.cpp */; };
@@ -235,6 +236,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		132D4FA525D42F69002A4B30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		132D500025D61F59002A4B30 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -847,6 +857,8 @@
 		1321ACCC258897EC00FFF1EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		132D4FA725D42F69002A4B30 /* 777. Swap Adjacent in LR String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "777. Swap Adjacent in LR String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		132D4FA925D42F69002A4B30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		132D500225D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1423. Maximum Points You Can Obtain from Cards"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D500425D61F59002A4B30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "727. Minimum Window Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13344E0B257BEB9600400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "317. Shortest Distance from All Buildings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1089,6 +1101,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		132D4FA425D42F69002A4B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D4FFF25D61F59002A4B30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1675,6 +1694,14 @@
 			path = "777. Swap Adjacent in LR String";
 			sourceTree = "<group>";
 		};
+		132D500325D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */ = {
+			isa = PBXGroup;
+			children = (
+				132D500425D61F59002A4B30 /* main.cpp */,
+			);
+			path = "1423. Maximum Points You Can Obtain from Cards";
+			sourceTree = "<group>";
+		};
 		13344E0A257BEB9600400100 /* 727. Minimum Window Subsequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -2198,6 +2225,7 @@
 				1371943C25A61A9B0038AA41 /* 360. Sort Transformed Array */,
 				1371945225A6F02A0038AA41 /* 417. Pacific Atlantic Water Flow */,
 				132D4FA825D42F69002A4B30 /* 777. Swap Adjacent in LR String */,
+				132D500325D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2285,6 +2313,7 @@
 				1371943B25A61A9B0038AA41 /* 360. Sort Transformed Array */,
 				1371945125A6F02A0038AA41 /* 417. Pacific Atlantic Water Flow */,
 				132D4FA725D42F69002A4B30 /* 777. Swap Adjacent in LR String */,
+				132D500225D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2643,6 +2672,23 @@
 			name = "777. Swap Adjacent in LR String";
 			productName = "777. Swap Adjacent in LR String";
 			productReference = 132D4FA725D42F69002A4B30 /* 777. Swap Adjacent in LR String */;
+			productType = "com.apple.product-type.tool";
+		};
+		132D500125D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132D500825D61F59002A4B30 /* Build configuration list for PBXNativeTarget "1423. Maximum Points You Can Obtain from Cards" */;
+			buildPhases = (
+				132D4FFE25D61F59002A4B30 /* Sources */,
+				132D4FFF25D61F59002A4B30 /* Frameworks */,
+				132D500025D61F59002A4B30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1423. Maximum Points You Can Obtain from Cards";
+			productName = "1423. Maximum Points You Can Obtain from Cards";
+			productReference = 132D500225D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */;
 			productType = "com.apple.product-type.tool";
 		};
 		13344E08257BEB9600400100 /* 727. Minimum Window Subsequence */ = {
@@ -3776,6 +3822,9 @@
 					132D4FA625D42F69002A4B30 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					132D500125D61F59002A4B30 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					13344E08257BEB9600400100 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
@@ -4060,6 +4109,7 @@
 				1371943A25A61A9B0038AA41 /* 360. Sort Transformed Array */,
 				1371945025A6F02A0038AA41 /* 417. Pacific Atlantic Water Flow */,
 				132D4FA625D42F69002A4B30 /* 777. Swap Adjacent in LR String */,
+				132D500125D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */,
 			);
 		};
 /* End PBXProject section */
@@ -4198,6 +4248,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				132D4FAA25D42F69002A4B30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D4FFE25D61F59002A4B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D500525D61F59002A4B30 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4976,6 +5034,24 @@
 			name = Debug;
 		};
 		132D4FAC25D42F69002A4B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		132D500625D61F59002A4B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		132D500725D61F59002A4B30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -6279,6 +6355,15 @@
 			buildConfigurations = (
 				132D4FAB25D42F69002A4B30 /* Debug */,
 				132D4FAC25D42F69002A4B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132D500825D61F59002A4B30 /* Build configuration list for PBXNativeTarget "1423. Maximum Points You Can Obtain from Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132D500625D61F59002A4B30 /* Debug */,
+				132D500725D61F59002A4B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
