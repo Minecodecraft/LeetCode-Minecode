@@ -25,6 +25,8 @@ using namespace std;
 
 /// Solution:
 //
+// Solution 1: use a sum vector
+/*
 class Solution {
 public:
     int maxScore(vector<int>& pts, int k) {
@@ -38,6 +40,22 @@ public:
             // [0, i], [n-(k-i), n]
             long tot = (sum[i] - sum[0]) + (sum[n] - sum[n-k+i]);
             res = max(res, tot);
+        }
+        return res;
+    }
+};
+ */
+
+// Solution 2: Sliding Window
+class Solution {
+public:
+    int maxScore(vector<int>& pts, int k) {
+        long tot = accumulate(pts.begin(), pts.end(), 0);
+        long sum = tot - accumulate(pts.begin(), pts.begin() + k, 0);
+        long n = pts.size(), res = tot - sum;
+        for (int i = 1; i <= k; ++i) {
+            sum = sum + pts[k-i] - pts[n-i];
+            res = max(res, tot - sum);
         }
         return res;
     }
