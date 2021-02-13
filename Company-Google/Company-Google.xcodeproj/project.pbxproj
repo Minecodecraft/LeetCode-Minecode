@@ -25,6 +25,7 @@
 		1321ACCD258897EC00FFF1EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1321ACCC258897EC00FFF1EE /* main.cpp */; };
 		132D4FAA25D42F69002A4B30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132D4FA925D42F69002A4B30 /* main.cpp */; };
 		132D500525D61F59002A4B30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132D500425D61F59002A4B30 /* main.cpp */; };
+		132D506125D7CCB7002A4B30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 132D506025D7CCB7002A4B30 /* main.cpp */; };
 		13344E0C257BEB9600400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E0B257BEB9600400100 /* main.cpp */; };
 		13344E58257C922000400100 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13344E57257C922000400100 /* main.cpp */; };
 		13391FA7258775D60034670D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13391FA6258775D60034670D /* main.cpp */; };
@@ -245,6 +246,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		132D500025D61F59002A4B30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		132D505C25D7CCB7002A4B30 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -859,6 +869,8 @@
 		132D4FA925D42F69002A4B30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		132D500225D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1423. Maximum Points You Can Obtain from Cards"; sourceTree = BUILT_PRODUCTS_DIR; };
 		132D500425D61F59002A4B30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		132D505E25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1170. Compare Strings by Frequency of the Smallest Character"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D506025D7CCB7002A4B30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E09257BEB9600400100 /* 727. Minimum Window Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "727. Minimum Window Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13344E0B257BEB9600400100 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13344E55257C922000400100 /* 317. Shortest Distance from All Buildings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "317. Shortest Distance from All Buildings"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1108,6 +1120,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		132D4FFF25D61F59002A4B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D505B25D7CCB7002A4B30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1702,6 +1721,14 @@
 			path = "1423. Maximum Points You Can Obtain from Cards";
 			sourceTree = "<group>";
 		};
+		132D505F25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */ = {
+			isa = PBXGroup;
+			children = (
+				132D506025D7CCB7002A4B30 /* main.cpp */,
+			);
+			path = "1170. Compare Strings by Frequency of the Smallest Character";
+			sourceTree = "<group>";
+		};
 		13344E0A257BEB9600400100 /* 727. Minimum Window Subsequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -2226,6 +2253,7 @@
 				1371945225A6F02A0038AA41 /* 417. Pacific Atlantic Water Flow */,
 				132D4FA825D42F69002A4B30 /* 777. Swap Adjacent in LR String */,
 				132D500325D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */,
+				132D505F25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2314,6 +2342,7 @@
 				1371945125A6F02A0038AA41 /* 417. Pacific Atlantic Water Flow */,
 				132D4FA725D42F69002A4B30 /* 777. Swap Adjacent in LR String */,
 				132D500225D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */,
+				132D505E25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2689,6 +2718,23 @@
 			name = "1423. Maximum Points You Can Obtain from Cards";
 			productName = "1423. Maximum Points You Can Obtain from Cards";
 			productReference = 132D500225D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */;
+			productType = "com.apple.product-type.tool";
+		};
+		132D505D25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132D506225D7CCB7002A4B30 /* Build configuration list for PBXNativeTarget "1170. Compare Strings by Frequency of the Smallest Character" */;
+			buildPhases = (
+				132D505A25D7CCB7002A4B30 /* Sources */,
+				132D505B25D7CCB7002A4B30 /* Frameworks */,
+				132D505C25D7CCB7002A4B30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1170. Compare Strings by Frequency of the Smallest Character";
+			productName = "1170. Compare Strings by Frequency of the Smallest Character";
+			productReference = 132D505E25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */;
 			productType = "com.apple.product-type.tool";
 		};
 		13344E08257BEB9600400100 /* 727. Minimum Window Subsequence */ = {
@@ -3825,6 +3871,9 @@
 					132D500125D61F59002A4B30 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
+					132D505D25D7CCB7002A4B30 = {
+						CreatedOnToolsVersion = 12.1.1;
+					};
 					13344E08257BEB9600400100 = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
@@ -4110,6 +4159,7 @@
 				1371945025A6F02A0038AA41 /* 417. Pacific Atlantic Water Flow */,
 				132D4FA625D42F69002A4B30 /* 777. Swap Adjacent in LR String */,
 				132D500125D61F59002A4B30 /* 1423. Maximum Points You Can Obtain from Cards */,
+				132D505D25D7CCB7002A4B30 /* 1170. Compare Strings by Frequency of the Smallest Character */,
 			);
 		};
 /* End PBXProject section */
@@ -4256,6 +4306,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				132D500525D61F59002A4B30 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132D505A25D7CCB7002A4B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132D506125D7CCB7002A4B30 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5052,6 +5110,24 @@
 			name = Debug;
 		};
 		132D500725D61F59002A4B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		132D506325D7CCB7002A4B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		132D506425D7CCB7002A4B30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -6364,6 +6440,15 @@
 			buildConfigurations = (
 				132D500625D61F59002A4B30 /* Debug */,
 				132D500725D61F59002A4B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132D506225D7CCB7002A4B30 /* Build configuration list for PBXNativeTarget "1170. Compare Strings by Frequency of the Smallest Character" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132D506325D7CCB7002A4B30 /* Debug */,
+				132D506425D7CCB7002A4B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
