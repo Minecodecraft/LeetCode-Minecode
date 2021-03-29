@@ -36,6 +36,7 @@
 		133D09BC25A2B67600700628 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 133D09BB25A2B67600700628 /* main.cpp */; };
 		13442A5126108D14008F637D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13442A5026108D14008F637D /* main.cpp */; };
 		13442AB12610B812008F637D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13442AB02610B812008F637D /* main.cpp */; };
+		13442B1226116128008F637D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13442B1126116128008F637D /* main.cpp */; };
 		1346497B25A29C0E0008BEDC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1346497A25A29C0E0008BEDC /* main.cpp */; };
 		134A6B5124DD61FB001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5024DD61FB001C85B7 /* main.cpp */; };
 		134A6B5C24DD6CB6001C85B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 134A6B5B24DD6CB6001C85B7 /* main.cpp */; };
@@ -349,6 +350,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		13442AAC2610B812008F637D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		13442B0D26116128008F637D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -932,6 +942,8 @@
 		13442A5026108D14008F637D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13442AAE2610B812008F637D /* 911. Online Election */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "911. Online Election"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13442AB02610B812008F637D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13442B0F26116128008F637D /* 588. Design In-Memory File System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "588. Design In-Memory File System"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13442B1126116128008F637D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1346497825A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "849. Maximize Distance to Closest Person"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1346497A25A29C0E0008BEDC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		134A6B4E24DD61FB001C85B7 /* 939. Minimum Area Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "939. Minimum Area Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1246,6 +1258,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		13442AAB2610B812008F637D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13442B0C26116128008F637D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1886,6 +1905,14 @@
 			path = "911. Online Election";
 			sourceTree = "<group>";
 		};
+		13442B1026116128008F637D /* 588. Design In-Memory File System */ = {
+			isa = PBXGroup;
+			children = (
+				13442B1126116128008F637D /* main.cpp */,
+			);
+			path = "588. Design In-Memory File System";
+			sourceTree = "<group>";
+		};
 		1346497925A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */ = {
 			isa = PBXGroup;
 			children = (
@@ -2367,6 +2394,7 @@
 				132798F7260F989F00A07A9E /* 1041. Robot Bounded In Circle */,
 				13442A4F26108D14008F637D /* 829. Consecutive Numbers Sum */,
 				13442AAF2610B812008F637D /* 911. Online Election */,
+				13442B1026116128008F637D /* 588. Design In-Memory File System */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2460,6 +2488,7 @@
 				132798F6260F989E00A07A9E /* 1041. Robot Bounded In Circle */,
 				13442A4E26108D14008F637D /* 829. Consecutive Numbers Sum */,
 				13442AAE2610B812008F637D /* 911. Online Election */,
+				13442B0F26116128008F637D /* 588. Design In-Memory File System */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3022,6 +3051,23 @@
 			name = "911. Online Election";
 			productName = "911. Online Election";
 			productReference = 13442AAE2610B812008F637D /* 911. Online Election */;
+			productType = "com.apple.product-type.tool";
+		};
+		13442B0E26116128008F637D /* 588. Design In-Memory File System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13442B1326116128008F637D /* Build configuration list for PBXNativeTarget "588. Design In-Memory File System" */;
+			buildPhases = (
+				13442B0B26116128008F637D /* Sources */,
+				13442B0C26116128008F637D /* Frameworks */,
+				13442B0D26116128008F637D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "588. Design In-Memory File System";
+			productName = "588. Design In-Memory File System";
+			productReference = 13442B0F26116128008F637D /* 588. Design In-Memory File System */;
 			productType = "com.apple.product-type.tool";
 		};
 		1346497725A29C0E0008BEDC /* 849. Maximize Distance to Closest Person */ = {
@@ -4089,6 +4135,9 @@
 					13442AAD2610B812008F637D = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					13442B0E26116128008F637D = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					1346497725A29C0E0008BEDC = {
 						CreatedOnToolsVersion = 12.1.1;
 					};
@@ -4361,6 +4410,7 @@
 				132798F5260F989E00A07A9E /* 1041. Robot Bounded In Circle */,
 				13442A4D26108D14008F637D /* 829. Consecutive Numbers Sum */,
 				13442AAD2610B812008F637D /* 911. Online Election */,
+				13442B0E26116128008F637D /* 588. Design In-Memory File System */,
 			);
 		};
 /* End PBXProject section */
@@ -4595,6 +4645,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13442AB12610B812008F637D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13442B0B26116128008F637D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13442B1226116128008F637D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5542,6 +5600,26 @@
 			name = Debug;
 		};
 		13442AB42610B812008F637D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13442B1426116128008F637D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13442B1526116128008F637D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -6848,6 +6926,15 @@
 			buildConfigurations = (
 				13442AB32610B812008F637D /* Debug */,
 				13442AB42610B812008F637D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13442B1326116128008F637D /* Build configuration list for PBXNativeTarget "588. Design In-Memory File System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13442B1426116128008F637D /* Debug */,
+				13442B1526116128008F637D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
