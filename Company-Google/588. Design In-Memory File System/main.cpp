@@ -39,7 +39,7 @@ class FileSystem {
     };
     Node* root;
 
-    Node* getNode(string path, bool createIfMissed, bool filePath) {
+    Node* getNode(string path, bool createIfMissed, bool isFilePath) {
         path += "/";
         int p = 1, nxt = path.find("/", p+1);
         Node *pNode = root;
@@ -47,7 +47,7 @@ class FileSystem {
             string subpath = path.substr(p, nxt-p);
             if (pNode->subdirs.count(subpath) == 0) {
                 if (createIfMissed)
-                    pNode->subdirs[subpath] = new Node(subpath, !filePath || nxt+1 < path.length());
+                    pNode->subdirs[subpath] = new Node(subpath, !isFilePath || nxt+1 < path.length());
                 else
                     return NULL;
             }
@@ -101,25 +101,6 @@ public:
         if (node == NULL || node->isDir)
             return "";
         return node->content;
-    }
-
-    void printNode() {
-        queue<Node *> q;
-        q.push(root);
-        int depth = 0;
-        while (q.size()) {
-            int sz = q.size();
-            for (int i = 0; i < sz; ++i) {
-                Node *pNode = q.front();
-                q.pop();
-                cout << string(depth * 2, '-') << pNode->name << endl;
-                if (pNode->isDir) {
-                    for (auto subdir: pNode->subdirs)
-                        q.push(subdir.second);
-                }
-            }
-            depth++;
-        }
     }
 };
 

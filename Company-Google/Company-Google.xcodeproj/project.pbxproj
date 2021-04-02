@@ -76,6 +76,7 @@
 		13A435A3256F5C1700A7A7E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A435A2256F5C1700A7A7E2 /* main.cpp */; };
 		13A64D2E25695CD80050420E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A64D2D25695CD80050420E /* main.cpp */; };
 		13A64D39256966E00050420E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13A64D38256966E00050420E /* main.cpp */; };
+		13AABA092616A114008F5303 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13AABA082616A114008F5303 /* main.cpp */; };
 		13E40CEA24D9998E0010F6B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E40CE924D9998E0010F6B4 /* main.cpp */; };
 		13E4D7D2258CBF38000875C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13E4D7D1258CBF38000875C7 /* main.cpp */; };
 		13FA093D258CE89A0074036B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13FA093C258CE89A0074036B /* main.cpp */; };
@@ -718,6 +719,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		13AABA042616A114008F5303 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		13E40CE524D9998E0010F6B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1022,6 +1032,8 @@
 		13A64D2D25695CD80050420E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13A64D36256966E00050420E /* 324. Wiggle Sort II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "324. Wiggle Sort II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A64D38256966E00050420E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13AABA062616A114008F5303 /* 973. K Closest Points to Origin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "973. K Closest Points to Origin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AABA082616A114008F5303 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13E40CE724D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "568. Maximum Vacation Days"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E40CE924D9998E0010F6B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13E4D7CF258CBF38000875C7 /* 425. Word Squares */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "425. Word Squares"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1538,6 +1550,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		13A64D33256966E00050420E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AABA032616A114008F5303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2225,6 +2244,14 @@
 			path = "324. Wiggle Sort II";
 			sourceTree = "<group>";
 		};
+		13AABA072616A114008F5303 /* 973. K Closest Points to Origin */ = {
+			isa = PBXGroup;
+			children = (
+				13AABA082616A114008F5303 /* main.cpp */,
+			);
+			path = "973. K Closest Points to Origin";
+			sourceTree = "<group>";
+		};
 		13E40CE824D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXGroup;
 			children = (
@@ -2395,6 +2422,7 @@
 				13442A4F26108D14008F637D /* 829. Consecutive Numbers Sum */,
 				13442AAF2610B812008F637D /* 911. Online Election */,
 				13442B1026116128008F637D /* 588. Design In-Memory File System */,
+				13AABA072616A114008F5303 /* 973. K Closest Points to Origin */,
 				8CA02EF623A8785A004D6643 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2489,6 +2517,7 @@
 				13442A4E26108D14008F637D /* 829. Consecutive Numbers Sum */,
 				13442AAE2610B812008F637D /* 911. Online Election */,
 				13442B0F26116128008F637D /* 588. Design In-Memory File System */,
+				13AABA062616A114008F5303 /* 973. K Closest Points to Origin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3733,6 +3762,23 @@
 			productReference = 13A64D36256966E00050420E /* 324. Wiggle Sort II */;
 			productType = "com.apple.product-type.tool";
 		};
+		13AABA052616A114008F5303 /* 973. K Closest Points to Origin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AABA0C2616A114008F5303 /* Build configuration list for PBXNativeTarget "973. K Closest Points to Origin" */;
+			buildPhases = (
+				13AABA022616A114008F5303 /* Sources */,
+				13AABA032616A114008F5303 /* Frameworks */,
+				13AABA042616A114008F5303 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "973. K Closest Points to Origin";
+			productName = "973. K Closest Points to Origin";
+			productReference = 13AABA062616A114008F5303 /* 973. K Closest Points to Origin */;
+			productType = "com.apple.product-type.tool";
+		};
 		13E40CE624D9998E0010F6B4 /* 568. Maximum Vacation Days */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13E40CED24D9998E0010F6B4 /* Build configuration list for PBXNativeTarget "568. Maximum Vacation Days" */;
@@ -4255,6 +4301,9 @@
 					13A64D35256966E00050420E = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
+					13AABA052616A114008F5303 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					13E40CE624D9998E0010F6B4 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -4411,6 +4460,7 @@
 				13442A4D26108D14008F637D /* 829. Consecutive Numbers Sum */,
 				13442AAD2610B812008F637D /* 911. Online Election */,
 				13442B0E26116128008F637D /* 588. Design In-Memory File System */,
+				13AABA052616A114008F5303 /* 973. K Closest Points to Origin */,
 			);
 		};
 /* End PBXProject section */
@@ -4965,6 +5015,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13A64D39256966E00050420E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AABA022616A114008F5303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AABA092616A114008F5303 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6267,6 +6325,26 @@
 			};
 			name = Release;
 		};
+		13AABA0A2616A114008F5303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13AABA0B2616A114008F5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		13E40CEB24D9998E0010F6B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7286,6 +7364,15 @@
 			buildConfigurations = (
 				13A64D3B256966E00050420E /* Debug */,
 				13A64D3C256966E00050420E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AABA0C2616A114008F5303 /* Build configuration list for PBXNativeTarget "973. K Closest Points to Origin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AABA0A2616A114008F5303 /* Debug */,
+				13AABA0B2616A114008F5303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
