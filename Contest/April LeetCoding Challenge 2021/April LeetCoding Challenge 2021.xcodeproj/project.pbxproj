@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		13AABA722616A368008F5303 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13AABA712616A368008F5303 /* main.cpp */; };
 		13AABA802616AE97008F5303 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13AABA7F2616AE97008F5303 /* main.cpp */; };
+		13AABA8D2616B593008F5303 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13AABA8C2616B593008F5303 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		13AABA882616B593008F5303 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		13AABA712616A368008F5303 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		13AABA7D2616AE97008F5303 /* Week 1: Palindrome Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week 1: Palindrome Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AABA7F2616AE97008F5303 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13AABA8A2616B593008F5303 /* Week 1: Largest Unique Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week 1: Largest Unique Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AABA8C2616B593008F5303 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13AABA872616B593008F5303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				13AABA702616A368008F5303 /* April LeetCoding Challenge 2021 */,
 				13AABA7E2616AE97008F5303 /* Week 1: Palindrome Linked List */,
+				13AABA8B2616B593008F5303 /* Week 1: Largest Unique Number */,
 				13AABA6F2616A368008F5303 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				13AABA6E2616A368008F5303 /* April LeetCoding Challenge 2021 */,
 				13AABA7D2616AE97008F5303 /* Week 1: Palindrome Linked List */,
+				13AABA8A2616B593008F5303 /* Week 1: Largest Unique Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				13AABA7F2616AE97008F5303 /* main.cpp */,
 			);
 			path = "Week 1: Palindrome Linked List";
+			sourceTree = "<group>";
+		};
+		13AABA8B2616B593008F5303 /* Week 1: Largest Unique Number */ = {
+			isa = PBXGroup;
+			children = (
+				13AABA8C2616B593008F5303 /* main.cpp */,
+			);
+			path = "Week 1: Largest Unique Number";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 13AABA7D2616AE97008F5303 /* Week 1: Palindrome Linked List */;
 			productType = "com.apple.product-type.tool";
 		};
+		13AABA892616B593008F5303 /* Week 1: Largest Unique Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AABA902616B593008F5303 /* Build configuration list for PBXNativeTarget "Week 1: Largest Unique Number" */;
+			buildPhases = (
+				13AABA862616B593008F5303 /* Sources */,
+				13AABA872616B593008F5303 /* Frameworks */,
+				13AABA882616B593008F5303 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 1: Largest Unique Number";
+			productName = "Week 1: Largest Unique Number";
+			productReference = 13AABA8A2616B593008F5303 /* Week 1: Largest Unique Number */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +186,9 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					13AABA7C2616AE97008F5303 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					13AABA892616B593008F5303 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				13AABA6D2616A368008F5303 /* April LeetCoding Challenge 2021 */,
 				13AABA7C2616AE97008F5303 /* Week 1: Palindrome Linked List */,
+				13AABA892616B593008F5303 /* Week 1: Largest Unique Number */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AABA802616AE97008F5303 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AABA862616B593008F5303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AABA8D2616B593008F5303 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +384,22 @@
 			};
 			name = Release;
 		};
+		13AABA8E2616B593008F5303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13AABA8F2616B593008F5303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -352,6 +426,15 @@
 			buildConfigurations = (
 				13AABA822616AE97008F5303 /* Debug */,
 				13AABA832616AE97008F5303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AABA902616B593008F5303 /* Build configuration list for PBXNativeTarget "Week 1: Largest Unique Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AABA8E2616B593008F5303 /* Debug */,
+				13AABA8F2616B593008F5303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
